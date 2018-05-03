@@ -88,7 +88,7 @@ a:hover {
 
 article {
     max-width: $maxWidth;
-    margin: 0 auto;
+    margin: 0 auto 50px auto;
 }
 
 p.first {
@@ -101,5 +101,9 @@ p.clear {
 
 figure {
     margin: 25px;
+}
+
+.outtake {
+    margin: 25px 0px;
 }
 

@@ -39,13 +39,16 @@ a:hover {
 /*----------------------- Core Layout ------------------------------ */
 article {
   max-width: 1080px;
-  margin: 0 auto; }
+  margin: 0 auto 50px auto; }
 
 p.first {
   margin-top: 1rem; }
 
 figure {
   margin: 25px; }
+
+.outtake {
+  margin: 25px 0px; }
 
 /*----------------------- Import League Gothic ------------------------------ */
 @font-face {
@@ -121,7 +124,7 @@ h1 {
 h2 {
   font-size: 1.5rem;
   line-height: 2.5rem;
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   font-family: "Wallington Pro"; }
 
 h3 {
@@ -203,13 +206,16 @@ a:hover {
 /*----------------------- Core Layout ------------------------------ */
 article {
   max-width: 1080px;
-  margin: 0 auto; }
+  margin: 0 auto 50px auto; }
 
 p.first {
   margin-top: 1rem; }
 
 figure {
   margin: 25px; }
+
+.outtake {
+  margin: 25px 0px; }
 
 html {
   -webkit-font-smoothing: antialiased; }
@@ -249,7 +255,8 @@ header img {
   margin-right: -100px; }
 
 /*----------------------- Navigation Styles ------------------------------ */
-ul {
+ul.nav {
+  padding-left: 0px;
   list-style: none;
   margin: 50px auto 0px auto;
   display: block;
@@ -260,16 +267,16 @@ ul {
   font-family: "Wallington Pro";
   text-transform: uppercase; }
 
-li {
+ul.nav li {
   display: inline-block; }
 
-li span {
+ul.nav li span {
   font-size: 20px; }
 
-li .space {
+ul.nav li .space {
   padding: 0px 10px; }
 
-li a {
+ul.nav li a {
   text-decoration: none; }
 
 /*----------------------- Specific Layout ------------------------------ */
