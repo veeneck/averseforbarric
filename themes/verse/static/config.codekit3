@@ -65,6 +65,27 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/bloodsample.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/bloodsample.mp4",
+		"oF": 0
+		},
+	"\/images\/combatupdate.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/combatupdate.mp4",
+		"oF": 0
+		},
+	"\/images\/fire.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/fire.mp4",
+		"oF": 0
+		},
 	"\/images\/header.png": {
 		"ft": 32768,
 		"iS": 192956,
@@ -122,6 +143,20 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/images\/shield.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/images\/shield.mp4",
+		"oF": 0
+		},
+	"\/images\/VerseBarric-CardSlide_web.mov": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/VerseBarric-CardSlide_web.mov",
+		"oF": 0
 		},
 	"\/scss\/index.scss": {
 		"aP": 0,
