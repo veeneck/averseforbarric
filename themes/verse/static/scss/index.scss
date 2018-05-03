@@ -1,26 +1,9 @@
-$purple: #2F1D29;
+@import "modules/typography.scss";
+@import "modules/constants.scss";
+@import "modules/layout.scss";
+@import "modules/animations.scss";
+@import "modules/form.scss";
 
-$blue: #91D0CE;
-
-$orange: #D85C49;
-
-$light: #F8E9D6;
-
-$pink: #E6ADA8;
-
-@font-face {
-    font-family: 'Wallington Pro';
-    src: url('/fonts/Wallington-Pro.otf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Anivers';
-    src: url('/fonts/Anivers_Regular.otf');
-    font-weight: normal;
-    font-style: normal;
-}
 
 @mixin flex() {
    	display: -webkit-box;
@@ -32,10 +15,6 @@ $pink: #E6ADA8;
 
 html {
 	-webkit-font-smoothing: antialiased;
-}
-
-a {
-	color: $orange;
 }
 
 body {
@@ -59,6 +38,8 @@ header img {
 	padding-top: 315px;
 }
 
+/*----------------------- Game Description ------------------------------ */
+
 .desc {
 	margin-top: 50px;
 	margin-left: -30px;
@@ -66,9 +47,8 @@ header img {
 	width: 100%;
 	text-align: center;
 	color: $light;
-	font-family: "Wallington Pro";
 	font-weight: 100;
-	font-size: 36px;
+	///font-size: 36px;
 }
 
 .desc b {
@@ -78,10 +58,7 @@ header img {
 	margin-right: -100px;
 }
 
-hr {
-	margin: 25px 30% 0px 30%;
-	border: 1px dashed $pink;
-}
+/*----------------------- Navigation Styles ------------------------------ */
 
 ul {
 	list-style:none;
@@ -108,37 +85,14 @@ li .space {
 	padding: 0px 10px;
 }
 
-p {
-	color: #FFF;
-	font-size: 1.7em;
-	font-family: "Anivers";
-	font-weight: 100;
-	width: 800px;
+li a {
+	text-decoration: none;
 }
 
-.goal {
-	@include flex();
-	justify-content: center;
-	width: 100%;
-	margin: 0 auto;
-}
 
-.goal figure {
-	margin-top: 30px;
-}
 
-h3 {
-	font-size: 36px;
-	font-family: "Wallington Pro";
-	color: $pink;
-	width: 1024px;
-	margin: 75px auto 5px auto;
-}
+/*----------------------- Specific Layout ------------------------------ */
 
-.why {
-	width: 1024px;
-		color: #FFF;
-	font-size: 1.7em;
-	font-family: "Anivers";
-	margin: 0 auto;
+.left {
+	float: left;
 }
