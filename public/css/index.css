@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Wallington Pro';
+  src: url("/fonts/Wallington-Pro.otf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Anivers';
+  src: url("/fonts/Anivers_Regular.otf");
+  font-weight: normal;
+  font-style: normal; }
+
+html {
+  -webkit-font-smoothing: antialiased; }
+
+a {
+  color: #D85C49; }
+
+body {
+  margin: 0 auto;
+  padding: 0px;
+  background-color: #2F1D29; }
+
+header {
+  background-image: url("/images/header_full.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1996px auto;
+  height: 711px;
+  background-color: #91D0CE; }
+
+header img {
+  display: block;
+  margin: 0px auto 0px auto;
+  padding-top: 315px; }
+
+.desc {
+  margin-top: 50px;
+  margin-left: -30px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+  color: #F8E9D6;
+  font-family: "Wallington Pro";
+  font-weight: 100;
+  font-size: 36px; }
+
+.desc b {
+  display: block;
+  color: #E6ADA8;
+  font-weight: 100;
+  margin-right: -100px; }
+
+hr {
+  margin: 25px 30% 0px 30%;
+  border: 1px dashed #E6ADA8; }
+
+ul {
+  list-style: none;
+  margin: 50px auto 0px auto;
+  display: block;
+  text-align: center;
+  color: #D85C49;
+  font-weight: 100;
+  font-size: 26px;
+  font-family: "Wallington Pro";
+  text-transform: uppercase; }
+
+li {
+  display: inline-block; }
+
+li span {
+  font-size: 20px; }
+
+li .space {
+  padding: 0px 10px; }
+
+p {
+  color: #FFF;
+  font-size: 1.7em;
+  font-family: "Anivers";
+  font-weight: 100;
+  width: 800px; }
+
+.goal {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto; }
+
+.goal figure {
+  margin-top: 30px; }
+
+h3 {
+  font-size: 36px;
+  font-family: "Wallington Pro";
+  color: #E6ADA8;
+  width: 1024px;
+  margin: 75px auto 5px auto; }
+
+.why {
+  width: 1024px;
+  color: #FFF;
+  font-size: 1.7em;
+  font-family: "Anivers";
+  margin: 0 auto; }
