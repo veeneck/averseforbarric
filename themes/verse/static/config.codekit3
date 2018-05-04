@@ -72,6 +72,13 @@
 		"oAP": "\/images\/bloodsample.mp4",
 		"oF": 0
 		},
+	"\/images\/card_web.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/card_web.mp4",
+		"oF": 0
+		},
 	"\/images\/combatupdate.mp4": {
 		"cB": 0,
 		"ft": 8192,
@@ -151,12 +158,16 @@
 		"oAP": "\/images\/shield.mp4",
 		"oF": 0
 		},
-	"\/images\/VerseBarric-CardSlide_web.mov": {
-		"cB": 0,
-		"ft": 8192,
+	"\/images\/tilt.png": {
+		"ft": 32768,
+		"iS": 1438677,
 		"oA": 0,
-		"oAP": "\/images\/VerseBarric-CardSlide_web.mov",
-		"oF": 0
+		"oAP": "\/images\/tilt.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/scss\/index.scss": {
 		"aP": 0,

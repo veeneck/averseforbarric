@@ -75,10 +75,27 @@ Your browser does not support the video tag.
 </figure>
 </div>
 
-#### User Interface
+#### User Interface & Art Direction
 
-Card slide?
+Of course, nothing in game development can pass without some sort of motion, so the user interface was the next natural step. We didn't get too far into this, but it's worth pointing out that Brian offered mockups where he could and in general contributed to the art direction. All of the illustrations were already made, but he helped with texture, motion, layout, etc. Two examples come to mind.
 
-#### General Consultation
+<figure class="left" style="width:40%">
+<video width="100%" controls>
+  <source src="/images/card_web.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<figcaption>Experimenting with UI movements.</figcaption>
+</figure>
 
-Tilt shift?
+The first is with how menu cards slide in from off screen. I had a generic easing function in place, and he wanted to emphasize how combined easing can add subtle polish. You can see his sample video in the figure to the left.
+
+All of these little details that Brian passed on were priceless because it taught me what to start looking for. I wanted to ask him everything and just be a sponge to his knowledge. It wasn't long before I tried to run every art decision by him. Below is an example of a tilt shift effect we were playing with.
+
+<figure>
+	<img src="/images/tilt.png" width="100%" />
+	<figcaption>Tilt shift post processing.</figcaption>
+</figure>
+
+#### Thank You, Brian
+
+From 2015 through 2017, Brian was a huge motivator. Being accountable to someone else has an amazing impact on productivity. He played a large part in keeping me writing code. And while the game still has a long way to go visually, it would not be nearly as complete without Brian. For that, I'm grateful. He helped give life to the ideas in my head, which is still inspring and moving for me to see.
