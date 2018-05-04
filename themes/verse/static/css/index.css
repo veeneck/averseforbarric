@@ -135,13 +135,13 @@ h3 {
   font-size: 1.414rem;
   font-family: "Wallington Pro";
   color: #E6ADA8;
-  margin: 75px auto 0px auto; }
+  margin: 75px auto -10px auto; }
 
 h4 {
   font-size: 1.3rem;
   font-family: "Wallington Pro";
   color: #E6ADA8;
-  margin: 50px auto 0px auto; }
+  margin: 50px auto -10px auto; }
 
 h5 {
   font-size: 0.4713333333333333rem; }
@@ -296,3 +296,7 @@ ul.nav li a {
 
 .nomargin {
   margin: 0px !important; }
+
+.soundcloud {
+  margin: 75px 0px 0px 15px;
+  clear: both; }

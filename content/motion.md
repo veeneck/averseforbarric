@@ -4,8 +4,8 @@ title: "Motion Graphics"
 
 The term _motion graphics_ doesn't justify the help that Brian Campbell provided on this project. He began contributing in March 2015 as a video editor for cutscenes. That alone was huge. At the time, I had the story written and art for the scenes designed. I quickly stitched them together in iMovie to get a sense for pacing. Fortunately, Brian [does this stuff for a living](http://secretpowers.com) so he knew exactly what needed to happen to move things forward. Have a look at these two scenes side by side:
 
-<figure class="nomargin" style="width:42%; display:inline-block;">
 <div class="outtake">
+<figure class="nomargin" style="width:42%; display:inline-block;">
 <video width="100%" controls>
   <source src="/images/intruder_original_web.mp4" type="video/mp4">
 Your browser does not support the video tag.
@@ -60,6 +60,11 @@ Your browser does not support the video tag.
 The first thing we realized is that it is much quicker to mock up effects than it is to code them. This allowed for plenty of experimentation and back-and-forth. Brian would set up an isometric scene in After Effects on top of a still image of the game. You can see examples in the videos to the right.
 
 Working like this meant that Brian could break down an effect for me on a frame by frame basis. He could also show me how many layers were needed for an effect. Of those layers, he would break them into 2d vs isometric, and break them into image sequences. Finally, with a keyframe sequence, I could recreate the effect in the code.
+
+<figure class="left">
+	<img src="/images/ForceFieldBase.png" width="200px" />
+	<figcaption>Bottom layer of the resist spell.</figcaption>
+</figure>
 
 After doing this process for _meteor_ and _resist_, we noticed the memory needed to store so many image sequences was going to be a problem. Fortunately, Brian's skillset saved me here too. It turns out that you can do **a lot** with simple tricks. Scale, rotation, blending, distortion and repitition are all easy ways to make something appear alive. For example, a blood splatter can be 3 small images, but when you rotate them, change their size and put minor distortions on them you can end up with 100's of possibile outcomes. This gives the appearance of randomness without being a memory hog.
 

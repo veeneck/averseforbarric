@@ -93,6 +93,17 @@
 		"oAP": "\/images\/fire.mp4",
 		"oF": 0
 		},
+	"\/images\/ForceFieldBase.png": {
+		"ft": 32768,
+		"iS": 44198,
+		"oA": 0,
+		"oAP": "\/images\/ForceFieldBase.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/header.png": {
 		"ft": 32768,
 		"iS": 192956,
@@ -145,6 +156,17 @@
 		"iS": 78337,
 		"oA": 0,
 		"oAP": "\/images\/Logo-256.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/music_feedback.png": {
+		"ft": 32768,
+		"iS": 346530,
+		"oA": 0,
+		"oAP": "\/images\/music_feedback.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
