@@ -204,5 +204,6 @@ $(document).ready(function() {
 
 // execute above function
 initPhotoSwipeFromDOM('.my-gallery');
+initPhotoSwipeFromDOM('.before-after');
 });
 

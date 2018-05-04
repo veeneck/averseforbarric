@@ -404,15 +404,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/illustrations\/world1.png": {
-		"ft": 32768,
+	"\/images\/illustrations\/world1.jpg": {
+		"ft": 16384,
 		"iS": 263364,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/illustrations\/world1.png",
+		"oAP": "\/images\/illustrations\/world1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/images\/illustrations\/world2.jpg": {
@@ -476,8 +476,8 @@
 		"oA": 0,
 		"oAP": "\/images\/illustrations_small\/bomur_before.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -498,8 +498,8 @@
 		"oA": 0,
 		"oAP": "\/images\/illustrations_small\/camp_before.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -657,15 +657,26 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/illustrations_small\/world1.png": {
-		"ft": 32768,
-		"iS": 109156,
+	"\/images\/illustrations_small\/world1.jpg": {
+		"ft": 16384,
+		"iS": 14692,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/illustrations_small\/world1.png",
+		"oAP": "\/images\/illustrations_small\/world1.jpg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/illustrations_small\/world2.jpg": {
+		"ft": 16384,
+		"iS": 33690,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations_small\/world2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/illustrations_small\/world3.jpg": {
