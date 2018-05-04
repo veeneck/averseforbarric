@@ -2,7 +2,7 @@
 title: "Illustrations"
 ---
 
-[Scott Pellico](http://scottpellico.com) was a godsend for this project. After a few trial runs with other artists, I was having trouble establish an art direction. My brother, Chris, found Scott for his project. Since Chris didn't need Scott full time, he agreed to split his work between the two of us. He worked on the project part time for nearly a year starting in 2014. Before getting into specific contributions, here is a gallery of some of my favorite Scott creations.
+[Scott Pellico](http://scottpellico.com) was a godsend for this project. After a few trial runs with other artists, I was having trouble establishing an art direction. My brother, Chris, found Scott for his project. Since Chris didn't need Scott full time, Scott agreed to split his work between the two of us. He worked on the project part time for nearly a year starting in 2014. Before getting into specific contributions, here is a gallery of some of my favorite Scott creations.
 
 <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
 
@@ -82,4 +82,89 @@ title: "Illustrations"
 
 </div>
 
+
+#### Workflow
+
+If there is a visual element in the game, chances are Scott created or influenced it. Characters, levels, story, UI, scale, emotion, feel. Illustrations create all of this. The art even dictates music and animation to an extent. Technically, this is Scott's world. I feel lucky that his vision only enhanced what was in my head. While working with Scott, his daily drawings became an addicition for me. I couldn't wait to see what he would do next. I think the best way to convey this is with a few examples of concepts I gave him versus what he returned.
+
+<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="/images/illustrations/bomur_before.png" itemprop="contentUrl" data-size="500x500">
+            <img src="/images/illustrations_small/bomur_before.png" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="/images/illustrations/bomur_after.jpg" itemprop="contentUrl" data-size="2000x1407">
+            <img src="/images/illustrations_small/bomur_after.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="/images/illustrations/forest_before.jpg" itemprop="contentUrl" data-size="2000x1343">
+            <img src="/images/illustrations_small/forest_before.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="/images/illustrations/forest_after.jpg" itemprop="contentUrl" data-size="2000x1343">
+            <img src="/images/illustrations_small/forest_after.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="/images/illustrations/camp_before.png" itemprop="contentUrl" data-size="1403X944">
+            <img src="/images/illustrations_small/camp_before.png" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="/images/illustrations/camp_after.jpg" itemprop="contentUrl" data-size="2000X1266">
+            <img src="/images/illustrations_small/camp_after.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="/images/illustrations/world1.png" itemprop="contentUrl" data-size="1400X941">
+            <img src="/images/illustrations_small/world1.png" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="/images/illustrations/world2.jpg" itemprop="contentUrl" data-size="2000X1343">
+            <img src="/images/illustrations_small/world2.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="/images/illustrations/world3.jpg" itemprop="contentUrl" data-size="2000X1343">
+            <img src="/images/illustrations_small/world2.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="/images/illustrations/world4.jpg" itemprop="contentUrl" data-size="2000X1343">
+            <img src="/images/illustrations_small/world4.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="/images/illustrations/world5.jpg" itemprop="contentUrl" data-size="2000X1343">
+            <img src="/images/illustrations_small/world5.jpg" itemprop="thumbnail" alt="Image description" />
+        </a>
+    </figure>
+
+
+</div>
+
+#### Experimentation
+
+Example of things that didnt make it, figuring out how boss wheels work, etc
+
 #### Thanks, Scott
+
+Insanse work ethic
+handled my naivety
+wish i could clone him and get a daily drawing
+motivation because it was exciting to see what scott would do next
