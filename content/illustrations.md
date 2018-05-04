@@ -173,11 +173,35 @@ If there is a visual element in the game, chances are Scott created or influence
 
 #### Experimentation
 
-Example of things that didnt make it, figuring out how boss wheels work, etc
+In addition to bringing ideas to life, Scott also helped work thorugh gameplay issues. Often times, we couldn't move forward before figuring out how something could work. Scott would gladly iterate with me on anything. We covered how different aspects could animate, play out, and scale. All of this set a huge foundation for future work with animation and motion graphics.
+
+<div class="before-after" itemscope itemtype="http://schema.org/ImageGallery">
+
+    <figure class="third" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="/images/illustrations/machine.jpg" itemprop="contentUrl" data-size="2000x2319">
+            <img src="/images/illustrations_small/machine.jpg" itemprop="thumbnail" alt="Image description" width="100%" />
+        </a>
+        <figcaption>Breaking down a unit for animation.</figcaption>
+    </figure>
+
+    <figure class="third" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="/images/illustrations/flag.jpg" itemprop="contentUrl" data-size="2000x817">
+            <img src="/images/illustrations_small/flag.jpg" itemprop="thumbnail" alt="Image description" width="100%" />
+        </a>
+        <figcaption>Experimenting with UI markers.</figcaption>
+    </figure>
+
+    <figure class="third" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="/images/illustrations/level.jpg" itemprop="contentUrl" data-size="2000x1250">
+            <img src="/images/illustrations_small/level.jpg" itemprop="thumbnail" alt="Image description" width="100%" />
+        </a>
+        <figcaption>Visualizing a level crowded with props.</figcaption>
+    </figure>
+
+
+
+</div>
 
 #### Thanks, Scott
 
-Insanse work ethic
-handled my naivety
-wish i could clone him and get a daily drawing
-motivation because it was exciting to see what scott would do next
+A simple thank you to Scott is not enough. His insane work ethic is what gave the project that intial, priceless momentum. I still look back and appreciate how fun that time of development was for me. He welcomed my naivety and jumped on board the game dev train with me. At a time when finding an artist was hard for me, this was such a welcome, positive change.

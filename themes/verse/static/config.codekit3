@@ -250,6 +250,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/illustrations\/flag.jpg": {
+		"ft": 16384,
+		"iS": 855654,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations\/flag.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/illustrations\/forest_after.jpg": {
 		"ft": 16384,
 		"iS": 1683345,
@@ -267,6 +278,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/illustrations\/forest_before.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/illustrations\/level.jpg": {
+		"ft": 16384,
+		"iS": 2047846,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations\/level.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/illustrations\/machine.jpg": {
+		"ft": 16384,
+		"iS": 882916,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations\/machine.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -503,6 +536,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/illustrations_small\/flag.jpg": {
+		"ft": 16384,
+		"iS": 69476,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations_small\/flag.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/illustrations_small\/forest_after.jpg": {
 		"ft": 16384,
 		"iS": 191509,
@@ -520,6 +564,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/illustrations_small\/forest_before.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/illustrations_small\/level.jpg": {
+		"ft": 16384,
+		"iS": 115510,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations_small\/level.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/illustrations_small\/machine.jpg": {
+		"ft": 16384,
+		"iS": 42069,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations_small\/machine.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
