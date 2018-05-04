@@ -106,3 +106,14 @@ ul.nav li a {
 	margin: 75px 0px 0px 15px; 
 	clear:both;
 }
+
+.my-gallery {
+	@include flex();
+	width: 100%;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+
+.my-gallery figure {
+	margin: 5px;
+}

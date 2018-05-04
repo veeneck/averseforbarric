@@ -1,0 +1,114 @@
+@import "constants.scss";
+@import "animations.scss";
+
+/// Credit: https://css-tricks.com/media-queries-sass-3-2-and-codekit/
+@mixin breakpoint($point) {
+    @if $point == large-screen {
+        @media (min-width: 1200px) {
+            @content;
+        }
+    }
+    @else if $point == normal-screen {
+        @media (min-width: 1080px) {
+            @content;
+        }
+    }
+   @else if $point == tablet-screen {
+        @media (min-width: 50em) {
+            @content;
+        }
+    }
+    @else if $point == condensed-screen {
+        @media (min-width: 35em) {
+            @content;
+        }
+    }
+}
+
+.container {
+    margin: 0px auto;
+    max-width: $maxWidth;
+    padding: 0px 10px;
+
+    @include breakpoint(condensed-screen) {
+        padding: 0px 30px;
+        padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right);
+    }
+
+
+    @include breakpoint(condensed-screen) {
+        padding: 0px 30px;
+    }
+
+
+    @include breakpoint(normal-screen) {
+        padding: 0px 30px;
+    }
+
+
+    @include breakpoint(large-screen) {
+        padding: 0px 10px;
+    }
+}
+
+@mixin flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+/// Use with @extend %clearfix
+%clearfix {
+    *zoom: 1;
+
+    &:before, &:after {
+        content: " ";
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+}
+
+/*----------------------- Links ------------------------------ */
+
+a {
+    color: $orange;
+}
+
+a:hover {
+    color: $blue
+}
+
+/*----------------------- Core Layout ------------------------------ */
+
+article {
+    max-width: $maxWidth;
+    margin: 0 auto 50px auto;
+}
+
+p.first {
+    margin-top: 1rem;
+}
+
+p.clear {
+    @extend %clearfix;
+}
+
+figure {
+    margin: 25px;
+}
+
+.outtake {
+    margin: 25px 0px;
+}
+
+figcaption {
+    color: $blue;
+    font-size: 0.7em;
+}
+

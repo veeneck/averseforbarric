@@ -9,6 +9,47 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/css\/default-skin-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/default-skin-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/default-skin.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/default-skin-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/default-skin.png": {
+		"ft": 32768,
+		"iS": 547,
+		"oA": 0,
+		"oAP": "\/css\/default-skin.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/css\/default-skin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/css\/default-skin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/css\/index.css": {
 		"aP": 1,
 		"bl": 0,
@@ -18,6 +59,34 @@
 		"oAP": "\/css\/index-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/css\/photoswipe-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/photoswipe-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/photoswipe.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/photoswipe-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/preloader.gif": {
+		"ft": 4194304,
+		"iS": 866,
+		"oA": 0,
+		"oAP": "\/css\/preloader.gif",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/css\/typography.css": {
 		"aP": 1,
@@ -137,6 +206,270 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/illustrations\/scott1.jpg": {
+		"ft": 16384,
+		"iS": 1540042,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations\/scott1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/illustrations\/scott10.jpg": {
+		"ft": 16384,
+		"iS": 1294372,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations\/scott10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/illustrations\/scott11.png": {
+		"ft": 32768,
+		"iS": 547196,
+		"oA": 0,
+		"oAP": "\/images\/illustrations\/scott11.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/illustrations\/scott12.jpg": {
+		"ft": 16384,
+		"iS": 1957202,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations\/scott12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/illustrations\/scott2.jpg": {
+		"ft": 16384,
+		"iS": 630441,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations\/scott2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/illustrations\/scott3.jpg": {
+		"ft": 16384,
+		"iS": 8002356,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations\/scott3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/illustrations\/scott4.jpg": {
+		"ft": 16384,
+		"iS": 3906986,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations\/scott4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/illustrations\/scott5.jpg": {
+		"ft": 16384,
+		"iS": 2173956,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations\/scott5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/illustrations\/scott6.jpg": {
+		"ft": 16384,
+		"iS": 1850833,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations\/scott6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/illustrations\/scott7.jpg": {
+		"ft": 16384,
+		"iS": 1130473,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations\/scott7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/illustrations\/scott8.jpg": {
+		"ft": 16384,
+		"iS": 11082052,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations\/scott8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/illustrations\/scott9.png": {
+		"ft": 32768,
+		"iS": 2245433,
+		"oA": 0,
+		"oAP": "\/images\/illustrations\/scott9.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/illustrations_small\/scott1.jpg": {
+		"ft": 16384,
+		"iS": 31297,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations_small\/scott1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/illustrations_small\/scott10.jpg": {
+		"ft": 16384,
+		"iS": 44959,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations_small\/scott10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/illustrations_small\/scott11.png": {
+		"ft": 32768,
+		"iS": 97194,
+		"oA": 0,
+		"oAP": "\/images\/illustrations_small\/scott11.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/illustrations_small\/scott12.jpg": {
+		"ft": 16384,
+		"iS": 55778,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations_small\/scott12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/illustrations_small\/scott2.jpg": {
+		"ft": 16384,
+		"iS": 128368,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations_small\/scott2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/illustrations_small\/scott3.jpg": {
+		"ft": 16384,
+		"iS": 57003,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations_small\/scott3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/illustrations_small\/scott4.jpg": {
+		"ft": 16384,
+		"iS": 3906986,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations_small\/scott4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/illustrations_small\/scott5.jpg": {
+		"ft": 16384,
+		"iS": 63590,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations_small\/scott5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/illustrations_small\/scott6.jpg": {
+		"ft": 16384,
+		"iS": 54675,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations_small\/scott6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/illustrations_small\/scott7.jpg": {
+		"ft": 16384,
+		"iS": 47835,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations_small\/scott7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/illustrations_small\/scott8.jpg": {
+		"ft": 16384,
+		"iS": 72053,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/illustrations_small\/scott8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/illustrations_small\/scott9.png": {
+		"ft": 32768,
+		"iS": 68516,
+		"oA": 0,
+		"oAP": "\/images\/illustrations_small\/scott9.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/intruder_original_web.mp4": {
 		"cB": 0,
 		"ft": 8192,
@@ -190,6 +523,66 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"\/js\/index-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/js\/index-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/js\/index-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/photoswipe-ui-default.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/js\/photoswipe-ui-default.min-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/photoswipe-ui-default.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/js\/photoswipe-ui-default.min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/photoswipe.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/js\/photoswipe.min-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/photoswipe.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/js\/photoswipe.min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
 	"\/scss\/index.scss": {
 		"aP": 0,
@@ -2093,8 +2486,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"minifyOutput": 1,
-		"syntaxCheckerStyle": 3,
+		"minifyOutput": 0,
+		"syntaxCheckerStyle": 0,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {

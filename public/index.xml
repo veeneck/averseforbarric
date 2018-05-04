@@ -11,12 +11,22 @@
     
     
     <item>
+      <title>Illustrations</title>
+      <link>/illustrations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/illustrations/</guid>
+      <description> text
+Thanks, Scott </description>
+    </item>
+    
+    <item>
       <title>Motion Graphics</title>
       <link>/motion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/motion/</guid>
-      <description>hello world</description>
+      <description>The term motion graphics doesn&amp;rsquo;t justify the help that Brian Campbell provided on this project. He began contributing in March 2015 as a video editor for cutscenes. That alone was huge. At the time, I had the story written and art for the scenes designed. I quickly stitched them together in iMovie to get a sense for pacing. Fortunately, Brian does this stuff for a living so he knew exactly what needed to happen to move things forward.</description>
     </item>
     
     <item>
@@ -26,6 +36,16 @@
       
       <guid>/sections/game/</guid>
       <description>hello world</description>
+    </item>
+    
+    <item>
+      <title>Soundtrack</title>
+      <link>/soundtrack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/soundtrack/</guid>
+      <description>Tony Manfredonia reached out to me in January 2015, and we did a brief trial. It went so smoothly that I gladly had him work on the entire soundtrack. In the end, he crafted over 30 minutes of unique content tailored to very specific aspects of the game. Below is a sample of the types of music he made along with the in game considerations.
+ Main Menu I have listened to this piece thousands of times because it always loads when I&amp;rsquo;m testing, and it still hasn&amp;rsquo;t gotten old.</description>
     </item>
     
   </channel>

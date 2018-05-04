@@ -300,3 +300,16 @@ ul.nav li a {
 .soundcloud {
   margin: 75px 0px 0px 15px;
   clear: both; }
+
+.my-gallery {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 10px; }
+
+.my-gallery figure {
+  margin: 5px; }

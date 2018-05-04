@@ -1,3 +1,60 @@
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+.container {
+  margin: 0px auto;
+  max-width: 1080px;
+  padding: 0px 10px; }
+  @media (min-width: 35em) {
+    .container {
+      padding: 0px 30px;
+      padding-left: env(safe-area-inset-left);
+      padding-right: env(safe-area-inset-right); } }
+  @media (min-width: 35em) {
+    .container {
+      padding: 0px 30px; } }
+  @media (min-width: 1080px) {
+    .container {
+      padding: 0px 30px; } }
+  @media (min-width: 1200px) {
+    .container {
+      padding: 0px 10px; } }
+
+p.clear {
+  *zoom: 1; }
+  p.clear:before, p.clear:after {
+    content: " ";
+    display: table; }
+  p.clear:after {
+    clear: both; }
+
+/*----------------------- Links ------------------------------ */
+a {
+  color: #D85C49; }
+
+a:hover {
+  color: #BCDCC4; }
+
+/*----------------------- Core Layout ------------------------------ */
+article {
+  max-width: 1080px;
+  margin: 0 auto 50px auto; }
+
+p.first {
+  margin-top: 1rem; }
+
+figure {
+  margin: 25px; }
+
+.outtake {
+  margin: 25px 0px; }
+
+figcaption {
+  color: #BCDCC4;
+  font-size: 0.7em; }
+
+/*----------------------- Import League Gothic ------------------------------ */
 @font-face {
   font-family: 'Wallington Pro';
   src: url("/fonts/Wallington-Pro.otf");
@@ -10,11 +67,169 @@
   font-weight: normal;
   font-style: normal; }
 
+/*----------------------- Typebase Defaults ------------------------------ */
+/*! Typebase.less v0.1.0 | MIT License */
+/* Setup */
 html {
+  /* Change default typefaces here */
+  font-family: "Anivers", serif;
+  font-size: 137.5%;
   -webkit-font-smoothing: antialiased; }
 
+/* Copy & Lists */
+p {
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  color: #FFF;
+  font-weight: 100;
+  width: 100%; }
+
+ul,
+ol {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
+
+ul li,
+ol li {
+  line-height: 1.5rem; }
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+blockquote {
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* Change heading typefaces here */
+  font-family: sans-serif;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  line-height: 1.5rem; }
+
+h1 {
+  font-size: 4.242rem;
+  line-height: 4.5rem;
+  margin-top: 3rem;
+  font-family: "Wallington Pro"; }
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-top: 2.5rem;
+  font-family: "Wallington Pro"; }
+
+h3 {
+  font-size: 1.414rem;
+  font-family: "Wallington Pro";
+  color: #E6ADA8;
+  margin: 75px auto -10px auto; }
+
+h4 {
+  font-size: 1.3rem;
+  font-family: "Wallington Pro";
+  color: #E6ADA8;
+  margin: 50px auto -10px auto; }
+
+h5 {
+  font-size: 0.4713333333333333rem; }
+
+h6 {
+  font-size: 0.3535rem; }
+
+/* Tables */
+table {
+  margin-top: 1.5rem;
+  border-spacing: 0px;
+  border-collapse: collapse; }
+
+table td,
+table th {
+  padding: 0;
+  line-height: 33px; }
+
+/* Code blocks */
+code {
+  vertical-align: bottom; }
+
+/* Leading paragraph text */
+.lead {
+  font-size: 1.414rem; }
+
+/* Hug the block above you */
+.hug {
+  margin-top: 0; }
+
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+/*----------------------- Misc ------------------------------ */
+/*----------------------- Colors ------------------------------ */
+.container {
+  margin: 0px auto;
+  max-width: 1080px;
+  padding: 0px 10px; }
+  @media (min-width: 35em) {
+    .container {
+      padding: 0px 30px;
+      padding-left: env(safe-area-inset-left);
+      padding-right: env(safe-area-inset-right); } }
+  @media (min-width: 35em) {
+    .container {
+      padding: 0px 30px; } }
+  @media (min-width: 1080px) {
+    .container {
+      padding: 0px 30px; } }
+  @media (min-width: 1200px) {
+    .container {
+      padding: 0px 10px; } }
+
+p.clear {
+  *zoom: 1; }
+  p.clear:before, p.clear:after {
+    content: " ";
+    display: table; }
+  p.clear:after {
+    clear: both; }
+
+/*----------------------- Links ------------------------------ */
 a {
   color: #D85C49; }
+
+a:hover {
+  color: #BCDCC4; }
+
+/*----------------------- Core Layout ------------------------------ */
+article {
+  max-width: 1080px;
+  margin: 0 auto 50px auto; }
+
+p.first {
+  margin-top: 1rem; }
+
+figure {
+  margin: 25px; }
+
+.outtake {
+  margin: 25px 0px; }
+
+figcaption {
+  color: #BCDCC4;
+  font-size: 0.7em; }
+
+html {
+  -webkit-font-smoothing: antialiased; }
 
 body {
   margin: 0 auto;
@@ -27,13 +242,14 @@ header {
   background-position: center;
   background-size: 1996px auto;
   height: 711px;
-  background-color: #91D0CE; }
+  background-color: #BCDCC4; }
 
 header img {
   display: block;
   margin: 0px auto 0px auto;
   padding-top: 315px; }
 
+/*----------------------- Game Description ------------------------------ */
 .desc {
   margin-top: 50px;
   margin-left: -30px;
@@ -41,9 +257,7 @@ header img {
   width: 100%;
   text-align: center;
   color: #F8E9D6;
-  font-family: "Wallington Pro";
-  font-weight: 100;
-  font-size: 36px; }
+  font-weight: 100; }
 
 .desc b {
   display: block;
@@ -51,11 +265,9 @@ header img {
   font-weight: 100;
   margin-right: -100px; }
 
-hr {
-  margin: 25px 30% 0px 30%;
-  border: 1px dashed #E6ADA8; }
-
-ul {
+/*----------------------- Navigation Styles ------------------------------ */
+ul.nav {
+  padding-left: 0px;
   list-style: none;
   margin: 50px auto 0px auto;
   display: block;
@@ -66,45 +278,25 @@ ul {
   font-family: "Wallington Pro";
   text-transform: uppercase; }
 
-li {
+ul.nav li {
   display: inline-block; }
 
-li span {
+ul.nav li span {
   font-size: 20px; }
 
-li .space {
+ul.nav li .space {
   padding: 0px 10px; }
 
-p {
-  color: #FFF;
-  font-size: 1.7em;
-  font-family: "Anivers";
-  font-weight: 100;
-  width: 800px; }
+ul.nav li a {
+  text-decoration: none; }
 
-.goal {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin: 0 auto; }
+/*----------------------- Specific Layout ------------------------------ */
+.left {
+  float: left; }
 
-.goal figure {
-  margin-top: 30px; }
+.nomargin {
+  margin: 0px !important; }
 
-h3 {
-  font-size: 36px;
-  font-family: "Wallington Pro";
-  color: #E6ADA8;
-  width: 1024px;
-  margin: 75px auto 5px auto; }
-
-.why {
-  width: 1024px;
-  color: #FFF;
-  font-size: 1.7em;
-  font-family: "Anivers";
-  margin: 0 auto; }
+.soundcloud {
+  margin: 75px 0px 0px 15px;
+  clear: both; }

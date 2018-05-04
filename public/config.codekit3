@@ -9,6 +9,47 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/css\/default-skin-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/default-skin-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/default-skin.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/default-skin-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/default-skin.png": {
+		"ft": 32768,
+		"iS": 547,
+		"oA": 0,
+		"oAP": "\/css\/default-skin.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/css\/default-skin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/css\/default-skin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/css\/index.css": {
 		"aP": 1,
 		"bl": 0,
@@ -18,6 +59,34 @@
 		"oAP": "\/css\/index-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/css\/photoswipe-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/photoswipe-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/photoswipe.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/photoswipe-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/preloader.gif": {
+		"ft": 4194304,
+		"iS": 866,
+		"oA": 0,
+		"oAP": "\/css\/preloader.gif",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/css\/typography.css": {
 		"aP": 1,
@@ -65,6 +134,45 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/bloodsample.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/bloodsample.mp4",
+		"oF": 0
+		},
+	"\/images\/card_web.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/card_web.mp4",
+		"oF": 0
+		},
+	"\/images\/combatupdate.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/combatupdate.mp4",
+		"oF": 0
+		},
+	"\/images\/fire.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/fire.mp4",
+		"oF": 0
+		},
+	"\/images\/ForceFieldBase.png": {
+		"ft": 32768,
+		"iS": 44198,
+		"oA": 0,
+		"oAP": "\/images\/ForceFieldBase.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/header.png": {
 		"ft": 32768,
 		"iS": 192956,
@@ -98,6 +206,20 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/intruder_original_web.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/intruder_original_web.mp4",
+		"oF": 0
+		},
+	"\/images\/Intruder_web.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/Intruder_web.mp4",
+		"oF": 0
+		},
 	"\/images\/Logo-256.png": {
 		"ft": 32768,
 		"iS": 78337,
@@ -108,6 +230,85 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/images\/music_feedback.png": {
+		"ft": 32768,
+		"iS": 346530,
+		"oA": 0,
+		"oAP": "\/images\/music_feedback.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/shield.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/images\/shield.mp4",
+		"oF": 0
+		},
+	"\/images\/tilt.png": {
+		"ft": 32768,
+		"iS": 1438677,
+		"oA": 0,
+		"oAP": "\/images\/tilt.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/js\/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/js\/index-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/photoswipe-ui-default.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/js\/photoswipe-ui-default.min-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/photoswipe-ui-default.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/js\/photoswipe-ui-default.min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/photoswipe.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/js\/photoswipe.min-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/photoswipe.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/js\/photoswipe.min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
 	"\/scss\/index.scss": {
 		"aP": 0,
@@ -122,15 +323,67 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scss\/typography.scss": {
+	"\/scss\/modules\/animations.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/typography.css",
+		"oA": 1,
+		"oAP": "\/scss\/css\/animations.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/modules\/constants.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/css\/constants.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/modules\/form.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/css\/form.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/modules\/layout.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/css\/layout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/modules\/typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/css\/typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1959,8 +2212,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"minifyOutput": 1,
-		"syntaxCheckerStyle": 3,
+		"minifyOutput": 0,
+		"syntaxCheckerStyle": 0,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {

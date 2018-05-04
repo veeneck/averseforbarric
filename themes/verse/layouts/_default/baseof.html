@@ -1,5 +1,7 @@
 {{ partial "header.html" . }}
   <body class="">
+  	{{ partial "photoswipe.html" . }}
+
     {{ block "main" . -}}{{- end }}
 
     {{ template "_internal/google_analytics_async.html" . }}
