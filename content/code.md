@@ -14,14 +14,15 @@ To date, this game has 38,378 lines of Swift code. There have been countless hou
 		<a href="">View Documentation</a>
 	</div>
 
-	self.entity.ui?.cutscene?.addSequences(sequences: [
-        self.bringSpeakersIntoView(),
-        self.stouWarnsUnderAttack(),
-        self.delayForTime(time: 4),
-        self.barricOffersHisTroops(),
-        self.panCameraForFight(),
-        self.takeSpeakersOutOfView()
-    ])
+<pre><code class="swift">self.entity.ui?.cutscene?.addSequences(sequences: [
+    self.bringSpeakersIntoView(),
+    self.stouWarnsUnderAttack(),
+    self.delayForTime(time: 4),
+    self.barricOffersHisTroops(),
+    self.panCameraForFight(),
+    self.takeSpeakersOutOfView()
+])
+</code></pre>
 
 
 <div class="framework">
@@ -30,14 +31,34 @@ To date, this game has 38,378 lines of Swift code. There have been countless hou
 	<a href="">View Documentation</a>
 </div>
 
-    sceneManager.registerScene(
-    	key: "Decisions", 
-    	scene: SBSceneContainer(
-            classType: Decisions.self,
-            name: "Decisions",
-            transition: nil,
-            preloadable: true,
-            category: SBSceneContainer.SceneGroup.Main,
-            atlases: ["Decisions", "Interface"]))
+<pre><code class="swift">sceneManager.registerScene(
+    key: "Decisions", 
+    scene: SBSceneContainer(
+        classType: Decisions.self,
+        name: "Decisions",
+        transition: nil,
+        preloadable: true,
+        category: SBSceneContainer.SceneGroup.Main,
+        atlases: ["Decisions", "Interface"]))
+</code></pre>
 
+<div class="framework">
+	<b>Particleboard</b>
+	<span>Collection of convenience features.</span>
+	<a href="">View Documentation</a>
+</div>
+
+<pre><code class="swift">func setupAlignmentAndLinks() {
+    self.enumerateChildNodes(withName: "//*") { node, stop in
+        if let align = node.userData?["align"] as? String {
+            if align == "left" {
+                node.position.x += Graphics.getLeftBound(scene:self)
+            }
+            if align == "right" {
+                node.position.x -= Graphics.getLeftBound(scene:self)
+            }
+        }
+    }
+}
+</code></pre>
 </div>

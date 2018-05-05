@@ -1,4 +1,10 @@
 $(document).ready(function() {
+
+	 $('pre code').each(function(i, block) {
+    	hljs.highlightBlock(block);
+  	});
+
+
 	var initPhotoSwipeFromDOM = function(gallerySelector) {
 
     // parse slide data (url, title, size ...) from DOM elements 
