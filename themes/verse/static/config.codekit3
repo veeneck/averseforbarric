@@ -112,6 +112,17 @@
 		"oAP": "\/fonts\/Wallington-Pro.otf",
 		"oF": 0
 		},
+	"\/images\/AI.png": {
+		"ft": 32768,
+		"iS": 72095,
+		"oA": 0,
+		"oAP": "\/images\/AI.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/barric.png": {
 		"ft": 32768,
 		"iS": 46732,
@@ -814,6 +825,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/pathfinding.jpg": {
+		"ft": 16384,
+		"iS": 140540,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/pathfinding.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/shield.mp4": {
 		"cB": 0,
 		"ft": 8192,
@@ -831,6 +853,16 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"\/js\/highlight.pack.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/js\/highlight.pack-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
 	"\/js\/index-min.js": {
 		"ft": 64,

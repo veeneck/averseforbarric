@@ -1,5 +1,10 @@
 $(document).ready(function() {
 
+
+	hljs.configure({
+  		languages: ["swift"]
+  	});
+
 	 $('pre code').each(function(i, block) {
     	hljs.highlightBlock(block);
   	});
