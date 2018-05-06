@@ -190,3 +190,19 @@ ul.nav li a {
 .frameworks code {
 	background-color: #251721;
 }
+
+@keyframes sprite {
+ 100% {
+   background-position: -1640px;
+ }
+}
+
+.melee1 {
+    background-image: url(/images/Melee1Sprite.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    animation: sprite .7s steps(8) infinite;
+    display: block;
+}
+
