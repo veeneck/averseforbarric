@@ -14,15 +14,29 @@ Now, I did place quite a few limitations on Liron. First, almost all of the anim
 
 #### Isometric Pains
 
-<div class="melee1">&nbsp;</div>
+<div class="squad">
+<div class="melee1 a">&nbsp;</div>
+<div class="melee1 b">&nbsp;</div>
+<div class="melee1 c">&nbsp;</div>
+<div class="melee1 d">&nbsp;</div>
+<div class="melee1 e">&nbsp;</div>
+<div class="melee1 f">&nbsp;</div>
+</div>
 
-group of 6 melee 1 off left
+The tricky part to an isometric world is animating each direction. Because these aren't 3d models, 360 degree walking is not possible. And because this project had a fixed budget, even 8 directions was not possible. So, we're left with our 4 diagonals. Then, if left is just a flipped image of right (not correct, but passable at small scales), we only need 2 animations per unit: south east and north east. 
 
-text
+The other aspect of isometric that is hard is how projectiles work. For some things like arrows, a small flat line at tiny army scale appears and disappears quickly enough that users won't be able to tell it's not proper perspective. Large projectiles like rocks, on the other hand, require custom math to fit into a pseudo 3d world. This sort of complication led to one of the [custom easing functions I am most proud of](https://gist.github.com/veeneck/8a12a23f673d410359ca96b8978a913f).
 
-section about isometric issues both in animation and in code (trebuchet projectile example code)
+#### Make Use of What You've Got
 
-bonus..type projectile to the scroll bar so people can go through frame by frame.
+One thing Liron was great at was maximizing the potential of such restrictive rules. Let's take a look at two animations:
+
+<div class="animationFavs">
+<div class="idiri idiriMargin">&nbsp;</div>
+<div class="cat">&nbsp;</div>
+</div>
+
+For the spinning attack, frames 5 though 7 are an isolated spin cycle. If I wanted the unit have a special move that allowed her to spin through an enemy squad for 6 seconds, I would just have to loop through those 3 frames repeatedly. Then, on completion, play the final 2 frames for the unit to come to rest.  A similar concept is going on with the cat (a freebie Liron through in for me to represent my cat, Mickey). If you look closely, the first animation is sit. Played in reverse we have stand. Then, tail wag. Then, paw lick. It looks like one animation, but it provides quite a few combinations when broken apart.
 
 #### Thanks, Liron
 

@@ -159,6 +159,17 @@
 		"oAP": "\/images\/card_web.mp4",
 		"oF": 0
 		},
+	"\/images\/Cat.png": {
+		"ft": 32768,
+		"iS": 23601,
+		"oA": 0,
+		"oAP": "\/images\/Cat.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/combatupdate.mp4": {
 		"cB": 0,
 		"ft": 8192,

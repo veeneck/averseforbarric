@@ -193,18 +193,80 @@ ul.nav li a {
 
 @keyframes melee1 {
  100% {
-   background-position: -1640px;
+   background-position: -512px;
  }
 }
 
 .melee1 {
     background-image: url(/images/Melee1Sprite.png);
     background-repeat: no-repeat;
-    width: 200px;
-    height: 200px;
+    width: 64px;
+    height: 64px;
     animation: melee1 .7s steps(8) infinite;
     display: block;
 }
+
+@keyframes cat {
+ 100% {
+   background-position: -768px;
+ }
+}
+
+.cat {
+    background-image: url(/images/Cat.png);
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 58px;
+    animation: cat .7s steps(16) infinite;
+    display: block;
+}
+
+.idiriMargin {
+	margin-right: 75px;
+	margin-left: -75px;
+}
+
+.squad {
+	margin: 30px 30px 30px 0px;
+	float: right;
+}
+
+.squad .a {
+	float: left;
+	margin-top: 64px;
+}
+
+.squad .b {
+	margin-top: 32px;
+	margin-left: -32px;
+	float: left;
+}
+
+.squad .c {
+	float: left;
+	margin-left: -32px;
+}
+
+.squad .d {
+	float: left;
+	margin-top: 16px;
+	margin-left: -16px;
+}
+
+.squad .e {
+	float: left;
+	margin-top: 48px;
+	margin-left: -96px;
+
+}
+
+.squad .f {
+	float: left;
+	margin-top: 82px;
+	margin-left: -128px;
+	@extend %clearfix;
+}
+
 
 @keyframes crossbow {
  100% {
