@@ -9,6 +9,11 @@ I began working with [Liron Peer](http://www.lironpeer.com) in late 2014 on char
 <div class="ryler">&nbsp;</div>
 <div class="idiri">&nbsp;</div>
 </div>
+<div class="animationFavs secondRow">
+<div class="spearmen">&nbsp;</div>
+<div class="rhino">&nbsp;</div>
+<div class="trebuchet">&nbsp;</div>
+</div>
 
 Now, I did place quite a few limitations on Liron. First, almost all of the animations had to be 8 frames. We made exceptions for a few to reach 12 frames. Second, most of the characters are only 64x64 pixels so a lot of details will be lost. Third, each animation must be a full cycle and the characters feet must return to the same position or stay completely still.
 

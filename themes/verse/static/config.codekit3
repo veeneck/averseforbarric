@@ -880,6 +880,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/Rhino.png": {
+		"ft": 32768,
+		"iS": 115684,
+		"oA": 0,
+		"oAP": "\/images\/Rhino.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/Ryler.png": {
 		"ft": 32768,
 		"iS": 1123798,
@@ -898,6 +909,17 @@
 		"oAP": "\/images\/shield.mp4",
 		"oF": 0
 		},
+	"\/images\/Spearmen.png": {
+		"ft": 32768,
+		"iS": 174965,
+		"oA": 0,
+		"oAP": "\/images\/Spearmen.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/tilt.png": {
 		"ft": 32768,
 		"iS": 1438677,
@@ -906,6 +928,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/Trebuchet.png": {
+		"ft": 32768,
+		"iS": 234153,
+		"oA": 0,
+		"oAP": "\/images\/Trebuchet.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},

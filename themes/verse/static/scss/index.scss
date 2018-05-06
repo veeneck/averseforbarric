@@ -221,6 +221,54 @@ ul.nav li a {
     display: block;
 }
 
+@keyframes rhino {
+ 100% {
+   background-position: -1078px;
+ }
+}
+
+.rhino {
+    background-image: url(/images/Rhino.png);
+    background-repeat: no-repeat;
+    width: 137px;
+    height: 200px;
+    animation: rhino .7s steps(8) infinite;
+    display: block;
+        margin: 0px 100px;
+
+}
+
+@keyframes spearmen {
+ 100% {
+   background-position: -1261px;
+ }
+}
+
+.spearmen {
+    background-image: url(/images/Spearmen.png);
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 120px;
+    animation: spearmen .7s steps(8) infinite;
+    display: block;
+    margin-bottom: -45px;
+}
+
+@keyframes trebuchet {
+ 100% {
+   background-position: -1774px;
+ }
+}
+
+.trebuchet {
+    background-image: url(/images/Trebuchet.png);
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 200px;
+    animation: trebuchet .7s steps(12) infinite;
+    display: block;
+}
+
 .idiriMargin {
 	margin-right: 75px;
 	margin-left: -75px;
@@ -320,5 +368,9 @@ div.animationFavs {
 	justify-content: center;
 	align-items: center;
 	margin-top: 30px;
+}
+
+.animationFavs.secondRow {
+	margin-top: -20px;
 }
 
