@@ -129,8 +129,8 @@
 		"oA": 0,
 		"oAP": "\/images\/barric.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -140,8 +140,8 @@
 		"oA": 0,
 		"oAP": "\/images\/barric_cropped.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -201,8 +201,8 @@
 		"oA": 0,
 		"oAP": "\/images\/header_full.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -225,7 +225,7 @@
 		"oAP": "\/images\/illustrations\/bomur_after.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/illustrations\/bomur_before.png": {
@@ -234,8 +234,8 @@
 		"oA": 0,
 		"oAP": "\/images\/illustrations\/bomur_before.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -256,8 +256,8 @@
 		"oA": 0,
 		"oAP": "\/images\/illustrations\/camp_before.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -280,7 +280,7 @@
 		"oAP": "\/images\/illustrations\/forest_after.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/illustrations\/forest_before.jpg": {
@@ -291,7 +291,7 @@
 		"oAP": "\/images\/illustrations\/forest_before.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/illustrations\/level.jpg": {
@@ -302,7 +302,7 @@
 		"oAP": "\/images\/illustrations\/level.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/illustrations\/machine.jpg": {
@@ -443,8 +443,8 @@
 		"oA": 0,
 		"oAP": "\/images\/illustrations\/scott9.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -478,7 +478,7 @@
 		"oAP": "\/images\/illustrations\/world3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/illustrations\/world4.jpg": {
@@ -489,7 +489,7 @@
 		"oAP": "\/images\/illustrations\/world4.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/illustrations\/world5.jpg": {
@@ -500,7 +500,7 @@
 		"oAP": "\/images\/illustrations\/world5.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/illustrations_small\/bomur_after.jpg": {
@@ -511,7 +511,7 @@
 		"oAP": "\/images\/illustrations_small\/bomur_after.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/illustrations_small\/bomur_before.png": {
@@ -566,7 +566,7 @@
 		"oAP": "\/images\/illustrations_small\/forest_after.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/illustrations_small\/forest_before.jpg": {
@@ -577,7 +577,7 @@
 		"oAP": "\/images\/illustrations_small\/forest_before.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/illustrations_small\/level.jpg": {
@@ -588,7 +588,7 @@
 		"oAP": "\/images\/illustrations_small\/level.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/illustrations_small\/machine.jpg": {
@@ -610,7 +610,7 @@
 		"oAP": "\/images\/illustrations_small\/scott1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/illustrations_small\/scott10.jpg": {
@@ -621,7 +621,7 @@
 		"oAP": "\/images\/illustrations_small\/scott10.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/illustrations_small\/scott11.png": {
@@ -630,8 +630,8 @@
 		"oA": 0,
 		"oAP": "\/images\/illustrations_small\/scott11.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -643,7 +643,7 @@
 		"oAP": "\/images\/illustrations_small\/scott12.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/illustrations_small\/scott2.jpg": {
@@ -665,7 +665,7 @@
 		"oAP": "\/images\/illustrations_small\/scott3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/illustrations_small\/scott4.jpg": {
@@ -687,7 +687,7 @@
 		"oAP": "\/images\/illustrations_small\/scott5.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/illustrations_small\/scott6.jpg": {
@@ -698,7 +698,7 @@
 		"oAP": "\/images\/illustrations_small\/scott6.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/illustrations_small\/scott7.jpg": {
@@ -709,7 +709,7 @@
 		"oAP": "\/images\/illustrations_small\/scott7.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/illustrations_small\/scott8.jpg": {
@@ -753,7 +753,7 @@
 		"oAP": "\/images\/illustrations_small\/world2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/illustrations_small\/world3.jpg": {
@@ -775,7 +775,7 @@
 		"oAP": "\/images\/illustrations_small\/world4.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/illustrations_small\/world5.jpg": {
@@ -786,7 +786,7 @@
 		"oAP": "\/images\/illustrations_small\/world5.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/intruder_original_web.mp4": {
@@ -805,7 +805,7 @@
 		},
 	"\/images\/Logo-256.png": {
 		"ft": 32768,
-		"iS": 78337,
+		"iS": 51825,
 		"oA": 0,
 		"oAP": "\/images\/Logo-256.png",
 		"oF": 0,
@@ -820,8 +820,8 @@
 		"oA": 0,
 		"oAP": "\/images\/Melee1Sprite.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -831,8 +831,8 @@
 		"oA": 0,
 		"oAP": "\/images\/music_feedback.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -844,7 +844,7 @@
 		"oAP": "\/images\/pathfinding.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/shield.mp4": {

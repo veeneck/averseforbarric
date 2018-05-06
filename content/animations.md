@@ -16,6 +16,8 @@ text
 
 section about isometric issues both in animation and in code (trebuchet projectile example code)
 
+bonus..type projectile to the scroll bar so people can go through frame by frame.
+
 #### Thanks, Liron
 
 thank you
