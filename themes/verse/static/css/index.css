@@ -377,7 +377,7 @@ ul.nav li a {
 .frameworks code {
   background-color: #251721; }
 
-@keyframes sprite {
+@keyframes melee1 {
   100% {
     background-position: -1640px; } }
 
@@ -386,5 +386,53 @@ ul.nav li a {
   background-repeat: no-repeat;
   width: 200px;
   height: 200px;
-  animation: sprite 0.7s steps(8) infinite;
+  animation: melee1 0.7s steps(8) infinite;
   display: block; }
+
+@keyframes crossbow {
+  100% {
+    background-position: -960px; } }
+
+.crossbow {
+  background-image: url(/images/Crossbow.png);
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 120px;
+  animation: crossbow 0.7s steps(8) infinite;
+  display: block; }
+
+@keyframes ryler {
+  100% {
+    background-position: -1782px; } }
+
+.ryler {
+  background-image: url(/images/Ryler.png);
+  background-repeat: no-repeat;
+  width: 223px;
+  height: 200px;
+  animation: ryler 0.7s steps(8) infinite;
+  display: block;
+  margin: 0px 50px; }
+
+@keyframes idiri {
+  100% {
+    background-position: -1230px; } }
+
+.idiri {
+  background-image: url(/images/Idiri.png);
+  background-repeat: no-repeat;
+  width: 136px;
+  height: 120px;
+  animation: idiri 0.7s steps(9) infinite;
+  display: block; }
+
+div.animationFavs {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px; }

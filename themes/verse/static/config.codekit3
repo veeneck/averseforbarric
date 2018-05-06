@@ -166,6 +166,17 @@
 		"oAP": "\/images\/combatupdate.mp4",
 		"oF": 0
 		},
+	"\/images\/Crossbow.png": {
+		"ft": 32768,
+		"iS": 343776,
+		"oA": 0,
+		"oAP": "\/images\/Crossbow.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/fire.mp4": {
 		"cB": 0,
 		"ft": 8192,
@@ -214,6 +225,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/Idiri.png": {
+		"ft": 32768,
+		"iS": 660047,
+		"oA": 0,
+		"oAP": "\/images\/Idiri.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -845,6 +867,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/images\/Ryler.png": {
+		"ft": 32768,
+		"iS": 1123798,
+		"oA": 0,
+		"oAP": "\/images\/Ryler.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/shield.mp4": {
