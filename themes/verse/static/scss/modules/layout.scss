@@ -84,6 +84,39 @@ a:hover {
     color: $blue
 }
 
+/*----------------------- Header Layout ------------------------------ */
+
+header {
+    background-image: url("/images/header_full.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1996px auto;
+    height: 711px;
+    background-color: $blue;
+}
+
+header.partial {
+    background-image: url("/images/header.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1996px auto;
+    height: 468px;
+    background-color: $blue;
+    text-align:center;
+}
+
+header img {
+    display: block;
+    margin: 0px auto 0px auto;
+    padding-top: 315px;
+}
+
+header.partial img {
+    padding:0px;
+    margin-left: -88px !important;
+    display: inline-block;
+}
+
 /*----------------------- Core Layout ------------------------------ */
 
 article {

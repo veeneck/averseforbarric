@@ -21,12 +21,12 @@
     .container {
       padding: 0px 10px; } }
 
-p.clear {
+p.clear, .framework, .squad .f {
   *zoom: 1; }
-  p.clear:before, p.clear:after {
+  p.clear:before, .framework:before, .squad .f:before, p.clear:after, .framework:after, .squad .f:after {
     content: " ";
     display: table; }
-  p.clear:after {
+  p.clear:after, .framework:after, .squad .f:after {
     clear: both; }
 
 /*----------------------- Links ------------------------------ */
@@ -195,12 +195,12 @@ code {
     .container {
       padding: 0px 10px; } }
 
-p.clear {
+p.clear, .framework, .squad .f {
   *zoom: 1; }
-  p.clear:before, p.clear:after {
+  p.clear:before, .framework:before, .squad .f:before, p.clear:after, .framework:after, .squad .f:after {
     content: " ";
     display: table; }
-  p.clear:after {
+  p.clear:after, .framework:after, .squad .f:after {
     clear: both; }
 
 /*----------------------- Links ------------------------------ */
@@ -300,3 +300,228 @@ ul.nav li a {
 .soundcloud {
   margin: 75px 0px 0px 15px;
   clear: both; }
+
+.my-gallery {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 10px; }
+
+.my-gallery figure {
+  margin: 5px; }
+
+.before-after {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 10px; }
+
+.before-after figure {
+  width: 50%;
+  margin: 25px 0px 0px 0px; }
+
+.before-after .quarter {
+  width: 25%; }
+
+.before-after .third {
+  width: 33%; }
+
+.before-after .last {
+  width: 100%;
+  margin-top: -10px; }
+
+.frameworks {
+  width: 100%;
+  margin-top: 40px; }
+
+.framework {
+  text-align: left;
+  width: 40%;
+  color: #fff;
+  float: left;
+  display: block;
+  padding-right: 30px; }
+
+.frameworks li {
+  color: #FFF; }
+
+.framework a {
+  margin-top: 30px;
+  font-size: 80%; }
+
+.framework b {
+  font-size: 110%;
+  padding: 10px 0px; }
+
+.framework span {
+  text-decoration: none !important;
+  color: #FFFFFF;
+  font-size: 90%;
+  display: block; }
+
+.frameworks pre {
+  margin-left: 10px;
+  margin-top: 0px;
+  padding: 0px 0px 0px 15px;
+  width: 100%; }
+
+.frameworks code {
+  background-color: #251721; }
+
+@keyframes melee1 {
+  100% {
+    background-position: -512px; } }
+
+.melee1 {
+  background-image: url(/images/Melee1Sprite.png);
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  animation: melee1 0.7s steps(8) infinite;
+  display: block; }
+
+@keyframes cat {
+  100% {
+    background-position: -768px; } }
+
+.cat {
+  background-image: url(/images/Cat.png);
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 58px;
+  animation: cat 0.7s steps(16) infinite;
+  display: block; }
+
+@keyframes rhino {
+  100% {
+    background-position: -1078px; } }
+
+.rhino {
+  background-image: url(/images/Rhino.png);
+  background-repeat: no-repeat;
+  width: 137px;
+  height: 200px;
+  animation: rhino 0.7s steps(8) infinite;
+  display: block;
+  margin: 0px 100px; }
+
+@keyframes spearmen {
+  100% {
+    background-position: -1261px; } }
+
+.spearmen {
+  background-image: url(/images/Spearmen.png);
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 120px;
+  animation: spearmen 0.7s steps(8) infinite;
+  display: block;
+  margin-bottom: -45px; }
+
+@keyframes trebuchet {
+  100% {
+    background-position: -1774px; } }
+
+.trebuchet {
+  background-image: url(/images/Trebuchet.png);
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 200px;
+  animation: trebuchet 0.7s steps(12) infinite;
+  display: block; }
+
+.idiriMargin {
+  margin-right: 75px;
+  margin-left: -75px; }
+
+.squad {
+  margin: 30px 30px 30px 0px;
+  float: right; }
+
+.squad .a {
+  float: left;
+  margin-top: 64px; }
+
+.squad .b {
+  margin-top: 32px;
+  margin-left: -32px;
+  float: left; }
+
+.squad .c {
+  float: left;
+  margin-left: -32px; }
+
+.squad .d {
+  float: left;
+  margin-top: 16px;
+  margin-left: -16px; }
+
+.squad .e {
+  float: left;
+  margin-top: 48px;
+  margin-left: -96px; }
+
+.squad .f {
+  float: left;
+  margin-top: 82px;
+  margin-left: -128px; }
+
+@keyframes crossbow {
+  100% {
+    background-position: -960px; } }
+
+.crossbow {
+  background-image: url(/images/Crossbow.png);
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 120px;
+  animation: crossbow 0.7s steps(8) infinite;
+  display: block; }
+
+@keyframes ryler {
+  100% {
+    background-position: -1782px; } }
+
+.ryler {
+  background-image: url(/images/Ryler.png);
+  background-repeat: no-repeat;
+  width: 223px;
+  height: 200px;
+  animation: ryler 0.7s steps(8) infinite;
+  display: block;
+  margin: 0px 50px; }
+
+@keyframes idiri {
+  100% {
+    background-position: -1230px; } }
+
+.idiri {
+  background-image: url(/images/Idiri.png);
+  background-repeat: no-repeat;
+  width: 136px;
+  height: 120px;
+  animation: idiri 0.7s steps(9) infinite;
+  display: block; }
+
+div.animationFavs {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px; }
+
+.animationFavs.secondRow {
+  margin-top: -20px; }

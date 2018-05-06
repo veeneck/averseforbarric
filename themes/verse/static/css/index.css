@@ -36,6 +36,34 @@ a {
 a:hover {
   color: #BCDCC4; }
 
+/*----------------------- Header Layout ------------------------------ */
+header {
+  background-image: url("/images/header_full.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1996px auto;
+  height: 711px;
+  background-color: #BCDCC4; }
+
+header.partial {
+  background-image: url("/images/header.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1996px auto;
+  height: 468px;
+  background-color: #BCDCC4;
+  text-align: center; }
+
+header img {
+  display: block;
+  margin: 0px auto 0px auto;
+  padding-top: 315px; }
+
+header.partial img {
+  padding: 0px;
+  margin-left: -88px !important;
+  display: inline-block; }
+
 /*----------------------- Core Layout ------------------------------ */
 article {
   max-width: 1080px;
@@ -210,6 +238,34 @@ a {
 a:hover {
   color: #BCDCC4; }
 
+/*----------------------- Header Layout ------------------------------ */
+header {
+  background-image: url("/images/header_full.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1996px auto;
+  height: 711px;
+  background-color: #BCDCC4; }
+
+header.partial {
+  background-image: url("/images/header.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1996px auto;
+  height: 468px;
+  background-color: #BCDCC4;
+  text-align: center; }
+
+header img {
+  display: block;
+  margin: 0px auto 0px auto;
+  padding-top: 315px; }
+
+header.partial img {
+  padding: 0px;
+  margin-left: -88px !important;
+  display: inline-block; }
+
 /*----------------------- Core Layout ------------------------------ */
 article {
   max-width: 1080px;
@@ -235,19 +291,6 @@ body {
   margin: 0 auto;
   padding: 0px;
   background-color: #2F1D29; }
-
-header {
-  background-image: url("/images/header_full.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 1996px auto;
-  height: 711px;
-  background-color: #BCDCC4; }
-
-header img {
-  display: block;
-  margin: 0px auto 0px auto;
-  padding-top: 315px; }
 
 /*----------------------- Game Description ------------------------------ */
 .desc {

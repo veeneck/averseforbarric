@@ -11,13 +11,40 @@
     
     
     <item>
+      <title></title>
+      <link>/particleboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/particleboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Animations</title>
+      <link>/animations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/animations/</guid>
+      <description>I began working with Liron Peer in late 2014 on character animations. Of all the specialties, finding an animator who could work on isometric material was the biggest challenge. I spent over $1,000 on trial runs through various animators with no luck. Once I found Liron and she nailed her first attempt, we jumped straight in to the entire contract. In total, she produced over 1,000 hand drawn frames. Here are a few of them:</description>
+    </item>
+    
+    <item>
+      <title>Code</title>
+      <link>/code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code/</guid>
+      <description>To date, this game has 38,378 lines of Swift code. There have been countless hours invested in art, story, design, animation and brainstorming, but code makes all of this tick. Behind the scenes, SpriteKit and GameplayKit power a vast majority of the engine. This section provides a look at some of the custom frameworks that had to be developed along with tricky problems that had to be solved.
+The Frameworks CutsceneKit Helps develop chat overlays with custom timing and movement.</description>
+    </item>
+    
+    <item>
       <title>Illustrations</title>
       <link>/illustrations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/illustrations/</guid>
-      <description> text
-Thanks, Scott </description>
+      <description>Scott Pellico was a godsend for this project. After a few trial runs with other artists, I was having trouble establishing an art direction. My brother, Chris, found Scott for his project. Since Chris didn&amp;rsquo;t need Scott full time, Scott agreed to split his work between the two of us. He worked on the project part time for nearly a year starting in 2014. Before getting into specific contributions, here is a gallery of some of my favorite Scott creations.</description>
     </item>
     
     <item>
@@ -46,6 +73,15 @@ Thanks, Scott </description>
       <guid>/soundtrack/</guid>
       <description>Tony Manfredonia reached out to me in January 2015, and we did a brief trial. It went so smoothly that I gladly had him work on the entire soundtrack. In the end, he crafted over 30 minutes of unique content tailored to very specific aspects of the game. Below is a sample of the types of music he made along with the in game considerations.
  Main Menu I have listened to this piece thousands of times because it always loads when I&amp;rsquo;m testing, and it still hasn&amp;rsquo;t gotten old.</description>
+    </item>
+    
+    <item>
+      <title>The Game</title>
+      <link>/thegame/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/thegame/</guid>
+      <description>I&amp;rsquo;ve gathered every decision about the game such as character appearances, strengths, dialogue, levels, and so on in a wiki like structure found on this page. Each features implementation status is noted. Having all of this written down and organized removes a barrier to entry for development &amp;ndash; I don&amp;rsquo;t have to remember where I left off.</description>
     </item>
     
   </channel>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <title>A Verse for Barric</title>
+
+    
+    <link rel="stylesheet" href="/css/photoswipe.css">
+    
+    <link rel="stylesheet" href="/css/default-skin.css">
+    
+    <script src="/js/photoswipe.min.js"></script>
+    
+    <script src="/js/photoswipe-ui-default.min.js"></script>
+
+    
+    <link rel="stylesheet" href="/css/index.css">
+
+    
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="/js/index-min.js"></script>
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css">
+      <script src="/js/highlight.pack.js"></script>
+
+    
+
+    
+
+    
+
+</head>
+<header>
+    <img src="/images/hero_video.png" width="550" />
+</header>
+<section>
+    <h2 class="desc">A sorrowful tale set in a hand-crafted world <b>where tower defense meets real time tactics.</b></h2>
+    </div>
+    <ul class="nav">
+        <li><a href="/thegame">T<span>HE</span> G<span>AME</span></a> <span class="space">&middot;</span></li>
+        <li><a href="/motion">M<span>otion</span> G<span>raphics</span></a> <span class="space">&middot;</span></li>
+        <li><a href="/illustrations">I<span>llustrations</span></a> <span class="space">&middot;</span></li>
+        <li><a href="/animations">A<span>nimations</span></a> <span class="space">&middot;</span></li>
+        <li><a href="/soundtrack">S<span>oundtrack</span></a> <span class="space">&middot;</span></li>
+        <li><a href="/code">C<span>ode</span></a></li>
+    </ul>
+</section>
+  <body class="">
+  	
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <article>
+  <h3>Code</h3>
+  
+
+<p>To date, this game has 38,378 lines of Swift code. There have been countless hours invested in art, story, design, animation and brainstorming, but code makes all of this tick. Behind the scenes, <a href="https://developer.apple.com/documentation/spritekit">SpriteKit</a> and <a href="https://developer.apple.com/documentation/gameplaykit">GameplayKit</a> power a vast majority of the engine. This section provides a look at some of the custom frameworks that had to be developed along with tricky problems that had to be solved.</p>
+
+<h4 id="the-frameworks">The Frameworks</h4>
+
+<div class="frameworks">
+
+    <div class="framework">
+        <b>CutsceneKit</b>
+        <span>Helps develop chat overlays with custom timing and movement.</span>
+        <a href="">View Documentation</a>
+    </div>
+
+<pre><code class="swift">self.entity.ui?.cutscene?.addSequences(sequences: [
+    self.bringSpeakersIntoView(),
+    self.stouWarnsUnderAttack(),
+    self.delayForTime(time: 4),
+    self.barricOffersHisTroops(),
+    self.panCameraForFight(),
+    self.takeSpeakersOutOfView()
+])
+</code></pre>
+<div class="framework">
+    <b>SwitchBoard</b>
+    <span>Advanced scene management for SpriteKit.</span>
+    <a href="">View Documentation</a>
+</div>
+
+<pre><code class="swift">sceneManager.registerScene(
+    key: "Decisions", 
+    scene: SBSceneContainer(
+        classType: Decisions.self,
+        name: "Decisions",
+        transition: nil,
+        preloadable: true,
+        category: SBSceneContainer.SceneGroup.Main,
+        atlases: ["Decisions", "Interface"]))
+</code></pre>
+<div class="framework">
+    <b>FormationKit</b>
+    <span>The heart and soul. Handles all unit and squad behaviors.</span>
+    <a href="">View Documentation</a>
+</div>
+<pre><code>let squad = FKSquadFactory.sharedInstance.createSquad(
+    FKSquadFactory.FKSquadConstruction(
+        name:name,
+        position: CGPoint(x: 200, y:1300),
+        heading: 3.2,
+        currentUnits: 12,
+        maxUnits: 16,
+        controller: .Player,
+        columns: 4,
+        spacing: 32,
+        pathfinderDelegate: navHandler,
+        herladryDelegate: heraldryHandler
+    ))
+</code></pre>
+<div class="framework">
+    <b>DeckKit</b>
+    <span>UI framework to dynamically build the card menus.</span>
+    <a href="">View Documentation</a>
+</div>
+
+<pre><code>let construction = DKCardFactory.Blueprint(
+    palette: .GreyPalette,
+    card: .DefaultBG,
+    shape: .DefaultMask,
+    pattern: .SmallDiamond,
+    anchor: .Left,
+    headerFile: "",
+    headerText: "Settings",
+    close: true
+)
+</code></pre>
+<div class="framework">
+    <b>PathKit</b>
+    <span>Expand upon the pathfinding provided by GameplayKit.</span>
+    <a href="">View Documentation</a>
+</div>
+
+<pre><code>if let pathfinder = entity.navigationComponent.strategy {
+    return pathfinder.getPathToPoint(
+        self.entity.agent.actualPosition, 
+        end: end, 
+        unitRadius:radius, 
+        pathRadius:0)
+}
+</code></pre>
+
+<p>Other frameworks include:</p>
+
+<ul>
+<li><a href="http://google.com">Particleboard</a>: Convenience features and extensions to common objects.</li>
+<li><a href="http://google.com">StrongRoom</a>: Utility to manage save gave files, unit experience, and unclocked abilities.</li>
+<li><a href="http://google.com">WavePool</a>: Control continuous spawns of enemy units.</li>
+<li><a href="http://google.com">WarGUI</a>: Isolated code specific to the heads up display.</li>
+<li><a href="http://google.com">SpeakerBox</a>: A sub framework of CutsceneKit to handle the <em>podium</em> that display units icons.</li>
+</ul>
+
+<h4 id="pathfinding">Pathfinding</h4>
+
+<p>Picture of pathifinding</p>
+
+<p><img src="/images/pathfinding.jpg" width="100%" /></p>
+
+<p>Read more into it here: <a href="http://battleofbrothers.com/sirryan/a-month-of-pathfinding">http://battleofbrothers.com/sirryan/a-month-of-pathfinding</a> which covers situations like an individual unit is lost and needs to catch up, or a squad turns around right near a cliff. Also documents the types of spritekit bugs i ran into.</p>
+
+<h4 id="live-debugging">Live Debugging</h4>
+
+<p>Piggybacking off of the pathfinding debug overlay, it became difficult to know why squads were doing what they were doing, so I created a debug overlay.</p>
+
+<p>This also translated to custom logs which print out a units AI decisions.</p>
+
+<p>Pic of unit overlay.</p>
+
+<p>Pic of logs &amp; particleboard log code.</p>
+
+<p><img src="/images/AI.png" width="500" /></p>
+
+<h4 id="never-ending">Never Ending</h4>
+
+<p>Constant refactors. FOmrationKit has gone thorugh 3 iterations. memory battles. cpu battles. Scene editor vs code in XCode. Started with swift version 1, major refacotrs throughout.</p>
+
+</article>
+
+    
+  </body>
+</html>

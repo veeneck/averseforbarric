@@ -1,0 +1,551 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/CGFloat+Extensions.swift",
+      "line": 91,
+      "symbol": "CGFloat.cleanValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/CGPath+Extensions.swift",
+      "line": 13,
+      "symbol": "CGPath.lineToPoint(start:end:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/CGPath+Extensions.swift",
+      "line": 20,
+      "symbol": "CGPath.arcToPoint(start:end:next:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/CGPath+Extensions.swift",
+      "line": 46,
+      "symbol": "CGPath.evenCurveToPoint(start:end:lift:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/CGPath+Extensions.swift",
+      "line": 73,
+      "symbol": "CGPath.pathFromPoints(points:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/CGRect+Extensions.swift",
+      "line": 88,
+      "symbol": "CGRectSide.Bottom",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/CGRect+Extensions.swift",
+      "line": 88,
+      "symbol": "CGRectSide.Left",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/CGRect+Extensions.swift",
+      "line": 88,
+      "symbol": "CGRectSide.Right",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/CGRect+Extensions.swift",
+      "line": 88,
+      "symbol": "CGRectSide.Top",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 25,
+      "symbol": "dub(num:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 28,
+      "symbol": "sinFloat(num:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 32,
+      "symbol": "LinearInterpolation(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 38,
+      "symbol": "QuadraticEaseIn(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 44,
+      "symbol": "QuadraticEaseOut(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 52,
+      "symbol": "QuadraticEaseInOut(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 65,
+      "symbol": "CubicEaseIn(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 71,
+      "symbol": "CubicEaseOut(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 80,
+      "symbol": "CubicEaseInOut(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 94,
+      "symbol": "QuarticEaseIn(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 100,
+      "symbol": "QuarticEaseOut(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 109,
+      "symbol": "QuarticEaseInOut(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 123,
+      "symbol": "QuinticEaseIn(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 129,
+      "symbol": "QuinticEaseOut(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 138,
+      "symbol": "QuinticEaseInOut(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 152,
+      "symbol": "SineEaseIn(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 158,
+      "symbol": "SineEaseOut(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 164,
+      "symbol": "SineEaseInOut(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 170,
+      "symbol": "CircularEaseIn(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 176,
+      "symbol": "CircularEaseOut(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 184,
+      "symbol": "CircularEaseInOut(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 197,
+      "symbol": "ExponentialEaseIn(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 203,
+      "symbol": "ExponentialEaseOut(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 211,
+      "symbol": "ExponentialEaseInOut(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 226,
+      "symbol": "ElasticEaseIn(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 232,
+      "symbol": "ElasticEaseOut(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 240,
+      "symbol": "ElasticEaseInOut(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 253,
+      "symbol": "BackEaseIn(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 259,
+      "symbol": "BackEaseOut(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 268,
+      "symbol": "BackEaseInOut(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 282,
+      "symbol": "BounceEaseIn(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 287,
+      "symbol": "BounceEaseOut(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 307,
+      "symbol": "BounceEaseInOut(p:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Easing.swift",
+      "line": 332,
+      "symbol": "pointInCubicCurve(p0:p1:p2:p3:T:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Graphics.swift",
+      "line": 11,
+      "symbol": "UIUserInterfaceIdiom",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Graphics.swift",
+      "line": 18,
+      "symbol": "Graphics",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Logging.swift",
+      "line": 9,
+      "symbol": "LogLevel",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Logging.swift",
+      "line": 26,
+      "symbol": "CodePackage.AI",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Logging.swift",
+      "line": 26,
+      "symbol": "CodePackage.Barric",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Logging.swift",
+      "line": 26,
+      "symbol": "CodePackage.DeckKit",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Logging.swift",
+      "line": 26,
+      "symbol": "CodePackage.FormationKit",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Logging.swift",
+      "line": 26,
+      "symbol": "CodePackage.Particleboard",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Logging.swift",
+      "line": 26,
+      "symbol": "CodePackage.PathKit",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Logging.swift",
+      "line": 26,
+      "symbol": "CodePackage.SwitchBoard",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Logging.swift",
+      "line": 26,
+      "symbol": "CodePackage.WarGUI",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Logging.swift",
+      "line": 43,
+      "symbol": "logged(_:file:level:newline:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/MultiLineLabel.swift",
+      "line": 16,
+      "symbol": "SKMultilineLabel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/PBIsometricNode.swift",
+      "line": 11,
+      "symbol": "PBIsometricNode",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/PBIsometricSprite.swift",
+      "line": 11,
+      "symbol": "PBIsometricSprite",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/PBIsometricSprite.swift",
+      "line": 21,
+      "symbol": "PBIsometricEmitter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/PBMusic.swift",
+      "line": 86,
+      "symbol": "PBMusic.changeVolumeByIncrement(increment:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/PBMusic.swift",
+      "line": 113,
+      "symbol": "PBMusic.fadeOut(delay:increment:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/PBSound.swift",
+      "line": 29,
+      "symbol": "PBSound.SoundGrouping.fileName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/PBSound.swift",
+      "line": 31,
+      "symbol": "PBSound.SoundGrouping.fileType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/PBSound.swift",
+      "line": 33,
+      "symbol": "PBSound.SoundGrouping.filePrefix",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/PBSound.swift",
+      "line": 35,
+      "symbol": "PBSound.SoundGrouping.count",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/PBSound.swift",
+      "line": 37,
+      "symbol": "PBSound.SoundGrouping.frequency",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/PBSound.swift",
+      "line": 39,
+      "symbol": "PBSound.SoundGrouping.volumeModifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/PBSound.swift",
+      "line": 41,
+      "symbol": "PBSound.SoundGrouping.lastPlayed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/PBSound.swift",
+      "line": 54,
+      "symbol": "PBSound.SoundGrouping.updateLastPlayed(newIndex:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/PBSound.swift",
+      "line": 58,
+      "symbol": "PBSound.SoundGrouping.updateCurrentlyPlaying(adjustment:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/PBSound.swift",
+      "line": 277,
+      "symbol": "PBSound.audioPlayerDecodeErrorDidOccur(_:error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/SKCameraNode+Extensions.swift",
+      "line": 16,
+      "symbol": "GLOBAL_PARALLAX_BACKGROUND",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/SKCameraNode+Extensions.swift",
+      "line": 25,
+      "symbol": "SKCameraNode.shake(duration:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/SKCameraNode+Extensions.swift",
+      "line": 44,
+      "symbol": "SKCameraNode.position",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/Time.swift",
+      "line": 11,
+      "symbol": "Time",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/ZPosition.swift",
+      "line": 11,
+      "symbol": "PositionCategory",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/ZPosition.swift",
+      "line": 15,
+      "symbol": "ZPosition",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/Particleboard/Particleboard/float2+Extensions.swift",
+      "line": 26,
+      "symbol": "float2.init(angle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ryancampbell/Documents/Games/Particleboard"
+}
