@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <title>A Verse for Barric : PKAtlas Class Reference</title>
+
+    <!-- PhotoSwipe -->
+    <link rel="stylesheet" href="/css/photoswipe.css">
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite, 
+     - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="/css/default-skin.css">
+    <!-- Core JS file -->
+    <script src="/js/photoswipe.min.js"></script>
+    <!-- UI JS file -->
+    <script src="/js/photoswipe-ui-default.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+
+    <!-- JS -->
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="/js/index-min.js"></script>
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css">
+      <script src="/js/highlight.pack.js"></script>
+    <script src="../js/jazzy.js" defer></script>
+
+    <!-- Fonts -->
+
+    <!-- Icons -->
+
+    <!-- RSS -->
+    
+</head>
+  <body class="docs">
+    <a name="//apple_ref/swift/Class/PKAtlas" class="dashAnchor"></a>
+    <a title="PKAtlas Class Reference"></a>
+    <header class="partial">
+    	<img src="/images/barric_cropped.png" />
+    </header>
+    
+    <section>
+        <ul class="nav">
+            <li><a href="/thegame">T<span>HE</span> G<span>AME</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/motion">M<span>otion</span> G<span>raphics</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/illustrations">I<span>llustrations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/animations">A<span>nimations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/soundtrack">S<span>oundtrack</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/code">C<span>ode</span></a></li>
+        </ul>
+    </section>    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">PathKit </a>
+        &#8594;
+        PKAtlas 
+      </p>
+      <p class="coverage"></p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/PKAtlas.html">PKAtlas</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:7PathKit12PKDepthGraphC">PKDepthGraph</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKNavmesh.html">PKNavmesh</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:7PathKit15PKAtlasProtocolP">PKAtlasProtocol</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h4>PKAtlas</h4>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">PKAtlas</span></code></pre>
+
+                </div>
+              </div>
+            <p>A collection of navmeshes. Could further be expendanded to handle qudrants, different terrain types, and so on. Goal is to be main entry point for pathfinding requests.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:7PathKit7PKAtlasC6addMapySf12bufferRadius_tF"></a>
+                    <a name="//apple_ref/swift/Method/addMap(bufferRadius:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7PathKit7PKAtlasC6addMapySf12bufferRadius_tF">addMap(bufferRadius:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>After initialization, the user of this class is expected to call this function and add various maps depending on how many buffer sizes they need.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addMap</span><span class="p">(</span><span class="nv">bufferRadius</span><span class="p">:</span> <span class="kt">Float</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:7PathKit7PKAtlasC04findA0So6GKPathC4path_SaySo13GKGraphNode2DCG5nodesSf0F4SizetSgSC7CGPointV5start_AO3endSf10unitRadiusSf0fO0tF"></a>
+                    <a name="//apple_ref/swift/Method/findPath(start:end:unitRadius:pathRadius:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7PathKit7PKAtlasC04findA0So6GKPathC4path_SaySo13GKGraphNode2DCG5nodesSf0F4SizetSgSC7CGPointV5start_AO3endSf10unitRadiusSf0fO0tF">findPath(start:end:unitRadius:pathRadius:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Find path on appropriate map.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">findPath</span><span class="p">(</span><span class="nv">start</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">,</span> <span class="nv">end</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">,</span> <span class="nv">unitRadius</span><span class="p">:</span> <span class="kt">Float</span><span class="p">,</span> <span class="nv">pathRadius</span><span class="p">:</span> <span class="kt">Float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="nv">path</span><span class="p">:</span> <span class="kt">GKPath</span><span class="p">,</span> <span class="nv">nodes</span><span class="p">:</span> <span class="p">[</span><span class="kt">GKGraphNode2D</span><span class="p">],</span> <span class="nv">pathSize</span><span class="p">:</span> <span class="kt">Float</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:7PathKit7PKAtlasC12pointIsValidSb4simd6float2VF"></a>
+                    <a name="//apple_ref/swift/Method/pointIsValid(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7PathKit7PKAtlasC12pointIsValidSb4simd6float2VF">pointIsValid(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Because all maps contain the same obstacle graph, we can check against any map to see if the point is valid
+So, just grab the first map in the dictionary</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">pointIsValid</span><span class="p">(</span><span class="n">_</span> <span class="nv">point</span><span class="p">:</span> <span class="n">float2</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://battleofbrothers.com" target="_blank" rel="external">Ryan Campbell</a>. All rights reserved. (Last updated: 2018-05-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

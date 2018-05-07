@@ -1,0 +1,3197 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/Flags.swift",
+      "line": 11,
+      "symbol": "DebugFlags",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/Flags.swift",
+      "line": 37,
+      "symbol": "WorldPerformance",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/Flags.swift",
+      "line": 44,
+      "symbol": "CombatPerformance",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/Flags.swift",
+      "line": 57,
+      "symbol": "AIPerformance",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/Flags.swift",
+      "line": 64,
+      "symbol": "MovementSettings",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/Flags.swift",
+      "line": 80,
+      "symbol": "executionTimeInterval(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 119,
+      "symbol": "Ability.Behavior.AoE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 119,
+      "symbol": "Ability.Behavior.Halt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 119,
+      "symbol": "Ability.Behavior.Instant",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 119,
+      "symbol": "Ability.Behavior.Melee",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 119,
+      "symbol": "Ability.Behavior.Move",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 119,
+      "symbol": "Ability.Behavior.Passive",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 119,
+      "symbol": "Ability.Behavior.Ranged",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 119,
+      "symbol": "Ability.Behavior.Spell",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 131,
+      "symbol": "Ability.Specialty.Casting",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 131,
+      "symbol": "Ability.Specialty.Lunge",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 148,
+      "symbol": "Ability.Validation.Engaged",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 148,
+      "symbol": "Ability.Validation.Engaging",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 148,
+      "symbol": "Ability.Validation.EngagingTargetRange",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 148,
+      "symbol": "Ability.Validation.InCombat",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 148,
+      "symbol": "Ability.Validation.Moving",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 148,
+      "symbol": "Ability.Validation.NotInCombat",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 148,
+      "symbol": "Ability.Validation.NotMoving",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 148,
+      "symbol": "Ability.Validation.TargetInCombat",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 148,
+      "symbol": "Ability.Validation.TargetNotInCombat",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 155,
+      "symbol": "Ability.ValidationData.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 157,
+      "symbol": "Ability.ValidationData.range",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 159,
+      "symbol": "Ability.ValidationData.init(type:range:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 177,
+      "symbol": "Ability.Targeting.Anyone",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 177,
+      "symbol": "Ability.Targeting.Enemy",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 177,
+      "symbol": "Ability.Targeting.Friendly",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 177,
+      "symbol": "Ability.Targeting.Myself",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 194,
+      "symbol": "Ability.SoundMark.Acknowledged",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 194,
+      "symbol": "Ability.SoundMark.AnimationTriggerPoint",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 194,
+      "symbol": "Ability.SoundMark.Fail",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 194,
+      "symbol": "Ability.SoundMark.PreAnimation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 194,
+      "symbol": "Ability.SoundMark.Success",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 194,
+      "symbol": "Ability.SoundMark.Triggered",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Ability.swift",
+      "line": 409,
+      "symbol": "Ability.description()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/AoE.swift",
+      "line": 16,
+      "symbol": "AoE",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Arrow.swift",
+      "line": 16,
+      "symbol": "Arrow",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Boulder.swift",
+      "line": 17,
+      "symbol": "Boulder",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/CommandFactory.swift",
+      "line": 120,
+      "symbol": "CommandFactory.validateMelee(_:ability:instructions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/CommandFactory.swift",
+      "line": 126,
+      "symbol": "CommandFactory.validateRanged(_:ability:instructions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/CommandFactory.swift",
+      "line": 138,
+      "symbol": "CommandFactory.validateLineOfSight(_:ability:instructions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/CommandFactory.swift",
+      "line": 183,
+      "symbol": "CommandFactory.validateSpell(_:ability:instructions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/CommandFactory.swift",
+      "line": 225,
+      "symbol": "CommandFactory.validateTarget(_:ability:instructions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/CommandFactory.swift",
+      "line": 402,
+      "symbol": "CommandFactory.targetIsNotInCombat(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/DistanceToTargetRule.swift",
+      "line": 23,
+      "symbol": "DistanceToTargetRule.grade()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/DistanceToTargetRule.swift",
+      "line": 50,
+      "symbol": "DistanceToTargetRule.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/EngagedWithFriendRule.swift",
+      "line": 18,
+      "symbol": "EngagedWithFriendRule.grade()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/EngagedWithFriendRule.swift",
+      "line": 59,
+      "symbol": "EngagedWithFriendRule.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAIComponent.swift",
+      "line": 21,
+      "symbol": "FKAIComponent",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAbilitiesComponent.swift",
+      "line": 39,
+      "symbol": "FKAbilitiesComponent.ActiveAbility.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAbilitiesComponent.swift",
+      "line": 41,
+      "symbol": "FKAbilitiesComponent.ActiveAbility.ability",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAbilitiesComponent.swift",
+      "line": 43,
+      "symbol": "FKAbilitiesComponent.ActiveAbility.actionBarPosition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAbilitiesComponent.swift",
+      "line": 45,
+      "symbol": "FKAbilitiesComponent.ActiveAbility.actionBarPriority",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAbilitiesComponent.swift",
+      "line": 47,
+      "symbol": "FKAbilitiesComponent.ActiveAbility.category",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAbilitiesComponent.swift",
+      "line": 49,
+      "symbol": "FKAbilitiesComponent.ActiveAbility.init(name:ability:actionBarPosition:actionBarPriority:category:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAbilitiesComponent.swift",
+      "line": 168,
+      "symbol": "FKAbilitiesComponent.processHaltAbility()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAbilitiesComponent.swift",
+      "line": 179,
+      "symbol": "FKAbilitiesComponent.processPurifyAbility()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAbilitiesComponent.swift",
+      "line": 187,
+      "symbol": "FKAbilitiesComponent.getAbilityWithName(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAbilitiesComponent.swift",
+      "line": 231,
+      "symbol": "FKAbilitiesComponent.getModifiers(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAbilitiesService.swift",
+      "line": 60,
+      "symbol": "FKAbilitiesService.sharedInstance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAbilitiesService.swift",
+      "line": 62,
+      "symbol": "FKAbilitiesService.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAbilitiesService.swift",
+      "line": 316,
+      "symbol": "FKAbilitiesService.adjustModifierBasedOnWorldState(ability:modifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAbilitiesService.swift",
+      "line": 370,
+      "symbol": "FKAbilitiesService.adjustModifierByPassiveAbilities(ability:modifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAgendaFactory.swift",
+      "line": 43,
+      "symbol": "FKAgendaFactory.sharedInstance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAgendaFactory.swift",
+      "line": 45,
+      "symbol": "FKAgendaFactory.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAgendaFactory.swift",
+      "line": 49,
+      "symbol": "FKAgendaFactory.createAgenda(with:target:archetype:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAgendaFactory.swift",
+      "line": 73,
+      "symbol": "FKAgendaFactory.obstacleInterferenceCheckRequired(squad:enemy:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAgonySpell.swift",
+      "line": 16,
+      "symbol": "FKAgonySpell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAnimationComponent.swift",
+      "line": 102,
+      "symbol": "FKAnimationComponent.Animation.textures",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAnimationComponent.swift",
+      "line": 104,
+      "symbol": "FKAnimationComponent.Animation.rightAnchor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAnimationComponent.swift",
+      "line": 106,
+      "symbol": "FKAnimationComponent.Animation.leftAnchor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAnimationComponent.swift",
+      "line": 108,
+      "symbol": "FKAnimationComponent.Animation.speed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAnimationComponent.swift",
+      "line": 110,
+      "symbol": "FKAnimationComponent.Animation.shouldRepeat",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAnimationComponent.swift",
+      "line": 132,
+      "symbol": "FKAnimationComponent.AnimationState.attackBack",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAnimationComponent.swift",
+      "line": 132,
+      "symbol": "FKAnimationComponent.AnimationState.attackFront",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAnimationComponent.swift",
+      "line": 132,
+      "symbol": "FKAnimationComponent.AnimationState.death",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAnimationComponent.swift",
+      "line": 132,
+      "symbol": "FKAnimationComponent.AnimationState.getHit",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAnimationComponent.swift",
+      "line": 132,
+      "symbol": "FKAnimationComponent.AnimationState.idleBack",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAnimationComponent.swift",
+      "line": 132,
+      "symbol": "FKAnimationComponent.AnimationState.idleFront",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAnimationComponent.swift",
+      "line": 132,
+      "symbol": "FKAnimationComponent.AnimationState.special1Back",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAnimationComponent.swift",
+      "line": 132,
+      "symbol": "FKAnimationComponent.AnimationState.special1Front",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAnimationComponent.swift",
+      "line": 132,
+      "symbol": "FKAnimationComponent.AnimationState.walkBack",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAnimationComponent.swift",
+      "line": 132,
+      "symbol": "FKAnimationComponent.AnimationState.walkFront",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAnimationComponent.swift",
+      "line": 134,
+      "symbol": "FKAnimationComponent.AnimationState.key",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttackComponent.swift",
+      "line": 22,
+      "symbol": "FKAttackComponent.currentAttack",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttackComponent.swift",
+      "line": 24,
+      "symbol": "FKAttackComponent.lastAttackTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttackComponent.swift",
+      "line": 26,
+      "symbol": "FKAttackComponent.justDoubleAttacked",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttackComponent.swift",
+      "line": 28,
+      "symbol": "FKAttackComponent.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttackComponent.swift",
+      "line": 33,
+      "symbol": "FKAttackComponent.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttackComponent.swift",
+      "line": 66,
+      "symbol": "FKAttackComponent.rewindLastAttackTime()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttackComponent.swift",
+      "line": 125,
+      "symbol": "FKAttackComponent.playSoundAt(_:mark:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttackComponent.swift",
+      "line": 137,
+      "symbol": "FKAttackComponent.shootProjectile(_:target:ability:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttackComponent.swift",
+      "line": 173,
+      "symbol": "FKAttackComponent.delayBetweenAttack(attack:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttackComponent.swift",
+      "line": 187,
+      "symbol": "FKAttackComponent.shouldDoubleAttack(attack:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttackComponent.swift",
+      "line": 210,
+      "symbol": "FKAttackComponent.getAttackAnimationDuration()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttackingState.swift",
+      "line": 17,
+      "symbol": "FKAttackingState.entity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttackingState.swift",
+      "line": 19,
+      "symbol": "FKAttackingState.elapsedTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttackingState.swift",
+      "line": 23,
+      "symbol": "FKAttackingState.init(entity:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttackingState.swift",
+      "line": 29,
+      "symbol": "FKAttackingState.didEnter(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttackingState.swift",
+      "line": 41,
+      "symbol": "FKAttackingState.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttackingState.swift",
+      "line": 95,
+      "symbol": "FKAttackingState.withinStrikingDistanceToExistingTarget()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttackingState.swift",
+      "line": 104,
+      "symbol": "FKAttackingState.willExit(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttackingState.swift",
+      "line": 109,
+      "symbol": "FKAttackingState.disengageCurrentTarget()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttackingState.swift",
+      "line": 116,
+      "symbol": "FKAttackingState.isValidNextState(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttributesComponent.swift",
+      "line": 28,
+      "symbol": "FKAttributesComponent.Attribute.Agility",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttributesComponent.swift",
+      "line": 28,
+      "symbol": "FKAttributesComponent.Attribute.AttackSpeed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttributesComponent.swift",
+      "line": 28,
+      "symbol": "FKAttributesComponent.Attribute.Base",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttributesComponent.swift",
+      "line": 28,
+      "symbol": "FKAttributesComponent.Attribute.DoubleAttack",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttributesComponent.swift",
+      "line": 28,
+      "symbol": "FKAttributesComponent.Attribute.Fortitude",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttributesComponent.swift",
+      "line": 28,
+      "symbol": "FKAttributesComponent.Attribute.HitPoints",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttributesComponent.swift",
+      "line": 28,
+      "symbol": "FKAttributesComponent.Attribute.Indestructable",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttributesComponent.swift",
+      "line": 28,
+      "symbol": "FKAttributesComponent.Attribute.Magic",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttributesComponent.swift",
+      "line": 28,
+      "symbol": "FKAttributesComponent.Attribute.Morale",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttributesComponent.swift",
+      "line": 28,
+      "symbol": "FKAttributesComponent.Attribute.Resistance",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttributesComponent.swift",
+      "line": 28,
+      "symbol": "FKAttributesComponent.Attribute.SecondLife",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttributesComponent.swift",
+      "line": 28,
+      "symbol": "FKAttributesComponent.Attribute.Strength",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttributesComponent.swift",
+      "line": 28,
+      "symbol": "FKAttributesComponent.Attribute.WalkingSpeed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttributesComponent.swift",
+      "line": 176,
+      "symbol": "FKAttributesComponent.getAgility()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttributesComponent.swift",
+      "line": 180,
+      "symbol": "FKAttributesComponent.getFortitude()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttributesComponent.swift",
+      "line": 184,
+      "symbol": "FKAttributesComponent.getMagic()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttributesComponent.swift",
+      "line": 188,
+      "symbol": "FKAttributesComponent.getAttackSpeed()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttributesComponent.swift",
+      "line": 192,
+      "symbol": "FKAttributesComponent.getDoubleAttack()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttributesComponent.swift",
+      "line": 196,
+      "symbol": "FKAttributesComponent.getSecondLife()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKAttributesComponent.swift",
+      "line": 200,
+      "symbol": "FKAttributesComponent.getIndestructable()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKBattleComponent.swift",
+      "line": 31,
+      "symbol": "FKBattleComponent.engage(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKBattleComponent.swift",
+      "line": 35,
+      "symbol": "FKBattleComponent.disengage()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKBattleComponent.swift",
+      "line": 159,
+      "symbol": "FKBattleComponent.likelihoodOfDefeating(target:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKBlockedState.swift",
+      "line": 17,
+      "symbol": "FKBlockedState.entity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKBlockedState.swift",
+      "line": 19,
+      "symbol": "FKBlockedState.elapsedTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKBlockedState.swift",
+      "line": 23,
+      "symbol": "FKBlockedState.init(entity:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKBlockedState.swift",
+      "line": 29,
+      "symbol": "FKBlockedState.didEnter(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKBlockedState.swift",
+      "line": 46,
+      "symbol": "FKBlockedState.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKBlockedState.swift",
+      "line": 73,
+      "symbol": "FKBlockedState.isValidNextState(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKBluntDeath.swift",
+      "line": 17,
+      "symbol": "FKBluntDeath",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKButtonNode.swift",
+      "line": 11,
+      "symbol": "FKButtonNode",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKButtonNodeProtocol.swift",
+      "line": 14,
+      "symbol": "FKButtonNodeProtocol.buttonTouchesBegan(_:withEvent:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKButtonNodeProtocol.swift",
+      "line": 15,
+      "symbol": "FKButtonNodeProtocol.buttonTouchesEnded(_:withEvent:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKButtonNodeProtocol.swift",
+      "line": 16,
+      "symbol": "FKButtonNodeProtocol.buttonTouchesCancelled(_:withEvent:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKCacheService.swift",
+      "line": 16,
+      "symbol": "FKCacheService.sharedInstance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKCacheService.swift",
+      "line": 18,
+      "symbol": "FKCacheService.observer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKCacheService.swift",
+      "line": 20,
+      "symbol": "FKCacheService.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKCacheService.swift",
+      "line": 29,
+      "symbol": "FKCacheService.deinit",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKCasualtyComponent.swift",
+      "line": 68,
+      "symbol": "FKCasualtyComponent.beginSquadDeath()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKCasualtyComponent.swift",
+      "line": 113,
+      "symbol": "FKCasualtyComponent.manuallyDestorySquad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKCasualtyComponent.swift",
+      "line": 131,
+      "symbol": "FKCasualtyComponent.amountOfDeadUnits()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKCasualtyComponent.swift",
+      "line": 141,
+      "symbol": "FKCasualtyComponent.reviveUnits(percentToRevive:health:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKCasualtyComponent.swift",
+      "line": 161,
+      "symbol": "FKCasualtyComponent.reviveUnit(health:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKCatchingUpState.swift",
+      "line": 22,
+      "symbol": "FKCatchingUpState.entity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKCatchingUpState.swift",
+      "line": 24,
+      "symbol": "FKCatchingUpState.elapsedTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKCatchingUpState.swift",
+      "line": 28,
+      "symbol": "FKCatchingUpState.init(entity:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKCatchingUpState.swift",
+      "line": 34,
+      "symbol": "FKCatchingUpState.didEnter(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKCatchingUpState.swift",
+      "line": 39,
+      "symbol": "FKCatchingUpState.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKCatchingUpState.swift",
+      "line": 89,
+      "symbol": "FKCatchingUpState.willExit(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKCatchingUpState.swift",
+      "line": 93,
+      "symbol": "FKCatchingUpState.isValidNextState(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKCombatComponent.swift",
+      "line": 12,
+      "symbol": "FKCombatComponent",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDeathComponent.swift",
+      "line": 18,
+      "symbol": "FKDeathSequence",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDeathComponent.swift",
+      "line": 29,
+      "symbol": "FKDeathComponent.delegates",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDeathComponent.swift",
+      "line": 56,
+      "symbol": "FKDeathComponent.DeathBringer.init(modifier:positionOfModifier:headingOfModifier:type:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDeathComponent.swift",
+      "line": 68,
+      "symbol": "FKDeathComponent.DeathType.Default",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDeathComponent.swift",
+      "line": 68,
+      "symbol": "FKDeathComponent.DeathType.Silent",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDeathComponent.swift",
+      "line": 96,
+      "symbol": "FKDeathComponent.beginDeath(death:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDeathComponent.swift",
+      "line": 150,
+      "symbol": "FKDeathComponent.visualCleanup(unit:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDeathComponent.swift",
+      "line": 179,
+      "symbol": "FKDeathComponent.disengageFromCombat(unit:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDeathComponent.swift",
+      "line": 195,
+      "symbol": "FKDeathComponent.removeShadow(unit:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDeathComponent.swift",
+      "line": 201,
+      "symbol": "FKDeathComponent.checkSecondLife(unit:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDeathComponent.swift",
+      "line": 229,
+      "symbol": "FKDeathComponent.calculateSnapshot(death:unit:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDeathComponent.swift",
+      "line": 313,
+      "symbol": "FKDeathComponent.addBlood(unit:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDeathComponent.swift",
+      "line": 321,
+      "symbol": "FKDeathComponent.addBloodSplatter(unit:ground:bloodOffset:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDeathComponent.swift",
+      "line": 344,
+      "symbol": "FKDeathComponent.addBloodPool(unit:ground:bloodOffset:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDeathComponent.swift",
+      "line": 369,
+      "symbol": "FKDeathComponent.beginReaction(unit:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDeathComponent.swift",
+      "line": 380,
+      "symbol": "FKDeathComponent.createDeathBringer(modifier:type:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDefendingState.swift",
+      "line": 19,
+      "symbol": "FKDefendingState.entity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDefendingState.swift",
+      "line": 21,
+      "symbol": "FKDefendingState.elapsedTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDefendingState.swift",
+      "line": 31,
+      "symbol": "FKDefendingState.didEnter(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDyingState.swift",
+      "line": 17,
+      "symbol": "FKDyingState.entity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDyingState.swift",
+      "line": 19,
+      "symbol": "FKDyingState.elapsedTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDyingState.swift",
+      "line": 23,
+      "symbol": "FKDyingState.init(entity:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDyingState.swift",
+      "line": 29,
+      "symbol": "FKDyingState.didEnter(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDyingState.swift",
+      "line": 35,
+      "symbol": "FKDyingState.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKDyingState.swift",
+      "line": 43,
+      "symbol": "FKDyingState.isValidNextState(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKEngagedState.swift",
+      "line": 12,
+      "symbol": "FKEngagedState",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKEngagingState.swift",
+      "line": 12,
+      "symbol": "FKEngagingState",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFireDeath.swift",
+      "line": 17,
+      "symbol": "FKFireDeath",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFireSpell.swift",
+      "line": 16,
+      "symbol": "FKFireSpell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFleeingState.swift",
+      "line": 17,
+      "symbol": "FKFleeingState",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFollowingState.swift",
+      "line": 23,
+      "symbol": "FKFollowingState.entity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFollowingState.swift",
+      "line": 25,
+      "symbol": "FKFollowingState.elapsedTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFollowingState.swift",
+      "line": 29,
+      "symbol": "FKFollowingState.init(entity:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFollowingState.swift",
+      "line": 35,
+      "symbol": "FKFollowingState.didEnter(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFollowingState.swift",
+      "line": 43,
+      "symbol": "FKFollowingState.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFollowingState.swift",
+      "line": 128,
+      "symbol": "FKFollowingState.willExit(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFollowingState.swift",
+      "line": 132,
+      "symbol": "FKFollowingState.isValidNextState(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFormationComponent.swift",
+      "line": 22,
+      "symbol": "FKFormationComponent.elapsedTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFormationComponent.swift",
+      "line": 24,
+      "symbol": "FKFormationComponent.strategy",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFormationComponent.swift",
+      "line": 26,
+      "symbol": "FKFormationComponent.instructions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFormationComponent.swift",
+      "line": 34,
+      "symbol": "FKFormationComponent.init(instructions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFormationComponent.swift",
+      "line": 51,
+      "symbol": "FKFormationComponent.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFormationComponent.swift",
+      "line": 55,
+      "symbol": "FKFormationComponent.increaseMaxUnits()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFormationComponent.swift",
+      "line": 61,
+      "symbol": "FKFormationComponent.changeColumnCount(columns:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFormationComponent.swift",
+      "line": 70,
+      "symbol": "FKFormationComponent.changeColumnCount(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFormationComponent.swift",
+      "line": 368,
+      "symbol": "FKFormationComponent.ArrangementInstructions",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFormationComponent.swift",
+      "line": 392,
+      "symbol": "FKFormationComponent.Arrangement.grid",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFormationComponent.swift",
+      "line": 392,
+      "symbol": "FKFormationComponent.Arrangement.triangle",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFormationProtocol.swift",
+      "line": 17,
+      "symbol": "FKFormationProtocol.instructions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFormationProtocol.swift",
+      "line": 19,
+      "symbol": "FKFormationProtocol.positions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFormationProtocol.swift",
+      "line": 21,
+      "symbol": "FKFormationProtocol.totalRows",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFormationProtocol.swift",
+      "line": 23,
+      "symbol": "FKFormationProtocol.radius",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFormationProtocol.swift",
+      "line": 25,
+      "symbol": "FKFormationProtocol.depth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFormationProtocol.swift",
+      "line": 27,
+      "symbol": "FKFormationProtocol.init(instructions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFormationProtocol.swift",
+      "line": 29,
+      "symbol": "FKFormationProtocol.rebuild(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFormationProtocol.swift",
+      "line": 31,
+      "symbol": "FKFormationProtocol.buildFixedLocations()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFormationProtocol.swift",
+      "line": 33,
+      "symbol": "FKFormationProtocol.adjustLocations(_:rotation:translate:offset:random:reassign:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFormationProtocol.swift",
+      "line": 35,
+      "symbol": "FKFormationProtocol.findNearbyPositionInDirection(standingPosition:direction:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKFuzzyRule.swift",
+      "line": 11,
+      "symbol": "FKFuzzyRule",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKGameplaySnapshot.swift",
+      "line": 55,
+      "symbol": "FKGameplaySnapshot.init(subject:targets:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHasteSpell.swift",
+      "line": 16,
+      "symbol": "FKHasteSpell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHealSpell.swift",
+      "line": 16,
+      "symbol": "FKHealSpell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeraldryComponent.swift",
+      "line": 36,
+      "symbol": "FKHeraldryComponent.backgroundShield",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeraldryComponent.swift",
+      "line": 38,
+      "symbol": "FKHeraldryComponent.foregroundShield",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeraldryComponent.swift",
+      "line": 100,
+      "symbol": "FKHeraldryComponent.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeraldryComponent.swift",
+      "line": 239,
+      "symbol": "FKHeraldryComponent.focusHighlightRing(color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeraldryComponent.swift",
+      "line": 278,
+      "symbol": "FKHeraldryComponent.addInnerShape(name:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeraldryComponent.swift",
+      "line": 287,
+      "symbol": "FKHeraldryComponent.focusInnerShape(color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeraldryComponent.swift",
+      "line": 296,
+      "symbol": "FKHeraldryComponent.unfocusInnerShape()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeraldryComponent.swift",
+      "line": 338,
+      "symbol": "FKHeraldryComponent.highlightCrest(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeraldryComponent.swift",
+      "line": 366,
+      "symbol": "FKHeraldryComponent.unhighlightCrest()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeraldryComponent.swift",
+      "line": 379,
+      "symbol": "FKHeraldryComponent.hideCrest(duration:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeraldryComponent.swift",
+      "line": 387,
+      "symbol": "FKHeraldryComponent.showCrest(duration:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeraldryComponent.swift",
+      "line": 437,
+      "symbol": "FKHeraldryComponent.displayModifierNotification(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeraldryComponent.swift",
+      "line": 453,
+      "symbol": "FKHeraldryComponent.buildSpriteNodeForModifier(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeraldryComponent.swift",
+      "line": 511,
+      "symbol": "FKHeraldryComponent.addStateOverlay(texture:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeraldryComponent.swift",
+      "line": 517,
+      "symbol": "FKHeraldryComponent.removeStateOverlay()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeraldryComponent.swift",
+      "line": 522,
+      "symbol": "FKHeraldryComponent.cropStateTexture(name:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeraldryProtocol.swift",
+      "line": 16,
+      "symbol": "FKHeraldryProtocol.heraldryTapStarted(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeraldryProtocol.swift",
+      "line": 18,
+      "symbol": "FKHeraldryProtocol.heraldryTapped(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeraldryProtocol.swift",
+      "line": 20,
+      "symbol": "FKHeraldryProtocol.heraldryDoubleTapped(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeraldryProtocol.swift",
+      "line": 22,
+      "symbol": "FKHeraldryProtocol.heraldryLongPress(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeraldryProtocol.swift",
+      "line": 24,
+      "symbol": "FKHeraldryProtocol.lockToPositionWhenOffscreen(_:node:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeroEntity.swift",
+      "line": 22,
+      "symbol": "FKHeroEntity.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKHeroEntity.swift",
+      "line": 36,
+      "symbol": "FKHeroEntity.removeFromSquad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKIdleState.swift",
+      "line": 24,
+      "symbol": "FKIdleState.entity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKIdleState.swift",
+      "line": 26,
+      "symbol": "FKIdleState.elapsedTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKIdleState.swift",
+      "line": 30,
+      "symbol": "FKIdleState.init(entity:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKIdleState.swift",
+      "line": 36,
+      "symbol": "FKIdleState.didEnter(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKIdleState.swift",
+      "line": 43,
+      "symbol": "FKIdleState.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKIdleState.swift",
+      "line": 59,
+      "symbol": "FKIdleState.isValidNextState(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKIntelligenceComponent.swift",
+      "line": 19,
+      "symbol": "FKIntelligenceComponent.stateMachine",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKIntelligenceComponent.swift",
+      "line": 21,
+      "symbol": "FKIntelligenceComponent.initialStateClass",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKIntelligenceComponent.swift",
+      "line": 25,
+      "symbol": "FKIntelligenceComponent.init(states:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKIntelligenceComponent.swift",
+      "line": 31,
+      "symbol": "FKIntelligenceComponent.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKIntelligenceComponent.swift",
+      "line": 37,
+      "symbol": "FKIntelligenceComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKIntelligenceComponent.swift",
+      "line": 44,
+      "symbol": "FKIntelligenceComponent.enterInitialState()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKLungeState.swift",
+      "line": 17,
+      "symbol": "FKLungeState.entity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKLungeState.swift",
+      "line": 19,
+      "symbol": "FKLungeState.previousState",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKLungeState.swift",
+      "line": 21,
+      "symbol": "FKLungeState.previousAbility",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKLungeState.swift",
+      "line": 23,
+      "symbol": "FKLungeState.elapsedTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKLungeState.swift",
+      "line": 27,
+      "symbol": "FKLungeState.init(entity:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKLungeState.swift",
+      "line": 33,
+      "symbol": "FKLungeState.didEnter(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKLungeState.swift",
+      "line": 54,
+      "symbol": "FKLungeState.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKLungeState.swift",
+      "line": 73,
+      "symbol": "FKLungeState.determineTarget()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKLungeState.swift",
+      "line": 86,
+      "symbol": "FKLungeState.willExit(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKLungeState.swift",
+      "line": 92,
+      "symbol": "FKLungeState.isValidNextState(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKMoraleComponent.swift",
+      "line": 21,
+      "symbol": "FKMoraleComponent.handleChangeInMorale()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKMoraleComponent.swift",
+      "line": 43,
+      "symbol": "FKMoraleComponent.beginFleeing(squad:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKMovementComponent.swift",
+      "line": 25,
+      "symbol": "FKMovementComponent.elapsedTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKMovementComponent.swift",
+      "line": 46,
+      "symbol": "FKMovementComponent.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKMovementComponent.swift",
+      "line": 87,
+      "symbol": "FKMovementComponent.animateTowardsHeading(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKMovementComponent.swift",
+      "line": 159,
+      "symbol": "FKMovementComponent.teleportToPosition(position:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKMovementComponent.swift",
+      "line": 185,
+      "symbol": "FKMovementComponent.startWandering()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKMovementComponent.swift",
+      "line": 191,
+      "symbol": "FKMovementComponent.stopWandering()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKMovementInstructions.swift",
+      "line": 43,
+      "symbol": "FKMovementInstructions.init(position:path:type:pathSize:desiredHeading:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKMovementInstructions.swift",
+      "line": 51,
+      "symbol": "FKMovementInstructions.deinit",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKMovementType.swift",
+      "line": 19,
+      "symbol": "FKMovementType.path",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKMovementType.swift",
+      "line": 19,
+      "symbol": "FKMovementType.teleport",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKMovementType.swift",
+      "line": 19,
+      "symbol": "FKMovementType.towards",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKMovingState.swift",
+      "line": 17,
+      "symbol": "FKMovingState.entity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKMovingState.swift",
+      "line": 19,
+      "symbol": "FKMovingState.elapsedTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKMovingState.swift",
+      "line": 23,
+      "symbol": "FKMovingState.init(entity:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKMovingState.swift",
+      "line": 29,
+      "symbol": "FKMovingState.didEnter(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKMovingState.swift",
+      "line": 45,
+      "symbol": "FKMovingState.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKMovingState.swift",
+      "line": 53,
+      "symbol": "FKMovingState.handleCommand(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKMovingState.swift",
+      "line": 102,
+      "symbol": "FKMovingState.willExit(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKMovingState.swift",
+      "line": 106,
+      "symbol": "FKMovingState.isValidNextState(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKNavigationComponent.swift",
+      "line": 44,
+      "symbol": "FKNavigationComponent.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKNavigationComponent.swift",
+      "line": 192,
+      "symbol": "FKNavigationComponent.startWandering()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKNavigationComponent.swift",
+      "line": 200,
+      "symbol": "FKNavigationComponent.stopWandering()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKObjectPoolService.swift",
+      "line": 21,
+      "symbol": "FKObjectPoolService.sharedInstance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKObjectPoolService.swift",
+      "line": 23,
+      "symbol": "FKObjectPoolService.objectPool",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKObjectPoolService.swift",
+      "line": 25,
+      "symbol": "FKObjectPoolService.offscreenLocation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKObjectPoolService.swift",
+      "line": 27,
+      "symbol": "FKObjectPoolService.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKObjectPoolService.swift",
+      "line": 158,
+      "symbol": "FKObjectPoolService.unload()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKObjectPoolService.swift",
+      "line": 163,
+      "symbol": "FKObjectPoolService.deinit",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKOrderService.swift",
+      "line": 28,
+      "symbol": "FKOrderService.sharedInstance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKOrderService.swift",
+      "line": 30,
+      "symbol": "FKOrderService.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKOrderService.swift",
+      "line": 34,
+      "symbol": "FKOrderService.executePreferredAction(squad:best:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKOrderService.swift",
+      "line": 46,
+      "symbol": "FKOrderService.runPreferredAttackOnTarget(squad:best:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKOrderService.swift",
+      "line": 64,
+      "symbol": "FKOrderService.isAllowedToAttack(squad:best:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKOrderService.swift",
+      "line": 84,
+      "symbol": "FKOrderService.shouldAvoidFriendlyFire(squad:best:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKOrderService.swift",
+      "line": 110,
+      "symbol": "FKOrderService.moveTowardsPreferredTarget(squad:best:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKOrderService.swift",
+      "line": 121,
+      "symbol": "FKOrderService.shouldMoveTowardsTarget(squad:best:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKOrderService.swift",
+      "line": 140,
+      "symbol": "FKOrderService.targetIsAlreadyInRange(squad:best:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKOrderService.swift",
+      "line": 152,
+      "symbol": "FKOrderService.cancelAllActions(squad:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPersuingState.swift",
+      "line": 12,
+      "symbol": "FKPersuingState",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhoenixSpell.swift",
+      "line": 16,
+      "symbol": "FKPhoenixSpell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsComponent.swift",
+      "line": 26,
+      "symbol": "FKPhysicsComponent.radius",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsComponent.swift",
+      "line": 55,
+      "symbol": "FKPhysicsComponent.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsComponent.swift",
+      "line": 92,
+      "symbol": "FKPhysicsComponent.contactWithEntityDidBegin(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsComponent.swift",
+      "line": 96,
+      "symbol": "FKPhysicsComponent.contactWithEntityDidEnd(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsComponent.swift",
+      "line": 100,
+      "symbol": "FKPhysicsComponent.contactWithNodeDidBegin(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsComponent.swift",
+      "line": 104,
+      "symbol": "FKPhysicsComponent.contactWithNodeDidEnd(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsComponent.swift",
+      "line": 118,
+      "symbol": "FKPhysicsComponent.contactWithAoEEnded(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsService.swift",
+      "line": 21,
+      "symbol": "ContactNotifiableType.contactWithEntityDidBegin(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsService.swift",
+      "line": 23,
+      "symbol": "ContactNotifiableType.contactWithEntityDidEnd(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsService.swift",
+      "line": 25,
+      "symbol": "ContactNotifiableType.contactWithNodeDidBegin(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsService.swift",
+      "line": 27,
+      "symbol": "ContactNotifiableType.contactWithNodeDidEnd(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsService.swift",
+      "line": 29,
+      "symbol": "ContactNotifiableType.contactWithAoEBegan(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsService.swift",
+      "line": 31,
+      "symbol": "ContactNotifiableType.contactWithAoEEnded(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsService.swift",
+      "line": 40,
+      "symbol": "FKPhysicsService.sharedInstance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsService.swift",
+      "line": 68,
+      "symbol": "FKPhysicsService.ColliderType.attacker",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsService.swift",
+      "line": 69,
+      "symbol": "FKPhysicsService.ColliderType.defender",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsService.swift",
+      "line": 70,
+      "symbol": "FKPhysicsService.ColliderType.projectile",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsService.swift",
+      "line": 71,
+      "symbol": "FKPhysicsService.ColliderType.defenderProjectile",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsService.swift",
+      "line": 72,
+      "symbol": "FKPhysicsService.ColliderType.environment",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsService.swift",
+      "line": 73,
+      "symbol": "FKPhysicsService.ColliderType.ui",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsService.swift",
+      "line": 74,
+      "symbol": "FKPhysicsService.ColliderType.invalid",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsService.swift",
+      "line": 75,
+      "symbol": "FKPhysicsService.ColliderType.heightObstruction",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsService.swift",
+      "line": 82,
+      "symbol": "FKPhysicsService.UnitPhysicsState.flying",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsService.swift",
+      "line": 82,
+      "symbol": "FKPhysicsService.UnitPhysicsState.ground",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsService.swift",
+      "line": 82,
+      "symbol": "FKPhysicsService.UnitPhysicsState.groundLeader",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsService.swift",
+      "line": 82,
+      "symbol": "FKPhysicsService.UnitPhysicsState.invisible",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsService.swift",
+      "line": 82,
+      "symbol": "FKPhysicsService.UnitPhysicsState.onWall",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPhysicsService.swift",
+      "line": 152,
+      "symbol": "FKPhysicsService.didEndContact(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKPoolableObject.swift",
+      "line": 11,
+      "symbol": "FKPoolableObject",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKProjectileFactory.swift",
+      "line": 23,
+      "symbol": "FKProjectileFactory.classMap",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKProjectileFactory.swift",
+      "line": 30,
+      "symbol": "FKProjectileFactory.sharedInstance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKProjectileFactory.swift",
+      "line": 32,
+      "symbol": "FKProjectileFactory.createProjectile(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKProjectileFactory.swift",
+      "line": 47,
+      "symbol": "FKProjectileFactory.copyProjectile(projectile:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKQueueComponent.swift",
+      "line": 75,
+      "symbol": "FKQueueComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKRankComponent.swift",
+      "line": 31,
+      "symbol": "FKRankComponent.init(squad:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKRankComponent.swift",
+      "line": 36,
+      "symbol": "FKRankComponent.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKRegenSpell.swift",
+      "line": 16,
+      "symbol": "FKRegenSpell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKRenderComponent.swift",
+      "line": 32,
+      "symbol": "FKRenderComponent.pooledHealthContainer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKRenderComponent.swift",
+      "line": 46,
+      "symbol": "FKRenderComponent.elapsedTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKRenderComponent.swift",
+      "line": 63,
+      "symbol": "FKRenderComponent.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKRenderComponent.swift",
+      "line": 96,
+      "symbol": "FKRenderComponent.unloadShadow()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKRenderComponent.swift",
+      "line": 129,
+      "symbol": "FKRenderComponent.pulseUnit(color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKRenderComponent.swift",
+      "line": 160,
+      "symbol": "FKRenderComponent.showHealthBar(maxHealth:currentHealth:adjustment:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKRenderComponent.swift",
+      "line": 219,
+      "symbol": "FKRenderComponent.returnPooledHealthBar()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKResistSpell.swift",
+      "line": 16,
+      "symbol": "FKResistSpell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKReviveSpell.swift",
+      "line": 16,
+      "symbol": "FKReviveSpell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSeekingState.swift",
+      "line": 17,
+      "symbol": "FKSeekingState.entity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSeekingState.swift",
+      "line": 19,
+      "symbol": "FKSeekingState.elapsedTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSeekingState.swift",
+      "line": 23,
+      "symbol": "FKSeekingState.init(entity:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSeekingState.swift",
+      "line": 29,
+      "symbol": "FKSeekingState.didEnter(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSeekingState.swift",
+      "line": 36,
+      "symbol": "FKSeekingState.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSeekingState.swift",
+      "line": 78,
+      "symbol": "FKSeekingState.seekNewTarget()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSeekingState.swift",
+      "line": 86,
+      "symbol": "FKSeekingState.withinStrikingDistanceToExistingTarget()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSeekingState.swift",
+      "line": 107,
+      "symbol": "FKSeekingState.isValidNextState(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSeekingState.swift",
+      "line": 111,
+      "symbol": "FKSeekingState.determineTarget()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSeekingState.swift",
+      "line": 122,
+      "symbol": "FKSeekingState.willExit(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKShootingState.swift",
+      "line": 12,
+      "symbol": "FKShootingState",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSleepingState.swift",
+      "line": 12,
+      "symbol": "FKSleepingState",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSoundComponent.swift",
+      "line": 22,
+      "symbol": "FKSoundComponent",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSpell.swift",
+      "line": 16,
+      "symbol": "FKSpell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSpellFactory.swift",
+      "line": 22,
+      "symbol": "FKSpellFactory.classMap",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSpellFactory.swift",
+      "line": 45,
+      "symbol": "FKSpellFactory.sharedInstance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSpellFactory.swift",
+      "line": 47,
+      "symbol": "FKSpellFactory.createSpell(ability:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadAgent.swift",
+      "line": 55,
+      "symbol": "FKSquadAgent.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadAgent.swift",
+      "line": 76,
+      "symbol": "FKSquadAgent.setPosFromWorld(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadAgent.swift",
+      "line": 117,
+      "symbol": "FKSquadAgent.getDesiredWalkingSpeed()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadDebugComponent.swift",
+      "line": 22,
+      "symbol": "FKSquadDebugComponent.baseNode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadDebugComponent.swift",
+      "line": 24,
+      "symbol": "FKSquadDebugComponent.elapsedTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadDebugComponent.swift",
+      "line": 33,
+      "symbol": "FKSquadDebugComponent.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadDebugComponent.swift",
+      "line": 79,
+      "symbol": "FKSquadDebugComponent.clearDebugLayer()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadDebugComponent.swift",
+      "line": 172,
+      "symbol": "FKSquadDebugComponent.debugSquadTargets(_:scene:layer:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadDebugComponent.swift",
+      "line": 234,
+      "symbol": "FKSquadDebugComponent.debugUnitTargets(_:scene:layer:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadEntity.swift",
+      "line": 77,
+      "symbol": "FKSquadEntity.formationComponent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadEntity.swift",
+      "line": 79,
+      "symbol": "FKSquadEntity.navigationComponent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadEntity.swift",
+      "line": 81,
+      "symbol": "FKSquadEntity.queueComponent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadEntity.swift",
+      "line": 83,
+      "symbol": "FKSquadEntity.abilitiesComponent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadEntity.swift",
+      "line": 133,
+      "symbol": "FKSquadEntity.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadEntity.swift",
+      "line": 192,
+      "symbol": "FKSquadEntity.removeHero(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadEntity.swift",
+      "line": 277,
+      "symbol": "FKSquadEntity.Controller.enemyNPC",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadEntity.swift",
+      "line": 277,
+      "symbol": "FKSquadEntity.Controller.friendlyNPC",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadEntity.swift",
+      "line": 277,
+      "symbol": "FKSquadEntity.Controller.leader",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadEntity.swift",
+      "line": 277,
+      "symbol": "FKSquadEntity.Controller.player",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadEntity.swift",
+      "line": 280,
+      "symbol": "FKSquadEntity.deinit",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadFactory.swift",
+      "line": 25,
+      "symbol": "FKSquadFactory.squads",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadFactory.swift",
+      "line": 27,
+      "symbol": "FKSquadFactory.killed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadFactory.swift",
+      "line": 104,
+      "symbol": "FKSquadFactory.FKSquadConstruction.init(name:position:heading:currentUnits:maxUnits:controller:scene:layer:uiLayer:formation:columns:spacing:hero:pathfinder:herladryDelegate:abilities:heroAbilities:bundlePath:lightweightLoad:physicsState:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadFactory.swift",
+      "line": 127,
+      "symbol": "FKSquadFactory.FKSquadConstruction.init(name:scene:layer:uiLayer:pathfinder:existingSquad:lightweightLoad:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadFactory.swift",
+      "line": 223,
+      "symbol": "FKSquadFactory.configureAIForSquad(_:construction:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadFactory.swift",
+      "line": 315,
+      "symbol": "FKSquadFactory.addHeraldry(_:construction:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadFactory.swift",
+      "line": 327,
+      "symbol": "FKSquadFactory.handleController(_:construction:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadFactory.swift",
+      "line": 353,
+      "symbol": "FKSquadFactory.addUnitToExistingSquad(_:construction:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadFactory.swift",
+      "line": 416,
+      "symbol": "FKSquadFactory.getSquadAgents()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadFactory.swift",
+      "line": 486,
+      "symbol": "FKSquadFactory.deinit",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKSquadProtocol.swift",
+      "line": 16,
+      "symbol": "FKSquadProtocol.squadHasDied(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKTargetingFactory.swift",
+      "line": 19,
+      "symbol": "FKTargetingFactory.sharedInstance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKTargetingFactory.swift",
+      "line": 21,
+      "symbol": "FKTargetingFactory.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKTargetingState.swift",
+      "line": 12,
+      "symbol": "FKTargetingState",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKThinkingState.swift",
+      "line": 12,
+      "symbol": "FKThinkingState",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKUnitAgent.swift",
+      "line": 51,
+      "symbol": "FKUnitAgent.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKUnitEntity.swift",
+      "line": 19,
+      "symbol": "FKUnitEntity.identifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKUnitEntity.swift",
+      "line": 22,
+      "symbol": "FKUnitEntity.agent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKUnitEntity.swift",
+      "line": 33,
+      "symbol": "FKUnitEntity.renderComponent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKUnitEntity.swift",
+      "line": 35,
+      "symbol": "FKUnitEntity.movementComponent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKUnitEntity.swift",
+      "line": 37,
+      "symbol": "FKUnitEntity.animationComponent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKUnitEntity.swift",
+      "line": 72,
+      "symbol": "FKUnitEntity.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKUnitFactory.swift",
+      "line": 78,
+      "symbol": "FKUnitFactory.loadAnchorPoint(_:data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKUnitFactory.swift",
+      "line": 86,
+      "symbol": "FKUnitFactory.loadCombatData(_:data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKVolleyingState.swift",
+      "line": 23,
+      "symbol": "FKVolleyingState.entity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKVolleyingState.swift",
+      "line": 25,
+      "symbol": "FKVolleyingState.elapsedTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKVolleyingState.swift",
+      "line": 29,
+      "symbol": "FKVolleyingState.init(entity:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKVolleyingState.swift",
+      "line": 35,
+      "symbol": "FKVolleyingState.didEnter(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKVolleyingState.swift",
+      "line": 46,
+      "symbol": "FKVolleyingState.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKVolleyingState.swift",
+      "line": 84,
+      "symbol": "FKVolleyingState.willExit(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKVolleyingState.swift",
+      "line": 88,
+      "symbol": "FKVolleyingState.disengageCurrentTarget()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FKVolleyingState.swift",
+      "line": 95,
+      "symbol": "FKVolleyingState.isValidNextState(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FriendlyFireRule.swift",
+      "line": 19,
+      "symbol": "FriendlyFireRule.grade()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/FriendlyFireRule.swift",
+      "line": 46,
+      "symbol": "FriendlyFireRule.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/HighThreatRule.swift",
+      "line": 18,
+      "symbol": "HighThreatRule.grade()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/HighThreatRule.swift",
+      "line": 33,
+      "symbol": "HighThreatRule.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/LikelyToWinRule.swift",
+      "line": 18,
+      "symbol": "LikelyToWinRule.grade()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/LikelyToWinRule.swift",
+      "line": 42,
+      "symbol": "LikelyToWinRule.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Modifier.swift",
+      "line": 107,
+      "symbol": "Modifier.Behavior.DoT",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Modifier.swift",
+      "line": 107,
+      "symbol": "Modifier.Behavior.Duration",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Modifier.swift",
+      "line": 107,
+      "symbol": "Modifier.Behavior.Instant",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Modifier.swift",
+      "line": 107,
+      "symbol": "Modifier.Behavior.Permanent",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Modifier.swift",
+      "line": 119,
+      "symbol": "Modifier.Modification.Permanent",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Modifier.swift",
+      "line": 119,
+      "symbol": "Modifier.Modification.Temporary",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Modifier.swift",
+      "line": 134,
+      "symbol": "Modifier.CombatAttribute.blunt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Modifier.swift",
+      "line": 134,
+      "symbol": "Modifier.CombatAttribute.elemental",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Modifier.swift",
+      "line": 134,
+      "symbol": "Modifier.CombatAttribute.piercing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Modifier.swift",
+      "line": 134,
+      "symbol": "Modifier.CombatAttribute.slashing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Modifier.swift",
+      "line": 134,
+      "symbol": "Modifier.CombatAttribute.status",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Modifier.swift",
+      "line": 139,
+      "symbol": "Modifier.CombatAttributeSubtype.basic",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Modifier.swift",
+      "line": 139,
+      "symbol": "Modifier.CombatAttributeSubtype.fire",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Modifier.swift",
+      "line": 139,
+      "symbol": "Modifier.CombatAttributeSubtype.ice",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Modifier.swift",
+      "line": 139,
+      "symbol": "Modifier.CombatAttributeSubtype.nature",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Modifier.swift",
+      "line": 139,
+      "symbol": "Modifier.CombatAttributeSubtype.poison",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Modifier.swift",
+      "line": 139,
+      "symbol": "Modifier.CombatAttributeSubtype.water",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Modifier.swift",
+      "line": 139,
+      "symbol": "Modifier.CombatAttributeSubtype.wind",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Modifier.swift",
+      "line": 152,
+      "symbol": "Modifier.Target.Ability",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Modifier.swift",
+      "line": 152,
+      "symbol": "Modifier.Target.CombatTarget",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Modifier.swift",
+      "line": 152,
+      "symbol": "Modifier.Target.Unit",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Modifier.swift",
+      "line": 157,
+      "symbol": "Modifier.description()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/ObstacleInterferenceRule.swift",
+      "line": 21,
+      "symbol": "ObstacleInterferenceRule.grade()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/ObstacleInterferenceRule.swift",
+      "line": 45,
+      "symbol": "ObstacleInterferenceRule.hasLineOfSightandInRange()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/ObstacleInterferenceRule.swift",
+      "line": 62,
+      "symbol": "ObstacleInterferenceRule.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Projectile.swift",
+      "line": 16,
+      "symbol": "Projectile",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/FormationKit/FormationKit/Rocks.swift",
+      "line": 17,
+      "symbol": "Rocks",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ryancampbell/Documents/Games/FormationKit"
+}

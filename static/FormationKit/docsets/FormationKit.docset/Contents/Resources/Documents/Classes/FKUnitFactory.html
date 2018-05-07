@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <title>A Verse for Barric : FKUnitFactory Class Reference</title>
+
+    <!-- PhotoSwipe -->
+    <link rel="stylesheet" href="/css/photoswipe.css">
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite, 
+     - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="/css/default-skin.css">
+    <!-- Core JS file -->
+    <script src="/js/photoswipe.min.js"></script>
+    <!-- UI JS file -->
+    <script src="/js/photoswipe-ui-default.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+
+    <!-- JS -->
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="/js/index-min.js"></script>
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css">
+      <script src="/js/highlight.pack.js"></script>
+    <script src="../js/jazzy.js" defer></script>
+
+    <!-- Fonts -->
+
+    <!-- Icons -->
+
+    <!-- RSS -->
+    
+</head>
+  <body class="docs">
+    <a name="//apple_ref/swift/Class/FKUnitFactory" class="dashAnchor"></a>
+    <a title="FKUnitFactory Class Reference"></a>
+    <header class="partial">
+    	<img src="/images/barric_cropped.png" />
+    </header>
+    
+    <section>
+        <ul class="nav">
+            <li><a href="/thegame">T<span>HE</span> G<span>AME</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/motion">M<span>otion</span> G<span>raphics</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/illustrations">I<span>llustrations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/animations">A<span>nimations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/soundtrack">S<span>oundtrack</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/code">C<span>ode</span></a></li>
+        </ul>
+    </section>    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">FormationKit </a>
+        &#8594;
+        FKUnitFactory 
+      </p>
+      <p class="coverage"> 56% documented</p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Squads.html">Squads</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadEntity.html">FKSquadEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadEntity.html#/s:12FormationKit13FKSquadEntityC10ControllerO">– Controller</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Squad Components.html">Squad Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadAgent.html">FKSquadAgent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKFormationComponent.html">FKFormationComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKFormationComponent.html#/s:12FormationKit20FKFormationComponentC11ArrangementO">– Arrangement</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKNavigationComponent.html">FKNavigationComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKCasualtyComponent.html">FKCasualtyComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadDebugComponent.html">FKSquadDebugComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Squad Formations.html">Squad Formations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Squad Formations.html#/s:12FormationKit19FKFormationProtocolP">FKFormationProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKStandingPosition.html">FKStandingPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKGridFormation.html">FKGridFormation</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Units.html">Units</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKUnitEntity.html">FKUnitEntity</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Unit Components.html">Unit Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKUnitAgent.html">FKUnitAgent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKRenderComponent.html">FKRenderComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAnimationComponent.html">FKAnimationComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAnimationComponent.html#/s:12FormationKit20FKAnimationComponentC9AnimationC">– Animation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAnimationComponent.html#/s:12FormationKit20FKAnimationComponentC14AnimationStateO">– AnimationState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKMovementComponent.html">FKMovementComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKRankComponent.html">FKRankComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKDeathComponent.html">FKDeathComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKDeathComponent/DeathBringer.html">– DeathBringer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKDeathComponent.html#/s:12FormationKit16FKDeathComponentC9DeathTypeO">– DeathType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Unit Intelligence.html">Unit Intelligence</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKIdleState.html">FKIdleState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKFollowingState.html">FKFollowingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Unit Intelligence.html#/c:@M@FormationKit@objc(cs)FKDyingState">FKDyingState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Shared Classes.html">Shared Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKMovementInstructions.html">FKMovementInstructions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Shared Classes.html#/s:12FormationKit14FKMovementTypeO">FKMovementType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Shared Classes.html#/c:@M@FormationKit@objc(cs)FKIntelligenceComponent">FKIntelligenceComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Factories.html">Factories</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadFactory.html">FKSquadFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadFactory/FKSquadConstruction.html">– FKSquadConstruction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKUnitFactory.html">FKUnitFactory</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html">Ability</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC8BehaviorO">– Behavior</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC9SpecialtyO">– Specialty</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC10ValidationO">– Validation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC14ValidationDataV">– ValidationData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC9TargetingO">– Targeting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC9SoundMarkO">– SoundMark</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CommandFactory.html">CommandFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DistanceToTargetRule.html">DistanceToTargetRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EngagedWithFriendRule.html">EngagedWithFriendRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAbilitiesComponent.html">FKAbilitiesComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAbilitiesComponent.html#/s:12FormationKit20FKAbilitiesComponentC13ActiveAbilityV">– ActiveAbility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAbilitiesService.html">FKAbilitiesService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAgendaFactory.html">FKAgendaFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAttackComponent.html">FKAttackComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FKAttackingState">FKAttackingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAttributesComponent.html">FKAttributesComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAttributesComponent.html#/s:12FormationKit21FKAttributesComponentC9AttributeO">– Attribute</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKBattleComponent.html">FKBattleComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKBlockedState.html">FKBlockedState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/s:12FormationKit14FKCacheServiceC">FKCacheService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKCatchingUpState.html">FKCatchingUpState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKCommand.html">FKCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKDefendingState.html">FKDefendingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKEntitySpriteNode.html">FKEntitySpriteNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKGameplaySnapshot.html">FKGameplaySnapshot</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKGameplaySnapshot/TargetSnapshot.html">– TargetSnapshot</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKHeraldryComponent.html">FKHeraldryComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKHeroComponent.html">FKHeroComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKHeroEntity.html">FKHeroEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FKLungeState">FKLungeState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKModifierComponent.html">FKModifierComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKMoraleComponent.html">FKMoraleComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKMovingState.html">FKMovingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKObjectPoolService.html">FKObjectPoolService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKOrderService.html">FKOrderService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKPhysicsComponent.html">FKPhysicsComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKPhysicsService.html">FKPhysicsService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKPhysicsService.html#/s:12FormationKit16FKPhysicsServiceC12ColliderTypeO">– ColliderType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKPhysicsService.html#/s:12FormationKit16FKPhysicsServiceC16UnitPhysicsStateO">– UnitPhysicsState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/s:12FormationKit19FKProjectileFactoryC">FKProjectileFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKQueueComponent.html">FKQueueComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKSeekingState.html">FKSeekingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FKSharedAttributesComponent">FKSharedAttributesComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/s:12FormationKit14FKSpellFactoryC">FKSpellFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKTargetingFactory.html">FKTargetingFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKTriangleFormation.html">FKTriangleFormation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FKVolleyingState">FKVolleyingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FriendlyFireRule">FriendlyFireRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)HighThreatRule">HighThreatRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)LikelyToWinRule">LikelyToWinRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)ObstacleInterferenceRule">ObstacleInterferenceRule</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Functions.html">Other Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Other Functions.html#/s:12FormationKit2eeoiSbAA13FKSquadEntityC_ADtF">==(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Other Protocols.html#/s:12FormationKit21ContactNotifiableTypeP">ContactNotifiableType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FKButtonNodeProtocol.html">FKButtonNodeProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Protocols.html#/s:12FormationKit18FKHeraldryProtocolP">FKHeraldryProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FKPathfindingProtocol.html">FKPathfindingProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Protocols.html#/s:12FormationKit15FKSquadProtocolP">FKSquadProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Structs.html">Other Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/CommandInstructions.html">CommandInstructions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html">Modifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV8BehaviorO">– Behavior</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV12ModificationO">– Modification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV15CombatAttributeO">– CombatAttribute</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV22CombatAttributeSubtypeO">– CombatAttributeSubtype</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV6TargetO">– Target</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h4>FKUnitFactory</h4>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">FKUnitFactory</span></code></pre>
+
+                </div>
+              </div>
+            <p>FKUnitEntites are quite complex. All units should be created through this entry point</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit13FKUnitFactoryC9cacheKeys33_1AC31AA341621C78E8CD28964FE693E5LLSaySSGvp"></a>
+                    <a name="//apple_ref/swift/Property/cacheKeys" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit13FKUnitFactoryC9cacheKeys33_1AC31AA341621C78E8CD28964FE693E5LLSaySSGvp">cacheKeys</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Store all keys used (they will be dynamic&hellip;squad names, etc). Delete when needed</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">cacheKeys</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit13FKUnitFactoryC14sharedInstanceACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/sharedInstance" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit13FKUnitFactoryC14sharedInstanceACvpZ">sharedInstance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Handle on shared factory object</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">sharedInstance</span><span class="p">:</span> <span class="kt">FKUnitFactory</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Creating%20a%20Unit"></a>
+                <a name="//apple_ref/swift/Section/Creating a Unit" class="dashAnchor"></a>
+                <h5 class="section-name">Creating a Unit</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit13FKUnitFactoryC10createUnitAA0C6EntityCSgAA07FKSquadD0C0H12ConstructionVF"></a>
+                    <a name="//apple_ref/swift/Method/createUnit(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit13FKUnitFactoryC10createUnitAA0C6EntityCSgAA07FKSquadD0C0H12ConstructionVF">createUnit(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Main entry point for creating units</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">createUnit</span><span class="p">(</span><span class="n">_</span> <span class="nv">construction</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadFactory.html">FKSquadFactory</a></span><span class="o">.</span><span class="kt">FKSquadConstruction</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/FKUnitEntity.html">FKUnitEntity</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit13FKUnitFactoryC10createHeroAA12FKHeroEntityCSgAA07FKSquadD0C0I12ConstructionVF"></a>
+                    <a name="//apple_ref/swift/Method/createHero(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit13FKUnitFactoryC10createHeroAA12FKHeroEntityCSgAA07FKSquadD0C0I12ConstructionVF">createHero(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Main entry point for creating a hero</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">createHero</span><span class="p">(</span><span class="n">_</span> <span class="nv">construction</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadFactory.html">FKSquadFactory</a></span><span class="o">.</span><span class="kt">FKSquadConstruction</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/FKHeroEntity.html">FKHeroEntity</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit13FKUnitFactoryC15loadAllUnitDatayAA0C6EntityC_So12NSDictionaryC4dataAA07FKSquadD0C0L12ConstructionV12constructiontF"></a>
+                    <a name="//apple_ref/swift/Method/loadAllUnitData(_:data:construction:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit13FKUnitFactoryC15loadAllUnitDatayAA0C6EntityC_So12NSDictionaryC4dataAA07FKSquadD0C0L12ConstructionV12constructiontF">loadAllUnitData(_:data:construction:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Shared construction between heros and normal units</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">loadAllUnitData</span><span class="p">(</span><span class="n">_</span> <span class="nv">unit</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKUnitEntity.html">FKUnitEntity</a></span><span class="p">,</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">NSDictionary</span><span class="p">,</span> <span class="nv">construction</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadFactory.html">FKSquadFactory</a></span><span class="o">.</span><span class="kt">FKSquadConstruction</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Animations"></a>
+                <a name="//apple_ref/swift/Section/Animations" class="dashAnchor"></a>
+                <h5 class="section-name">Animations</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit13FKUnitFactoryC17loadAllAnimationsyAA0C6EntityC_So12NSDictionaryC4dataAA07FKSquadD0C0K12ConstructionV12constructiontF"></a>
+                    <a name="//apple_ref/swift/Method/loadAllAnimations(_:data:construction:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit13FKUnitFactoryC17loadAllAnimationsyAA0C6EntityC_So12NSDictionaryC4dataAA07FKSquadD0C0K12ConstructionV12constructiontF">loadAllAnimations(_:data:construction:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Load standard animations for units.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">loadAllAnimations</span><span class="p">(</span><span class="n">_</span> <span class="nv">unit</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKUnitEntity.html">FKUnitEntity</a></span><span class="p">,</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">NSDictionary</span><span class="p">,</span> <span class="nv">construction</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadFactory.html">FKSquadFactory</a></span><span class="o">.</span><span class="kt">FKSquadConstruction</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit13FKUnitFactoryC13loadAnimationAA20FKAnimationComponentC0F0CSS_AA07FKSquadD0C0I12ConstructionV12constructionSo12NSDictionaryC4dataSb12shouldRepeattF"></a>
+                    <a name="//apple_ref/swift/Method/loadAnimation(_:construction:data:shouldRepeat:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit13FKUnitFactoryC13loadAnimationAA20FKAnimationComponentC0F0CSS_AA07FKSquadD0C0I12ConstructionV12constructionSo12NSDictionaryC4dataSb12shouldRepeattF">loadAnimation(_:construction:data:shouldRepeat:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifically load one animation from the key / value pairs in pList and turn it into an Animation struct.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">loadAnimation</span><span class="p">(</span><span class="n">_</span> <span class="nv">animationName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">construction</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadFactory.html">FKSquadFactory</a></span><span class="o">.</span><span class="kt">FKSquadConstruction</span><span class="p">,</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">NSDictionary</span><span class="p">,</span> <span class="nv">shouldRepeat</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/FKAnimationComponent.html">FKAnimationComponent</a></span><span class="o">.</span><span class="kt">Animation</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Heros"></a>
+                <a name="//apple_ref/swift/Section/Heros" class="dashAnchor"></a>
+                <h5 class="section-name">Heros</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit13FKUnitFactoryC18addAbilitiesToHero33_1AC31AA341621C78E8CD28964FE693E5LLyAA12FKHeroEntityC_AA07FKSquadD0C0R12ConstructionV12constructiontF"></a>
+                    <a name="//apple_ref/swift/Method/addAbilitiesToHero(_:construction:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit13FKUnitFactoryC18addAbilitiesToHero33_1AC31AA341621C78E8CD28964FE693E5LLyAA12FKHeroEntityC_AA07FKSquadD0C0R12ConstructionV12constructiontF">addAbilitiesToHero(_:construction:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Assign the given abilities to the hero</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">addAbilitiesToHero</span><span class="p">(</span><span class="n">_</span> <span class="nv">hero</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKHeroEntity.html">FKHeroEntity</a></span><span class="p">,</span> <span class="nv">construction</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadFactory.html">FKSquadFactory</a></span><span class="o">.</span><span class="kt">FKSquadConstruction</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Adding%20to%20Scene"></a>
+                <a name="//apple_ref/swift/Section/Adding to Scene" class="dashAnchor"></a>
+                <h5 class="section-name">Adding to Scene</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit13FKUnitFactoryC14addUnitToSceneyAA0C6EntityCF"></a>
+                    <a name="//apple_ref/swift/Method/addUnitToScene(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit13FKUnitFactoryC14addUnitToSceneyAA0C6EntityCF">addUnitToScene(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>By adding a unit to a scene we&rsquo;re inferring that it should be added to the component systems as well</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addUnitToScene</span><span class="p">(</span><span class="n">_</span> <span class="nv">unit</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKUnitEntity.html">FKUnitEntity</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Component%20Systems"></a>
+                <a name="//apple_ref/swift/Section/Component Systems" class="dashAnchor"></a>
+                <h5 class="section-name">Component Systems</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit13FKUnitFactoryC24addUnitToComponentSystem33_1AC31AA341621C78E8CD28964FE693E5LLyAA0C6EntityCF"></a>
+                    <a name="//apple_ref/swift/Method/addUnitToComponentSystem(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit13FKUnitFactoryC24addUnitToComponentSystem33_1AC31AA341621C78E8CD28964FE693E5LLyAA0C6EntityCF">addUnitToComponentSystem(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Add units to component system</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">addUnitToComponentSystem</span><span class="p">(</span><span class="n">_</span> <span class="nv">unit</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKUnitEntity.html">FKUnitEntity</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit13FKUnitFactoryC16componentSystemsSaySo17GKComponentSystemCySo0G0CGGvp"></a>
+                    <a name="//apple_ref/swift/Property/componentSystems" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit13FKUnitFactoryC16componentSystemsSaySo17GKComponentSystemCySo0G0CGGvp">componentSystems</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Components must be run in this order for the units to function / update in game</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">lazy</span> <span class="kd">public</span> <span class="k">var</span> <span class="nv">componentSystems</span><span class="p">:</span> <span class="p">[</span><span class="kt">GKComponentSystem</span><span class="o">&lt;</span><span class="kt">GKComponent</span><span class="o">&gt;</span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Utility"></a>
+                <a name="//apple_ref/swift/Section/Utility" class="dashAnchor"></a>
+                <h5 class="section-name">Utility</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit13FKUnitFactoryC5resetyyF"></a>
+                    <a name="//apple_ref/swift/Method/reset()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit13FKUnitFactoryC5resetyyF">reset()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this when beginning and ending levels to safely cleanup everything</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">reset</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit13FKUnitFactoryC13loadPListDataSo12NSDictionaryCSgSSF"></a>
+                    <a name="//apple_ref/swift/Method/loadPListData(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit13FKUnitFactoryC13loadPListDataSo12NSDictionaryCSgSSF">loadPListData(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Simply loads the pList. Expects all files to be named like <q>Melee1Info.plist</q></p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">loadPListData</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">NSDictionary</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit13FKUnitFactoryCfd"></a>
+                    <a name="//apple_ref/swift/Method/deinit" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit13FKUnitFactoryCfd">deinit</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Remove cache when destroyed</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">deinit</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://battleofbrothers.com" target="_blank" rel="external">Ryan Campbell</a>. All rights reserved. (Last updated: 2018-05-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

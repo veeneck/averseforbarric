@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <title>A Verse for Barric : FKAbilitiesService Class Reference</title>
+
+    <!-- PhotoSwipe -->
+    <link rel="stylesheet" href="/css/photoswipe.css">
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite, 
+     - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="/css/default-skin.css">
+    <!-- Core JS file -->
+    <script src="/js/photoswipe.min.js"></script>
+    <!-- UI JS file -->
+    <script src="/js/photoswipe-ui-default.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+
+    <!-- JS -->
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="/js/index-min.js"></script>
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css">
+      <script src="/js/highlight.pack.js"></script>
+    <script src="../js/jazzy.js" defer></script>
+
+    <!-- Fonts -->
+
+    <!-- Icons -->
+
+    <!-- RSS -->
+    
+</head>
+  <body class="docs">
+    <a name="//apple_ref/swift/Class/FKAbilitiesService" class="dashAnchor"></a>
+    <a title="FKAbilitiesService Class Reference"></a>
+    <header class="partial">
+    	<img src="/images/barric_cropped.png" />
+    </header>
+    
+    <section>
+        <ul class="nav">
+            <li><a href="/thegame">T<span>HE</span> G<span>AME</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/motion">M<span>otion</span> G<span>raphics</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/illustrations">I<span>llustrations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/animations">A<span>nimations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/soundtrack">S<span>oundtrack</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/code">C<span>ode</span></a></li>
+        </ul>
+    </section>    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">FormationKit </a>
+        &#8594;
+        FKAbilitiesService 
+      </p>
+      <p class="coverage"> 56% documented</p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Squads.html">Squads</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadEntity.html">FKSquadEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadEntity.html#/s:12FormationKit13FKSquadEntityC10ControllerO">– Controller</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Squad Components.html">Squad Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadAgent.html">FKSquadAgent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKFormationComponent.html">FKFormationComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKFormationComponent.html#/s:12FormationKit20FKFormationComponentC11ArrangementO">– Arrangement</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKNavigationComponent.html">FKNavigationComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKCasualtyComponent.html">FKCasualtyComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadDebugComponent.html">FKSquadDebugComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Squad Formations.html">Squad Formations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Squad Formations.html#/s:12FormationKit19FKFormationProtocolP">FKFormationProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKStandingPosition.html">FKStandingPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKGridFormation.html">FKGridFormation</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Units.html">Units</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKUnitEntity.html">FKUnitEntity</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Unit Components.html">Unit Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKUnitAgent.html">FKUnitAgent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKRenderComponent.html">FKRenderComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAnimationComponent.html">FKAnimationComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAnimationComponent.html#/s:12FormationKit20FKAnimationComponentC9AnimationC">– Animation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAnimationComponent.html#/s:12FormationKit20FKAnimationComponentC14AnimationStateO">– AnimationState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKMovementComponent.html">FKMovementComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKRankComponent.html">FKRankComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKDeathComponent.html">FKDeathComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKDeathComponent/DeathBringer.html">– DeathBringer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKDeathComponent.html#/s:12FormationKit16FKDeathComponentC9DeathTypeO">– DeathType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Unit Intelligence.html">Unit Intelligence</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKIdleState.html">FKIdleState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKFollowingState.html">FKFollowingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Unit Intelligence.html#/c:@M@FormationKit@objc(cs)FKDyingState">FKDyingState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Shared Classes.html">Shared Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKMovementInstructions.html">FKMovementInstructions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Shared Classes.html#/s:12FormationKit14FKMovementTypeO">FKMovementType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Shared Classes.html#/c:@M@FormationKit@objc(cs)FKIntelligenceComponent">FKIntelligenceComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Factories.html">Factories</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadFactory.html">FKSquadFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadFactory/FKSquadConstruction.html">– FKSquadConstruction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKUnitFactory.html">FKUnitFactory</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html">Ability</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC8BehaviorO">– Behavior</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC9SpecialtyO">– Specialty</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC10ValidationO">– Validation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC14ValidationDataV">– ValidationData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC9TargetingO">– Targeting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC9SoundMarkO">– SoundMark</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CommandFactory.html">CommandFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DistanceToTargetRule.html">DistanceToTargetRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EngagedWithFriendRule.html">EngagedWithFriendRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAbilitiesComponent.html">FKAbilitiesComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAbilitiesComponent.html#/s:12FormationKit20FKAbilitiesComponentC13ActiveAbilityV">– ActiveAbility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAbilitiesService.html">FKAbilitiesService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAgendaFactory.html">FKAgendaFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAttackComponent.html">FKAttackComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FKAttackingState">FKAttackingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAttributesComponent.html">FKAttributesComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAttributesComponent.html#/s:12FormationKit21FKAttributesComponentC9AttributeO">– Attribute</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKBattleComponent.html">FKBattleComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKBlockedState.html">FKBlockedState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/s:12FormationKit14FKCacheServiceC">FKCacheService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKCatchingUpState.html">FKCatchingUpState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKCommand.html">FKCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKDefendingState.html">FKDefendingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKEntitySpriteNode.html">FKEntitySpriteNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKGameplaySnapshot.html">FKGameplaySnapshot</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKGameplaySnapshot/TargetSnapshot.html">– TargetSnapshot</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKHeraldryComponent.html">FKHeraldryComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKHeroComponent.html">FKHeroComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKHeroEntity.html">FKHeroEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FKLungeState">FKLungeState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKModifierComponent.html">FKModifierComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKMoraleComponent.html">FKMoraleComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKMovingState.html">FKMovingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKObjectPoolService.html">FKObjectPoolService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKOrderService.html">FKOrderService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKPhysicsComponent.html">FKPhysicsComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKPhysicsService.html">FKPhysicsService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKPhysicsService.html#/s:12FormationKit16FKPhysicsServiceC12ColliderTypeO">– ColliderType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKPhysicsService.html#/s:12FormationKit16FKPhysicsServiceC16UnitPhysicsStateO">– UnitPhysicsState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/s:12FormationKit19FKProjectileFactoryC">FKProjectileFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKQueueComponent.html">FKQueueComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKSeekingState.html">FKSeekingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FKSharedAttributesComponent">FKSharedAttributesComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/s:12FormationKit14FKSpellFactoryC">FKSpellFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKTargetingFactory.html">FKTargetingFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKTriangleFormation.html">FKTriangleFormation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FKVolleyingState">FKVolleyingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FriendlyFireRule">FriendlyFireRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)HighThreatRule">HighThreatRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)LikelyToWinRule">LikelyToWinRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)ObstacleInterferenceRule">ObstacleInterferenceRule</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Functions.html">Other Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Other Functions.html#/s:12FormationKit2eeoiSbAA13FKSquadEntityC_ADtF">==(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Other Protocols.html#/s:12FormationKit21ContactNotifiableTypeP">ContactNotifiableType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FKButtonNodeProtocol.html">FKButtonNodeProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Protocols.html#/s:12FormationKit18FKHeraldryProtocolP">FKHeraldryProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FKPathfindingProtocol.html">FKPathfindingProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Protocols.html#/s:12FormationKit15FKSquadProtocolP">FKSquadProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Structs.html">Other Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/CommandInstructions.html">CommandInstructions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html">Modifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV8BehaviorO">– Behavior</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV12ModificationO">– Modification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV15CombatAttributeO">– CombatAttribute</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV22CombatAttributeSubtypeO">– CombatAttributeSubtype</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV6TargetO">– Target</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h4>FKAbilitiesService</h4>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">FKAbilitiesService</span></code></pre>
+
+                </div>
+              </div>
+            <p>TODO</p>
+
+<ul>
+<li><p>Figure out squad leveling up. If ability, is it passive, or applied to units when squad is constructed?</p>
+
+<ul>
+<li><del>DONE: Unit stats are directly modifying the unit.</del></li>
+<li>Ability upgrades aren&rsquo;t working because modifier.target of .Ability can&rsquo;t also be .CombatTarget &hellip; need a separate classificaiton. One for who the modifier should target, and another for who an ability should target?
+Then, Factory would just look at Ability.Target to apply to array while modifiers continue to look at modifier.target. Maybe use ability.behavior and add <q>UpgradeUnit</q> and <q>UpgradeAbility</q> as options?</li>
+</ul></li>
+<li><p>Figure out global passive abilities</p>
+
+<ul>
+<li>Target either .player or .enemyNPC</li>
+<li>Target all units stats, add functionality to an existing ability, or are unique abilities in themselves.
+
+<ul>
+<li>1. +5 Agility to all friendlies.</li>
+<li>2. Attack Ability gets a new modifier &ndash; Fire DoT randomly added to each attack</li>
+<li>3. Revive units after a wave has ended.</li>
+</ul></li>
+</ul></li>
+<li><p>Fix persuit bonus</p>
+
+<ul>
+<li>Just make persuit an ability, trigger the ability like Charge or Flee whereas right now it is hardcoded stat changes.</li>
+</ul></li>
+<li><p><del>DONE: Remove addModifiers() from FKModifierComponent, and old modifier functions from FKAbilitiesComponent</del></p></li>
+<li><p>Reflect / absorb</p>
+
+<ul>
+<li>Absorb would create a new heal modifier and apply that. Makes sense ot handle in this service. Might need distinction between .blunt, .elemental, etc. Unit attribute will need an abosrbType and absorbAMount</li>
+<li>Reflect is tricky because it needs the spell animations. This service should trigger it as anew ability that gets processed as if the user clicked the UI</li>
+</ul></li>
+<li><p>~~~<del>DONE. Move indestructable check with modifier accuracy check</del>~~~</p></li>
+<li><p>Abilities that trigger another ability &ndash; all custom logic, or automated version in here too?</p></li>
+<li><p>Attribute.getValueFor(.Attribute) &hellip; Only checks unit modifiers. Should this have to route through here to pick u ppassive abilities, or should they be applied to the unit?
+    - To clairfy, +5% attack damage would route through here and modify 5% to negative HP modifiers BUT
+    - What about all units attack 10% quicker &hellip; that is all atrribute side code. Maybe atributes calls a function here like modifyAttributeForPassiveModifiers?</p></li>
+<li><p>Implement percentage based modifiers and number based?</p>
+
+<ul>
+<li>Need a Flag in modifier to specify units. Then, this service can adjust the baseAmount accordingly</li>
+</ul></li>
+</ul>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit18FKAbilitiesServiceC16passiveAbilitiesSayAA7AbilityCGvp"></a>
+                    <a name="//apple_ref/swift/Property/passiveAbilities" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit18FKAbilitiesServiceC16passiveAbilitiesSayAA7AbilityCGvp">passiveAbilities</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Holds abilities that can modify other abilities.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">passiveAbilities</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/Ability.html">Ability</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Process%20Abilities"></a>
+                <a name="//apple_ref/swift/Section/Process Abilities" class="dashAnchor"></a>
+                <h5 class="section-name">Process Abilities</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit18FKAbilitiesServiceC14processOnSquadyAA7AbilityC7ability_AA13FKSquadEntityC6targetAI10originatorSC7CGPointV6origintF"></a>
+                    <a name="//apple_ref/swift/Method/processOnSquad(ability:target:originator:origin:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit18FKAbilitiesServiceC14processOnSquadyAA7AbilityC7ability_AA13FKSquadEntityC6targetAI10originatorSC7CGPointV6origintF">processOnSquad(ability:target:originator:origin:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Entry point to apply a modifier to all units of a squad.
+    - Apply modifiers to the abilities target
+    - Apply CombatTarget modifiers to the squad that the target is attacking
+    - Display UI updates to any squad that is modified</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">processOnSquad</span><span class="p">(</span><span class="nv">ability</span><span class="p">:</span> <span class="kt"><a href="../Classes/Ability.html">Ability</a></span><span class="p">,</span> <span class="nv">target</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">,</span> <span class="nv">originator</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">,</span> <span class="nv">origin</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit18FKAbilitiesServiceC13processOnUnityAA7AbilityC7ability_AA12FKUnitEntityC6targetAA07FKSquadK0C10originatorSC7CGPointV6origintF"></a>
+                    <a name="//apple_ref/swift/Method/processOnUnit(ability:target:originator:origin:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit18FKAbilitiesServiceC13processOnUnityAA7AbilityC7ability_AA12FKUnitEntityC6targetAA07FKSquadK0C10originatorSC7CGPointV6origintF">processOnUnit(ability:target:originator:origin:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the entry point for one squad attacking another unit.
+    - Mainly just a convenience function to grab a unit from the squad to use as the originator, and then call processOnUnit</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">processOnUnit</span><span class="p">(</span><span class="nv">ability</span><span class="p">:</span> <span class="kt"><a href="../Classes/Ability.html">Ability</a></span><span class="p">,</span> <span class="nv">target</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKUnitEntity.html">FKUnitEntity</a></span><span class="p">,</span> <span class="nv">originator</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">,</span> <span class="nv">origin</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit18FKAbilitiesServiceC13processOnUnityAA7AbilityC7ability_AA12FKUnitEntityC6targetAI10originatorSC7CGPointV6origintF"></a>
+                    <a name="//apple_ref/swift/Method/processOnUnit(ability:target:originator:origin:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit18FKAbilitiesServiceC13processOnUnityAA7AbilityC7ability_AA12FKUnitEntityC6targetAI10originatorSC7CGPointV6origintF">processOnUnit(ability:target:originator:origin:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the entry point for one unit attacking another unit.
+    - Unit vs unit combat can be dodged completely
+    - After dodge roll, capply modifiers to target unit</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">processOnUnit</span><span class="p">(</span><span class="nv">ability</span><span class="p">:</span> <span class="kt"><a href="../Classes/Ability.html">Ability</a></span><span class="p">,</span> <span class="nv">target</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKUnitEntity.html">FKUnitEntity</a></span><span class="p">,</span> <span class="nv">originator</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKUnitEntity.html">FKUnitEntity</a></span><span class="p">,</span> <span class="nv">origin</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Process%20Modifiers"></a>
+                <a name="//apple_ref/swift/Section/Process Modifiers" class="dashAnchor"></a>
+                <h5 class="section-name">Process Modifiers</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit18FKAbilitiesServiceC23processModifiersOnSquadySayAA8ModifierVG9modifiers_AA13FKSquadEntityC6targetAJSg10originatorSC7CGPointV6origintF"></a>
+                    <a name="//apple_ref/swift/Method/processModifiersOnSquad(modifiers:target:originator:origin:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit18FKAbilitiesServiceC23processModifiersOnSquadySayAA8ModifierVG9modifiers_AA13FKSquadEntityC6targetAJSg10originatorSC7CGPointV6origintF">processModifiersOnSquad(modifiers:target:originator:origin:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience to bypass ability logic and directly apply a modifier to a squad. Example: Phoenix spell is based on timing. Each unit revives, and then casts an attack.
+Instead of using default ability / ability.combattarget, the code is scripted to handle each attack individually. Situaitons like this call for a direct
+applyModifiersToSquad/Unit and bypass default ability logic</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">processModifiersOnSquad</span><span class="p">(</span><span class="nv">modifiers</span><span class="p">:[</span><span class="kt"><a href="../Structs/Modifier.html">Modifier</a></span><span class="p">],</span> <span class="nv">target</span><span class="p">:</span><span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">,</span> <span class="nv">originator</span><span class="p">:</span><span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">origin</span><span class="p">:</span><span class="kt">CGPoint</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit18FKAbilitiesServiceC22processModifiersOnUnitySayAA8ModifierVG9modifiers_AA12FKUnitEntityC6targetAJSg10originatorSC7CGPointV6origintF"></a>
+                    <a name="//apple_ref/swift/Method/processModifiersOnUnit(modifiers:target:originator:origin:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit18FKAbilitiesServiceC22processModifiersOnUnitySayAA8ModifierVG9modifiers_AA12FKUnitEntityC6targetAJSg10originatorSC7CGPointV6origintF">processModifiersOnUnit(modifiers:target:originator:origin:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Actually apply the modifiers to a unit.
+    - Enhance or weaken the modifier based on unit resistances</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">processModifiersOnUnit</span><span class="p">(</span><span class="nv">modifiers</span><span class="p">:[</span><span class="kt"><a href="../Structs/Modifier.html">Modifier</a></span><span class="p">],</span> <span class="nv">target</span><span class="p">:</span><span class="kt"><a href="../Classes/FKUnitEntity.html">FKUnitEntity</a></span><span class="p">,</span> <span class="nv">originator</span><span class="p">:</span><span class="kt"><a href="../Classes/FKUnitEntity.html">FKUnitEntity</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">origin</span><span class="p">:</span><span class="kt">CGPoint</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit18FKAbilitiesServiceC13applyModifieryAA12FKUnitEntityC4unit_AA0F0V8modifiertF"></a>
+                    <a name="//apple_ref/swift/Method/applyModifier(unit:modifier:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit18FKAbilitiesServiceC13applyModifieryAA12FKUnitEntityC4unit_AA0F0V8modifiertF">applyModifier(unit:modifier:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The last step before the modifier is actually applied. Check to see if it should completely miss based on modifier.accuracy</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">applyModifier</span><span class="p">(</span><span class="nv">unit</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKUnitEntity.html">FKUnitEntity</a></span><span class="p">,</span> <span class="nv">modifier</span><span class="p">:</span> <span class="kt"><a href="../Structs/Modifier.html">Modifier</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Unit%20on%20Unit%20Physical%20Damage%20Modifiers%20(Arrows%20and%20Melee)"></a>
+                <a name="//apple_ref/swift/Section/Unit on Unit Physical Damage Modifiers (Arrows and Melee)" class="dashAnchor"></a>
+                <h5 class="section-name">Unit on Unit Physical Damage Modifiers (Arrows and Melee)</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit18FKAbilitiesServiceC28handlePhysicalDamageModifieryAA0H0V8modifier_AA12FKUnitEntityC6targetAI10originatorSC7CGPointV6origintF"></a>
+                    <a name="//apple_ref/swift/Method/handlePhysicalDamageModifier(modifier:target:originator:origin:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit18FKAbilitiesServiceC28handlePhysicalDamageModifieryAA0H0V8modifier_AA12FKUnitEntityC6targetAI10originatorSC7CGPointV6origintF">handlePhysicalDamageModifier(modifier:target:originator:origin:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If the modifier is an HP modifier, adjust the value based on Strength and Armor</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">handlePhysicalDamageModifier</span><span class="p">(</span><span class="nv">modifier</span><span class="p">:</span> <span class="kt"><a href="../Structs/Modifier.html">Modifier</a></span><span class="p">,</span> <span class="nv">target</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKUnitEntity.html">FKUnitEntity</a></span><span class="p">,</span> <span class="nv">originator</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKUnitEntity.html">FKUnitEntity</a></span><span class="p">,</span> <span class="nv">origin</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit18FKAbilitiesServiceC27unitWillDodgePhysicalAttackSbAA12FKUnitEntityC6target_tF"></a>
+                    <a name="//apple_ref/swift/Method/unitWillDodgePhysicalAttack(target:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit18FKAbilitiesServiceC27unitWillDodgePhysicalAttackSbAA12FKUnitEntityC6target_tF">unitWillDodgePhysicalAttack(target:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Check agility and roll to see if the unit should dodge the attack</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">unitWillDodgePhysicalAttack</span><span class="p">(</span><span class="nv">target</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKUnitEntity.html">FKUnitEntity</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit18FKAbilitiesServiceC23calculatePhysicalDamageAA8ModifierVAF14baseHPModifier_AA12FKUnitEntityC6targetAI10originatortF"></a>
+                    <a name="//apple_ref/swift/Method/calculatePhysicalDamage(baseHPModifier:target:originator:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit18FKAbilitiesServiceC23calculatePhysicalDamageAA8ModifierVAF14baseHPModifier_AA12FKUnitEntityC6targetAI10originatortF">calculatePhysicalDamage(baseHPModifier:target:originator:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Adjusted value takes Strength / Armor. 90 / 100 = 0.9 &ndash; Base Damage = -10. So, higher armor would only take 90% of the damage.
+Reversed: 120 Strength, 90 Armor. 120 / 90 = 1.3 &ndash; -10 * 1.3 = -13. So, more damage gets through.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">calculatePhysicalDamage</span><span class="p">(</span><span class="nv">baseHPModifier</span><span class="p">:</span> <span class="kt"><a href="../Structs/Modifier.html">Modifier</a></span><span class="p">,</span> <span class="nv">target</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKUnitEntity.html">FKUnitEntity</a></span><span class="p">,</span> <span class="nv">originator</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKUnitEntity.html">FKUnitEntity</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/Modifier.html">Modifier</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Elemental%20Modifiers"></a>
+                <a name="//apple_ref/swift/Section/Elemental Modifiers" class="dashAnchor"></a>
+                <h5 class="section-name">Elemental Modifiers</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit18FKAbilitiesServiceC29handleElementalDamageModifieryAA0H0V8modifier_AA12FKUnitEntityC6targetSC7CGPointV6origintF"></a>
+                    <a name="//apple_ref/swift/Method/handleElementalDamageModifier(modifier:target:origin:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit18FKAbilitiesServiceC29handleElementalDamageModifieryAA0H0V8modifier_AA12FKUnitEntityC6targetSC7CGPointV6origintF">handleElementalDamageModifier(modifier:target:origin:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If the modifier is elemental, see how it should be absorbed or magnified based on unit stats</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">handleElementalDamageModifier</span><span class="p">(</span><span class="nv">modifier</span><span class="p">:</span> <span class="kt"><a href="../Structs/Modifier.html">Modifier</a></span><span class="p">,</span> <span class="nv">target</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKUnitEntity.html">FKUnitEntity</a></span><span class="p">,</span> <span class="nv">origin</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit18FKAbilitiesServiceC24calculateElementalDamageAA8ModifierVAF04baseH0_AA12FKUnitEntityC6targettF"></a>
+                    <a name="//apple_ref/swift/Method/calculateElementalDamage(baseModifier:target:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit18FKAbilitiesServiceC24calculateElementalDamageAA8ModifierVAF04baseH0_AA12FKUnitEntityC6targettF">calculateElementalDamage(baseModifier:target:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>All elemental modifications (Str, HP, etc) go through this. Everything has a chance to be partially resisted</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">calculateElementalDamage</span><span class="p">(</span><span class="nv">baseModifier</span><span class="p">:</span> <span class="kt"><a href="../Structs/Modifier.html">Modifier</a></span><span class="p">,</span> <span class="nv">target</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKUnitEntity.html">FKUnitEntity</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/Modifier.html">Modifier</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Status%20Modifiers"></a>
+                <a name="//apple_ref/swift/Section/Status Modifiers" class="dashAnchor"></a>
+                <h5 class="section-name">Status Modifiers</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit18FKAbilitiesServiceC20handleStatusModifieryAA0G0V8modifier_AA12FKUnitEntityC6targetAISg10originatorSC7CGPointV6origintF"></a>
+                    <a name="//apple_ref/swift/Method/handleStatusModifier(modifier:target:originator:origin:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit18FKAbilitiesServiceC20handleStatusModifieryAA0G0V8modifier_AA12FKUnitEntityC6targetAISg10originatorSC7CGPointV6origintF">handleStatusModifier(modifier:target:originator:origin:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If the modifier is status, it just gets applied or resisted</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">handleStatusModifier</span><span class="p">(</span> <span class="nv">modifier</span><span class="p">:</span><span class="kt"><a href="../Structs/Modifier.html">Modifier</a></span><span class="p">,</span> <span class="nv">target</span><span class="p">:</span><span class="kt"><a href="../Classes/FKUnitEntity.html">FKUnitEntity</a></span><span class="p">,</span> <span class="nv">originator</span><span class="p">:</span><span class="kt"><a href="../Classes/FKUnitEntity.html">FKUnitEntity</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">origin</span><span class="p">:</span><span class="kt">CGPoint</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Squad%20Ability%20Modifiers"></a>
+                <a name="//apple_ref/swift/Section/Squad Ability Modifiers" class="dashAnchor"></a>
+                <h5 class="section-name">Squad Ability Modifiers</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit18FKAbilitiesServiceC24getSquadAbilityModifiersSayAA8ModifierVGSgAA13FKSquadEntityC_AA0G0C7abilityAF6TargetO6targettF"></a>
+                    <a name="//apple_ref/swift/Method/getSquadAbilityModifiers(_:ability:target:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit18FKAbilitiesServiceC24getSquadAbilityModifiersSayAA8ModifierVGSgAA13FKSquadEntityC_AA0G0C7abilityAF6TargetO6targettF">getSquadAbilityModifiers(_:ability:target:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Loop over each modifier for an ability and filter by target. Then, if the squad has ability modifiers (i.e.: +5 STR to Charge)
+apply the +5 Str modification to an existing str modifier, or creat e anew STR modifier</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getSquadAbilityModifiers</span><span class="p">(</span><span class="n">_</span> <span class="nv">squad</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">,</span> <span class="nv">ability</span><span class="p">:</span> <span class="kt"><a href="../Classes/Ability.html">Ability</a></span><span class="p">,</span> <span class="nv">target</span><span class="p">:</span> <span class="kt"><a href="../Structs/Modifier.html">Modifier</a></span><span class="o">.</span><span class="kt">Target</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt"><a href="../Structs/Modifier.html">Modifier</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit18FKAbilitiesServiceC27updateExistingOrAddModifierSayAA0I0VGAG9modifiers_AF12modificationtF"></a>
+                    <a name="//apple_ref/swift/Method/updateExistingOrAddModifier(modifiers:modification:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit18FKAbilitiesServiceC27updateExistingOrAddModifierSayAA0I0VGAG9modifiers_AF12modificationtF">updateExistingOrAddModifier(modifiers:modification:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Logic to update an existing modifier or add a new one to an array of modifiers</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">updateExistingOrAddModifier</span><span class="p">(</span><span class="nv">modifiers</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/Modifier.html">Modifier</a></span><span class="p">],</span> <span class="nv">modification</span><span class="p">:</span> <span class="kt"><a href="../Structs/Modifier.html">Modifier</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt"><a href="../Structs/Modifier.html">Modifier</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit18FKAbilitiesServiceC31adjustModifierForIndestructableAA0F0VAF8modifier_AA12FKUnitEntityC4unittF"></a>
+                    <a name="//apple_ref/swift/Method/adjustModifierForIndestructable(modifier:unit:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit18FKAbilitiesServiceC31adjustModifierForIndestructableAA0F0VAF8modifier_AA12FKUnitEntityC4unittF">adjustModifierForIndestructable(modifier:unit:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <pre class="highlight swift"><code><span class="kt">Look</span> <span class="n">at</span> <span class="n">passive</span> <span class="n">abilities</span> <span class="n">array</span> <span class="k">for</span> <span class="n">any</span> <span class="n">ability</span><span class="o">.</span> <span class="kt">For</span> <span class="n">example</span><span class="p">,</span> <span class="k">if</span> <span class="n">a</span> <span class="n">passive</span> <span class="k">is</span> <span class="o">+</span><span class="mi">10</span><span class="o">%</span> <span class="n">armor</span> <span class="n">to</span> <span class="n">all</span> <span class="n">units</span> <span class="n">instead</span> <span class="n">of</span> <span class="n">loop</span> <span class="n">every</span> <span class="n">unit</span> <span class="n">and</span> <span class="n">applying</span> <span class="n">the</span> <span class="n">modifier</span> <span class="n">to</span> <span class="n">the</span> <span class="n">unit</span>
+<span class="n">it</span> <span class="k">is</span> <span class="n">just</span> <span class="n">kept</span> <span class="n">here</span> <span class="n">and</span> <span class="n">checked</span> <span class="n">before</span> <span class="n">applying</span> <span class="n">the</span> <span class="n">modifier</span>
+<span class="kt">TODO</span><span class="p">:</span> <span class="kt">Think</span> <span class="n">this</span> <span class="n">through</span><span class="o">.</span> <span class="kt">Makes</span> <span class="n">sens</span> <span class="k">for</span> <span class="o">+</span><span class="mi">10</span><span class="o">%</span> <span class="n">damage</span> <span class="n">to</span> <span class="n">all</span> <span class="kt">HP</span> <span class="n">modifiers</span><span class="o">.</span> <span class="kt">But</span><span class="p">,</span> <span class="o">+</span><span class="mi">10</span><span class="o">%</span> <span class="n">resistance</span> <span class="n">makes</span> <span class="n">it</span> <span class="n">look</span> <span class="n">like</span> <span class="n">it</span> <span class="n">should</span> <span class="n">adjust</span> <span class="nf">getValueForAttribute</span><span class="p">(),</span> <span class="n">which</span> <span class="k">is</span> <span class="n">then</span> <span class="n">compared</span> <span class="n">against</span> <span class="n">the</span> <span class="n">modifier</span><span class="o">.</span>
+       <span class="kt">Difference</span> <span class="k">is</span> <span class="mi">1</span> <span class="n">modifies</span> <span class="n">the</span> <span class="n">modifier</span> <span class="k">while</span> <span class="n">the</span> <span class="n">other</span> <span class="n">modifies</span> <span class="n">an</span> <span class="n">attribute</span>
+<span class="kt">Does</span> <span class="n">that</span> <span class="n">mean</span> <span class="n">we</span> <span class="n">need</span> <span class="n">passiveModifierModifiers</span> <span class="n">and</span> <span class="nf">passiveAttributeModifiers</span> <span class="p">(</span><span class="n">or</span> <span class="n">a</span> <span class="n">function</span> <span class="n">that</span> <span class="n">filters</span> <span class="n">them</span><span class="p">)</span> <span class="n">and</span> <span class="n">then</span> <span class="n">different</span> <span class="n">parts</span> <span class="n">of</span> <span class="n">the</span> <span class="n">code</span> <span class="n">call</span> <span class="n">when</span> <span class="n">needed</span><span class="p">?</span>
+</code></pre>
+
+<p>Check if a target is fully or partially indestructable, and adjust modifier before applying</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">adjustModifierForIndestructable</span><span class="p">(</span><span class="nv">modifier</span><span class="p">:</span> <span class="kt"><a href="../Structs/Modifier.html">Modifier</a></span><span class="p">,</span> <span class="nv">unit</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKUnitEntity.html">FKUnitEntity</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/Modifier.html">Modifier</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Get%20all%20abilities%20active%20on%20a%20squad"></a>
+                <a name="//apple_ref/swift/Section/Get all abilities active on a squad" class="dashAnchor"></a>
+                <h5 class="section-name">Get all abilities active on a squad</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit18FKAbilitiesServiceC30getAbilitiesCurrentlyAffectingSayAA7AbilityCG_s10DictionaryVySSSiGtSgAA13FKSquadEntityC5squad_tF"></a>
+                    <a name="//apple_ref/swift/Method/getAbilitiesCurrentlyAffecting(squad:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit18FKAbilitiesServiceC30getAbilitiesCurrentlyAffectingSayAA7AbilityCG_s10DictionaryVySSSiGtSgAA13FKSquadEntityC5squad_tF">getAbilitiesCurrentlyAffecting(squad:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <li>DONE: Check modifiers on units and roll them up based on ability</li>
+<li>N/A Right now: Check modifiers on squad abilities</li>
+<div class="aside aside-todo">
+    <p class="aside-title">Todo</p>
+    Check modifiers on squad. I.e.: Move Morale from unit attribute to squad attribute
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getAbilitiesCurrentlyAffecting</span><span class="p">(</span><span class="nv">squad</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">([</span><span class="kt"><a href="../Classes/Ability.html">Ability</a></span><span class="p">],</span> <span class="kt">Dictionary</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span> <span class="kt">Int</span><span class="o">&gt;</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://battleofbrothers.com" target="_blank" rel="external">Ryan Campbell</a>. All rights reserved. (Last updated: 2018-05-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

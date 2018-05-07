@@ -1,0 +1,138 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ryancampbell/Documents/Games/PathKit/PathKit/GKTriangle+Extension.swift",
+      "line": 14,
+      "symbol": "GKTriangle.path",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/PathKit/PathKit/GKTriangle+Extension.swift",
+      "line": 18,
+      "symbol": "GKTriangle.containsPoint(point:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/PathKit/PathKit/GKTriangle+Extension.swift",
+      "line": 22,
+      "symbol": "GKTriangle.buildPath()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/PathKit/PathKit/PKAtlas.swift",
+      "line": 30,
+      "symbol": "PKAtlas.meshObstacles",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/PathKit/PathKit/PKAtlas.swift",
+      "line": 32,
+      "symbol": "PKAtlas.obstacles",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/PathKit/PathKit/PKAtlas.swift",
+      "line": 45,
+      "symbol": "PKAtlas.init(file:scene:bgLayer:obstacleLayer:collider:mapSize:delegate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/PathKit/PathKit/PKAtlasProtocol.swift",
+      "line": 18,
+      "symbol": "PKAtlasProtocol.obstacleHasBeenCreated(obstacle:rawData:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/PathKit/PathKit/PKDepthGraph.swift",
+      "line": 22,
+      "symbol": "PKDepthGraph.sharedInstance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/PathKit/PathKit/PKDepthGraph.swift",
+      "line": 26,
+      "symbol": "PKDepthGraph.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/PathKit/PathKit/PKDepthGraph.swift",
+      "line": 30,
+      "symbol": "PKDepthGraph.addRegion(sprite:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/PathKit/PathKit/PKDepthGraph.swift",
+      "line": 35,
+      "symbol": "PKDepthGraph.getAdjustedDepth(position:zPosition:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/PathKit/PathKit/PKDepthGraph.swift",
+      "line": 45,
+      "symbol": "PKDepthGraph.containsPoint(point:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/PathKit/PathKit/PKDepthGraph.swift",
+      "line": 56,
+      "symbol": "PKDepthGraph.cleanup()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/PathKit/PathKit/PKMeshObstacle.swift",
+      "line": 12,
+      "symbol": "PKMeshObstacle",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/PathKit/PathKit/PKNavmesh.swift",
+      "line": 24,
+      "symbol": "PKNavmesh.meshObstacles",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/PathKit/PathKit/PKNavmesh.swift",
+      "line": 26,
+      "symbol": "PKNavmesh.collider",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/PathKit/PathKit/PKNavmesh.swift",
+      "line": 28,
+      "symbol": "PKNavmesh.buffer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/PathKit/PathKit/PKNavmesh.swift",
+      "line": 32,
+      "symbol": "PKNavmesh.init(meshObstacles:obstacles:scene:bgLayer:bufferRadius:collider:size:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/PathKit/PathKit/PKNavmesh.swift",
+      "line": 60,
+      "symbol": "PKNavmesh.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ryancampbell/Documents/Games/PathKit"
+}

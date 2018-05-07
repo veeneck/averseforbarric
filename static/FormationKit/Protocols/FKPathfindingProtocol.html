@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <title>A Verse for Barric : FKPathfindingProtocol Protocol Reference</title>
+
+    <!-- PhotoSwipe -->
+    <link rel="stylesheet" href="/css/photoswipe.css">
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite, 
+     - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="/css/default-skin.css">
+    <!-- Core JS file -->
+    <script src="/js/photoswipe.min.js"></script>
+    <!-- UI JS file -->
+    <script src="/js/photoswipe-ui-default.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+
+    <!-- JS -->
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="/js/index-min.js"></script>
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css">
+      <script src="/js/highlight.pack.js"></script>
+    <script src="../js/jazzy.js" defer></script>
+
+    <!-- Fonts -->
+
+    <!-- Icons -->
+
+    <!-- RSS -->
+    
+</head>
+  <body class="docs">
+    <a name="//apple_ref/swift/Protocol/FKPathfindingProtocol" class="dashAnchor"></a>
+    <a title="FKPathfindingProtocol Protocol Reference"></a>
+    <header class="partial">
+    	<img src="/images/barric_cropped.png" />
+    </header>
+    
+    <section>
+        <ul class="nav">
+            <li><a href="/thegame">T<span>HE</span> G<span>AME</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/motion">M<span>otion</span> G<span>raphics</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/illustrations">I<span>llustrations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/animations">A<span>nimations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/soundtrack">S<span>oundtrack</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/code">C<span>ode</span></a></li>
+        </ul>
+    </section>    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">FormationKit </a>
+        &#8594;
+        FKPathfindingProtocol 
+      </p>
+      <p class="coverage"> 56% documented</p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Squads.html">Squads</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadEntity.html">FKSquadEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadEntity.html#/s:12FormationKit13FKSquadEntityC10ControllerO">– Controller</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Squad Components.html">Squad Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadAgent.html">FKSquadAgent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKFormationComponent.html">FKFormationComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKFormationComponent.html#/s:12FormationKit20FKFormationComponentC11ArrangementO">– Arrangement</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKNavigationComponent.html">FKNavigationComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKCasualtyComponent.html">FKCasualtyComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadDebugComponent.html">FKSquadDebugComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Squad Formations.html">Squad Formations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Squad Formations.html#/s:12FormationKit19FKFormationProtocolP">FKFormationProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKStandingPosition.html">FKStandingPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKGridFormation.html">FKGridFormation</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Units.html">Units</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKUnitEntity.html">FKUnitEntity</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Unit Components.html">Unit Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKUnitAgent.html">FKUnitAgent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKRenderComponent.html">FKRenderComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAnimationComponent.html">FKAnimationComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAnimationComponent.html#/s:12FormationKit20FKAnimationComponentC9AnimationC">– Animation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAnimationComponent.html#/s:12FormationKit20FKAnimationComponentC14AnimationStateO">– AnimationState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKMovementComponent.html">FKMovementComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKRankComponent.html">FKRankComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKDeathComponent.html">FKDeathComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKDeathComponent/DeathBringer.html">– DeathBringer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKDeathComponent.html#/s:12FormationKit16FKDeathComponentC9DeathTypeO">– DeathType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Unit Intelligence.html">Unit Intelligence</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKIdleState.html">FKIdleState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKFollowingState.html">FKFollowingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Unit Intelligence.html#/c:@M@FormationKit@objc(cs)FKDyingState">FKDyingState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Shared Classes.html">Shared Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKMovementInstructions.html">FKMovementInstructions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Shared Classes.html#/s:12FormationKit14FKMovementTypeO">FKMovementType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Shared Classes.html#/c:@M@FormationKit@objc(cs)FKIntelligenceComponent">FKIntelligenceComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Factories.html">Factories</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadFactory.html">FKSquadFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadFactory/FKSquadConstruction.html">– FKSquadConstruction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKUnitFactory.html">FKUnitFactory</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html">Ability</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC8BehaviorO">– Behavior</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC9SpecialtyO">– Specialty</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC10ValidationO">– Validation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC14ValidationDataV">– ValidationData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC9TargetingO">– Targeting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC9SoundMarkO">– SoundMark</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CommandFactory.html">CommandFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DistanceToTargetRule.html">DistanceToTargetRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EngagedWithFriendRule.html">EngagedWithFriendRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAbilitiesComponent.html">FKAbilitiesComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAbilitiesComponent.html#/s:12FormationKit20FKAbilitiesComponentC13ActiveAbilityV">– ActiveAbility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAbilitiesService.html">FKAbilitiesService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAgendaFactory.html">FKAgendaFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAttackComponent.html">FKAttackComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FKAttackingState">FKAttackingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAttributesComponent.html">FKAttributesComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAttributesComponent.html#/s:12FormationKit21FKAttributesComponentC9AttributeO">– Attribute</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKBattleComponent.html">FKBattleComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKBlockedState.html">FKBlockedState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/s:12FormationKit14FKCacheServiceC">FKCacheService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKCatchingUpState.html">FKCatchingUpState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKCommand.html">FKCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKDefendingState.html">FKDefendingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKEntitySpriteNode.html">FKEntitySpriteNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKGameplaySnapshot.html">FKGameplaySnapshot</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKGameplaySnapshot/TargetSnapshot.html">– TargetSnapshot</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKHeraldryComponent.html">FKHeraldryComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKHeroComponent.html">FKHeroComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKHeroEntity.html">FKHeroEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FKLungeState">FKLungeState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKModifierComponent.html">FKModifierComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKMoraleComponent.html">FKMoraleComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKMovingState.html">FKMovingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKObjectPoolService.html">FKObjectPoolService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKOrderService.html">FKOrderService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKPhysicsComponent.html">FKPhysicsComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKPhysicsService.html">FKPhysicsService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKPhysicsService.html#/s:12FormationKit16FKPhysicsServiceC12ColliderTypeO">– ColliderType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKPhysicsService.html#/s:12FormationKit16FKPhysicsServiceC16UnitPhysicsStateO">– UnitPhysicsState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/s:12FormationKit19FKProjectileFactoryC">FKProjectileFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKQueueComponent.html">FKQueueComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKSeekingState.html">FKSeekingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FKSharedAttributesComponent">FKSharedAttributesComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/s:12FormationKit14FKSpellFactoryC">FKSpellFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKTargetingFactory.html">FKTargetingFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKTriangleFormation.html">FKTriangleFormation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FKVolleyingState">FKVolleyingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FriendlyFireRule">FriendlyFireRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)HighThreatRule">HighThreatRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)LikelyToWinRule">LikelyToWinRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)ObstacleInterferenceRule">ObstacleInterferenceRule</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Functions.html">Other Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Other Functions.html#/s:12FormationKit2eeoiSbAA13FKSquadEntityC_ADtF">==(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Other Protocols.html#/s:12FormationKit21ContactNotifiableTypeP">ContactNotifiableType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FKButtonNodeProtocol.html">FKButtonNodeProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Protocols.html#/s:12FormationKit18FKHeraldryProtocolP">FKHeraldryProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FKPathfindingProtocol.html">FKPathfindingProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Protocols.html#/s:12FormationKit15FKSquadProtocolP">FKSquadProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Structs.html">Other Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/CommandInstructions.html">CommandInstructions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html">Modifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV8BehaviorO">– Behavior</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV12ModificationO">– Modification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV15CombatAttributeO">– CombatAttribute</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV22CombatAttributeSubtypeO">– CombatAttributeSubtype</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV6TargetO">– Target</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h4>FKPathfindingProtocol</h4>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">FKPathfindingProtocol</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>So that we can separate pathfinding from this framework, this protocl was created. The goal is for movement components to have a strategy that is called whenever a move is needed.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit21FKPathfindingProtocolP14getPathToPointSo6GKPathC4path_SaySo13GKGraphNode2DCG5nodesSf0J4SizetSgSC7CGPointV_AO3endSf10unitRadiusSf0jR0tF"></a>
+                    <a name="//apple_ref/swift/Method/getPathToPoint(_:end:unitRadius:pathRadius:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit21FKPathfindingProtocolP14getPathToPointSo6GKPathC4path_SaySo13GKGraphNode2DCG5nodesSf0J4SizetSgSC7CGPointV_AO3endSf10unitRadiusSf0jR0tF">getPathToPoint(_:end:unitRadius:pathRadius:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Main call for an agent to find a path to a target position.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getPathToPoint</span><span class="p">(</span><span class="n">_</span> <span class="nv">start</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">,</span> <span class="nv">end</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">,</span> <span class="nv">unitRadius</span><span class="p">:</span> <span class="kt">Float</span><span class="p">,</span> <span class="nv">pathRadius</span><span class="p">:</span> <span class="kt">Float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="nv">path</span><span class="p">:</span> <span class="kt">GKPath</span><span class="p">,</span> <span class="nv">nodes</span><span class="p">:</span> <span class="p">[</span><span class="kt">GKGraphNode2D</span><span class="p">],</span> <span class="nv">pathSize</span><span class="p">:</span> <span class="kt">Float</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit21FKPathfindingProtocolP12isPointValidSb4simd6float2VF"></a>
+                    <a name="//apple_ref/swift/Method/isPointValid(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit21FKPathfindingProtocolP12isPointValidSb4simd6float2VF">isPointValid(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used to check if a point is somewhere that the unit can move or if it is off of the map</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">isPointValid</span><span class="p">(</span><span class="n">_</span> <span class="nv">desired</span><span class="p">:</span> <span class="n">float2</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit21FKPathfindingProtocolP16getAdjustedDepth12CoreGraphics7CGFloatVSC7CGPointV8position_AG9zPositiontF"></a>
+                    <a name="//apple_ref/swift/Method/getAdjustedDepth(position:zPosition:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit21FKPathfindingProtocolP16getAdjustedDepth12CoreGraphics7CGFloatVSC7CGPointV8position_AG9zPositiontF">getAdjustedDepth(position:zPosition:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used to adjust depth of an object based off of object sin the navmesh</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getAdjustedDepth</span><span class="p">(</span><span class="nv">position</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">,</span> <span class="nv">zPosition</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit21FKPathfindingProtocolP16obstaclesToAvoidSaySo10GKObstacleCGyF"></a>
+                    <a name="//apple_ref/swift/Method/obstaclesToAvoid()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit21FKPathfindingProtocolP16obstaclesToAvoidSaySo10GKObstacleCGyF">obstaclesToAvoid()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used for avoidance in agent behavior</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">obstaclesToAvoid</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">GKObstacle</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://battleofbrothers.com" target="_blank" rel="external">Ryan Campbell</a>. All rights reserved. (Last updated: 2018-05-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

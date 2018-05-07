@@ -26,7 +26,7 @@ To date, this game has 38,378 lines of Swift code. There have been countless hou
 <div class="framework">
 	<b>SwitchBoard</b>
 	<span>Advanced scene management for SpriteKit.</span>
-	<a href="">View Documentation</a>
+	<a href="/SwitchBoard">View Documentation</a>
 </div>
 
 <pre><code class="swift">sceneManager.registerScene(
@@ -42,7 +42,7 @@ To date, this game has 38,378 lines of Swift code. There have been countless hou
 <div class="framework">
 	<b>FormationKit</b>
 	<span>The heart and soul. Handles all unit and squad behaviors.</span>
-	<a href="">View Documentation</a>
+	<a href="/FormationKit">View Documentation</a>
 </div>
 <pre><code>let squad = FKSquadFactory.sharedInstance.createSquad(
     FKSquadFactory.FKSquadConstruction(
@@ -61,7 +61,7 @@ To date, this game has 38,378 lines of Swift code. There have been countless hou
 <div class="framework">
 	<b>DeckKit</b>
 	<span>UI framework to dynamically build the card menus.</span>
-	<a href="">View Documentation</a>
+	<a href="/DeckKit">View Documentation</a>
 </div>
 
 <pre><code>let construction = DKCardFactory.Blueprint(
@@ -78,7 +78,7 @@ To date, this game has 38,378 lines of Swift code. There have been countless hou
 <div class="framework">
 	<b>PathKit</b>
 	<span>Expand upon the pathfinding provided by GameplayKit.</span>
-	<a href="">View Documentation</a>
+	<a href="/PathKit">View Documentation</a>
 </div>
 
 <pre><code>if let pathfinder = entity.navigationComponent.strategy {
@@ -93,10 +93,10 @@ To date, this game has 38,378 lines of Swift code. There have been countless hou
 Other frameworks include:
 
   - [Particleboard](/Particleboard): Convenience features and extensions to common objects.
-  - [StrongRoom](http://google.com): Utility to manage save gave files, unit experience, and unclocked abilities.
-  - [WavePool](http://google.com): Control continuous spawns of enemy units.
-  - [WarGUI](http://google.com): Isolated code specific to the heads up display.
-  - [SpeakerBox](http://google.com): A sub framework of CutsceneKit to handle the _podium_ that display units icons.
+  - [StrongRoom](/StrongRoom): Utility to manage save gave files, unit experience, and unclocked abilities.
+  - [WavePool](/WavePool): Control continuous spawns of enemy units.
+  - [WarGUI](/WarGUI): Isolated code specific to the heads up display.
+  - [SpeakerBox](/SpeakerBox): A sub framework of CutsceneKit to handle the _podium_ that display units icons.
 
 #### Pathfinding
 

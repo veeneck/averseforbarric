@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <title>A Verse for Barric : CommandFactory Class Reference</title>
+
+    <!-- PhotoSwipe -->
+    <link rel="stylesheet" href="/css/photoswipe.css">
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite, 
+     - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="/css/default-skin.css">
+    <!-- Core JS file -->
+    <script src="/js/photoswipe.min.js"></script>
+    <!-- UI JS file -->
+    <script src="/js/photoswipe-ui-default.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+
+    <!-- JS -->
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="/js/index-min.js"></script>
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css">
+      <script src="/js/highlight.pack.js"></script>
+    <script src="../js/jazzy.js" defer></script>
+
+    <!-- Fonts -->
+
+    <!-- Icons -->
+
+    <!-- RSS -->
+    
+</head>
+  <body class="docs">
+    <a name="//apple_ref/swift/Class/CommandFactory" class="dashAnchor"></a>
+    <a title="CommandFactory Class Reference"></a>
+    <header class="partial">
+    	<img src="/images/barric_cropped.png" />
+    </header>
+    
+    <section>
+        <ul class="nav">
+            <li><a href="/thegame">T<span>HE</span> G<span>AME</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/motion">M<span>otion</span> G<span>raphics</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/illustrations">I<span>llustrations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/animations">A<span>nimations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/soundtrack">S<span>oundtrack</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/code">C<span>ode</span></a></li>
+        </ul>
+    </section>    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">FormationKit </a>
+        &#8594;
+        CommandFactory 
+      </p>
+      <p class="coverage"> 56% documented</p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Squads.html">Squads</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadEntity.html">FKSquadEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadEntity.html#/s:12FormationKit13FKSquadEntityC10ControllerO">– Controller</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Squad Components.html">Squad Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadAgent.html">FKSquadAgent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKFormationComponent.html">FKFormationComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKFormationComponent.html#/s:12FormationKit20FKFormationComponentC11ArrangementO">– Arrangement</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKNavigationComponent.html">FKNavigationComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKCasualtyComponent.html">FKCasualtyComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadDebugComponent.html">FKSquadDebugComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Squad Formations.html">Squad Formations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Squad Formations.html#/s:12FormationKit19FKFormationProtocolP">FKFormationProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKStandingPosition.html">FKStandingPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKGridFormation.html">FKGridFormation</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Units.html">Units</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKUnitEntity.html">FKUnitEntity</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Unit Components.html">Unit Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKUnitAgent.html">FKUnitAgent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKRenderComponent.html">FKRenderComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAnimationComponent.html">FKAnimationComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAnimationComponent.html#/s:12FormationKit20FKAnimationComponentC9AnimationC">– Animation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAnimationComponent.html#/s:12FormationKit20FKAnimationComponentC14AnimationStateO">– AnimationState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKMovementComponent.html">FKMovementComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKRankComponent.html">FKRankComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKDeathComponent.html">FKDeathComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKDeathComponent/DeathBringer.html">– DeathBringer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKDeathComponent.html#/s:12FormationKit16FKDeathComponentC9DeathTypeO">– DeathType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Unit Intelligence.html">Unit Intelligence</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKIdleState.html">FKIdleState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKFollowingState.html">FKFollowingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Unit Intelligence.html#/c:@M@FormationKit@objc(cs)FKDyingState">FKDyingState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Shared Classes.html">Shared Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKMovementInstructions.html">FKMovementInstructions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Shared Classes.html#/s:12FormationKit14FKMovementTypeO">FKMovementType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Shared Classes.html#/c:@M@FormationKit@objc(cs)FKIntelligenceComponent">FKIntelligenceComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Factories.html">Factories</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadFactory.html">FKSquadFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadFactory/FKSquadConstruction.html">– FKSquadConstruction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKUnitFactory.html">FKUnitFactory</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html">Ability</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC8BehaviorO">– Behavior</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC9SpecialtyO">– Specialty</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC10ValidationO">– Validation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC14ValidationDataV">– ValidationData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC9TargetingO">– Targeting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC9SoundMarkO">– SoundMark</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CommandFactory.html">CommandFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DistanceToTargetRule.html">DistanceToTargetRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EngagedWithFriendRule.html">EngagedWithFriendRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAbilitiesComponent.html">FKAbilitiesComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAbilitiesComponent.html#/s:12FormationKit20FKAbilitiesComponentC13ActiveAbilityV">– ActiveAbility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAbilitiesService.html">FKAbilitiesService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAgendaFactory.html">FKAgendaFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAttackComponent.html">FKAttackComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FKAttackingState">FKAttackingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAttributesComponent.html">FKAttributesComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAttributesComponent.html#/s:12FormationKit21FKAttributesComponentC9AttributeO">– Attribute</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKBattleComponent.html">FKBattleComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKBlockedState.html">FKBlockedState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/s:12FormationKit14FKCacheServiceC">FKCacheService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKCatchingUpState.html">FKCatchingUpState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKCommand.html">FKCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKDefendingState.html">FKDefendingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKEntitySpriteNode.html">FKEntitySpriteNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKGameplaySnapshot.html">FKGameplaySnapshot</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKGameplaySnapshot/TargetSnapshot.html">– TargetSnapshot</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKHeraldryComponent.html">FKHeraldryComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKHeroComponent.html">FKHeroComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKHeroEntity.html">FKHeroEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FKLungeState">FKLungeState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKModifierComponent.html">FKModifierComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKMoraleComponent.html">FKMoraleComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKMovingState.html">FKMovingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKObjectPoolService.html">FKObjectPoolService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKOrderService.html">FKOrderService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKPhysicsComponent.html">FKPhysicsComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKPhysicsService.html">FKPhysicsService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKPhysicsService.html#/s:12FormationKit16FKPhysicsServiceC12ColliderTypeO">– ColliderType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKPhysicsService.html#/s:12FormationKit16FKPhysicsServiceC16UnitPhysicsStateO">– UnitPhysicsState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/s:12FormationKit19FKProjectileFactoryC">FKProjectileFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKQueueComponent.html">FKQueueComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKSeekingState.html">FKSeekingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FKSharedAttributesComponent">FKSharedAttributesComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/s:12FormationKit14FKSpellFactoryC">FKSpellFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKTargetingFactory.html">FKTargetingFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKTriangleFormation.html">FKTriangleFormation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FKVolleyingState">FKVolleyingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FriendlyFireRule">FriendlyFireRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)HighThreatRule">HighThreatRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)LikelyToWinRule">LikelyToWinRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)ObstacleInterferenceRule">ObstacleInterferenceRule</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Functions.html">Other Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Other Functions.html#/s:12FormationKit2eeoiSbAA13FKSquadEntityC_ADtF">==(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Other Protocols.html#/s:12FormationKit21ContactNotifiableTypeP">ContactNotifiableType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FKButtonNodeProtocol.html">FKButtonNodeProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Protocols.html#/s:12FormationKit18FKHeraldryProtocolP">FKHeraldryProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FKPathfindingProtocol.html">FKPathfindingProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Protocols.html#/s:12FormationKit15FKSquadProtocolP">FKSquadProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Structs.html">Other Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/CommandInstructions.html">CommandInstructions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html">Modifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV8BehaviorO">– Behavior</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV12ModificationO">– Modification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV15CombatAttributeO">– CombatAttribute</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV22CombatAttributeSubtypeO">– CombatAttributeSubtype</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV6TargetO">– Target</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h4>CommandFactory</h4>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">CommandFactory</span></code></pre>
+
+                </div>
+              </div>
+            <p>Helps create commands. In particular, validates them before creating them. For example, move command can only be issued if the destination is valid.
+Both AI and UI can use this to determine validity before issuing commands.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit14CommandFactoryC14sharedInstanceACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/sharedInstance" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit14CommandFactoryC14sharedInstanceACvpZ">sharedInstance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Instance of the factory.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">sharedInstance</span><span class="p">:</span> <span class="kt">CommandFactory</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit14CommandFactoryC18createInstructionsAA0cF0VAA7AbilityC_AA13FKSquadEntityC5squadAJSg6targetSC7CGPointVSg8positiontF"></a>
+                    <a name="//apple_ref/swift/Method/createInstructions(_:squad:target:position:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit14CommandFactoryC18createInstructionsAA0cF0VAA7AbilityC_AA13FKSquadEntityC5squadAJSg6targetSC7CGPointVSg8positiontF">createInstructions(_:squad:target:position:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Helper function to create minimum requirement instructions for a given ability</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">createInstructions</span><span class="p">(</span><span class="n">_</span> <span class="nv">ability</span><span class="p">:</span> <span class="kt"><a href="../Classes/Ability.html">Ability</a></span><span class="p">,</span> <span class="nv">squad</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">,</span> <span class="nv">target</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">?,</span> <span class="nv">position</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/CommandInstructions.html">CommandInstructions</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit14CommandFactoryC06createC0AA9FKCommandCSgAA13FKSquadEntityC_AA7AbilityC7abilityAA0C12InstructionsV12instructionstF"></a>
+                    <a name="//apple_ref/swift/Method/createCommand(_:ability:instructions:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit14CommandFactoryC06createC0AA9FKCommandCSgAA13FKSquadEntityC_AA7AbilityC7abilityAA0C12InstructionsV12instructionstF">createCommand(_:ability:instructions:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Forces validity of commands. All commands should be created through this function</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">createCommand</span><span class="p">(</span><span class="n">_</span> <span class="nv">squad</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">,</span> <span class="nv">ability</span><span class="p">:</span> <span class="kt"><a href="../Classes/Ability.html">Ability</a></span><span class="p">,</span> <span class="nv">instructions</span><span class="p">:</span> <span class="kt"><a href="../Structs/CommandInstructions.html">CommandInstructions</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/FKCommand.html">FKCommand</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit14CommandFactoryC14commandIsValidSbAA13FKSquadEntityC_AA7AbilityC7abilityAA0C12InstructionsV12instructionstF"></a>
+                    <a name="//apple_ref/swift/Method/commandIsValid(_:ability:instructions:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit14CommandFactoryC14commandIsValidSbAA13FKSquadEntityC_AA7AbilityC7abilityAA0C12InstructionsV12instructionstF">commandIsValid(_:ability:instructions:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns true or false and branches validty based on ability type.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">commandIsValid</span><span class="p">(</span><span class="n">_</span> <span class="nv">squad</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">,</span> <span class="nv">ability</span><span class="p">:</span> <span class="kt"><a href="../Classes/Ability.html">Ability</a></span><span class="p">,</span> <span class="nv">instructions</span><span class="p">:</span> <span class="kt"><a href="../Structs/CommandInstructions.html">CommandInstructions</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Move%20Validation"></a>
+                <a name="//apple_ref/swift/Section/Move Validation" class="dashAnchor"></a>
+                <h5 class="section-name">Move Validation</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit14CommandFactoryC12validateMoveSbAA13FKSquadEntityC_AA7AbilityC7abilityAA0C12InstructionsV12instructionstF"></a>
+                    <a name="//apple_ref/swift/Method/validateMove(_:ability:instructions:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit14CommandFactoryC12validateMoveSbAA13FKSquadEntityC_AA7AbilityC7abilityAA0C12InstructionsV12instructionstF">validateMove(_:ability:instructions:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Entry point for move validation</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">validateMove</span><span class="p">(</span><span class="n">_</span> <span class="nv">squad</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">,</span> <span class="nv">ability</span><span class="p">:</span> <span class="kt"><a href="../Classes/Ability.html">Ability</a></span><span class="p">,</span> <span class="nv">instructions</span><span class="p">:</span> <span class="kt"><a href="../Structs/CommandInstructions.html">CommandInstructions</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit14CommandFactoryC19movePositionIsValidSbAA13FKSquadEntityC_AA0C12InstructionsV12instructionstF"></a>
+                    <a name="//apple_ref/swift/Method/movePositionIsValid(_:instructions:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit14CommandFactoryC19movePositionIsValidSbAA13FKSquadEntityC_AA0C12InstructionsV12instructionstF">movePositionIsValid(_:instructions:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Checks against the navmesh to see if the point is on the map.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">movePositionIsValid</span><span class="p">(</span><span class="n">_</span> <span class="nv">squad</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">,</span> <span class="nv">instructions</span><span class="p">:</span> <span class="kt"><a href="../Structs/CommandInstructions.html">CommandInstructions</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Ranged%20Validation"></a>
+                <a name="//apple_ref/swift/Section/Ranged Validation" class="dashAnchor"></a>
+                <h5 class="section-name">Ranged Validation</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit14CommandFactoryC9isInRangeSbAA13FKSquadEntityC_AA7AbilityC7abilityAA0C12InstructionsV12instructionstF"></a>
+                    <a name="//apple_ref/swift/Method/isInRange(_:ability:instructions:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit14CommandFactoryC9isInRangeSbAA13FKSquadEntityC_AA7AbilityC7abilityAA0C12InstructionsV12instructionstF">isInRange(_:ability:instructions:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Checks to see if a target is within range of the ability</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">isInRange</span><span class="p">(</span><span class="n">_</span> <span class="nv">squad</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">,</span> <span class="nv">ability</span><span class="p">:</span> <span class="kt"><a href="../Classes/Ability.html">Ability</a></span><span class="p">,</span> <span class="nv">instructions</span><span class="p">:</span> <span class="kt"><a href="../Structs/CommandInstructions.html">CommandInstructions</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Instant%20Validation"></a>
+                <a name="//apple_ref/swift/Section/Instant Validation" class="dashAnchor"></a>
+                <h5 class="section-name">Instant Validation</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit14CommandFactoryC15validateInstantSbAA13FKSquadEntityC_AA7AbilityC7abilityAA0C12InstructionsV12instructionstF"></a>
+                    <a name="//apple_ref/swift/Method/validateInstant(_:ability:instructions:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit14CommandFactoryC15validateInstantSbAA13FKSquadEntityC_AA7AbilityC7abilityAA0C12InstructionsV12instructionstF">validateInstant(_:ability:instructions:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Currently no criteria for invalidating instant
+Build on this as we add things like must be engaged, moving, etc</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">validateInstant</span><span class="p">(</span><span class="n">_</span> <span class="nv">squad</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">,</span> <span class="nv">ability</span><span class="p">:</span> <span class="kt"><a href="../Classes/Ability.html">Ability</a></span><span class="p">,</span> <span class="nv">instructions</span><span class="p">:</span> <span class="kt"><a href="../Structs/CommandInstructions.html">CommandInstructions</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/AoE%20Validation"></a>
+                <a name="//apple_ref/swift/Section/AoE Validation" class="dashAnchor"></a>
+                <h5 class="section-name">AoE Validation</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit14CommandFactoryC11validateAoESbAA13FKSquadEntityC_AA7AbilityC7abilityAA0C12InstructionsV12instructionstF"></a>
+                    <a name="//apple_ref/swift/Method/validateAoE(_:ability:instructions:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit14CommandFactoryC11validateAoESbAA13FKSquadEntityC_AA7AbilityC7abilityAA0C12InstructionsV12instructionstF">validateAoE(_:ability:instructions:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Currently no criteria for invalidating AoE</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">validateAoE</span><span class="p">(</span><span class="n">_</span> <span class="nv">squad</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">,</span> <span class="nv">ability</span><span class="p">:</span> <span class="kt"><a href="../Classes/Ability.html">Ability</a></span><span class="p">,</span> <span class="nv">instructions</span><span class="p">:</span> <span class="kt"><a href="../Structs/CommandInstructions.html">CommandInstructions</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Cooldown%20Validation"></a>
+                <a name="//apple_ref/swift/Section/Cooldown Validation" class="dashAnchor"></a>
+                <h5 class="section-name">Cooldown Validation</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit14CommandFactoryC13isCoolingDownSbAA13FKSquadEntityC_AA7AbilityC7abilitytF"></a>
+                    <a name="//apple_ref/swift/Method/isCoolingDown(_:ability:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit14CommandFactoryC13isCoolingDownSbAA13FKSquadEntityC_AA7AbilityC7abilitytF">isCoolingDown(_:ability:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Checks against a squads ability component to see if an ability is currently in cooldown mode.</p>
+<div class="aside aside-seealso">
+    <p class="aside-title">Seealso</p>
+    <a href="/Classes/AbilitiesComponent">AbilitiesComponenet</a> for how squads manage cooldowns
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">isCoolingDown</span><span class="p">(</span><span class="n">_</span> <span class="nv">squad</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">,</span> <span class="nv">ability</span><span class="p">:</span> <span class="kt"><a href="../Classes/Ability.html">Ability</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit14CommandFactoryC23timeRemainingOnCooldownSdAA13FKSquadEntityC_AA7AbilityC7abilitytF"></a>
+                    <a name="//apple_ref/swift/Method/timeRemainingOnCooldown(_:ability:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit14CommandFactoryC23timeRemainingOnCooldownSdAA13FKSquadEntityC_AA7AbilityC7abilitytF">timeRemainingOnCooldown(_:ability:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience method to find out ho wmuch time remaining before an ability  is available again.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">timeRemainingOnCooldown</span><span class="p">(</span><span class="n">_</span> <span class="nv">squad</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">,</span> <span class="nv">ability</span><span class="p">:</span> <span class="kt"><a href="../Classes/Ability.html">Ability</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Double</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Command%20Validation"></a>
+                <a name="//apple_ref/swift/Section/Command Validation" class="dashAnchor"></a>
+                <h5 class="section-name">Command Validation</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit14CommandFactoryC08checkAllC11ValidationsSbAA13FKSquadEntityC_AA7AbilityC7abilityAA0C12InstructionsVSg12instructionstF"></a>
+                    <a name="//apple_ref/swift/Method/checkAllCommandValidations(_:ability:instructions:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit14CommandFactoryC08checkAllC11ValidationsSbAA13FKSquadEntityC_AA7AbilityC7abilityAA0C12InstructionsVSg12instructionstF">checkAllCommandValidations(_:ability:instructions:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Checks if a command is valid based on state / world criteria. Does not care about instructions or other information.
+Primary use is lightweight, per frame checks to lock UI icons, or to help AI decide what to evaluate when certain abilities are disbled.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">checkAllCommandValidations</span><span class="p">(</span><span class="n">_</span> <span class="nv">squad</span><span class="p">:</span><span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">,</span> <span class="nv">ability</span><span class="p">:</span><span class="kt"><a href="../Classes/Ability.html">Ability</a></span><span class="p">,</span> <span class="nv">instructions</span><span class="p">:</span><span class="kt"><a href="../Structs/CommandInstructions.html">CommandInstructions</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit14CommandFactoryC7isDyingSbAA13FKSquadEntityC_AA7AbilityC7abilitytF"></a>
+                    <a name="//apple_ref/swift/Method/isDying(_:ability:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit14CommandFactoryC7isDyingSbAA13FKSquadEntityC_AA7AbilityC7abilitytF">isDying(_:ability:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Checks if the squad or hero using the ability is alive. Catches edges cases where the user selects something and the unit
+dies before a command is issued.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">isDying</span><span class="p">(</span><span class="n">_</span> <span class="nv">squad</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">,</span> <span class="nv">ability</span><span class="p">:</span> <span class="kt"><a href="../Classes/Ability.html">Ability</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit14CommandFactoryC8isMovingSbAA13FKSquadEntityCF"></a>
+                    <a name="//apple_ref/swift/Method/isMoving(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit14CommandFactoryC8isMovingSbAA13FKSquadEntityCF">isMoving(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Moving is specific to the move ability. If the squad is moving on the map, but in the engaging state, that does not qualify for this condition.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">isMoving</span><span class="p">(</span><span class="n">_</span> <span class="nv">squad</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit14CommandFactoryC11isNotMovingSbAA13FKSquadEntityCF"></a>
+                    <a name="//apple_ref/swift/Method/isNotMoving(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit14CommandFactoryC11isNotMovingSbAA13FKSquadEntityCF">isNotMoving(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Moving is specific to the move ability. If the squad is moving on the map, but in the engaging state, that does not qualify for this condition.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">isNotMoving</span><span class="p">(</span><span class="n">_</span> <span class="nv">squad</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit14CommandFactoryC10isInCombatSbAA13FKSquadEntityCF"></a>
+                    <a name="//apple_ref/swift/Method/isInCombat(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit14CommandFactoryC10isInCombatSbAA13FKSquadEntityCF">isInCombat(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Implement this</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">isInCombat</span><span class="p">(</span><span class="n">_</span> <span class="nv">squad</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit14CommandFactoryC13isNotInCombatSbAA13FKSquadEntityCF"></a>
+                    <a name="//apple_ref/swift/Method/isNotInCombat(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit14CommandFactoryC13isNotInCombatSbAA13FKSquadEntityCF">isNotInCombat(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Based on the engaged state.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">isNotInCombat</span><span class="p">(</span><span class="n">_</span> <span class="nv">squad</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit14CommandFactoryC16targetIsInCombatSbAA13FKSquadEntityCF"></a>
+                    <a name="//apple_ref/swift/Method/targetIsInCombat(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit14CommandFactoryC16targetIsInCombatSbAA13FKSquadEntityCF">targetIsInCombat(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Technically validates as targetHasATarget</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">targetIsInCombat</span><span class="p">(</span><span class="n">_</span> <span class="nv">squad</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit14CommandFactoryC10isEngagingSbAA13FKSquadEntityCF"></a>
+                    <a name="//apple_ref/swift/Method/isEngaging(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit14CommandFactoryC10isEngagingSbAA13FKSquadEntityCF">isEngaging(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A squad has a target and is walking to it, but hasn&rsquo;t started attacking it yet.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">isEngaging</span><span class="p">(</span><span class="n">_</span> <span class="nv">squad</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit14CommandFactoryC20engagedTargetInRangeSbAA13FKSquadEntityC_AA7AbilityC14ValidationDataV10validationtF"></a>
+                    <a name="//apple_ref/swift/Method/engagedTargetInRange(_:validation:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit14CommandFactoryC20engagedTargetInRangeSbAA13FKSquadEntityC_AA7AbilityC14ValidationDataV10validationtF">engagedTargetInRange(_:validation:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Looks at the target (assuming there is one) and returns true if in range</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">engagedTargetInRange</span><span class="p">(</span><span class="n">_</span> <span class="nv">squad</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">,</span> <span class="nv">validation</span><span class="p">:</span> <span class="kt"><a href="../Classes/Ability.html">Ability</a></span><span class="o">.</span><span class="kt">ValidationData</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit14CommandFactoryC9isEngagedSbAA13FKSquadEntityCF"></a>
+                    <a name="//apple_ref/swift/Method/isEngaged(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit14CommandFactoryC9isEngagedSbAA13FKSquadEntityCF">isEngaged(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A squad is in melee combat</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">isEngaged</span><span class="p">(</span><span class="n">_</span> <span class="nv">squad</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://battleofbrothers.com" target="_blank" rel="external">Ryan Campbell</a>. All rights reserved. (Last updated: 2018-05-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

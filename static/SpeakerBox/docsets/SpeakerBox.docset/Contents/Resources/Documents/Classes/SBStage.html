@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <title>A Verse for Barric : SBStage Class Reference</title>
+
+    <!-- PhotoSwipe -->
+    <link rel="stylesheet" href="/css/photoswipe.css">
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite, 
+     - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="/css/default-skin.css">
+    <!-- Core JS file -->
+    <script src="/js/photoswipe.min.js"></script>
+    <!-- UI JS file -->
+    <script src="/js/photoswipe-ui-default.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+
+    <!-- JS -->
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="/js/index-min.js"></script>
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css">
+      <script src="/js/highlight.pack.js"></script>
+    <script src="../js/jazzy.js" defer></script>
+
+    <!-- Fonts -->
+
+    <!-- Icons -->
+
+    <!-- RSS -->
+    
+</head>
+  <body class="docs">
+    <a name="//apple_ref/swift/Class/SBStage" class="dashAnchor"></a>
+    <a title="SBStage Class Reference"></a>
+    <header class="partial">
+    	<img src="/images/barric_cropped.png" />
+    </header>
+    
+    <section>
+        <ul class="nav">
+            <li><a href="/thegame">T<span>HE</span> G<span>AME</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/motion">M<span>otion</span> G<span>raphics</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/illustrations">I<span>llustrations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/animations">A<span>nimations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/soundtrack">S<span>oundtrack</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/code">C<span>ode</span></a></li>
+        </ul>
+    </section>    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">SpeakerBox </a>
+        &#8594;
+        SBStage 
+      </p>
+      <p class="coverage"></p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/SBPodium.html">SBPodium</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SBStage.html">SBStage</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h4>SBStage</h4>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">SBStage</span> <span class="p">:</span> <span class="kt">SKNode</span></code></pre>
+
+                </div>
+              </div>
+            <p>Create a stage that shows in letterbox format, and allows up to 3 speakers. Handles construction, animation, speaker bubbles, and tear down.</p>
+<pre class="highlight swift"><code> <span class="k">let</span> <span class="nv">speakerBox</span> <span class="o">=</span> <span class="kt">SBStage</span><span class="p">()</span>
+ <span class="n">uiNode</span><span class="o">.</span><span class="nf">addChild</span><span class="p">(</span><span class="n">speakerBox</span><span class="p">)</span>
+
+ <span class="n">speakerBox</span><span class="o">.</span><span class="nf">addSpeaker</span><span class="p">(</span><span class="s">"Stou"</span><span class="p">)</span>
+ <span class="n">speakerBox</span><span class="o">.</span><span class="nf">addSpeaker</span><span class="p">(</span><span class="s">"Princess"</span><span class="p">)</span>
+
+ <span class="n">speakerBox</span><span class="o">.</span><span class="nf">setup</span><span class="p">()</span>
+
+ <span class="n">speakerBox</span><span class="o">.</span><span class="nf">animateIntoView</span><span class="p">()</span>
+</code></pre>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    All positioning calculations assume that the parent node (<code>uiNode</code> in the example above) is positioned in the center of the scene. Also, it is assumed that scene.size is set.
+
+</div>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:10SpeakerBox7SBStageC8speakersSayAA8SBPodiumCGvp"></a>
+                    <a name="//apple_ref/swift/Property/speakers" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10SpeakerBox7SBStageC8speakersSayAA8SBPodiumCGvp">speakers</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>List of speakers (podiums) currently on stage. Exposed publicly so that start and end positions can be read.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">speakers</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/SBPodium.html">SBPodium</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initializing%20a%20SBStage"></a>
+                <a name="//apple_ref/swift/Section/Initializing a SBStage" class="dashAnchor"></a>
+                <h5 class="section-name">Initializing a SBStage</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@SpeakerBox@objc(cs)SBStage(im)init"></a>
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SpeakerBox@objc(cs)SBStage(im)init">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates an empty SKNode that can be added to the scene before stage construction starts.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="nf">init</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Setting%20the%20stage%20and%20speakers"></a>
+                <a name="//apple_ref/swift/Section/Setting the stage and speakers" class="dashAnchor"></a>
+                <h5 class="section-name">Setting the stage and speakers</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@SpeakerBox@objc(cs)SBStage(im)setup"></a>
+                    <a name="//apple_ref/swift/Method/setup()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SpeakerBox@objc(cs)SBStage(im)setup">setup()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create the intiial components of the stage like letterbox bars.</p>
+<div class="aside aside-precondition">
+    <p class="aside-title">Precondition</p>
+    <p>The SBStage must be added to the scene before calling this function.</p>
+
+</div>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    <p>This is called after adding speakers because it sets the <code>endPosition</code> of speakers. Other parts of the code can then access that position and show something near the chatBubble (i.e.: Dialogue).</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">setup</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Managing%20Speakers"></a>
+                <a name="//apple_ref/swift/Section/Managing Speakers" class="dashAnchor"></a>
+                <h5 class="section-name">Managing Speakers</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@SpeakerBox@objc(cs)SBStage(im)addSpeaker:"></a>
+                    <a name="//apple_ref/swift/Method/addSpeaker(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SpeakerBox@objc(cs)SBStage(im)addSpeaker:">addSpeaker(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Add a podium for each new speaker.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">addSpeaker</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h6>Parameters</h6>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>name</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The name of the image for the speaker. If the file name is <q>RyanBubble</q>, just pass is <q>Ryan</q> as <q>Bubble</q> is appended automatically.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@SpeakerBox@objc(cs)SBStage(im)removeSpeaker:"></a>
+                    <a name="//apple_ref/swift/Method/removeSpeaker(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SpeakerBox@objc(cs)SBStage(im)removeSpeaker:">removeSpeaker(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Remove a speaker from the scene.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">removeSpeaker</span><span class="p">(</span><span class="n">_</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h6>Parameters</h6>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>index</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The index in the speakers array.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Displaying%20the%20Stage"></a>
+                <a name="//apple_ref/swift/Section/Displaying the Stage" class="dashAnchor"></a>
+                <h5 class="section-name">Displaying the Stage</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@SpeakerBox@objc(cs)SBStage(im)animateIntoView"></a>
+                    <a name="//apple_ref/swift/Method/animateIntoView()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SpeakerBox@objc(cs)SBStage(im)animateIntoView">animateIntoView()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this when you&rsquo;re ready for the letterbox and any set speakers to appear into view.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">animateIntoView</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@SpeakerBox@objc(cs)SBStage(im)animateOutOfView"></a>
+                    <a name="//apple_ref/swift/Method/animateOutOfView()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SpeakerBox@objc(cs)SBStage(im)animateOutOfView">animateOutOfView()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Hide the letterbox and speakers.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    It is up to you to manually remove SBStage from the scene after this.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">animateOutOfView</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://battleofbrothers.com" target="_blank" rel="external">Ryan Campbell</a>. All rights reserved. (Last updated: 2018-05-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

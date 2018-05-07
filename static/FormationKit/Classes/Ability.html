@@ -1,0 +1,1552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <title>A Verse for Barric : Ability Class Reference</title>
+
+    <!-- PhotoSwipe -->
+    <link rel="stylesheet" href="/css/photoswipe.css">
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite, 
+     - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="/css/default-skin.css">
+    <!-- Core JS file -->
+    <script src="/js/photoswipe.min.js"></script>
+    <!-- UI JS file -->
+    <script src="/js/photoswipe-ui-default.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+
+    <!-- JS -->
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="/js/index-min.js"></script>
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css">
+      <script src="/js/highlight.pack.js"></script>
+    <script src="../js/jazzy.js" defer></script>
+
+    <!-- Fonts -->
+
+    <!-- Icons -->
+
+    <!-- RSS -->
+    
+</head>
+  <body class="docs">
+    <a name="//apple_ref/swift/Class/Ability" class="dashAnchor"></a>
+    <a title="Ability Class Reference"></a>
+    <header class="partial">
+    	<img src="/images/barric_cropped.png" />
+    </header>
+    
+    <section>
+        <ul class="nav">
+            <li><a href="/thegame">T<span>HE</span> G<span>AME</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/motion">M<span>otion</span> G<span>raphics</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/illustrations">I<span>llustrations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/animations">A<span>nimations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/soundtrack">S<span>oundtrack</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/code">C<span>ode</span></a></li>
+        </ul>
+    </section>    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">FormationKit </a>
+        &#8594;
+        Ability 
+      </p>
+      <p class="coverage"> 56% documented</p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Squads.html">Squads</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadEntity.html">FKSquadEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadEntity.html#/s:12FormationKit13FKSquadEntityC10ControllerO">– Controller</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Squad Components.html">Squad Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadAgent.html">FKSquadAgent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKFormationComponent.html">FKFormationComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKFormationComponent.html#/s:12FormationKit20FKFormationComponentC11ArrangementO">– Arrangement</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKNavigationComponent.html">FKNavigationComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKCasualtyComponent.html">FKCasualtyComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadDebugComponent.html">FKSquadDebugComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Squad Formations.html">Squad Formations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Squad Formations.html#/s:12FormationKit19FKFormationProtocolP">FKFormationProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKStandingPosition.html">FKStandingPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKGridFormation.html">FKGridFormation</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Units.html">Units</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKUnitEntity.html">FKUnitEntity</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Unit Components.html">Unit Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKUnitAgent.html">FKUnitAgent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKRenderComponent.html">FKRenderComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAnimationComponent.html">FKAnimationComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAnimationComponent.html#/s:12FormationKit20FKAnimationComponentC9AnimationC">– Animation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAnimationComponent.html#/s:12FormationKit20FKAnimationComponentC14AnimationStateO">– AnimationState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKMovementComponent.html">FKMovementComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKRankComponent.html">FKRankComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKDeathComponent.html">FKDeathComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKDeathComponent/DeathBringer.html">– DeathBringer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKDeathComponent.html#/s:12FormationKit16FKDeathComponentC9DeathTypeO">– DeathType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Unit Intelligence.html">Unit Intelligence</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKIdleState.html">FKIdleState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKFollowingState.html">FKFollowingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Unit Intelligence.html#/c:@M@FormationKit@objc(cs)FKDyingState">FKDyingState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Shared Classes.html">Shared Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKMovementInstructions.html">FKMovementInstructions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Shared Classes.html#/s:12FormationKit14FKMovementTypeO">FKMovementType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Shared Classes.html#/c:@M@FormationKit@objc(cs)FKIntelligenceComponent">FKIntelligenceComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Factories.html">Factories</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadFactory.html">FKSquadFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKSquadFactory/FKSquadConstruction.html">– FKSquadConstruction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKUnitFactory.html">FKUnitFactory</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html">Ability</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC8BehaviorO">– Behavior</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC9SpecialtyO">– Specialty</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC10ValidationO">– Validation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC14ValidationDataV">– ValidationData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC9TargetingO">– Targeting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ability.html#/s:12FormationKit7AbilityC9SoundMarkO">– SoundMark</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CommandFactory.html">CommandFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DistanceToTargetRule.html">DistanceToTargetRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EngagedWithFriendRule.html">EngagedWithFriendRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAbilitiesComponent.html">FKAbilitiesComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAbilitiesComponent.html#/s:12FormationKit20FKAbilitiesComponentC13ActiveAbilityV">– ActiveAbility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAbilitiesService.html">FKAbilitiesService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAgendaFactory.html">FKAgendaFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAttackComponent.html">FKAttackComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FKAttackingState">FKAttackingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAttributesComponent.html">FKAttributesComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKAttributesComponent.html#/s:12FormationKit21FKAttributesComponentC9AttributeO">– Attribute</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKBattleComponent.html">FKBattleComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKBlockedState.html">FKBlockedState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/s:12FormationKit14FKCacheServiceC">FKCacheService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKCatchingUpState.html">FKCatchingUpState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKCommand.html">FKCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKDefendingState.html">FKDefendingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKEntitySpriteNode.html">FKEntitySpriteNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKGameplaySnapshot.html">FKGameplaySnapshot</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKGameplaySnapshot/TargetSnapshot.html">– TargetSnapshot</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKHeraldryComponent.html">FKHeraldryComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKHeroComponent.html">FKHeroComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKHeroEntity.html">FKHeroEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FKLungeState">FKLungeState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKModifierComponent.html">FKModifierComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKMoraleComponent.html">FKMoraleComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKMovingState.html">FKMovingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKObjectPoolService.html">FKObjectPoolService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKOrderService.html">FKOrderService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKPhysicsComponent.html">FKPhysicsComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKPhysicsService.html">FKPhysicsService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKPhysicsService.html#/s:12FormationKit16FKPhysicsServiceC12ColliderTypeO">– ColliderType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKPhysicsService.html#/s:12FormationKit16FKPhysicsServiceC16UnitPhysicsStateO">– UnitPhysicsState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/s:12FormationKit19FKProjectileFactoryC">FKProjectileFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKQueueComponent.html">FKQueueComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKSeekingState.html">FKSeekingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FKSharedAttributesComponent">FKSharedAttributesComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/s:12FormationKit14FKSpellFactoryC">FKSpellFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKTargetingFactory.html">FKTargetingFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FKTriangleFormation.html">FKTriangleFormation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FKVolleyingState">FKVolleyingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)FriendlyFireRule">FriendlyFireRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)HighThreatRule">HighThreatRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)LikelyToWinRule">LikelyToWinRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Classes.html#/c:@M@FormationKit@objc(cs)ObstacleInterferenceRule">ObstacleInterferenceRule</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Functions.html">Other Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Other Functions.html#/s:12FormationKit2eeoiSbAA13FKSquadEntityC_ADtF">==(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Other Protocols.html#/s:12FormationKit21ContactNotifiableTypeP">ContactNotifiableType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FKButtonNodeProtocol.html">FKButtonNodeProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Protocols.html#/s:12FormationKit18FKHeraldryProtocolP">FKHeraldryProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FKPathfindingProtocol.html">FKPathfindingProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other Protocols.html#/s:12FormationKit15FKSquadProtocolP">FKSquadProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Structs.html">Other Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/CommandInstructions.html">CommandInstructions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html">Modifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV8BehaviorO">– Behavior</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV12ModificationO">– Modification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV15CombatAttributeO">– CombatAttribute</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV22CombatAttributeSubtypeO">– CombatAttributeSubtype</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Modifier.html#/s:12FormationKit8ModifierV6TargetO">– Target</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h4>Ability</h4>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">Ability</span></code></pre>
+
+                </div>
+              </div>
+            <p>Every action, command, spell, buff, etc comes down to an Ability. This class mainly serves as a container for the data while other portions of the code make the magic happen. Let&rsquo;s go over some terminology which shows the ways an Ability may interact with other portions of the code.</p>
+<li>Ability: Base class which contains all information about the ability including name, description, cooldown, particles and more.</li>
+<li>Behavior: Enum describing the different types of abilities offered.</li>
+<li>Modifier: An actual change an ability may incur. For example, +10 HP or +20 Speed</li>
+<li>AbilitiesComponenet: Entry point for processing an ability on a Squad. Will either run it immediately, or add to Queue via Command.</li>
+<li>Command: An ability on its own will do nothing. A Command is a container for abilities that allows Squads to work with it. A squad will execute a command either instantly, or added to its QueueComponent.</li>
+<li>CommandInstructions: Abilities have no context. CommandInstructions provide the context by specifying target, location, etc.</li>
+<li><p>Action: A wrapper around an ability specificly for UI purposes. Actions will update icons when they are locked, cooling down, etc and give UI feedback.</p></li>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    <p>An Ability should never be modified outside of its construction. Abilities are loaded once and cached. Units with shared Abilities share the same pointer to the instance.</p>
+
+</div>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC4nameSSvp"></a>
+                    <a name="//apple_ref/swift/Property/name" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC4nameSSvp">name</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The name of the ability will serve as the unique identifer</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC8behaviorAC8BehaviorOvp"></a>
+                    <a name="//apple_ref/swift/Property/behavior" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC8behaviorAC8BehaviorOvp">behavior</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The type of ability based on the enum of options</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">behavior</span><span class="p">:</span> <span class="kt"><a href="../Classes/Ability.html#/s:12FormationKit7AbilityC8BehaviorO">Behavior</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC9specialtyAC9SpecialtyOSgvp"></a>
+                    <a name="//apple_ref/swift/Property/specialty" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC9specialtyAC9SpecialtyOSgvp">specialty</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The type of sepcial hero move based on the enum of options</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">specialty</span><span class="p">:</span> <span class="kt">Ability</span><span class="o">.</span><span class="kt"><a href="../Classes/Ability.html#/s:12FormationKit7AbilityC9SpecialtyO">Specialty</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC8iconNameSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/iconName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC8iconNameSSSgvp">iconName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The texture name of the icon to show in the action bar</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">iconName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC8iconDescSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/iconDesc" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC8iconDescSSSgvp">iconDesc</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The text name to show in the action bar, or other areas referencing the ability</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">iconDesc</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC12hudIndicatorSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/hudIndicator" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC12hudIndicatorSSSgvp">hudIndicator</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>When triggered, place a texture with this name on the HUD until the ability is finished</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">hudIndicator</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC9modifiersSayAA8ModifierVGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/modifiers" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC9modifiersSayAA8ModifierVGSgvp">modifiers</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The modifier for the ability. For example, sprint might have a +speed modifier</p>
+<div class="aside aside-seealso">
+    <p class="aside-title">Seealso</p>
+    AbilitiesComponenet which is how modifiers should be accessed when using squad abilities.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">modifiers</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/Modifier.html">Modifier</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC10validationSayAC14ValidationDataVGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/validation" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC10validationSayAC14ValidationDataVGSgvp">validation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Array of criteria that needs to be met for the ability to be used</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">validation</span><span class="p">:</span> <span class="p">[</span><span class="kt">Ability</span><span class="o">.</span><span class="kt"><a href="../Classes/Ability.html#/s:12FormationKit7AbilityC14ValidationDataV">ValidationData</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC8cooldownSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/cooldown" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC8cooldownSdSgvp">cooldown</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Duration to wait before ability can be used again</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">cooldown</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC17delayBetweenUsageSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/delayBetweenUsage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC17delayBetweenUsageSdSgvp">delayBetweenUsage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Where cooldown applies to general squad usage, this variable applies to abilities on loop. For example, melee attack would have a delay between each attack even though the global attack ability is in use.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">delayBetweenUsage</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC5rangeSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/range" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC5rangeSdSgvp">range</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Range for this ability to be used.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">range</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC9targetingAC9TargetingOvp"></a>
+                    <a name="//apple_ref/swift/Property/targeting" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC9targetingAC9TargetingOvp">targeting</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Who can the ability be used on. Defaults to enemy.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">targeting</span><span class="p">:</span> <span class="kt">Ability</span><span class="o">.</span><span class="kt"><a href="../Classes/Ability.html#/s:12FormationKit7AbilityC9TargetingO">Targeting</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC10projectileAA10ProjectileCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/projectile" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC10projectileAA10ProjectileCSgvp">projectile</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Asset to use for projectile based abilities</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">projectile</span><span class="p">:</span> <span class="kt">Projectile</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC17animationKeyFrontSiSgvp"></a>
+                    <a name="//apple_ref/swift/Property/animationKeyFront" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC17animationKeyFrontSiSgvp">animationKeyFront</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If this ability has a character animation, link to this key (character animations are all store din same atlas and cached on character object)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">animationKeyFront</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC16animationKeyBackSiSgvp"></a>
+                    <a name="//apple_ref/swift/Property/animationKeyBack" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC16animationKeyBackSiSgvp">animationKeyBack</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If this ability has a character animation, link to this key (character animations are all store din same atlas and cached on character object)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">animationKeyBack</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC21animationTriggerPointSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/animationTriggerPoint" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC21animationTriggerPointSdSgvp">animationTriggerPoint</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The key time in an animation to trigger an event (damage, or projctile being fired, etc)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">animationTriggerPoint</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC6soundss10DictionaryVyAC9SoundMarkOSSGvp"></a>
+                    <a name="//apple_ref/swift/Property/sounds" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC6soundss10DictionaryVyAC9SoundMarkOSSGvp">sounds</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Abilities can have multiple sounds. This dictionary holds the timing and sound groupings. Each grouping can reference multiple variations of a sound.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">sounds</span><span class="p">:</span> <span class="p">[</span><span class="kt">Ability</span><span class="o">.</span><span class="kt"><a href="../Classes/Ability.html#/s:12FormationKit7AbilityC9SoundMarkO">SoundMark</a></span> <span class="p">:</span> <span class="kt">String</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC9particless10DictionaryVyAC9SoundMarkOSSGvp"></a>
+                    <a name="//apple_ref/swift/Property/particles" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC9particless10DictionaryVyAC9SoundMarkOSSGvp">particles</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Abilities can have multiple particles. This dictionary holds the timing and particle. Uses Ability.SoundMark because that should be refactored to Ability.TimingMark</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">particles</span><span class="p">:</span> <span class="p">[</span><span class="kt">Ability</span><span class="o">.</span><span class="kt"><a href="../Classes/Ability.html#/s:12FormationKit7AbilityC9SoundMarkO">SoundMark</a></span> <span class="p">:</span> <span class="kt">String</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC8accuracySiSgvp"></a>
+                    <a name="//apple_ref/swift/Property/accuracy" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC8accuracySiSgvp">accuracy</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Roles of 1 - 10 are done when executing the ability if this is set. Currently only works for projectiles.
+A value of 4 would mean any random number less than or equal to 4 would hit (40%)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">accuracy</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC10ownerSqaudAA13FKSquadEntityCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/ownerSqaud" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC10ownerSqaudAA13FKSquadEntityCSgvp">ownerSqaud</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Reference back to the squad using this ability. Imagine a bolt shoots across the scene, and does DoT damager for 10 seconds. The ability is long gone, but each modifier can track back to it&rsquo;s parent ability, which here can track back to the squad that cast it</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="k">var</span> <span class="nv">ownerSqaud</span><span class="p">:</span> <span class="kt"><a href="../Classes/FKSquadEntity.html">FKSquadEntity</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Creating%20an%20Ability"></a>
+                <a name="//apple_ref/swift/Section/Creating an Ability" class="dashAnchor"></a>
+                <h5 class="section-name">Creating an Ability</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityCACSS4name_AC8BehaviorO8behaviortcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(name:behavior:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityCACSS4name_AC8BehaviorO8behaviortcfc">init(name:behavior:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>To create an Ability, add a new entry to the Abilities.pList file. You can see other entries for reference, or look at the member variables of this class to use as keys. When adding an entry, a <a href="/Classes/Ability/Behavior.html">Behavior</a> has to be selected. Also, consider what sort of Modifier to add as <strong>Instant</strong>, <strong>Spell</strong>, and potentially other abilities may do nothing without a modifier.</p>
+<div class="aside aside-seealso">
+    <p class="aside-title">Seealso</p>
+    SquadFactory for how abilities get added to Squads.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">(</span><span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">behavior</span><span class="p">:</span> <span class="kt">Ability</span><span class="o">.</span><span class="kt"><a href="../Classes/Ability.html#/s:12FormationKit7AbilityC8BehaviorO">Behavior</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Behaviors"></a>
+                <a name="//apple_ref/swift/Section/Behaviors" class="dashAnchor"></a>
+                <h5 class="section-name">Behaviors</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC8BehaviorO"></a>
+                    <a name="//apple_ref/swift/Enum/Behavior" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC8BehaviorO">Behavior</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Hard coded options for how an ability can behave. Used across the entire code base.</p>
+
+<ul>
+<li>Move: Travel to valid lcoation. Targets self</li>
+<li>Melee: Travel to engage range and attack. Targets enemy</li>
+<li>Ranged: Attack immediately if target in range. Targets enemy</li>
+<li>Instant: Immediately process ability when activated. Targets self</li>
+<li>Spell: Combine animation and range with immediate action. Targets enemy</li>
+<li>AoE: Instant ability, but is processed through physics body</li>
+<li>Passive: Applied when unit is loaded and remains for lifetime of unit</li>
+<li>Halt: System ability to stop attacking. Cleans up all references and stops a squads actions. Ranged only.</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Behavior</span> <span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Specialty"></a>
+                <a name="//apple_ref/swift/Section/Specialty" class="dashAnchor"></a>
+                <h5 class="section-name">Specialty</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC9SpecialtyO"></a>
+                    <a name="//apple_ref/swift/Enum/Specialty" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC9SpecialtyO">Specialty</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Hard coded options for hero abilities &ndash; defines which special feature to use</p>
+
+<ul>
+<li>Casting: Special animation / effects to run before using a spell. Stops squad if walking</li>
+<li>Lunge: Melee attack where the hero jumps towards the target</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Specialty</span> <span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Validation"></a>
+                <a name="//apple_ref/swift/Section/Validation" class="dashAnchor"></a>
+                <h5 class="section-name">Validation</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC10ValidationO"></a>
+                    <a name="//apple_ref/swift/Enum/Validation" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC10ValidationO">Validation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Ability can only be used if the Validation criteria is met.</p>
+
+<ul>
+<li>Moving: Squad is moving.</li>
+<li>NotMoving: Squad isn&rsquo;t moving.</li>
+<li>InCombat: Squad is in combat.</li>
+<li>NotInCombat: Squad is not in combat.</li>
+<li>Engaging: Walking towards enemy target. Melee only</li>
+<li>EngagingTargetRange: Range of target that is beign engaged already. Different than combat range. Useful for abilities like Charge that can only be used when engaging, and within a certain distance</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Validation</span> <span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC14ValidationDataV"></a>
+                    <a name="//apple_ref/swift/Struct/ValidationData" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC14ValidationDataV">ValidationData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Validation can get complex as this goes on. By storing each validation object in a struct, we can build out variable criteria like engaging, but within range of engaged target
+Abilities have command instructions, but those only include target. Sometimes the target may be a friendly unit, but the validation criteria may need checks against a different unit.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ValidationData</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Targeting"></a>
+                <a name="//apple_ref/swift/Section/Targeting" class="dashAnchor"></a>
+                <h5 class="section-name">Targeting</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC9TargetingO"></a>
+                    <a name="//apple_ref/swift/Enum/Targeting" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC9TargetingO">Targeting</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used by UI and AI to determine what targets are valid</p>
+
+<ul>
+<li>Myself: Only the unit with the ability</li>
+<li>Friendly: Friendly units relative to unit casting.</li>
+<li>Enemy: Enemy units relative to unit casting.</li>
+<li>Anyone: Any squad alive.</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Targeting</span> <span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Sound%20Effects"></a>
+                <a name="//apple_ref/swift/Section/Sound Effects" class="dashAnchor"></a>
+                <h5 class="section-name">Sound Effects</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC9SoundMarkO"></a>
+                    <a name="//apple_ref/swift/Enum/SoundMark" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC9SoundMarkO">SoundMark</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Each ability will register different timing marks depending on .Behavior</p>
+
+<ul>
+<li>Triggered: The ability was successfully triggered. Could be squad based sound like group of feet marching instead of individual footsteps on each unit.</li>
+<li>Acknowledged: Play sound accepting the triggering of the ability. Example would be UI playing voice command</li>
+<li>PreAnimation: Right before animation begins. Example would be casting a spell sound</li>
+<li>AnimationTriggerPoint: Right when event occurs, like an arrow releasing from a bow</li>
+<li>Success: Ability has finished. Arrow has reached target. Sword hits. Etc</li>
+<li>Fail: Ability has completed but did not succeed. Arrow missed, etc.</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">SoundMark</span> <span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Utility"></a>
+                <a name="//apple_ref/swift/Section/Utility" class="dashAnchor"></a>
+                <h5 class="section-name">Utility</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC6getDPSSfyF"></a>
+                    <a name="//apple_ref/swift/Method/getDPS()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC6getDPSSfyF">getDPS()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Look for hitpoint modifiers to get damage potential</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getDPS</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Float</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Factory%20Constructing%20From%20pList"></a>
+                <a name="//apple_ref/swift/Section/Factory Constructing From pList" class="dashAnchor"></a>
+                <h5 class="section-name">Factory Constructing From pList</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC11factoryInitACSSFZ"></a>
+                    <a name="//apple_ref/swift/Method/factoryInit(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC11factoryInitACSSFZ">factoryInit(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Main public entry point for loading a new ability.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">factoryInit</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Ability</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h6>Parameters</h6>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>name</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The string that is the unique identifier, and also the name of the pList file.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC13loadModifiersSayAA8ModifierVGSgSo12NSDictionaryC_SS4nameACSg9appliedBytFZ"></a>
+                    <a name="//apple_ref/swift/Method/loadModifiers(_:name:appliedBy:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC13loadModifiersSayAA8ModifierVGSgSo12NSDictionaryC_SS4nameACSg9appliedBytFZ">loadModifiers(_:name:appliedBy:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If a Modifier is present in the pList, this will loop through and create modifier objects and assign them to the Ability.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">loadModifiers</span><span class="p">(</span><span class="n">_</span> <span class="nv">data</span><span class="p">:</span><span class="kt">NSDictionary</span><span class="p">,</span> <span class="nv">name</span><span class="p">:</span><span class="kt">String</span><span class="p">,</span> <span class="nv">appliedBy</span><span class="p">:</span><span class="kt">Ability</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt"><a href="../Structs/Modifier.html">Modifier</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC12loadModifierAA0E0VSo12NSDictionaryC_SS4nameACSg9appliedBytFZ"></a>
+                    <a name="//apple_ref/swift/Method/loadModifier(_:name:appliedBy:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC12loadModifierAA0E0VSo12NSDictionaryC_SS4nameACSg9appliedBytFZ">loadModifier(_:name:appliedBy:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Breaks out logic from the loop in loadModifiers so that other portions of codebase can use if necessary</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">loadModifier</span><span class="p">(</span><span class="n">_</span> <span class="nv">modifierData</span><span class="p">:</span><span class="kt">NSDictionary</span><span class="p">,</span> <span class="nv">name</span><span class="p">:</span><span class="kt">String</span><span class="p">,</span> <span class="nv">appliedBy</span><span class="p">:</span><span class="kt">Ability</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/Modifier.html">Modifier</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC14loadValidationSayAC0E4DataVGSgSo12NSDictionaryCFZ"></a>
+                    <a name="//apple_ref/swift/Method/loadValidation(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC14loadValidationSayAC0E4DataVGSgSo12NSDictionaryCFZ">loadValidation(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If Validation is present in the pList, this will loop through and create CommandValidation objects and assign them to the Ability.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">loadValidation</span><span class="p">(</span><span class="n">_</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">NSDictionary</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">Ability</span><span class="o">.</span><span class="kt"><a href="../Classes/Ability.html#/s:12FormationKit7AbilityC14ValidationDataV">ValidationData</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC13loadTargetingAC0E0OSo12NSDictionaryCFZ"></a>
+                    <a name="//apple_ref/swift/Method/loadTargeting(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC13loadTargetingAC0E0OSo12NSDictionaryCFZ">loadTargeting(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If targeting is present in the pList, this will loop through and create Targeting objects and assign them to the Ability.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">loadTargeting</span><span class="p">(</span><span class="n">_</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">NSDictionary</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Ability</span><span class="o">.</span><span class="kt"><a href="../Classes/Ability.html#/s:12FormationKit7AbilityC9TargetingO">Targeting</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC13loadAnimationySo12NSDictionaryC_AC7abilitytFZ"></a>
+                    <a name="//apple_ref/swift/Method/loadAnimation(_:ability:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC13loadAnimationySo12NSDictionaryC_AC7abilitytFZ">loadAnimation(_:ability:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If an animation is associated with the ability, load the settings</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">loadAnimation</span><span class="p">(</span><span class="n">_</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">NSDictionary</span><span class="p">,</span> <span class="nv">ability</span><span class="p">:</span> <span class="kt">Ability</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC14loadProjectileAA0E0CSgSo12NSDictionaryCFZ"></a>
+                    <a name="//apple_ref/swift/Method/loadProjectile(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC14loadProjectileAA0E0CSgSo12NSDictionaryCFZ">loadProjectile(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set projectile if it exists in dataset</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">loadProjectile</span><span class="p">(</span><span class="n">_</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">NSDictionary</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Projectile</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC10loadSoundsySo12NSDictionaryC_AC7abilitytFZ"></a>
+                    <a name="//apple_ref/swift/Method/loadSounds(_:ability:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC10loadSoundsySo12NSDictionaryC_AC7abilitytFZ">loadSounds(_:ability:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Loops through data and finds all sound marks. Creates soundgroups out of those marks. Adds group to PBSound usinf filename as key. Locally stores filename as key as well. When sounds need to be played, key will be used to trigger</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">loadSounds</span><span class="p">(</span><span class="n">_</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">NSDictionary</span><span class="p">,</span> <span class="nv">ability</span><span class="p">:</span> <span class="kt">Ability</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC13loadParticlesySo12NSDictionaryC_AC7abilitytFZ"></a>
+                    <a name="//apple_ref/swift/Method/loadParticles(_:ability:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC13loadParticlesySo12NSDictionaryC_AC7abilitytFZ">loadParticles(_:ability:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Loops through data and finds all sound marks. Creates soundgroups out of those marks. Adds group to PBSound usinf filename as key. Locally stores filename as key as well. When sounds need to be played, key will be used to trigger</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">loadParticles</span><span class="p">(</span><span class="n">_</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">NSDictionary</span><span class="p">,</span> <span class="nv">ability</span><span class="p">:</span> <span class="kt">Ability</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:12FormationKit7AbilityC13loadPListDataSo12NSDictionaryCSSFZ"></a>
+                    <a name="//apple_ref/swift/Method/loadPListData(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12FormationKit7AbilityC13loadPListDataSo12NSDictionaryCSSFZ">loadPListData(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Load the raw file as a dictionary</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">loadPListData</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">NSDictionary</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://battleofbrothers.com" target="_blank" rel="external">Ryan Campbell</a>. All rights reserved. (Last updated: 2018-05-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
