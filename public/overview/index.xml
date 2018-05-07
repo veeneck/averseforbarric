@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A Verse For Barric</title>
-    <link>/</link>
+    <link>/overview/</link>
     <description>Recent content on A Verse For Barric</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/overview/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -23,31 +23,12 @@ Phoenix     Level 1 Level 2 Level 3      Dead units damage engaged target.</desc
     </item>
     
     <item>
-      <title>Animations</title>
-      <link>/animations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/animations/</guid>
-      <description>I began working with Liron Peer in late 2014 on character animations. Of all the specialties, finding an animator who could work on isometric material was the biggest challenge. I spent over $1,000 on trial runs through various animators with no luck. Once I found Liron and she nailed her first attempt, we jumped straight in to the entire contract. In total, she produced over 1,000 hand drawn frames. Here are a few of them:</description>
-    </item>
-    
-    <item>
       <title>Boss Progression</title>
       <link>/overview/boss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/overview/boss/</guid>
       <description>Sand Shaman The shaman appears in Level 3 : City and is our first encounter with a boss. This boss isn&amp;rsquo;t a boss like the others &amp;ndash; it becomes a normal champion later in the game. Other bosses are one time encounters, but this just introduces the player to dealing with enemy spell casters. So, the goal is to treat the unit like a boss during the first 2 sequences, and then make it a traditional squad based unit that can be killed for the final sequence.</description>
-    </item>
-    
-    <item>
-      <title>Code</title>
-      <link>/code/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/code/</guid>
-      <description>To date, this game has 38,378 lines of Swift code. There have been countless hours invested in art, story, design, animation and brainstorming, but code makes all of this tick. Behind the scenes, SpriteKit and GameplayKit power a vast majority of the engine. This section provides a look at some of the custom frameworks that had to be developed along with tricky problems that had to be solved.
-The Frameworks CutsceneKit Helps develop chat overlays with custom timing and movement.</description>
     </item>
     
     <item>
@@ -96,24 +77,6 @@ Explains Barric&amp;rsquo;s backstory, and establishes where the player is now. 
     </item>
     
     <item>
-      <title>Illustrations</title>
-      <link>/illustrations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/illustrations/</guid>
-      <description>Scott Pellico was a godsend for this project. After a few trial runs with other artists, I was having trouble establishing an art direction. My brother, Chris, found Scott for his project. Since Chris didn&amp;rsquo;t need Scott full time, Scott agreed to split his work between the two of us. He worked on the project part time for nearly a year starting in 2014. Before getting into specific contributions, here is a gallery of some of my favorite Scott creations.</description>
-    </item>
-    
-    <item>
-      <title>Motion Graphics</title>
-      <link>/motion/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/motion/</guid>
-      <description>The term motion graphics doesn&amp;rsquo;t justify the help that Brian Campbell provided on this project. He began contributing in March 2015 as a video editor for cutscenes. That alone was huge. At the time, I had the story written and art for the scenes designed. I quickly stitched them together in iMovie to get a sense for pacing. Fortunately, Brian does this stuff for a living so he knew exactly what needed to happen to move things forward.</description>
-    </item>
-    
-    <item>
       <title>Protective Spells</title>
       <link>/overview/protective/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -134,16 +97,6 @@ Heal     Level 1 Level 2 Level 3      Heal units for 25HP.</description>
       <description>This is just a dump of ideas. Add them here for future brainstorming.
 Major Game Engine Features To Be Considered Code that I haven&amp;rsquo;t added yet.
 Flanking bonus Strategic positions Treasure chests Larger maps Heroes Items Difficulty Level Boss Fights Player places units Hidden units (i.e: placed behind tree)  Difficulty Level Games are annoying when you have to start them over completely &amp;ndash; especially story heavy games. One option is to offer easy mode and normal mode.</description>
-    </item>
-    
-    <item>
-      <title>Soundtrack</title>
-      <link>/soundtrack/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/soundtrack/</guid>
-      <description>Tony Manfredonia reached out to me in January 2015, and we did a brief trial. It went so smoothly that I gladly had him work on the entire soundtrack. In the end, he crafted over 30 minutes of unique content tailored to very specific aspects of the game. Below is a sample of the types of music he made along with the in game considerations.
- Main Menu I have listened to this piece thousands of times because it always loads when I&amp;rsquo;m testing, and it still hasn&amp;rsquo;t gotten old.</description>
     </item>
     
     <item>

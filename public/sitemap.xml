@@ -3,11 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/particleboard/</loc>
-  </url>
-  
-  <url>
-    <loc>/sections/</loc>
+    <loc>/overview/</loc>
   </url>
   
   <url>
@@ -16,7 +12,15 @@
   </url>
   
   <url>
+    <loc>/overview/aggressive/</loc>
+  </url>
+  
+  <url>
     <loc>/animations/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/boss/</loc>
   </url>
   
   <url>
@@ -29,6 +33,22 @@
   </url>
   
   <url>
+    <loc>/overview/controlling/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/enemy/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/friendly/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/gameplay/</loc>
+  </url>
+  
+  <url>
     <loc>/illustrations/</loc>
   </url>
   
@@ -37,7 +57,11 @@
   </url>
   
   <url>
-    <loc>/sections/game/</loc>
+    <loc>/overview/protective/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/ideas/</loc>
   </url>
   
   <url>
@@ -47,6 +71,18 @@
   <url>
     <loc>/tags/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/overview/tech/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/watchful/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/map/</loc>
   </url>
   
 </urlset>

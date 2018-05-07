@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-	<meta name="generator" content="Hugo 0.40.2" />
     <link href="http://gmpg.org/xfn/11" rel="profile">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     
@@ -42,7 +41,7 @@
     <h2 class="desc">A sorrowful tale set in a hand-crafted world <b>where tower defense meets real time tactics.</b></h2>
     <ul class="nav">
         <li>
-          <a href="/" class="selected">T<span>HE</span> G<span>AME</span></a> 
+          <a href="/" class="">T<span>HE</span> G<span>AME</span></a> 
           <span class="space">&middot;</span>
         </li>
         <li>
@@ -131,16 +130,7 @@
 
 </div>
 
-    <article>
-  <h3>Still Under Development</h3>
-  <figure class="left">
-    <img src="/images/Logo-256.png" width="150" />
-  </figure>
-  <p class="first">This game started out as a <a href="http://battleofbrothers.com">one year competition</a>, but evolved into much more than that. Years later, it is still a mountainous task. Instead of dreading the endless march, I've decided to celebrate what has been accomplished so far with this site. Please browse the links above to see the incredible contributions from talented people, and if I make any major progress I'll keep this site updated with the latest.</p>
-  <p>I've gathered every decision about the game such as character appearances, strengths, dialogue, levels, and so on in a wiki like structure found on this page. Each features implementation status is noted. Having all of this written down and organized removes a barrier to entry for development -- I don't have to remember where I left off.</p>
-</article>
-
-<div class="content-wrapper">
+    <div class="content-wrapper">
 
 <section class="wikiNav">
 <ul><a href="/">Game Overview</a>
@@ -169,9 +159,53 @@
 
 <article class="wiki">
 
-	<h4>Game Overview</h4>
+	<h4>Technical Notes</h4>
 
-	<p>Head straight to the [Gameplay Progression](https://github.com/veeneck/Barric/wiki/Progression) to follow the introduction of all spells, levels, characters, decisions, movies and abilities in a linear format.</p>
+	
+
+<p>A place to store random tech notes for reference when designing things.</p>
+
+<h3 id="modifiers">Modifiers</h3>
+
+<p>There are a few types of modifiers in the game, and they are all applied in different ways. Here&rsquo;s the breakdown of how a unit might get a modifier applied to it.</p>
+
+<ul>
+<li><p><strong>Spell Modifiers</strong>: Each spell applies a modifier to the target squad / units and this can be overridden on the spell level. Spells are abilities, and they should process ability modifiers the same way combat modifiers do, but they currently don&rsquo;t.</p>
+
+<ul>
+<li>TODO: If combat modifiers check the squad to increase attack power, shouldn&rsquo;t spell modifiers check the squad to increase spell power? Brainstorm.</li>
+</ul></li>
+
+<li><p><strong>Combat Modifiers</strong>: Each squad has an attack ability. Instead of making 30 different attack abilities, they all use the same one, and just have a modifier applied to tweak it. This is tired at the squad level, and units reference it each time they attack.</p>
+
+<ul>
+<li>TODO: Unlike squad modifiers that copy the modifier to the unit, units reference the squad for ability modifiers. Inconsistent.</li>
+</ul></li>
+
+<li><p><strong>AoE Modifiers</strong>: Some abilities use a AoE to determine who is hit, and apply the modifier from that route. In the code, this is done though physics contacts, and not triggered through the UI.</p>
+
+<ul>
+<li>TODO: Currently only applies base modifiers with no way to dynamically change modifier values.</li>
+</ul></li>
+
+<li><p><strong>Squad Modifiers</strong>: The squad stores the modifiers locally, and each time a unit joins the squad the modifier is applied to the unit. <strong>Example</strong> A level 2 squad gives +5 attack to all units.</p>
+
+<ul>
+<li>TODO: See if it would be better to have units reference the squad &ldquo;Hey should I change this value&rdquo; instead of storing copies on the unit?</li>
+</ul></li>
+
+<li><p><strong>Passive Modifiers</strong>: Not implemented yet. But, they will either be global, or sit on the Leader object. Global has advantage of being a common reference point. On Leader has the benefit of working with existing modifier code.</p></li>
+</ul>
+
+<hr />
+
+<p>I&rsquo;m thinking that since everything uses Modifiers, they aren&rsquo;t specific to unit, squad, spell, etc. Probably makes sense to do a <strong>ModifierService</strong> that has methods like:</p>
+
+<p><code>applyModifiersToUnit(unit:FKUnitEntity, modifiers:[Modifiers], appliedBy:FKSquadEntity], origin:CGPoint)</code>
+<code>applyModifiersToSquad(unit:FKSquadEntity, modifiers:[Modifiers], appliedBy:FKSquadEntity], origin:CGPoint)</code></p>
+
+<p>With each possible helper function to apply modifiers. Specifically, the service can look at all global, squad based, and unit based modifiers to adjust the actual value of the modifier before applying it to the unit. It can also handle stacking rules, and so on. Just one spot for logic to apply modifiers.</p>
+
 
 </article>
 
