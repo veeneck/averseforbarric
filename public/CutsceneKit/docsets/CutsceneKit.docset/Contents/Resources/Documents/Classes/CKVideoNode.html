@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <title>A Verse for Barric : CKVideoNode Class Reference</title>
+
+    <!-- PhotoSwipe -->
+    <link rel="stylesheet" href="/css/photoswipe.css">
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite, 
+     - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="/css/default-skin.css">
+    <!-- Core JS file -->
+    <script src="/js/photoswipe.min.js"></script>
+    <!-- UI JS file -->
+    <script src="/js/photoswipe-ui-default.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+
+    <!-- JS -->
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="/js/index-min.js"></script>
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css">
+      <script src="/js/highlight.pack.js"></script>
+    <script src="../js/jazzy.js" defer></script>
+
+    <!-- Fonts -->
+
+    <!-- Icons -->
+
+    <!-- RSS -->
+    
+</head>
+  <body class="docs">
+    <a name="//apple_ref/swift/Class/CKVideoNode" class="dashAnchor"></a>
+    <a title="CKVideoNode Class Reference"></a>
+    <header class="partial">
+    	<img src="/images/barric_cropped.png" />
+    </header>
+    
+    <section>
+        <ul class="nav">
+            <li><a href="/thegame">T<span>HE</span> G<span>AME</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/motion">M<span>otion</span> G<span>raphics</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/illustrations">I<span>llustrations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/animations">A<span>nimations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/soundtrack">S<span>oundtrack</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/code">C<span>ode</span></a></li>
+        </ul>
+    </section>    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">CutsceneKit </a>
+        &#8594;
+        CKVideoNode 
+      </p>
+      <p class="coverage"></p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/CKAction.html">CKAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CKCutscene.html">CKCutscene</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CKDialogueAction.html">CKDialogueAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CKSequence.html">CKSequence</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CKVideoNode.html">CKVideoNode</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h4>CKVideoNode</h4>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">CKVideoNode</span> <span class="p">:</span> <span class="kt">SKVideoNode</span></code></pre>
+
+                </div>
+              </div>
+            <p>A sublcass of SKVideoNode that adds useful extensions such as timed hooks, callback on completetion, and cleanup afterwards. Also makes it easier to create a video based off of an AVPlayer.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    Currently, there is no tie in to the rest of CutsceneKit. Brainstorming ways to add a CKCutscene combined with movie timing. An example would be dialogue / translations on top of the movie.
+
+</div>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@CutsceneKit@objc(cs)CKVideoNode(py)player"></a>
+                    <a name="//apple_ref/swift/Property/player" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CutsceneKit@objc(cs)CKVideoNode(py)player">player</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Handle on the player so that we can add hooks after initialization.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">player</span><span class="p">:</span> <span class="kt">AVPlayer</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@CutsceneKit@objc(cs)CKVideoNode(py)playerItem"></a>
+                    <a name="//apple_ref/swift/Property/playerItem" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CutsceneKit@objc(cs)CKVideoNode(py)playerItem">playerItem</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Handle of the playerItem so that we can add notifications after initialization.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">playerItem</span><span class="p">:</span> <span class="kt">AVPlayerItem</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initializing%20a%20CKVideoNode"></a>
+                <a name="//apple_ref/swift/Section/Initializing a CKVideoNode" class="dashAnchor"></a>
+                <h5 class="section-name">Initializing a CKVideoNode</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@CutsceneKit@objc(cs)CKVideoNode(im)initWithName:ext:"></a>
+                    <a name="//apple_ref/swift/Method/init(name:ext:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CutsceneKit@objc(cs)CKVideoNode(im)initWithName:ext:">init(name:ext:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create a CKVideoNode using an AVPlayer.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">ext</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h6>Parameters</h6>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>name</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The name of the movie without the file extension.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>ext</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The file extension. I.e.: <q>mov</q></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Timing%20Hooks"></a>
+                <a name="//apple_ref/swift/Section/Timing Hooks" class="dashAnchor"></a>
+                <h5 class="section-name">Timing Hooks</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@CutsceneKit@objc(cs)CKVideoNode(im)addTimingHookWithTimestamp:block:"></a>
+                    <a name="//apple_ref/swift/Method/addTimingHook(timestamp:block:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CutsceneKit@objc(cs)CKVideoNode(im)addTimingHookWithTimestamp:block:">addTimingHook(timestamp:block:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Run a block of code at the provided timestamp.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addTimingHook</span><span class="p">(</span><span class="nv">timestamp</span><span class="p">:</span><span class="kt">Double</span><span class="p">,</span> <span class="nv">block</span><span class="p">:</span><span class="kd">@escaping</span> <span class="p">()</span><span class="o">-&gt;</span><span class="p">())</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Ending%20a%20Video"></a>
+                <a name="//apple_ref/swift/Section/Ending a Video" class="dashAnchor"></a>
+                <h5 class="section-name">Ending a Video</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@CutsceneKit@objc(cs)CKVideoNode(im)registerCompletionCallbackWithCallback:"></a>
+                    <a name="//apple_ref/swift/Method/registerCompletionCallback(callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CutsceneKit@objc(cs)CKVideoNode(im)registerCompletionCallbackWithCallback:">registerCompletionCallback(callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Removes any notification center listeners on the node, and then adds a new listener for <code>AVPlayerItemDidPlayToEndTimeNotification</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">registerCompletionCallback</span><span class="p">(</span><span class="nv">callback</span><span class="p">:</span><span class="kd">@escaping</span> <span class="p">()</span><span class="o">-&gt;</span><span class="p">())</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h6>Parameters</h6>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function to be called when the player finishes playing.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@CutsceneKit@objc(cs)CKVideoNode(im)skipToEnd"></a>
+                    <a name="//apple_ref/swift/Method/skipToEnd()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CutsceneKit@objc(cs)CKVideoNode(im)skipToEnd">skipToEnd()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Utility to function to jump the player to the end of the video. Preferred way to <q>skip</q> a video as it will route through appopriate cleanup functions.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">skipToEnd</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@CutsceneKit@objc(cs)CKVideoNode(im)playerDidFinishPlayingWithNote:"></a>
+                    <a name="//apple_ref/swift/Method/playerDidFinishPlaying(note:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CutsceneKit@objc(cs)CKVideoNode(im)playerDidFinishPlayingWithNote:">playerDidFinishPlaying(note:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Private function to handle cleanup of player and process callback</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">playerDidFinishPlaying</span><span class="p">(</span><span class="nv">note</span><span class="p">:</span> <span class="kt">NSNotification</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://battleofbrothers.com" target="_blank" rel="external">Ryan Campbell</a>. All rights reserved. (Last updated: 2018-05-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

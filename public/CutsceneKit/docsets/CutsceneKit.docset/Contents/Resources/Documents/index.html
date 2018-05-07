@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <title>A Verse for Barric : CutsceneKit  Reference</title>
+
+    <!-- PhotoSwipe -->
+    <link rel="stylesheet" href="/css/photoswipe.css">
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite, 
+     - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="/css/default-skin.css">
+    <!-- Core JS file -->
+    <script src="/js/photoswipe.min.js"></script>
+    <!-- UI JS file -->
+    <script src="/js/photoswipe-ui-default.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+
+    <!-- JS -->
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="/js/index-min.js"></script>
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css">
+      <script src="/js/highlight.pack.js"></script>
+    <script src="js/jazzy.js" defer></script>
+
+    <!-- Fonts -->
+
+    <!-- Icons -->
+
+    <!-- RSS -->
+    
+</head>
+  <body class="docs">
+    <a title="CutsceneKit  Reference"></a>
+    <header class="partial">
+    	<img src="/images/barric_cropped.png" />
+    </header>
+    
+    <section>
+        <ul class="nav">
+            <li><a href="/thegame">T<span>HE</span> G<span>AME</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/motion">M<span>otion</span> G<span>raphics</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/illustrations">I<span>llustrations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/animations">A<span>nimations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/soundtrack">S<span>oundtrack</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/code">C<span>ode</span></a></li>
+        </ul>
+    </section>    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">CutsceneKit </a>
+        &#8594;
+        CutsceneKit 
+      </p>
+      <p class="coverage"></p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/CKAction.html">CKAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CKCutscene.html">CKCutscene</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CKDialogueAction.html">CKDialogueAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CKSequence.html">CKSequence</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CKVideoNode.html">CKVideoNode</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <h4 id='cutscenekit' class='heading'>CutsceneKit</h4>
+
+<p>CutsceneKit is a SpriteKit dependent framework with the goal of providing two core pieces of functionality.</p>
+
+<ul>
+<li>Provide an event sequence that can run any group of SKActions on different nodes and allow them to be skipped.</li>
+<li>Add timed hooks to SKVideoNodes that allows them to be skimmed, skipped, and have dialogue overlay.</li>
+</ul>
+<h5 id='getting-started-with-ckcutscene' class='heading'>Getting Started with CKCutscene</h5>
+
+<p>The main goal of CKCutscene is to provide playback control of SKActions. Here is a basic example:</p>
+<pre class="highlight plaintext"><code>self.cutscene = CKCutscene()
+let sequence = CKSequence(actions: [
+    CKAction(node: nodeA, action: SKAction.moveToX(500, duration: 5)),
+    CKAction(node: nodeB, action: SKAction.moveToX(500, duration: 3))
+])
+self.cutscene.addSequences([sequence])
+self.cutscene.begin() {
+    print("playback complete")
+}
+</code></pre>
+
+<p>The code above will move two unrelated nodes (<code>nodeA</code> and <code>nodeB</code>). Each will move at their own speed / duration, and the callback will be called when the action with the longest duration has finished. Think of it as <code>SKAction.group()</code> on different nodes. This first benefit is nice, but it&rsquo;s worth noting that there is a workaround using <a href="https://developer.apple.com/library/prerelease/mac/documentation/SpriteKit/Reference/SKAction_Ref/index.html#//apple_ref/occ/clm/SKAction/runAction:onChildWithName:"><code>SKAction.runAction(_:onChildWithName:)</code></a> along with a <code>waitForDuration</code>.</p>
+
+<p>Fortunately, there are more benefits to this approach. Among them are:</p>
+
+<ul>
+<li>Allows for all actions to be skipped to the end. This does not cancel the action &ndash; it actually finishes it instantly.</li>
+<li>Allows for flags like <code>skipable</code> and <code>autoplay</code> to be applied to groups of actions. This enables sequences that can be paused and controlled by user input.</li>
+</ul>
+
+<p>To dive in, start by looking at <a href="http://veeneck.github.io/CutsceneKit/Classes/CKCutscene.html">CKCutscene</a> and then you can begin constructing a <a href="http://veeneck.github.io/CutsceneKit/Classes/CKSequence.html">CKSequence</a></p>
+<h5 id='creating-custom-ckactions' class='heading'>Creating Custom CKActions</h5>
+
+<p>There is a lot of power in extending CKAction to create reusable cutscene features. Included in this framework is <a href="http://veeneck.github.io/CutsceneKit/Classes/CKDialogueAction.html">CKDialogueAction</a> which manages groups of text in the cutscene. View the source code of that file as a starting reference.</p>
+<h5 id='working-with-ckvideonode' class='heading'>Working with CKVideoNode</h5>
+
+<p>Instead of using nodes and the in game engine to show a cutscene, it may be desirable to use a video instead. The goal of <a href="http://veeneck.github.io/CutsceneKit/Classes/CKVideoNode.html">CKVideoNode</a> is to make it convenient to combine AVPlayer with SKVideoNode and to add additional functionality. A basic example would be:</p>
+<pre class="highlight plaintext"><code>self.videoPlayer = CKVideoNode(name: "MovieName", ext: "mov")
+self.videoPlayer.registerCompletionCallback({
+    self.videoFinishedPlaying()
+})
+self.addChild(self.videoPlayer)
+self.videoPlayer.play()
+</code></pre>
+
+<p>The code above provides completion callback to the video. Additional methods are exposed like <code>skipToEnd</code> which would jump to the end of a video and cleanup, or <code>addTimingHook</code> which will execute a block of code at a given timestamp.</p>
+<h5 id='status' class='heading'>Status</h5>
+
+<p>Not ready for use.</p>
+
+<p>Repository is public and may be of use, but it is not supported as an open source project. Future changes could be breaking.</p>
+<h5 id='documentation' class='heading'>Documentation</h5>
+
+<p>Docs are located at <a href="http://veeneck.github.io/CutsceneKit">veeneck.github.io/CutsceneKit</a> and are generated with <a href="https://github.com/Realm/jazzy">Jazzy</a>. The config file for the documentation is in the project as <code>config.yml</code>. Docs can be generated by running this command <strong>in</strong> the project directory:</p>
+<pre class="highlight plaintext"><code>jazzy --config {PATH_TO_REPOSITORY}/CutsceneKit/CutsceneKit/config.yml
+</code></pre>
+
+<p><strong>Note</strong>: The output in the <code>config.yml</code> is hard coded to one computer. Edit the file and update the <code>output</code> flag to a valid location.</p>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://battleofbrothers.com" target="_blank" rel="external">Ryan Campbell</a>. All rights reserved. (Last updated: 2018-05-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

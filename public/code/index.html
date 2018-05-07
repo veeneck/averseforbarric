@@ -39,9 +39,8 @@
 </header>
 <section>
     <h2 class="desc">A sorrowful tale set in a hand-crafted world <b>where tower defense meets real time tactics.</b></h2>
-    </div>
     <ul class="nav">
-        <li><a href="/thegame">T<span>HE</span> G<span>AME</span></a> <span class="space">&middot;</span></li>
+        <li><a href="/">T<span>HE</span> G<span>AME</span></a> <span class="space">&middot;</span></li>
         <li><a href="/motion">M<span>otion</span> G<span>raphics</span></a> <span class="space">&middot;</span></li>
         <li><a href="/illustrations">I<span>llustrations</span></a> <span class="space">&middot;</span></li>
         <li><a href="/animations">A<span>nimations</span></a> <span class="space">&middot;</span></li>
@@ -127,7 +126,7 @@
     <div class="framework">
         <b>CutsceneKit</b>
         <span>Helps develop chat overlays with custom timing and movement.</span>
-        <a href="">View Documentation</a>
+        <a href="/CutsceneKit">View Documentation</a>
     </div>
 
 <pre><code class="swift">self.entity.ui?.cutscene?.addSequences(sequences: [
@@ -142,7 +141,7 @@
 <div class="framework">
     <b>SwitchBoard</b>
     <span>Advanced scene management for SpriteKit.</span>
-    <a href="">View Documentation</a>
+    <a href="/SwitchBoard">View Documentation</a>
 </div>
 
 <pre><code class="swift">sceneManager.registerScene(
@@ -158,7 +157,7 @@
 <div class="framework">
     <b>FormationKit</b>
     <span>The heart and soul. Handles all unit and squad behaviors.</span>
-    <a href="">View Documentation</a>
+    <a href="/FormationKit">View Documentation</a>
 </div>
 <pre><code>let squad = FKSquadFactory.sharedInstance.createSquad(
     FKSquadFactory.FKSquadConstruction(
@@ -177,7 +176,7 @@
 <div class="framework">
     <b>DeckKit</b>
     <span>UI framework to dynamically build the card menus.</span>
-    <a href="">View Documentation</a>
+    <a href="/DeckKit">View Documentation</a>
 </div>
 
 <pre><code>let construction = DKCardFactory.Blueprint(
@@ -194,7 +193,7 @@
 <div class="framework">
     <b>PathKit</b>
     <span>Expand upon the pathfinding provided by GameplayKit.</span>
-    <a href="">View Documentation</a>
+    <a href="/PathKit">View Documentation</a>
 </div>
 
 <pre><code>if let pathfinder = entity.navigationComponent.strategy {
@@ -209,11 +208,11 @@
 <p>Other frameworks include:</p>
 
 <ul>
-<li><a href="http://google.com">Particleboard</a>: Convenience features and extensions to common objects.</li>
-<li><a href="http://google.com">StrongRoom</a>: Utility to manage save gave files, unit experience, and unclocked abilities.</li>
-<li><a href="http://google.com">WavePool</a>: Control continuous spawns of enemy units.</li>
-<li><a href="http://google.com">WarGUI</a>: Isolated code specific to the heads up display.</li>
-<li><a href="http://google.com">SpeakerBox</a>: A sub framework of CutsceneKit to handle the <em>podium</em> that display units icons.</li>
+<li><a href="/Particleboard">Particleboard</a>: Convenience features and extensions to common objects.</li>
+<li><a href="/StrongRoom">StrongRoom</a>: Utility to manage save gave files, unit experience, and unclocked abilities.</li>
+<li><a href="/WavePool">WavePool</a>: Control continuous spawns of enemy units.</li>
+<li><a href="/WarGUI">WarGUI</a>: Isolated code specific to the heads up display.</li>
+<li><a href="/SpeakerBox">SpeakerBox</a>: A sub framework of CutsceneKit to handle the <em>podium</em> that display units icons.</li>
 </ul>
 
 <h4 id="pathfinding">Pathfinding</h4>

@@ -1,0 +1,229 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGActionEntity.swift",
+      "line": 19,
+      "symbol": "WGActionEntity",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGAnchorPointService.swift",
+      "line": 16,
+      "symbol": "WGAnchorPointService",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGButtonNode.swift",
+      "line": 14,
+      "symbol": "WGButtonNodeResponder.buttonClickDown(location:button:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGButtonNode.swift",
+      "line": 15,
+      "symbol": "WGButtonNodeResponder.buttonClickUp(location:button:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGButtonNode.swift",
+      "line": 19,
+      "symbol": "WGButtonNode",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGContainerNode.swift",
+      "line": 29,
+      "symbol": "WGContainerNode.navbar",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGContainerNode.swift",
+      "line": 40,
+      "symbol": "WGContainerNode.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGContainerNode.swift",
+      "line": 44,
+      "symbol": "WGContainerNode.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGContainerNode.swift",
+      "line": 48,
+      "symbol": "WGContainerNode.initWithDefaults(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGContainerNode.swift",
+      "line": 72,
+      "symbol": "WGContainerNode.removeSettingsButton()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGContainerNode.swift",
+      "line": 83,
+      "symbol": "WGContainerNode.addDialogueCapabilities(scene:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGContainerNode.swift",
+      "line": 99,
+      "symbol": "WGContainerNode.addNavigationBar(scene:animate:delegate:food:gold:bandages:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGContainerNode.swift",
+      "line": 121,
+      "symbol": "WGContainerNode.recruitToSquad(cost:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGContainerNode.swift",
+      "line": 135,
+      "symbol": "WGContainerNode.prepareUnitDescriptions(cardDelegate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGContainerNode.swift",
+      "line": 141,
+      "symbol": "WGContainerNode.animateOutOfView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGNavBar.swift",
+      "line": 17,
+      "symbol": "WGNavBar",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGPedestalNode.swift",
+      "line": 16,
+      "symbol": "WGPedestalNode",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGPedestalProtocol.swift",
+      "line": 11,
+      "symbol": "WGPedestalProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGRenderComponent.swift",
+      "line": 66,
+      "symbol": "WGRenderComponent.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGRenderComponent.swift",
+      "line": 321,
+      "symbol": "WGRenderComponent.clickUp(pedestal:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGRenderComponent.swift",
+      "line": 332,
+      "symbol": "WGRenderComponent.clickDown(pedestal:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGRenderComponent.swift",
+      "line": 338,
+      "symbol": "WGRenderComponent.strategyChanged(strategy:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGRenderComponent.swift",
+      "line": 395,
+      "symbol": "WGRenderComponent.show()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGRenderComponent.swift",
+      "line": 399,
+      "symbol": "WGRenderComponent.hide()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGSettingsButton.swift",
+      "line": 18,
+      "symbol": "SettingsButton",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGStrategyIcon.swift",
+      "line": 23,
+      "symbol": "WGStrategyIcon.init(icon:label:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGStrategyIcon.swift",
+      "line": 30,
+      "symbol": "WGStrategyIcon.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGStrategyNode.swift",
+      "line": 59,
+      "symbol": "WGStrategyNode.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGStrategyNode.swift",
+      "line": 63,
+      "symbol": "WGStrategyNode.addStrategy(strategy:isActive:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGStrategyProtocol.swift",
+      "line": 11,
+      "symbol": "WGStrategyProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGUnitOverview.swift",
+      "line": 24,
+      "symbol": "WGUnitOverview",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WarGUI/WarGUI/WGWarBar.swift",
+      "line": 17,
+      "symbol": "WGWarBar",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ryancampbell/Documents/Games/WarGUI"
+}

@@ -3,22 +3,22 @@
 
 /// Credit: https://css-tricks.com/media-queries-sass-3-2-and-codekit/
 @mixin breakpoint($point) {
-    @if $point == large-screen {
+    @if $point==large-screen {
         @media (min-width: 1200px) {
             @content;
         }
     }
-    @else if $point == normal-screen {
+    @else if $point==normal-screen {
         @media (min-width: 1080px) {
             @content;
         }
     }
-   @else if $point == tablet-screen {
+    @else if $point==tablet-screen {
         @media (min-width: 50em) {
             @content;
         }
     }
-    @else if $point == condensed-screen {
+    @else if $point==condensed-screen {
         @media (min-width: 35em) {
             @content;
         }
@@ -64,7 +64,8 @@
 %clearfix {
     *zoom: 1;
 
-    &:before, &:after {
+    &:before,
+    &:after {
         content: " ";
         display: table;
     }
@@ -73,6 +74,7 @@
         clear: both;
     }
 }
+
 
 /*----------------------- Links ------------------------------ */
 
@@ -83,6 +85,41 @@ a {
 a:hover {
     color: $blue
 }
+
+
+/*----------------------- Header Layout ------------------------------ */
+
+header {
+    background-image: url("/images/header_full.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1996px auto;
+    height: 711px;
+    background-color: $blue;
+}
+
+header.partial {
+    background-image: url("/images/header.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1996px auto;
+    height: 468px;
+    background-color: $blue;
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin: 0px auto 0px auto;
+    padding-top: 315px;
+}
+
+header.partial img {
+    padding: 0px;
+    margin-left: -88px !important;
+    display: inline-block;
+}
+
 
 /*----------------------- Core Layout ------------------------------ */
 
@@ -112,3 +149,93 @@ figcaption {
     font-size: 0.7em;
 }
 
+
+/*----------------------- Jazzy Layout ------------------------------ */
+
+.content-wrapper {
+    margin: 0 auto;
+    max-width: $maxWidth;
+    @extend %clearfix;
+}
+
+article.main-content {
+    width: 77%;
+    padding-left: 3%;
+    float: left;
+}
+
+.docs .nav {
+    margin: 25px 0px;
+}
+
+nav.sidebar {
+    float: left;
+    width: 20%;
+    overflow: hidden;
+}
+
+nav.sidebar ul {
+    list-style: none;
+    font-size: 90%;
+}
+
+.nav-groups {
+    padding-left: 0px;
+}
+
+p.coverage {
+    width: 20%;
+    float: left;
+    text-align: right;
+}
+
+#breadcrumbs {
+    float: left;
+    width: 80%;
+}
+
+.section-name {
+    text-decoration: none !important;
+}
+
+.height-container {
+    display: none;
+    left: -25px;
+    padding-bottom: 0;
+    margin-top: -15px;
+    margin-left: 15px;
+}
+
+article ul {
+    color: #fff;
+}
+
+.task-group ul {
+    list-style: none;
+    margin-top:5px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+article.main-content p {
+    margin-top:5px;
+}
+
+article.main-content pre {
+    margin-left: 0px;
+    margin-top: 15px;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+article.main-content code {
+    background-color: #251721;
+}
+
+.nobg {
+    background: none !important;
+}
+
+.abstract {
+    margin-top: 25px;
+}

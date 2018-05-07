@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <title>A Verse for Barric : SBSceneContainer Structure Reference</title>
+
+    <!-- PhotoSwipe -->
+    <link rel="stylesheet" href="/css/photoswipe.css">
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite, 
+     - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="/css/default-skin.css">
+    <!-- Core JS file -->
+    <script src="/js/photoswipe.min.js"></script>
+    <!-- UI JS file -->
+    <script src="/js/photoswipe-ui-default.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+
+    <!-- JS -->
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="/js/index-min.js"></script>
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css">
+      <script src="/js/highlight.pack.js"></script>
+    <script src="../js/jazzy.js" defer></script>
+
+    <!-- Fonts -->
+
+    <!-- Icons -->
+
+    <!-- RSS -->
+    
+</head>
+  <body class="docs">
+    <a name="//apple_ref/swift/Struct/SBSceneContainer" class="dashAnchor"></a>
+    <a title="SBSceneContainer Structure Reference"></a>
+    <header class="partial">
+    	<img src="/images/barric_cropped.png" />
+    </header>
+    
+    <section>
+        <ul class="nav">
+            <li><a href="/thegame">T<span>HE</span> G<span>AME</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/motion">M<span>otion</span> G<span>raphics</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/illustrations">I<span>llustrations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/animations">A<span>nimations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/soundtrack">S<span>oundtrack</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/code">C<span>ode</span></a></li>
+        </ul>
+    </section>    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">SwitchBoard </a>
+        &#8594;
+        SBSceneContainer 
+      </p>
+      <p class="coverage"> 73% documented</p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes.html#/PanGesture">PanGesture</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@SwitchBoard@objc(cs)PinchGesture">PinchGesture</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:11SwitchBoard7SBCacheC">SBCache</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SBGameScene.html">SBGameScene</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SBGameScene.html#/s:11SwitchBoard11SBGameSceneC10WorldLayerO">– WorldLayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SBGameScene.html#/s:11SwitchBoard11SBGameSceneC12CameraBoundsV">– CameraBounds</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SBSceneManager.html">SBSceneManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SBSubScene.html">SBSubScene</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SBSubScene.html#/s:11SwitchBoard10SBSubSceneC9AnimationV">– Animation</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/SBViewDelegate.html">SBViewDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/SBSceneContainer.html">SBSceneContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SBSceneContainer.html#/s:11SwitchBoard16SBSceneContainerV10SceneGroupO">– SceneGroup</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h4>SBSceneContainer</h4>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SBSceneContainer</span></code></pre>
+
+                </div>
+              </div>
+            <p>Object representing each scene. By giving paramaters like transition, preloadable, etc we can have the SBSceneManager run everything dynamically.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:11SwitchBoard16SBSceneContainerV10SceneGroupO"></a>
+                    <a name="//apple_ref/swift/Enum/SceneGroup" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwitchBoard16SBSceneContainerV10SceneGroupO">SceneGroup</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>SceneGroups define which scenes share assets and should be loaded / cached together. Currently, this is hard coded to 4 groups as <code>enums</code> can&rsquo;t be extended or modifier. For true open sourcing, this needs to be rethought and scene groups need to be something that you can register.</p>
+
+<ul>
+<li>Main: Main menu</li>
+<li>World: World map, travel, camp, etc</li>
+<li>Battle: Game level</li>
+<li>Misc: Other groupings</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">SceneGroup</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:11SwitchBoard16SBSceneContainerV9classTypeAA11SBGameSceneCmvp"></a>
+                    <a name="//apple_ref/swift/Property/classType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwitchBoard16SBSceneContainerV9classTypeAA11SBGameSceneCmvp">classType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The actual class of the scene. Need this to properly unarchive</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">classType</span><span class="p">:</span> <span class="kt"><a href="../Classes/SBGameScene.html">SBGameScene</a></span><span class="o">.</span><span class="k">Type</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:11SwitchBoard16SBSceneContainerV4nameSSvp"></a>
+                    <a name="//apple_ref/swift/Property/name" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwitchBoard16SBSceneContainerV4nameSSvp">name</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The name of the scene .sks file to load</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:11SwitchBoard16SBSceneContainerV10transitionSo12SKTransitionCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/transition" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwitchBoard16SBSceneContainerV10transitionSo12SKTransitionCSgvp">transition</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Default transition into this scene</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">transition</span><span class="p">:</span> <span class="kt">SKTransition</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:11SwitchBoard16SBSceneContainerV11preloadableSbvp"></a>
+                    <a name="//apple_ref/swift/Property/preloadable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwitchBoard16SBSceneContainerV11preloadableSbvp">preloadable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Whether or not the next scene should be preloaded.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">preloadable</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:11SwitchBoard16SBSceneContainerV8userDataSo19NSMutableDictionaryCvp"></a>
+                    <a name="//apple_ref/swift/Property/userData" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwitchBoard16SBSceneContainerV8userDataSo19NSMutableDictionaryCvp">userData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used to store specific data like <q>Intro</q> for type of Story scene</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">userData</span><span class="p">:</span> <span class="kt">NSMutableDictionary</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:11SwitchBoard16SBSceneContainerV8categoryAC10SceneGroupOvp"></a>
+                    <a name="//apple_ref/swift/Property/category" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwitchBoard16SBSceneContainerV8categoryAC10SceneGroupOvp">category</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Which SceneGroup this scene belongs to</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">category</span><span class="p">:</span> <span class="kt">SBSceneContainer</span><span class="o">.</span><span class="kt"><a href="../Structs/SBSceneContainer.html#/s:11SwitchBoard16SBSceneContainerV10SceneGroupO">SceneGroup</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:11SwitchBoard16SBSceneContainerV7atlasesSaySSGvp"></a>
+                    <a name="//apple_ref/swift/Property/atlases" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwitchBoard16SBSceneContainerV7atlasesSaySSGvp">atlases</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Which atlases are necessary and should be loade dby default for this scene</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">atlases</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initializing%20a%20SBSceneContainer"></a>
+                <a name="//apple_ref/swift/Section/Initializing a SBSceneContainer" class="dashAnchor"></a>
+                <h5 class="section-name">Initializing a SBSceneContainer</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:11SwitchBoard16SBSceneContainerVAcA11SBGameSceneCm9classType_SS4nameSo12SKTransitionCSg10transitionSb11preloadableAC0F5GroupO8categorySaySSG7atlasestcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(classType:name:transition:preloadable:category:atlases:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwitchBoard16SBSceneContainerVAcA11SBGameSceneCm9classType_SS4nameSo12SKTransitionCSg10transitionSb11preloadableAC0F5GroupO8categorySaySSG7atlasestcfc">init(classType:name:transition:preloadable:category:atlases:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Main initializer to set all required parameters</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">classType</span><span class="p">:</span><span class="kt"><a href="../Classes/SBGameScene.html">SBGameScene</a></span><span class="o">.</span><span class="k">Type</span><span class="p">,</span> <span class="nv">name</span><span class="p">:</span><span class="kt">String</span><span class="p">,</span> <span class="nv">transition</span><span class="p">:</span><span class="kt">SKTransition</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">preloadable</span><span class="p">:</span><span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">,</span> <span class="nv">category</span><span class="p">:</span><span class="kt"><a href="../Structs/SBSceneContainer.html#/s:11SwitchBoard16SBSceneContainerV10SceneGroupO">SceneGroup</a></span> <span class="o">=</span> <span class="kt"><a href="../Structs/SBSceneContainer.html#/s:11SwitchBoard16SBSceneContainerV10SceneGroupO">SceneGroup</a></span><span class="o">.</span><span class="kt">World</span><span class="p">,</span> <span class="nv">atlases</span><span class="p">:[</span><span class="kt">String</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="kt">String</span><span class="p">]())</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://battleofbrothers.com" target="_blank" rel="external">Ryan Campbell</a>. All rights reserved. (Last updated: 2018-05-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

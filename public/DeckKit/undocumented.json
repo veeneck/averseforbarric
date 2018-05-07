@@ -1,0 +1,285 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKAssignedImageNode.swift",
+      "line": 14,
+      "symbol": "DKAssignedImageNode.init(texture:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKAssignedImageNode.swift",
+      "line": 20,
+      "symbol": "DKAssignedImageNode.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKButtonNode.swift",
+      "line": 77,
+      "symbol": "DKButtonNode.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKButtonNode.swift",
+      "line": 218,
+      "symbol": "DKButtonNode.addContextCapsule(palette:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKButtonNode.swift",
+      "line": 229,
+      "symbol": "DKButtonNode.removeContextCapsule()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKButtonNode.swift",
+      "line": 352,
+      "symbol": "DKButtonNode.changeAttributeLabel(text:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKButtonNode.swift",
+      "line": 358,
+      "symbol": "DKButtonNode.changePrimaryIcon(texture:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKCache.swift",
+      "line": 21,
+      "symbol": "DKCache.sharedInstance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKCache.swift",
+      "line": 35,
+      "symbol": "DKCache.setObject(_:forKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKCache.swift",
+      "line": 43,
+      "symbol": "DKCache.removeAllObjects()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKCardFactory.swift",
+      "line": 11,
+      "symbol": "DKCardFactory",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKCardNode.swift",
+      "line": 106,
+      "symbol": "DKCardNode.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKCardNode.swift",
+      "line": 177,
+      "symbol": "DKCardNode.Anchor.Left",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKCardNode.swift",
+      "line": 177,
+      "symbol": "DKCardNode.Anchor.LeftOverlay",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKCardNode.swift",
+      "line": 177,
+      "symbol": "DKCardNode.Anchor.LeftStandAlone",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKCardNode.swift",
+      "line": 177,
+      "symbol": "DKCardNode.Anchor.Right",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKCardNode.swift",
+      "line": 177,
+      "symbol": "DKCardNode.Anchor.RightOverlay",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKCardNode.swift",
+      "line": 177,
+      "symbol": "DKCardNode.Anchor.RightStandAlone",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKCardNode.swift",
+      "line": 189,
+      "symbol": "DKCardNode.removeButton(button:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKCardNode.swift",
+      "line": 198,
+      "symbol": "DKCardNode.removeButtons()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKCardNode.swift",
+      "line": 205,
+      "symbol": "DKCardNode.getButton(identifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKCardNode.swift",
+      "line": 236,
+      "symbol": "DKCardNode.updateDescriptionHeader(text:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKCardNode.swift",
+      "line": 369,
+      "symbol": "DKCardNode.touchesBegan(_:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKCardNode.swift",
+      "line": 376,
+      "symbol": "DKCardNode.touchesEnded(_:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKCardProtocol.swift",
+      "line": null,
+      "symbol": "DKCardProtocol",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKCardProtocol.swift",
+      "line": 11,
+      "symbol": "DKCardProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKDescriptionHeader.swift",
+      "line": 36,
+      "symbol": "DKDescriptionHeader.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKExperienceNode.swift",
+      "line": 19,
+      "symbol": "DKExperienceNode",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKHalfButtonNode.swift",
+      "line": 21,
+      "symbol": "DKHalfButtonNode.alignment",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKHalfButtonNode.swift",
+      "line": 31,
+      "symbol": "DKHalfButtonNode.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKHalfButtonNode.swift",
+      "line": 187,
+      "symbol": "DKHalfButtonNode.changeAttributeLabel(text:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKHeroCardNode.swift",
+      "line": 21,
+      "symbol": "DKHeroCardNode.init(construction:view:bgFile:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKHeroCardNode.swift",
+      "line": 26,
+      "symbol": "DKHeroCardNode.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKHeroCardNode.swift",
+      "line": 30,
+      "symbol": "DKHeroCardNode.addBackground(bgFile:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKMidsectionDescriptionNode.swift",
+      "line": 38,
+      "symbol": "DKMidsectionDescriptionNode.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKSkillLevelNode.swift",
+      "line": 18,
+      "symbol": "DKSkillLevelNode.init(baseSkill:currentSkill:palette:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKSkillLevelNode.swift",
+      "line": 24,
+      "symbol": "DKSkillLevelNode.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKSkillLevelNode.swift",
+      "line": 51,
+      "symbol": "DKSkillLevelNode.updateSkillBarColors(baseSkill:currentSkill:palette:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKStarNode.swift",
+      "line": 19,
+      "symbol": "DKStarNode",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/DeckKit/DeckKit/DKTextHeader.swift",
+      "line": 36,
+      "symbol": "DKTextHeader.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ryancampbell/Documents/Games/DeckKit"
+}

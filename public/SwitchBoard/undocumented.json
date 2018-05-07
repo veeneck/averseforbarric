@@ -1,0 +1,173 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/PanGesture.swift",
+      "line": 25,
+      "symbol": "PanGesture",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/PinchGesture.swift",
+      "line": 44,
+      "symbol": "PinchGesture.updateCameraBounds(target:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/PinchGesture.swift",
+      "line": 50,
+      "symbol": "PinchGesture.boundScaleToWindow(scale:target:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/SBCache.swift",
+      "line": 22,
+      "symbol": "SBCache.sharedInstance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/SBCache.swift",
+      "line": 36,
+      "symbol": "SBCache.setObject(_:forKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/SBCache.swift",
+      "line": 44,
+      "symbol": "SBCache.removeAllObjects()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/SBGameScene.swift",
+      "line": 40,
+      "symbol": "SBGameScene.WorldLayer.Debug",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/SBGameScene.swift",
+      "line": 40,
+      "symbol": "SBGameScene.WorldLayer.PermanentDebug",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/SBGameScene.swift",
+      "line": 40,
+      "symbol": "SBGameScene.WorldLayer.UI",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/SBGameScene.swift",
+      "line": 40,
+      "symbol": "SBGameScene.WorldLayer.World",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/SBGameScene.swift",
+      "line": 50,
+      "symbol": "SBGameScene.CameraBounds.init(lower:left:upper:right:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/SBGameScene.swift",
+      "line": 165,
+      "symbol": "SBGameScene.detectPan(recognizer:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/SBGameScene.swift",
+      "line": 172,
+      "symbol": "SBGameScene.detectPinch(recognizer:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/SBGameScene.swift",
+      "line": 320,
+      "symbol": "SBGameScene.update(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/SBSceneContainer.swift",
+      "line": 25,
+      "symbol": "SBSceneContainer.SceneGroup.Battle",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/SBSceneContainer.swift",
+      "line": 25,
+      "symbol": "SBSceneContainer.SceneGroup.Main",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/SBSceneContainer.swift",
+      "line": 25,
+      "symbol": "SBSceneContainer.SceneGroup.Misc",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/SBSceneContainer.swift",
+      "line": 25,
+      "symbol": "SBSceneContainer.SceneGroup.World",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/SBScreenRecord.swift",
+      "line": 24,
+      "symbol": "SBGameScene.startScreenRecording()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/SBScreenRecord.swift",
+      "line": 42,
+      "symbol": "SBGameScene.stopScreenRecordingWithHandler(handler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/SBScreenRecord.swift",
+      "line": 102,
+      "symbol": "SBGameScene.screenRecorder(_:didStopRecordingWithError:previewViewController:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/SBScreenRecord.swift",
+      "line": 114,
+      "symbol": "SBGameScene.previewControllerDidFinish(previewController:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/SBSubScene.swift",
+      "line": 44,
+      "symbol": "SBSubScene.Animation.totalAnimationTime()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SwitchBoard/SwitchBoard/SBSubScene.swift",
+      "line": 97,
+      "symbol": "SBSubScene.update(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ryancampbell/Documents/Games/SwitchBoard"
+}

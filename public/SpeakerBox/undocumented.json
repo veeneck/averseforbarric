@@ -1,0 +1,19 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SpeakerBox/SpeakerBox/SBStage.swift",
+      "line": 46,
+      "symbol": "SBStage.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/SpeakerBox/SpeakerBox/SBStage.swift",
+      "line": 112,
+      "symbol": "SBStage.addSpeakerToConversation(_:index:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ryancampbell/Documents/Games/SpeakerBox"
+}

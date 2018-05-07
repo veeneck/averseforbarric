@@ -1,0 +1,26 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WavePool/WavePool/WPPool.swift",
+      "line": 25,
+      "symbol": "WPPool.SpawnPoint.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WavePool/WavePool/WPSpawn.swift",
+      "line": 28,
+      "symbol": "WPSpawn.hero",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/WavePool/WavePool/WPSpawn.swift",
+      "line": 39,
+      "symbol": "WPSpawn.path",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ryancampbell/Documents/Games/WavePool"
+}

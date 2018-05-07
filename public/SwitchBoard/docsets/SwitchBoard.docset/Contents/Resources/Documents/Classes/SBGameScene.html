@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <title>A Verse for Barric : SBGameScene Class Reference</title>
+
+    <!-- PhotoSwipe -->
+    <link rel="stylesheet" href="/css/photoswipe.css">
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite, 
+     - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="/css/default-skin.css">
+    <!-- Core JS file -->
+    <script src="/js/photoswipe.min.js"></script>
+    <!-- UI JS file -->
+    <script src="/js/photoswipe-ui-default.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+
+    <!-- JS -->
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="/js/index-min.js"></script>
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css">
+      <script src="/js/highlight.pack.js"></script>
+    <script src="../js/jazzy.js" defer></script>
+
+    <!-- Fonts -->
+
+    <!-- Icons -->
+
+    <!-- RSS -->
+    
+</head>
+  <body class="docs">
+    <a name="//apple_ref/swift/Class/SBGameScene" class="dashAnchor"></a>
+    <a title="SBGameScene Class Reference"></a>
+    <header class="partial">
+    	<img src="/images/barric_cropped.png" />
+    </header>
+    
+    <section>
+        <ul class="nav">
+            <li><a href="/thegame">T<span>HE</span> G<span>AME</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/motion">M<span>otion</span> G<span>raphics</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/illustrations">I<span>llustrations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/animations">A<span>nimations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/soundtrack">S<span>oundtrack</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/code">C<span>ode</span></a></li>
+        </ul>
+    </section>    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">SwitchBoard </a>
+        &#8594;
+        SBGameScene 
+      </p>
+      <p class="coverage"> 73% documented</p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes.html#/PanGesture">PanGesture</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@SwitchBoard@objc(cs)PinchGesture">PinchGesture</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:11SwitchBoard7SBCacheC">SBCache</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SBGameScene.html">SBGameScene</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SBGameScene.html#/s:11SwitchBoard11SBGameSceneC10WorldLayerO">– WorldLayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SBGameScene.html#/s:11SwitchBoard11SBGameSceneC12CameraBoundsV">– CameraBounds</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SBSceneManager.html">SBSceneManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SBSubScene.html">SBSubScene</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SBSubScene.html#/s:11SwitchBoard10SBSubSceneC9AnimationV">– Animation</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/SBViewDelegate.html">SBViewDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/SBSceneContainer.html">SBSceneContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SBSceneContainer.html#/s:11SwitchBoard16SBSceneContainerV10SceneGroupO">– SceneGroup</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h4>SBGameScene</h4>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">SBGameScene</span> <span class="p">:</span> <span class="kt">SKScene</span></code></pre>
+
+                </div>
+              </div>
+            <p>Default template for a game scene. Each custom scene in a project should extend this in order to work with other items like <code><a href="../Classes/SBSceneManager.html">SBSceneManager</a></code>, <code><a href="../Classes.html#/PanGesture">PanGesture</a></code>, etc. Benefits of extending this class are:</p>
+
+<ul>
+<li>Built in layering. See <code>WorldLayer</code></li>
+<li>Built in debug layer that auto clears</li>
+<li>Ties to viewDelegate for easy scene switching and management of atlases</li>
+<li>Built in screen recording through <code>previewViewController</code></li>
+<li>Call <code>registureGestures</code> to automatically enable panning and zooming of your scene</li>
+</ul>
+
+<p><strong>Note</strong>: This project is still in development, so some items / implementations aren&rsquo;t flexible. If you encounter problems, the source is heavily documented.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:11SwitchBoard11SBGameSceneC10WorldLayerO"></a>
+                    <a name="//apple_ref/swift/Enum/WorldLayer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwitchBoard11SBGameSceneC10WorldLayerO">WorldLayer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Layers representing SKNodes in the scene. Currently, this is hard coded to 4 groups as <code>enums</code> can&rsquo;t be extended or modifier. For true open sourcing, this needs to be rethought and layers need to be something that you can register.</p>
+
+<ul>
+<li>World: The layer that gameplay takes place on. Automatically created.</li>
+<li>UI: The layer that UI takes place on. Not automatically created.</li>
+<li>Debug: A layer that is meant to be wiped each frame and only turned on in debug mode.</li>
+<li>PermanentDebug: A debug layer for drawing that is not wiped each frame.</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">WorldLayer</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:11SwitchBoard11SBGameSceneC12CameraBoundsV"></a>
+                    <a name="//apple_ref/swift/Struct/CameraBounds" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwitchBoard11SBGameSceneC12CameraBoundsV">CameraBounds</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>When constraining the camera, use this struct to adjust beyond the size of the BG</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">CameraBounds</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@SwitchBoard@objc(cs)SBGameScene(py)layers"></a>
+                    <a name="//apple_ref/swift/Property/layers" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SwitchBoard@objc(cs)SBGameScene(py)layers">layers</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Layer nodes to hold world, UI, debug, other sub layers.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">layers</span><span class="p">:</span> <span class="p">[</span><span class="kt">SKNode</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:11SwitchBoard11SBGameSceneC11bgSizeCacheSC6CGRectVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/bgSizeCache" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwitchBoard11SBGameSceneC11bgSizeCacheSC6CGRectVSgvp">bgSizeCache</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Cache the accumulated frame of the BG</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">bgSizeCache</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:11SwitchBoard11SBGameSceneC14sbViewDelegateAA06SBViewG0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/sbViewDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwitchBoard11SBGameSceneC14sbViewDelegateAA06SBViewG0_pSgvp">sbViewDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The delegate that handles any switch board / scenemanagement related functions. Stored on 
+the scene object so that children scenes can easily access the functionality.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">sbViewDelegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/SBViewDelegate.html">SBViewDelegate</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:11SwitchBoard11SBGameSceneC12cameraBoundsAC06CameraF0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/cameraBounds" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwitchBoard11SBGameSceneC12cameraBoundsAC06CameraF0Vvp">cameraBounds</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Handle on default camera bounds for the scene</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">cameraBounds</span><span class="p">:</span> <span class="kt">SBGameScene</span><span class="o">.</span><span class="kt"><a href="../Classes/SBGameScene.html#/s:11SwitchBoard11SBGameSceneC12CameraBoundsV">CameraBounds</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@SwitchBoard@objc(cs)SBGameScene(py)movementKeysEnabled"></a>
+                    <a name="//apple_ref/swift/Property/movementKeysEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SwitchBoard@objc(cs)SBGameScene(py)movementKeysEnabled">movementKeysEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Keyboard settings enabled and disabled</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">movementKeysEnabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@SwitchBoard@objc(cs)SBGameScene(py)previewViewController"></a>
+                    <a name="//apple_ref/swift/Property/previewViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SwitchBoard@objc(cs)SBGameScene(py)previewViewController">previewViewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>ReplayKit preview view controller used when viewing recorded content.
+See README for example usages as the extension is not showing in the documentation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">previewViewController</span><span class="p">:</span> <span class="kt">RPPreviewViewController</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@SwitchBoard@objc(cs)SBGameScene(py)recording"></a>
+                    <a name="//apple_ref/swift/Property/recording" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SwitchBoard@objc(cs)SBGameScene(py)recording">recording</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Quick lookup to determine if currently recording</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">recording</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Layers%20and%20Child%20Nodes"></a>
+                <a name="//apple_ref/swift/Section/Layers and Child Nodes" class="dashAnchor"></a>
+                <h5 class="section-name">Layers and Child Nodes</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@SwitchBoard@objc(cs)SBGameScene(im)buildWorldLayers"></a>
+                    <a name="//apple_ref/swift/Method/buildWorldLayers()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SwitchBoard@objc(cs)SBGameScene(im)buildWorldLayers">buildWorldLayers()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This can be used for any game, but is somewhat limited since it only supports 4 layers. Constructs the 4 layers and adds them to the scene
+in addition to storing locally under <code><a href="../Classes/SBGameScene.html#/c:@M@SwitchBoard@objc(cs)SBGameScene(py)layers">layers</a></code> for quick lookup. Goal is to avoid using <code>childNodeWithName</code> when adding or accessing elements.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">buildWorldLayers</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:11SwitchBoard11SBGameSceneC8addChildySo6SKNodeC4node_AC10WorldLayerO5layertF"></a>
+                    <a name="//apple_ref/swift/Method/addChild(node:layer:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwitchBoard11SBGameSceneC8addChildySo6SKNodeC4node_AC10WorldLayerO5layertF">addChild(node:layer:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Add a child node to one of our four hard coded layers.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addChild</span><span class="p">(</span><span class="nv">node</span><span class="p">:</span> <span class="kt">SKNode</span><span class="p">,</span> <span class="nv">layer</span><span class="p">:</span> <span class="kt"><a href="../Classes/SBGameScene.html#/s:11SwitchBoard11SBGameSceneC10WorldLayerO">WorldLayer</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Registering%20Gestures"></a>
+                <a name="//apple_ref/swift/Section/Registering Gestures" class="dashAnchor"></a>
+                <h5 class="section-name">Registering Gestures</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@SwitchBoard@objc(cs)SBGameScene(im)registerGestures"></a>
+                    <a name="//apple_ref/swift/Method/registerGestures()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SwitchBoard@objc(cs)SBGameScene(im)registerGestures">registerGestures()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this to register pinch and pan gestures which will be tied to <q>World/bg</q> in your node tree. See <code>setCameraBounds</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">registerGestures</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@SwitchBoard@objc(cs)SBGameScene(im)removeAllGestureRecognizers"></a>
+                    <a name="//apple_ref/swift/Method/removeAllGestureRecognizers()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SwitchBoard@objc(cs)SBGameScene(im)removeAllGestureRecognizers">removeAllGestureRecognizers()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Useful when unloading a scene, or when working with an SBSubscene that requires gestures, but then the next subscene does not</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">removeAllGestureRecognizers</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Camera%20Constraints"></a>
+                <a name="//apple_ref/swift/Section/Camera Constraints" class="dashAnchor"></a>
+                <h5 class="section-name">Camera Constraints</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:11SwitchBoard11SBGameSceneC15setCameraBoundsyAC0fG0V06offsetG0_tF"></a>
+                    <a name="//apple_ref/swift/Method/setCameraBounds(offsetBounds:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwitchBoard11SBGameSceneC15setCameraBoundsyAC0fG0V06offsetG0_tF">setCameraBounds(offsetBounds:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Bind the camera to the size of any node in your scene named <q>bg</q> that is a child of <q>World</q>. This is automaticaly called from functions that change perspective like PinchGesture. You can also call on your own if you manually change the scale of the scene.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setCameraBounds</span><span class="p">(</span><span class="nv">offsetBounds</span><span class="p">:</span> <span class="kt"><a href="../Classes/SBGameScene.html#/s:11SwitchBoard11SBGameSceneC12CameraBoundsV">CameraBounds</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@SwitchBoard@objc(cs)SBGameScene(im)removeCameraBounds"></a>
+                    <a name="//apple_ref/swift/Method/removeCameraBounds()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SwitchBoard@objc(cs)SBGameScene(im)removeCameraBounds">removeCameraBounds()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Handy function to remove cameras constraints</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">removeCameraBounds</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Keyframes"></a>
+                <a name="//apple_ref/swift/Section/Keyframes" class="dashAnchor"></a>
+                <h5 class="section-name">Keyframes</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@SwitchBoard@objc(cs)SBGameScene(im)willAnimateTo:callback:"></a>
+                    <a name="//apple_ref/swift/Method/willAnimate(to:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SwitchBoard@objc(cs)SBGameScene(im)willAnimateTo:callback:">willAnimate(to:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Override if you want an animation to happen before processing other scene information</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">willAnimate</span><span class="p">(</span><span class="n">to</span> <span class="nv">view</span><span class="p">:</span><span class="kt">SKView</span><span class="p">,</span> <span class="nv">callback</span><span class="p">:</span><span class="kd">@escaping</span><span class="p">()</span><span class="o">-&gt;</span><span class="p">())</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:11SwitchBoard11SBGameSceneC11willAnimateySo6SKViewC4from_AA16SBSceneContainerV04nextD0yyc8callbacktF"></a>
+                    <a name="//apple_ref/swift/Method/willAnimate(from:nextScene:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11SwitchBoard11SBGameSceneC11willAnimateySo6SKViewC4from_AA16SBSceneContainerV04nextD0yyc8callbacktF">willAnimate(from:nextScene:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Override if you want an unload animation to happen for your scene before scene change happens</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">willAnimate</span><span class="p">(</span><span class="n">from</span> <span class="nv">view</span><span class="p">:</span><span class="kt">SKView</span><span class="p">,</span> <span class="nv">nextScene</span><span class="p">:</span><span class="kt"><a href="../Structs/SBSceneContainer.html">SBSceneContainer</a></span><span class="p">,</span> <span class="nv">callback</span><span class="p">:</span><span class="kd">@escaping</span><span class="p">()</span><span class="o">-&gt;</span><span class="p">())</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Preloading%20Assets"></a>
+                <a name="//apple_ref/swift/Section/Preloading Assets" class="dashAnchor"></a>
+                <h5 class="section-name">Preloading Assets</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@SwitchBoard@objc(cs)SBGameScene(cm)loadSceneAssetsWithCompletionHandlerWithHandler:"></a>
+                    <a name="//apple_ref/swift/Method/loadSceneAssetsWithCompletionHandler(handler:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SwitchBoard@objc(cs)SBGameScene(cm)loadSceneAssetsWithCompletionHandlerWithHandler:">loadSceneAssetsWithCompletionHandler(handler:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Each scene should override this to preload necessary assets</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">loadSceneAssetsWithCompletionHandler</span><span class="p">(</span><span class="nv">handler</span><span class="p">:</span> <span class="kd">@escaping</span><span class="p">()</span><span class="o">-&gt;</span><span class="p">())</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@SwitchBoard@objc(cs)SBGameScene(cm)loadAndCacheSceneAssetsWithAtlasNames:handler:"></a>
+                    <a name="//apple_ref/swift/Method/loadAndCacheSceneAssets(atlasNames:handler:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SwitchBoard@objc(cs)SBGameScene(cm)loadAndCacheSceneAssetsWithAtlasNames:handler:">loadAndCacheSceneAssets(atlasNames:handler:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Scenes internally call this so that all preloading is handled by this one function
+See hack: <a href="http://stackoverflow.com/questions/22480962/nsgenericexception-reason-collection-nsconcretemaptable-xxx">http://stackoverflow.com/questions/22480962/nsgenericexception-reason-collection-nsconcretemaptable-xxx</a>
+NOTE: This isnt quite async &hellip; if called during a scne transition, that SKTransition will lag</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">loadAndCacheSceneAssets</span><span class="p">(</span><span class="nv">atlasNames</span><span class="p">:</span><span class="kt">Array</span><span class="o">&lt;</span><span class="kt">String</span><span class="o">&gt;</span><span class="p">,</span> <span class="nv">handler</span><span class="p">:</span><span class="kd">@escaping</span><span class="p">()</span><span class="o">-&gt;</span><span class="p">())</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Update%20Loop%20For%20Keyboard"></a>
+                <a name="//apple_ref/swift/Section/Update Loop For Keyboard" class="dashAnchor"></a>
+                <h5 class="section-name">Update Loop For Keyboard</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/didFinishUpdate()" class="dashAnchor"></a>
+                    <a class="token" href="#/">didFinishUpdate()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/keyUp(with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">keyUp(with:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/keyDown(with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">keyDown(with:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/scrollWheel(with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">scrollWheel(with:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Cleanup"></a>
+                <a name="//apple_ref/swift/Section/Cleanup" class="dashAnchor"></a>
+                <h5 class="section-name">Cleanup</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@SwitchBoard@objc(cs)SBGameScene(im)willMoveFromView:"></a>
+                    <a name="//apple_ref/swift/Method/willMove(from:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SwitchBoard@objc(cs)SBGameScene(im)willMoveFromView:">willMove(from:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called automatically and will remove nodes and actions. After this, a log line should print indicating the scene
+was successfully deallocated. If you don&rsquo;t see the log line, there is probably a memory leak somewhere.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">open</span> <span class="kd">func</span> <span class="nf">willMove</span><span class="p">(</span><span class="n">from</span> <span class="nv">view</span><span class="p">:</span> <span class="kt">SKView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Debug%20Layer"></a>
+                <a name="//apple_ref/swift/Section/Debug Layer" class="dashAnchor"></a>
+                <h5 class="section-name">Debug Layer</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@SwitchBoard@objc(cs)SBGameScene(im)updateDebugLayer"></a>
+                    <a name="//apple_ref/swift/Method/updateDebugLayer()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@SwitchBoard@objc(cs)SBGameScene(im)updateDebugLayer">updateDebugLayer()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this to replace the debug layer each frame. Example use would be lines drawing a characters heading. The heading updates each frame.
+Instead of keeping tabs of the lines, this just deletes the entire debug layer and recreates it.
+TODO: Create DebugNode with extended functionality?</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">updateDebugLayer</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://battleofbrothers.com" target="_blank" rel="external">Ryan Campbell</a>. All rights reserved. (Last updated: 2018-05-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
