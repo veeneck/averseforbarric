@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <title>A Verse for Barric : Classes  Reference</title>
+
+    <!-- PhotoSwipe -->
+    <link rel="stylesheet" href="/css/photoswipe.css">
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite, 
+     - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="/css/default-skin.css">
+    <!-- Core JS file -->
+    <script src="/js/photoswipe.min.js"></script>
+    <!-- UI JS file -->
+    <script src="/js/photoswipe-ui-default.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+
+    <!-- JS -->
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="/js/index-min.js"></script>
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css">
+      <script src="/js/highlight.pack.js"></script>
+    <script src="js/jazzy.js" defer></script>
+
+    <!-- Fonts -->
+
+    <!-- Icons -->
+
+    <!-- RSS -->
+    
+</head>
+  <body class="docs">
+    <a name="//apple_ref/swift/Section/Classes" class="dashAnchor"></a>
+    <a title="Classes  Reference"></a>
+    <header class="partial">
+    	<img src="/images/barric_cropped.png" />
+    </header>
+    
+    <section>
+        <ul class="nav">
+            <li><a href="/thegame">T<span>HE</span> G<span>AME</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/motion">M<span>otion</span> G<span>raphics</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/illustrations">I<span>llustrations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/animations">A<span>nimations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/soundtrack">S<span>oundtrack</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/code">C<span>ode</span></a></li>
+        </ul>
+    </section>    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">CutsceneKit </a>
+        &#8594;
+        Classes 
+      </p>
+      <p class="coverage"></p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/CKAction.html">CKAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CKCutscene.html">CKCutscene</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CKDialogueAction.html">CKDialogueAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CKSequence.html">CKSequence</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CKVideoNode.html">CKVideoNode</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h4>Classes</h4>
+            <p>The following classes are available globally.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:11CutsceneKit8CKActionC"></a>
+                    <a name="//apple_ref/swift/Class/CKAction" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11CutsceneKit8CKActionC">CKAction</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A container for SKActions and the nodes they should run on. Also manages the timing function that allows SKActions to be skipped. To use a CKAction, it must be added to a CKSequence, which is then controlled by a CKCutscene.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    <p>From a technical perspective, this imlementation is required because a bool must be set as a member variable of the SKAction. The <code>timingFunc</code> uses that state to determine when to skip an action.</p>
+
+</div>
+<div class="aside aside-precondition">
+    <p class="aside-title">Precondition</p>
+    <p>If you are adding a child to <code>node</code> with a <code>runBlock</code>, you can name the child <q>CKActionObject</q> and it will automatically be removed when the action has finished.</p>
+
+</div>
+
+                        <a href="Classes/CKAction.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">CKAction</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:11CutsceneKit10CKCutsceneC"></a>
+                    <a name="//apple_ref/swift/Class/CKCutscene" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11CutsceneKit10CKCutsceneC">CKCutscene</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Handles cleanup, management and playback of a collection of CKSequence objects that make up a cutscene.</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    Because this class deals with closures and callbacks, you must keep the instance of it in scope / reference while it is running.
+
+</div>
+
+                        <a href="Classes/CKCutscene.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">CKCutscene</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:11CutsceneKit16CKDialogueActionC"></a>
+                    <a name="//apple_ref/swift/Class/CKDialogueAction" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11CutsceneKit16CKDialogueActionC">CKDialogueAction</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The purpose of this class is to provide an example of how CKAction can be subclassed to enapsulate common cutscene features. For this specific use case, sequences of dialogue can be added.</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">action</span> <span class="o">=</span> <span class="kt">CKDialogueAction</span><span class="p">(</span>
+    <span class="nv">node</span><span class="p">:</span> <span class="n">nodeA</span><span class="p">,</span>
+    <span class="nv">position</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">(</span><span class="nv">x</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span><span class="mi">0</span><span class="p">),</span>
+    <span class="nv">duration</span><span class="p">:</span><span class="mi">3</span><span class="p">,</span> 
+    <span class="nv">text</span><span class="p">:</span><span class="s">"Hello World"</span><span class="p">)</span>
+<span class="k">self</span><span class="o">.</span><span class="n">cutscene</span><span class="o">.</span><span class="nf">addSequences</span><span class="p">([</span><span class="kt">CKSequence</span><span class="p">(</span><span class="nv">actions</span><span class="p">:</span> <span class="p">[</span><span class="n">action</span><span class="p">])])</span>
+</code></pre>
+
+<p>The example code above would add a text string of <q>Hello World</q> to <code>nodeA</code> for 3 seconds.</p>
+
+                        <a href="Classes/CKDialogueAction.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">CKDialogueAction</span> <span class="p">:</span> <span class="kt"><a href="Classes/CKAction.html">CKAction</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:11CutsceneKit10CKSequenceC"></a>
+                    <a name="//apple_ref/swift/Class/CKSequence" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11CutsceneKit10CKSequenceC">CKSequence</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A collection of CKAction objects that can be run together. Typically, you would run SKAction calls independtly from one another. For example, if you wanted to move two different nodes then you would do this:</p>
+<pre class="highlight swift"><code><span class="n">nodeA</span><span class="o">.</span><span class="nf">runAction</span><span class="p">(</span><span class="kt">SKAction</span><span class="o">.</span><span class="nf">moveToX</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="nv">duration</span><span class="p">:</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">nodeB</span><span class="o">.</span><span class="nf">runAction</span><span class="p">(</span><span class="kt">SKAction</span><span class="o">.</span><span class="nf">moveToX</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="nv">duration</span><span class="p">:</span><span class="mi">5</span><span class="p">)</span>
+</code></pre>
+
+<p>The downside to this is that the actions have no link to one another. If one finishes, the other doesn&rsquo;t care. A CKSequence is a collection of SKActions (wrapped as [CKAction]). By keeping track of the collection, we can run the different actions on different nodes at the same time. This allows for advanced functionality such as skipping / fast-forwarding a sequence of actions together. The code above would become:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">sequence</span> <span class="o">=</span> <span class="kt">CKSequence</span><span class="p">(</span><span class="nv">actions</span><span class="p">:</span> <span class="p">[</span>
+    <span class="kt">CKAction</span><span class="p">(</span><span class="nv">node</span><span class="p">:</span> <span class="n">nodeA</span><span class="p">,</span> <span class="nv">action</span><span class="p">:</span> <span class="kt">SKAction</span><span class="o">.</span><span class="nf">moveToX</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="nv">duration</span><span class="p">:</span> <span class="mi">5</span><span class="p">)),</span>
+    <span class="kt">CKAction</span><span class="p">(</span><span class="nv">node</span><span class="p">:</span> <span class="n">nodeB</span><span class="p">,</span> <span class="nv">action</span><span class="p">:</span> <span class="kt">SKAction</span><span class="o">.</span><span class="nf">moveToX</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="nv">duration</span><span class="p">:</span> <span class="mi">5</span><span class="p">))</span>
+<span class="p">])</span>
+</code></pre>
+
+<p>Given a sequence, playback can be controlled with a CKCutscene.</p>
+
+                        <a href="Classes/CKSequence.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">CKSequence</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/c:@M@CutsceneKit@objc(cs)CKVideoNode"></a>
+                    <a name="//apple_ref/swift/Class/CKVideoNode" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CutsceneKit@objc(cs)CKVideoNode">CKVideoNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A sublcass of SKVideoNode that adds useful extensions such as timed hooks, callback on completetion, and cleanup afterwards. Also makes it easier to create a video based off of an AVPlayer.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    Currently, there is no tie in to the rest of CutsceneKit. Brainstorming ways to add a CKCutscene combined with movie timing. An example would be dialogue / translations on top of the movie.
+
+</div>
+
+                        <a href="Classes/CKVideoNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">CKVideoNode</span> <span class="p">:</span> <span class="kt">SKVideoNode</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://battleofbrothers.com" target="_blank" rel="external">Ryan Campbell</a>. All rights reserved. (Last updated: 2018-05-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

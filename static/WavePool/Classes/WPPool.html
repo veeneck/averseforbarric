@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <title>A Verse for Barric : WPPool Class Reference</title>
+
+    <!-- PhotoSwipe -->
+    <link rel="stylesheet" href="/css/photoswipe.css">
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite, 
+     - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="/css/default-skin.css">
+    <!-- Core JS file -->
+    <script src="/js/photoswipe.min.js"></script>
+    <!-- UI JS file -->
+    <script src="/js/photoswipe-ui-default.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+
+    <!-- JS -->
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="/js/index-min.js"></script>
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css">
+      <script src="/js/highlight.pack.js"></script>
+    <script src="../js/jazzy.js" defer></script>
+
+    <!-- Fonts -->
+
+    <!-- Icons -->
+
+    <!-- RSS -->
+    
+</head>
+  <body class="docs">
+    <a name="//apple_ref/swift/Class/WPPool" class="dashAnchor"></a>
+    <a title="WPPool Class Reference"></a>
+    <header class="partial">
+    	<img src="/images/barric_cropped.png" />
+    </header>
+    
+    <section>
+        <ul class="nav">
+            <li><a href="/thegame">T<span>HE</span> G<span>AME</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/motion">M<span>otion</span> G<span>raphics</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/illustrations">I<span>llustrations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/animations">A<span>nimations</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/soundtrack">S<span>oundtrack</span></a> <span class="space">&middot;</span></li>
+            <li><a href="/code">C<span>ode</span></a></li>
+        </ul>
+    </section>    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">WavePool </a>
+        &#8594;
+        WPPool 
+      </p>
+      <p class="coverage"></p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/WPPool.html">WPPool</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WPPool/SpawnPoint.html">– SpawnPoint</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/WPLifeguardProtocol.html">WPLifeguardProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/WPSpawn.html">WPSpawn</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/WPWave.html">WPWave</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h4>WPPool</h4>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">WPPool</span></code></pre>
+
+                </div>
+              </div>
+            <p>Class to manage the timing of waves, and calling a WPLifeguardProtocol delegate during key events.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:8WavePool6WPPoolC10SpawnPointV"></a>
+                    <a name="//apple_ref/swift/Struct/SpawnPoint" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8WavePool6WPPoolC10SpawnPointV">SpawnPoint</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A coordinate to indicate where a WPSpawn should take place. Loaded once, and then referenced as index.</p>
+
+                        <a href="../Classes/WPPool/SpawnPoint.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SpawnPoint</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:8WavePool6WPPoolC11spawnPointsSayAC10SpawnPointVGvp"></a>
+                    <a name="//apple_ref/swift/Property/spawnPoints" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8WavePool6WPPoolC11spawnPointsSayAC10SpawnPointVGvp">spawnPoints</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Index is used to determine where the spawn starts</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">spawnPoints</span><span class="p">:</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="kt"><a href="../Classes/WPPool/SpawnPoint.html">SpawnPoint</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:8WavePool6WPPoolC07currentA0Sivp"></a>
+                    <a name="//apple_ref/swift/Property/currentWave" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8WavePool6WPPoolC07currentA0Sivp">currentWave</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Index in the wave array marking the current wave</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">currentWave</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initializing%20a%20Pool"></a>
+                <a name="//apple_ref/swift/Section/Initializing a Pool" class="dashAnchor"></a>
+                <h5 class="section-name">Initializing a Pool</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:8WavePool6WPPoolCACSS8fileName_SayAC10SpawnPointVG11spawnPointsAA19WPLifeguardProtocol_p8delegatetcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(fileName:spawnPoints:delegate:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8WavePool6WPPoolCACSS8fileName_SayAC10SpawnPointVG11spawnPointsAA19WPLifeguardProtocol_p8delegatetcfc">init(fileName:spawnPoints:delegate:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Construction for the WPPool.</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    <p>Assume the pList exists and is properly constructed.</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">fileName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">spawnPoints</span><span class="p">:</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="kt"><a href="../Classes/WPPool/SpawnPoint.html">SpawnPoint</a></span><span class="o">&gt;</span><span class="p">,</span> <span class="nv">delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/WPLifeguardProtocol.html">WPLifeguardProtocol</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h6>Parameters</h6>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>fileName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The name of the pList file. Must exist or it will hard error.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>spawnPoints</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An array of spawn points that cooresponds to indexes in the pList</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>delegate</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The class that will handle key event callbacks</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Managing%20Waves"></a>
+                <a name="//apple_ref/swift/Section/Managing Waves" class="dashAnchor"></a>
+                <h5 class="section-name">Managing Waves</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:8WavePool6WPPoolC10beginWavesyyF"></a>
+                    <a name="//apple_ref/swift/Method/beginWaves()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8WavePool6WPPoolC10beginWavesyyF">beginWaves()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this once when you are ready to start the pool.</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    No saftey check for multiple calls.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">beginWaves</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:8WavePool6WPPoolC5pauseyyF"></a>
+                    <a name="//apple_ref/swift/Method/pause()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8WavePool6WPPoolC5pauseyyF">pause()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This will pause the timer. When resuming, the timer will pick up at the point it was stopped.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">pause</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:8WavePool6WPPoolC06isLastA0SbyF"></a>
+                    <a name="//apple_ref/swift/Method/isLastWave()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8WavePool6WPPoolC06isLastA0SbyF">isLastWave()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Lookup to determine when the last wave is reached. This is useful because a delegate callback when the waves are finished isn&rsquo;t enough to determine an event like level completed. Instead, the user would wait until the last enemy dies and then check with the WPPool to make sure no more enemies are coming. This function will assist with that.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">isLastWave</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Update%20Loop"></a>
+                <a name="//apple_ref/swift/Section/Update Loop" class="dashAnchor"></a>
+                <h5 class="section-name">Update Loop</h5>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code class="nobg">
+                    <a name="/s:8WavePool6WPPoolC19updateWithDeltaTimeySdF"></a>
+                    <a name="//apple_ref/swift/Method/updateWithDeltaTime(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8WavePool6WPPoolC19updateWithDeltaTimeySdF">updateWithDeltaTime(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Must be called for WPPool to function. Preferably, call every frame within your game loop.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <div class="language">
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">updateWithDeltaTime</span><span class="p">(</span><span class="n">_</span> <span class="nv">seconds</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h6>Parameters</h6>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>seconds</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The delta time so that time elapsed can be tracked.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://battleofbrothers.com" target="_blank" rel="external">Ryan Campbell</a>. All rights reserved. (Last updated: 2018-05-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

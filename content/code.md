@@ -11,7 +11,7 @@ To date, this game has 38,378 lines of Swift code. There have been countless hou
 	<div class="framework">
 		<b>CutsceneKit</b>
 		<span>Helps develop chat overlays with custom timing and movement.</span>
-		<a href="">View Documentation</a>
+		<a href="/CutsceneKit">View Documentation</a>
 	</div>
 
 <pre><code class="swift">self.entity.ui?.cutscene?.addSequences(sequences: [

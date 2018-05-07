@@ -1,0 +1,215 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/ArmyData.swift",
+      "line": 11,
+      "symbol": "SquadData",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/ArmyData.swift",
+      "line": 59,
+      "symbol": "HeroData",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/ArmyData.swift",
+      "line": 98,
+      "symbol": "ArmyData",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/ArmyDataAccessor.swift",
+      "line": 9,
+      "symbol": "ArmyDataAccessor",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/GameData.swift",
+      "line": 17,
+      "symbol": "GameData",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/GameDataAccessor.swift",
+      "line": 9,
+      "symbol": "GameDataAccessor",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/LevelData.swift",
+      "line": 13,
+      "symbol": "LevelType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/LevelData.swift",
+      "line": 17,
+      "symbol": "CutscenePlacement",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/LevelData.swift",
+      "line": 21,
+      "symbol": "Level",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/LevelData.swift",
+      "line": 103,
+      "symbol": "LevelData",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/SRLevelReward.swift",
+      "line": 21,
+      "symbol": "SRLevelReward.level",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/SRLevelReward.swift",
+      "line": 23,
+      "symbol": "SRLevelReward.participatingSquads",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/SRLevelReward.swift",
+      "line": 25,
+      "symbol": "SRLevelReward.leaderReward",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/SRLevelReward.swift",
+      "line": 27,
+      "symbol": "SRLevelReward.goldReward",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/SRLevelReward.swift",
+      "line": 29,
+      "symbol": "SRLevelReward.foodReward",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/SRLevelReward.swift",
+      "line": 31,
+      "symbol": "SRLevelReward.bandageRewards",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/SRLevelReward.swift",
+      "line": 33,
+      "symbol": "SRLevelReward.woundedUnits",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/SRLevelReward.swift",
+      "line": 35,
+      "symbol": "SRLevelReward.firstCompletion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/SRLevelReward.swift",
+      "line": 37,
+      "symbol": "SRLevelReward.init(level:squads:leaderReward:gold:food:bandages:wounded:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/SRSquadExperience.swift",
+      "line": 18,
+      "symbol": "SRSquadExperience",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/SRSquadReward.swift",
+      "line": 18,
+      "symbol": "SRSquadReward",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/SRUnlockCategory.swift",
+      "line": 13,
+      "symbol": "SRUnlockCategory.Uncategorized",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/SRUnlockCategory.swift",
+      "line": 14,
+      "symbol": "SRUnlockCategory.Watchful",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/SRUnlockCategory.swift",
+      "line": 15,
+      "symbol": "SRUnlockCategory.Aggressive",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/SRUnlockCategory.swift",
+      "line": 16,
+      "symbol": "SRUnlockCategory.Protective",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/SRUnlockCategory.swift",
+      "line": 17,
+      "symbol": "SRUnlockCategory.Controlling",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/SRUnlockCategory.swift",
+      "line": 18,
+      "symbol": "SRUnlockCategory.Fortitude",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/SRUnlockCategory.swift",
+      "line": 19,
+      "symbol": "SRUnlockCategory.Agility",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/SRUnlockCategory.swift",
+      "line": 20,
+      "symbol": "SRUnlockCategory.Strength",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ryancampbell/Documents/Games/StrongRoom/StrongRoom/SRUnlockCategory.swift",
+      "line": 21,
+      "symbol": "SRUnlockCategory.Magic",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ryancampbell/Documents/Games/StrongRoom"
+}
