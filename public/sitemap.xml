@@ -20,7 +20,19 @@
   </url>
   
   <url>
+    <loc>/overview/cutscenes/scene7/</loc>
+  </url>
+  
+  <url>
     <loc>/overview/boss/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/cutscenes/scene10/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/cutscenes/scene11/</loc>
   </url>
   
   <url>
@@ -37,7 +49,23 @@
   </url>
   
   <url>
+    <loc>/overview/cutscenes/scene8/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/cutscenes/scene4/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/cutscenes/scene3/</loc>
+  </url>
+  
+  <url>
     <loc>/overview/enemy/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/cutscenes/scene9/</loc>
   </url>
   
   <url>
@@ -53,6 +81,14 @@
   </url>
   
   <url>
+    <loc>/overview/cutscenes/scene1/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/cutscenes/scene2/</loc>
+  </url>
+  
+  <url>
     <loc>/motion/</loc>
   </url>
   
@@ -62,6 +98,14 @@
   
   <url>
     <loc>/overview/ideas/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/cutscenes/scene5/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/cutscenes/scene12/</loc>
   </url>
   
   <url>
@@ -75,6 +119,14 @@
   
   <url>
     <loc>/overview/tech/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/cutscenes/scene13/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/cutscenes/scene6/</loc>
   </url>
   
   <url>

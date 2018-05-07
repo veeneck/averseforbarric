@@ -32,12 +32,53 @@ Phoenix     Level 1 Level 2 Level 3      Dead units damage engaged target.</desc
     </item>
     
     <item>
+      <title>Betrayal : Scene 7</title>
+      <link>/overview/cutscenes/scene7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/cutscenes/scene7/</guid>
+      <description>Current cutscene implementation
+STOU and CASSANDRA interrogating ISS&amp;rsquo;DAR after the battle.
+Stou  Why do you attack us? Who leads this assault? Tell me, now.
+ Iss&amp;rsquo;dar  You fool. The answer is in front of you.
+ Stou  You dare give me riddles?
+ Iss&amp;rsquo;dar  Are you so blind? You&amp;rsquo;ve been betrayed.
+ Enemy army appears on the horizon.
+Stou  We were followed &amp;hellip; how? They didn&amp;rsquo;t know we were here.</description>
+    </item>
+    
+    <item>
       <title>Boss Progression</title>
       <link>/overview/boss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/overview/boss/</guid>
       <description>Sand Shaman The shaman appears in Level 3 : City and is our first encounter with a boss. This boss isn&amp;rsquo;t a boss like the others &amp;ndash; it becomes a normal champion later in the game. Other bosses are one time encounters, but this just introduces the player to dealing with enemy spell casters. So, the goal is to treat the unit like a boss during the first 2 sequences, and then make it a traditional squad based unit that can be killed for the final sequence.</description>
+    </item>
+    
+    <item>
+      <title>BroDown : Scene 10</title>
+      <link>/overview/cutscenes/scene10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/cutscenes/scene10/</guid>
+      <description> Current cutscene implementation
+No dialogue. STOU kills BARRIC, and flashbacks explain how he was set up.
+TODO / DISCUSS Decide if we want snow or not. Fix flashbacks based off of updated visuals. 09:19 - Glint chains to highlight he was captive NOTES: Travel dialogue to hammer home that she orchestrated all of this.  </description>
+    </item>
+    
+    <item>
+      <title>Camp : Scene 11</title>
+      <link>/overview/cutscenes/scene11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/cutscenes/scene11/</guid>
+      <description>Current cutscene implementation
+STOU and ALFRIC resume there conversation from the beginning of the game, explaining why they&amp;rsquo;re gathered for war.
+Stou  That&amp;rsquo;s why we&amp;rsquo;re gathered here to fight.
+ Alfric  So, Barric is truly gone then. It hurts to say that out loud. That traitorous b&amp;hellip; clearly her father&amp;rsquo;s blood runs deep.
+ Stou  What news of her army?
+ Alfric  She marches for the castle.</description>
     </item>
     
     <item>
@@ -62,6 +103,50 @@ Moderate damage, high control, moderate debuffs, low healing.</description>
     </item>
     
     <item>
+      <title>Crossroads : Scene 8</title>
+      <link>/overview/cutscenes/scene8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/cutscenes/scene8/</guid>
+      <description>Current cutscene implementation
+STOU and CASSANDRA at crossroads deciding next steps.
+Stou  Still they persist.
+ Cassandra  Perhaps, we should split up.
+ Stou  I don&amp;rsquo;t enjoy the idea of dividing our forces. Or, of leaving you.
+ Cassandra  Nor do I, but hear me. Lure them into the mountains, distract them, I will alert the council.
+ Stou  I don&amp;rsquo;t like this, Cassandra. But, you&amp;rsquo;re right.</description>
+    </item>
+    
+    <item>
+      <title>Decision : Scene 4</title>
+      <link>/overview/cutscenes/scene4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/cutscenes/scene4/</guid>
+      <description>Current cutscene implementation
+STOU and CASSANDRA consult with BARRIC after the battle at SOUTH KEEP
+Cassandra  Our ambush was avoided.
+ Barric  I know, and had we pressed the attack, our city would have been left defenseless. We must not overreact.
+ Stou  Overreact? They attacked our city, Barric. Our home!
+ Barric  And who exactly are &amp;ldquo;they&amp;rdquo;?
+ Stou  This matters when they bring war to our very doorstep?</description>
+    </item>
+    
+    <item>
+      <title>Distraction : Scene 3</title>
+      <link>/overview/cutscenes/scene3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/cutscenes/scene3/</guid>
+      <description>Current cutscene implementation
+STOU and CASSANDRA notice the main force bypassed their ambush and is marching on South Keep.
+Cassandra  The whole of their forces approaches the city!
+ Stou  How did they get past us?
+ Cassandra  It seems the attack was but a small diversion all the while the real threat marched from the south.
+ Stou  They knew we were waiting. But &amp;hellip; how?</description>
+    </item>
+    
+    <item>
       <title>Enemy Progression</title>
       <link>/overview/enemy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -70,6 +155,21 @@ Moderate damage, high control, moderate debuffs, low healing.</description>
       <description>Bad Melee 1 : Border Squires This is the first and most common enemy unit, and it counters Melee 1. Also allows for the largest enemy squads. Only has a base attack. Gradually levels up and sticks around throughout the game.
 Starting Level: 0
    Attack Defense Fortitude Strength Agility Magic Recruit Bandage Max Squad     Slashing - 1 1 1 1 1 1 24    Bad Archer 1 : Border Hunter This first enemy archer squad starts the game on the first level as well.</description>
+    </item>
+    
+    <item>
+      <title>Fjord : Scene 9</title>
+      <link>/overview/cutscenes/scene9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/cutscenes/scene9/</guid>
+      <description>Current cutscene implementation
+STOU and TOWNSMEN discussing why the Manor has been abandoned.
+Stou  Townsmen, where is everyone?
+ Townsmen  They left, sir. About 2 3 weeks past. Marching towards the war.
+ Stou  2 3 weeks ago? The war hadn&amp;rsquo;t begun yet. Who ordered this?
+ Townsmen  Orders came down from &amp;hellip; Sir! We&amp;rsquo;re under attack!
+ TODO / DISCUSS 08:41 - Revisit snow effect 08:45 - Blinking Stou 08:52 - Something like pan to incoming army, change in dialogue, or somehting.</description>
     </item>
     
     <item>
@@ -105,6 +205,33 @@ Explains Barric&amp;rsquo;s backstory, and establishes where the player is now. 
     </item>
     
     <item>
+      <title>Intro : Scene 1</title>
+      <link>/overview/cutscenes/scene1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/cutscenes/scene1/</guid>
+      <description>Current cutscene implementation
+STOU and ALFRIC gathered amongst soldiers setting up camp.
+Stou  You&amp;rsquo;ve met my brother, Barric?
+ Alfric  Met him? I&amp;rsquo;ve fought with him, and would again. Fine warrior, and a better man.
+ Stou  I never knew that side of him. I&amp;rsquo;ve only heard stories.
+ Alfric  Story like his &amp;hellip; words only carry so much. Don&amp;rsquo;t do it justice. Barric saved this kingdom.</description>
+    </item>
+    
+    <item>
+      <title>Intruder : Scene 2</title>
+      <link>/overview/cutscenes/scene2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/cutscenes/scene2/</guid>
+      <description>STOU and ALFRIC and CASSANDRA examining an invaders corpse.
+Cassandra  These markings, this soldier is from the Drylands. This makes no sense. What would prompt such an attack?
+ Stou  We need to find out. We&amp;rsquo;ll track those who escaped.
+ Barric  No. We must return to South Keep and warn our people.
+ Stou  Turn back? And what then, Barric? Wait to be attacked again?</description>
+    </item>
+    
+    <item>
       <title>Motion Graphics</title>
       <link>/motion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -137,6 +264,33 @@ Flanking bonus Strategic positions Treasure chests Larger maps Heroes Items Diff
     </item>
     
     <item>
+      <title>Seige : Scene 5</title>
+      <link>/overview/cutscenes/scene5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/cutscenes/scene5/</guid>
+      <description>Current cutscene implementation
+STOU and ARCHER are atop Drysgate discussing the siege.
+Stou  Report?
+ Archer  They&amp;rsquo;re attacking with scout groups. Pinning us back as they continue to grow their ranks.
+ Stou  Do we know why they&amp;rsquo;re attacking?
+ Archer  No, sir. They&amp;rsquo;ve sent no messages. Only arrows.
+ Stou  And who is that? Who leads them?
+ Archer  The man in the cloak?</description>
+    </item>
+    
+    <item>
+      <title>Showdown : Scene 12</title>
+      <link>/overview/cutscenes/scene12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/cutscenes/scene12/</guid>
+      <description>Current cutscene implementation
+STOU and CASSANDRA preparing for the final battle.
+Cassandra  Oh, Stou. I&amp;rsquo;m surprised you made it this far. For what it&amp;rsquo;s worth, I respected your brother. Despite the fact he took everything from me. My father. My kingdom. My heritage. Was he so foolish as to think that a discarded mountain city would be suitable for one such as myself? For royalty? My birthright is to rule.</description>
+    </item>
+    
+    <item>
       <title>Soundtrack</title>
       <link>/soundtrack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -155,6 +309,31 @@ Flanking bonus Strategic positions Treasure chests Larger maps Heroes Items Diff
       <description>A place to store random tech notes for reference when designing things.
 Modifiers There are a few types of modifiers in the game, and they are all applied in different ways. Here&amp;rsquo;s the breakdown of how a unit might get a modifier applied to it.
  Spell Modifiers: Each spell applies a modifier to the target squad / units and this can be overridden on the spell level. Spells are abilities, and they should process ability modifiers the same way combat modifiers do, but they currently don&amp;rsquo;t.</description>
+    </item>
+    
+    <item>
+      <title>Victory : Scene 13</title>
+      <link>/overview/cutscenes/scene13/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/cutscenes/scene13/</guid>
+      <description> Current cutscene implementation
+No dialogue. Celebration and BARRIC&amp;rsquo;s burial.
+Role credits.
+TODO / DISCUSS Clean boat edge  </description>
+    </item>
+    
+    <item>
+      <title>Warning : Scene 6</title>
+      <link>/overview/cutscenes/scene6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/cutscenes/scene6/</guid>
+      <description>Current cutscene implementation
+STOU has snuck through enemy lines while CASSANDRA catches him on his way to Wellspring.
+Cassandra  Stou! I&amp;rsquo;ve ridden all night to catch you!
+ Stou  Cassandra? What are you doing here? You were to notify the council.
+ Cassandra  I &amp;hellip; your brother. I had to come immediately. Barric. He left South Keep shortly after you we did &amp;hellip; with those who stand against us.</description>
     </item>
     
     <item>
