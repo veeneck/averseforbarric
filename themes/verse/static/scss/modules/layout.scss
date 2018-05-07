@@ -149,6 +149,30 @@ figcaption {
     font-size: 0.7em;
 }
 
+/*----------------------- Wiki Layout ------------------------------ */
+
+section.wikiNav {
+    float: left;
+    width: 20%;
+    overflow: hidden;
+}
+
+article.wiki {
+    width: 77%;
+    padding-left: 3%;
+    float: left;
+}
+
+.wikiNav ul {
+    margin-left:0px;
+    padding-left:0px;
+    list-style: none;
+
+    li {
+        margin-left: 25px;
+    }
+}
+
 
 /*----------------------- Jazzy Layout ------------------------------ */
 

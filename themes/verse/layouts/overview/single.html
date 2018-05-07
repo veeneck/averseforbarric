@@ -1,0 +1,15 @@
+{{ define "main" -}}
+<div class="content-wrapper">
+
+{{ partial "wiki.html" . }}
+
+<article class="wiki">
+
+	<h4>{{ .Title }}</h4>
+
+	{{ .Content }}
+
+</article>
+
+</div>
+{{- end }}
