@@ -2,6 +2,105 @@
 /*----------------------- Colors ------------------------------ */
 /*----------------------- Misc ------------------------------ */
 /*----------------------- Colors ------------------------------ */
+@keyframes crossbow {
+  100% {
+    background-position: -960px; } }
+
+.crossbow {
+  background-image: url(/images/Crossbow.png);
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 120px;
+  animation: crossbow 0.7s steps(8) infinite;
+  display: block; }
+
+@keyframes ryler {
+  100% {
+    background-position: -1782px; } }
+
+.ryler {
+  background-image: url(/images/Ryler.png);
+  background-repeat: no-repeat;
+  width: 223px;
+  height: 200px;
+  animation: ryler 0.7s steps(8) infinite;
+  display: block;
+  margin: 0px 50px; }
+
+@keyframes idiri {
+  100% {
+    background-position: -1230px; } }
+
+.idiri {
+  background-image: url(/images/Idiri.png);
+  background-repeat: no-repeat;
+  width: 136px;
+  height: 120px;
+  animation: idiri 0.7s steps(9) infinite;
+  display: block; }
+
+@keyframes cat {
+  100% {
+    background-position: -768px; } }
+
+.cat {
+  background-image: url(/images/Cat.png);
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 58px;
+  animation: cat 0.7s steps(16) infinite;
+  display: block; }
+
+@keyframes rhino {
+  100% {
+    background-position: -1078px; } }
+
+.rhino {
+  background-image: url(/images/Rhino.png);
+  background-repeat: no-repeat;
+  width: 137px;
+  height: 200px;
+  animation: rhino 0.7s steps(8) infinite;
+  display: block;
+  margin: 0px 100px; }
+
+@keyframes spearmen {
+  100% {
+    background-position: -1261px; } }
+
+.spearmen {
+  background-image: url(/images/Spearmen.png);
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 120px;
+  animation: spearmen 0.7s steps(8) infinite;
+  display: block;
+  margin-bottom: -45px; }
+
+@keyframes trebuchet {
+  100% {
+    background-position: -1774px; } }
+
+.trebuchet {
+  background-image: url(/images/Trebuchet.png);
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 200px;
+  animation: trebuchet 0.7s steps(12) infinite;
+  display: block; }
+
+@keyframes melee1 {
+  100% {
+    background-position: -512px; } }
+
+.melee1 {
+  background-image: url(/images/Melee1Sprite.png);
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  animation: melee1 0.7s steps(8) infinite;
+  display: block; }
+
 .container {
   margin: 0px auto;
   max-width: 1080px;
@@ -21,12 +120,12 @@
     .container {
       padding: 0px 10px; } }
 
-p.clear, .framework, .squad .f {
+p.clear, .content-wrapper, .framework, .squad .f {
   *zoom: 1; }
-  p.clear:before, .framework:before, .squad .f:before, p.clear:after, .framework:after, .squad .f:after {
+  p.clear:before, .content-wrapper:before, .framework:before, .squad .f:before, p.clear:after, .content-wrapper:after, .framework:after, .squad .f:after {
     content: " ";
     display: table; }
-  p.clear:after, .framework:after, .squad .f:after {
+  p.clear:after, .content-wrapper:after, .framework:after, .squad .f:after {
     clear: both; }
 
 /*----------------------- Links ------------------------------ */
@@ -81,6 +180,77 @@ figure {
 figcaption {
   color: #BCDCC4;
   font-size: 0.7em; }
+
+/*----------------------- Jazzy Layout ------------------------------ */
+.content-wrapper {
+  margin: 0 auto;
+  max-width: 1080px; }
+
+article.main-content {
+  width: 77%;
+  padding-left: 3%;
+  float: left; }
+
+.docs .nav {
+  margin: 25px 0px; }
+
+nav.sidebar {
+  float: left;
+  width: 20%;
+  overflow: hidden; }
+
+nav.sidebar ul {
+  list-style: none;
+  font-size: 90%; }
+
+.nav-groups {
+  padding-left: 0px; }
+
+p.coverage {
+  width: 20%;
+  float: left;
+  text-align: right; }
+
+#breadcrumbs {
+  float: left;
+  width: 80%; }
+
+.section-name {
+  text-decoration: none !important; }
+
+.height-container {
+  display: none;
+  left: -25px;
+  padding-bottom: 0;
+  margin-top: -15px;
+  margin-left: 15px; }
+
+article ul {
+  color: #fff; }
+
+.task-group ul {
+  list-style: none;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  color: #fff; }
+
+article.main-content p {
+  margin-top: 5px; }
+
+article.main-content pre {
+  margin-left: 0px;
+  margin-top: 15px;
+  padding: 0px 0px 0px 0px;
+  width: 100%; }
+
+article.main-content code {
+  background-color: #251721; }
+
+.nobg {
+  background: none !important; }
+
+.abstract {
+  margin-top: 25px; }
 
 /*----------------------- Import League Gothic ------------------------------ */
 @font-face {
@@ -169,10 +339,13 @@ h4 {
   font-size: 1.3rem;
   font-family: "Wallington Pro";
   color: #E6ADA8;
-  margin: 50px auto -10px auto; }
+  margin: 50px auto 0px auto; }
 
 h5 {
-  font-size: 0.4713333333333333rem; }
+  font-size: 1.1rem;
+  color: #E6ADA8;
+  font-family: "Anivers";
+  margin-bottom: 10px; }
 
 h6 {
   font-size: 0.3535rem; }
@@ -204,6 +377,105 @@ code {
 /*----------------------- Colors ------------------------------ */
 /*----------------------- Misc ------------------------------ */
 /*----------------------- Colors ------------------------------ */
+@keyframes crossbow {
+  100% {
+    background-position: -960px; } }
+
+.crossbow {
+  background-image: url(/images/Crossbow.png);
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 120px;
+  animation: crossbow 0.7s steps(8) infinite;
+  display: block; }
+
+@keyframes ryler {
+  100% {
+    background-position: -1782px; } }
+
+.ryler {
+  background-image: url(/images/Ryler.png);
+  background-repeat: no-repeat;
+  width: 223px;
+  height: 200px;
+  animation: ryler 0.7s steps(8) infinite;
+  display: block;
+  margin: 0px 50px; }
+
+@keyframes idiri {
+  100% {
+    background-position: -1230px; } }
+
+.idiri {
+  background-image: url(/images/Idiri.png);
+  background-repeat: no-repeat;
+  width: 136px;
+  height: 120px;
+  animation: idiri 0.7s steps(9) infinite;
+  display: block; }
+
+@keyframes cat {
+  100% {
+    background-position: -768px; } }
+
+.cat {
+  background-image: url(/images/Cat.png);
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 58px;
+  animation: cat 0.7s steps(16) infinite;
+  display: block; }
+
+@keyframes rhino {
+  100% {
+    background-position: -1078px; } }
+
+.rhino {
+  background-image: url(/images/Rhino.png);
+  background-repeat: no-repeat;
+  width: 137px;
+  height: 200px;
+  animation: rhino 0.7s steps(8) infinite;
+  display: block;
+  margin: 0px 100px; }
+
+@keyframes spearmen {
+  100% {
+    background-position: -1261px; } }
+
+.spearmen {
+  background-image: url(/images/Spearmen.png);
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 120px;
+  animation: spearmen 0.7s steps(8) infinite;
+  display: block;
+  margin-bottom: -45px; }
+
+@keyframes trebuchet {
+  100% {
+    background-position: -1774px; } }
+
+.trebuchet {
+  background-image: url(/images/Trebuchet.png);
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 200px;
+  animation: trebuchet 0.7s steps(12) infinite;
+  display: block; }
+
+@keyframes melee1 {
+  100% {
+    background-position: -512px; } }
+
+.melee1 {
+  background-image: url(/images/Melee1Sprite.png);
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  animation: melee1 0.7s steps(8) infinite;
+  display: block; }
+
 .container {
   margin: 0px auto;
   max-width: 1080px;
@@ -223,12 +495,12 @@ code {
     .container {
       padding: 0px 10px; } }
 
-p.clear, .framework, .squad .f {
+p.clear, .content-wrapper, .framework, .squad .f {
   *zoom: 1; }
-  p.clear:before, .framework:before, .squad .f:before, p.clear:after, .framework:after, .squad .f:after {
+  p.clear:before, .content-wrapper:before, .framework:before, .squad .f:before, p.clear:after, .content-wrapper:after, .framework:after, .squad .f:after {
     content: " ";
     display: table; }
-  p.clear:after, .framework:after, .squad .f:after {
+  p.clear:after, .content-wrapper:after, .framework:after, .squad .f:after {
     clear: both; }
 
 /*----------------------- Links ------------------------------ */
@@ -283,6 +555,176 @@ figure {
 figcaption {
   color: #BCDCC4;
   font-size: 0.7em; }
+
+/*----------------------- Jazzy Layout ------------------------------ */
+.content-wrapper {
+  margin: 0 auto;
+  max-width: 1080px; }
+
+article.main-content {
+  width: 77%;
+  padding-left: 3%;
+  float: left; }
+
+.docs .nav {
+  margin: 25px 0px; }
+
+nav.sidebar {
+  float: left;
+  width: 20%;
+  overflow: hidden; }
+
+nav.sidebar ul {
+  list-style: none;
+  font-size: 90%; }
+
+.nav-groups {
+  padding-left: 0px; }
+
+p.coverage {
+  width: 20%;
+  float: left;
+  text-align: right; }
+
+#breadcrumbs {
+  float: left;
+  width: 80%; }
+
+.section-name {
+  text-decoration: none !important; }
+
+.height-container {
+  display: none;
+  left: -25px;
+  padding-bottom: 0;
+  margin-top: -15px;
+  margin-left: 15px; }
+
+article ul {
+  color: #fff; }
+
+.task-group ul {
+  list-style: none;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  color: #fff; }
+
+article.main-content p {
+  margin-top: 5px; }
+
+article.main-content pre {
+  margin-left: 0px;
+  margin-top: 15px;
+  padding: 0px 0px 0px 0px;
+  width: 100%; }
+
+article.main-content code {
+  background-color: #251721; }
+
+.nobg {
+  background: none !important; }
+
+.abstract {
+  margin-top: 25px; }
+
+@keyframes crossbow {
+  100% {
+    background-position: -960px; } }
+
+.crossbow {
+  background-image: url(/images/Crossbow.png);
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 120px;
+  animation: crossbow 0.7s steps(8) infinite;
+  display: block; }
+
+@keyframes ryler {
+  100% {
+    background-position: -1782px; } }
+
+.ryler {
+  background-image: url(/images/Ryler.png);
+  background-repeat: no-repeat;
+  width: 223px;
+  height: 200px;
+  animation: ryler 0.7s steps(8) infinite;
+  display: block;
+  margin: 0px 50px; }
+
+@keyframes idiri {
+  100% {
+    background-position: -1230px; } }
+
+.idiri {
+  background-image: url(/images/Idiri.png);
+  background-repeat: no-repeat;
+  width: 136px;
+  height: 120px;
+  animation: idiri 0.7s steps(9) infinite;
+  display: block; }
+
+@keyframes cat {
+  100% {
+    background-position: -768px; } }
+
+.cat {
+  background-image: url(/images/Cat.png);
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 58px;
+  animation: cat 0.7s steps(16) infinite;
+  display: block; }
+
+@keyframes rhino {
+  100% {
+    background-position: -1078px; } }
+
+.rhino {
+  background-image: url(/images/Rhino.png);
+  background-repeat: no-repeat;
+  width: 137px;
+  height: 200px;
+  animation: rhino 0.7s steps(8) infinite;
+  display: block;
+  margin: 0px 100px; }
+
+@keyframes spearmen {
+  100% {
+    background-position: -1261px; } }
+
+.spearmen {
+  background-image: url(/images/Spearmen.png);
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 120px;
+  animation: spearmen 0.7s steps(8) infinite;
+  display: block;
+  margin-bottom: -45px; }
+
+@keyframes trebuchet {
+  100% {
+    background-position: -1774px; } }
+
+.trebuchet {
+  background-image: url(/images/Trebuchet.png);
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 200px;
+  animation: trebuchet 0.7s steps(12) infinite;
+  display: block; }
+
+@keyframes melee1 {
+  100% {
+    background-position: -512px; } }
+
+.melee1 {
+  background-image: url(/images/Melee1Sprite.png);
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  animation: melee1 0.7s steps(8) infinite;
+  display: block; }
 
 html {
   -webkit-font-smoothing: antialiased; }

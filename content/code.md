@@ -92,7 +92,7 @@ To date, this game has 38,378 lines of Swift code. There have been countless hou
 
 Other frameworks include:
 
-  - [Particleboard](http://google.com): Convenience features and extensions to common objects.
+  - [Particleboard](/Particleboard): Convenience features and extensions to common objects.
   - [StrongRoom](http://google.com): Utility to manage save gave files, unit experience, and unclocked abilities.
   - [WavePool](http://google.com): Control continuous spawns of enemy units.
   - [WarGUI](http://google.com): Isolated code specific to the heads up display.
