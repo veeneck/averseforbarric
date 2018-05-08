@@ -1,75 +1,102 @@
 ---
-title: "Progression Overview"
+title: "Units & Their Progression"
 section: "overview"
 ---
 
-### Gameplay Progression
+Unit progression is a tricky topic and requires a lot of play testing to truly balance it. So, to start, I'm approaching it at a basic level that has room to be tailored. The order in which [Friendly Units](/overview/progression/friendly/), [Enemy Units](/overview/progression/enemy/) and [Boss Units](/overview/progression/boss/) appear is fairly though out, but their attributes and abilities are currently in a basic state.
 
-TODO
+The overall goal is for Stou (the player) to be the deciding factor. Stou's magic abilities will strongly influence strategy, so that is the primary influencer of unit attributes. Beyond that, unit vs unit strategy would be the next priority. For example, specifically attacking a unit that has a weakness to the attacker should be worthwhile. If Stou is out of mana or on cooldown, those unit vs unit decision will make an impact.
 
-### Unit Progression
+### Attributes
 
-The main aspect to unit progression is how they are revealed, and how the compare to other units. When comparing two units, a few factors make up the comparison:
-
-- If ranged:
-  - How far away are they from the target?
-  - Does the unit ignore line of sight?
-- Magic currently helping / hurting the unit.
-- Attack strength vs armor weakness
-- Amount of units in the squad
-- Morale / likelihood to flee
-
-Because there are so many moving parts, it's impossible to fully compare units. The end goal is to make the player, Stou, the deciding factor. Because of that, unit differences will mostly be minor unless specifically pointed out to the player. In the current iteration, each unit has a table like this:
+This first pass on unit attributes is simple. Below is a sample point spread for a fake unit.
 
 |  Attack  | Strength | Quickness | Defense | Agility | Magic | Hitpoints | Speed | Morale |
 |:--------:|:--------:|:---------:|---------|---------|-------|-----------|-------|--------|
 | Slashing | 10       | 5         | Blunt   | 5       | 5     | 100       | 50    | 100    |
 
-**Slashing**: The type of attack. Slashing, Blunt, Piercing, Magic
+<div class="attributes">
 
-**Strength**: The strength of the attack. 10 str would do 10 damage if it hits.
+<div class="attribute">
+	<img src="/images/wiki/icons/stat_slashing.png" width=48" />
+	<b>Attack</b>
+	<p>The type of attack. Slashing, Blunt, Piercing, Magic</p>
+</div>
 
-**Quickness**: The delay between attacks in seconds.
+<div class="attribute">
+	<img src="/images/wiki/icons/stat_strength.png" width=48" />
+	<b>Strength</b>
+	<p>The strength of the attack. 10 str would do 10 damage if it hits.</p>
+</div>
 
-**Defense**: If empty, not defense bonus. If present (i.e.: Slashing) then slashing attacks do 5% less damage for each point assigned.
+<div class="attribute">
+	<img src="/images/wiki/icons/stat_quickness.png" width=48" />
+	<b>Quickness</b>
+	<p>The delay between attacks in seconds.</p>
+</div>
 
-**Agility**: Percentage chance to dodge or block a physical attack.
+<div class="attribute">
+	<img src="/images/wiki/icons/stat_defense.png" width=48" />
+	<b>Defense</b>
+	<p>Attacks do 5% less damage for each point assigned.</p>
+</div>
 
-**Magic**: Chance to resist a magic attack, benefit to positive magic (i.e.: healing does more per tick).
+<div class="attribute">
+	<img src="/images/wiki/icons/stat_agility.png" width=48" />
+	<b>Agility</b>
+	<p>Percentage chance to dodge or block a physical attack.</p>
+</div>
 
-**Hitpoints**: Max amount of hit points.
+<div class="attribute">
+	<img src="/images/wiki/icons/stat_magic.png" width=48" />
+	<b>Magic</b>
+	<p>Chance to resist a magic attack, also benefit to positive magic.</p>
+</div>
 
-**Speed**: Walking speed
+<div class="attribute">
+	<img src="/images/wiki/icons/stat_health.png" width=48" />
+	<b>Hitpoints</b>
+	<p> Max amount of hit points prior to buffs.</p>
+</div>
 
-**Morale**: Ability to resist fear and fleeing.
+<div class="attribute">
+	<img src="/images/wiki/icons/stat_walkingspeed.png" width=48" />
+	<b>Speed</b>
+	<p>Walking speed.</p>
+</div>
+
+<div class="attribute">
+	<img src="/images/wiki/icons/stat_morale.png" width=48" />
+	<b>Morale</b>
+	<p>Ability to resist fear and fleeing checks.</p>
+</div>
+
+</div>
 
 ### Leveling Up
 
-Unit stats are simplified into four categories:
+<figure style="float: right; width: 40%;">
+<img src="/images/wiki/icons/unit_upgrades.png" width=100%" />
+<figcaption>The 4 upgradeable categories.</figcaption>
+</figure>
 
-**Fortitude**: Impacts Hitpoints, Defense, Morale
+Because this game was design as a mobile game first, and the budget dictated a ~2 to 3 hour play time, the level up tree has to be condensed. My first experiment to do this is to combine attributes above into 4 different categories:
 
-**Agility**: Impacts Agility, Walking Speed, Attack Speed (Quickness)
+_**Fortitude**: Impacts Hitpoints, Defense, Morale_
 
-**Strength**: Impacts Damage, Attack Range
+_**Agility**: Impacts Agility, Walking Speed, Attack Speed (Quickness)_
 
-**Magic**: Impacts magic resistance, magic aptitude
+_**Strength**: Impacts Damage, Attack Range_
 
-Because the end goal is to simplify leveling up into these four categories, and each category can have a ranking of 1-5 ticks, one way to balance units would be by making a 1 to 5 scale. For example:
+_**Magic**: Impacts magic resistance, magic aptitude_
+
+This simplification also helps balance the game since we're now looking essentially looking at 4 strategies. Each strategy can be upgraded up to 5 points, as shown in the picture to the right. An example of the scale would be:
 
 **Hitpoints**
-1. 100
-2. 150
-3. 200
-4. 250
-5. 300
+100, 150, 200, 250, 300
 
 **Strength**
-1. 10
-2. 15
-3. 20
-4. 25
-5. 30
+10, 15, 20, 25, 30
 
 In that simple example, a unit with 1 STR and 4 HP would have 250 hit points and 10 attack damage. Likewise, a unit with 3 STR and 2 HP would have 20 attack damage and 150 HP.
 

@@ -611,17 +611,6 @@ Player picks one, fade to black, start cutscene.</description>
     </item>
     
     <item>
-      <title>Progression Overview</title>
-      <link>/overview/progression/notes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/progression/notes/</guid>
-      <description>Gameplay Progression TODO
-Unit Progression The main aspect to unit progression is how they are revealed, and how the compare to other units. When comparing two units, a few factors make up the comparison:
- If ranged:  How far away are they from the target? Does the unit ignore line of sight?  Magic currently helping / hurting the unit. Attack strength vs armor weakness Amount of units in the squad Morale / likelihood to flee  Because there are so many moving parts, it&amp;rsquo;s impossible to fully compare units.</description>
-    </item>
-    
-    <item>
       <title>Protective Spells</title>
       <link>/overview/abilities/protective/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -752,6 +741,16 @@ Modifiers There are a few types of modifiers in the game, and they are all appli
       <guid>/overview/decisions/traps/</guid>
       <description>The steep, snowy terrain has slowed down your march. Enemy scouting parties will catch up any day now. Should we set up traps, or fortify our defenses?
  Traps could make the enemy spawn damaged, or even have a visual like snow falling. Fortify could put barriers down that the enemy has to break, or increase defense.</description>
+    </item>
+    
+    <item>
+      <title>Units &amp; Their Progression</title>
+      <link>/overview/progression/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/progression/notes/</guid>
+      <description>Unit progression is a tricky topic and requires a lot of play testing to truly balance it. So, to start, I&amp;rsquo;m approaching it at a basic level that has room to be tailored. The order in which Friendly Units, Enemy Units and Boss Units appear is fairly though out, but their attributes and abilities are currently in a basic state.
+The overall goal is for Stou (the player) to be the deciding factor.</description>
     </item>
     
     <item>

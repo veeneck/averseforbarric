@@ -228,7 +228,12 @@
 	<div class="toc">
 
 <ul>
-	<li><a href="">Units & Their Progression</a></li>
+	<li><a href="/overview/progression/notes/">Units & Their Progression</a></li>
+	<ul>
+		<li><a href="/overview/progression/friendly/">Friendly Units</a></li>
+		<li><a href="/overview/progression/enemy/">Enemy Units</a></li>
+		<li><a href="/overview/progression/boss/">Boss Units</a></li>
+	</ul>
 	<li><a href="">Interface & Scenes</a></li>
 	<li><a href="">Magic Abilities</a></li>
 	<li><a href="">Story & Cutscenes</a></li>
@@ -239,32 +244,17 @@
 
 </div>
 
-	<h4>Progression Overview</h4>
+	<h4>Units &amp; Their Progression</h4>
 
 	
 
-<h3 id="gameplay-progression">Gameplay Progression</h3>
+<p>Unit progression is a tricky topic and requires a lot of play testing to truly balance it. So, to start, I&rsquo;m approaching it at a basic level that has room to be tailored. The order in which <a href="/overview/progression/friendly/">Friendly Units</a>, <a href="/overview/progression/enemy/">Enemy Units</a> and <a href="/overview/progression/boss/">Boss Units</a> appear is fairly though out, but their attributes and abilities are currently in a basic state.</p>
 
-<p>TODO</p>
+<p>The overall goal is for Stou (the player) to be the deciding factor. Stou&rsquo;s magic abilities will strongly influence strategy, so that is the primary influencer of unit attributes. Beyond that, unit vs unit strategy would be the next priority. For example, specifically attacking a unit that has a weakness to the attacker should be worthwhile. If Stou is out of mana or on cooldown, those unit vs unit decision will make an impact.</p>
 
-<h3 id="unit-progression">Unit Progression</h3>
+<h3 id="attributes">Attributes</h3>
 
-<p>The main aspect to unit progression is how they are revealed, and how the compare to other units. When comparing two units, a few factors make up the comparison:</p>
-
-<ul>
-<li>If ranged:
-
-<ul>
-<li>How far away are they from the target?</li>
-<li>Does the unit ignore line of sight?</li>
-</ul></li>
-<li>Magic currently helping / hurting the unit.</li>
-<li>Attack strength vs armor weakness</li>
-<li>Amount of units in the squad</li>
-<li>Morale / likelihood to flee</li>
-</ul>
-
-<p>Because there are so many moving parts, it&rsquo;s impossible to fully compare units. The end goal is to make the player, Stou, the deciding factor. Because of that, unit differences will mostly be minor unless specifically pointed out to the player. In the current iteration, each unit has a table like this:</p>
+<p>This first pass on unit attributes is simple. Below is a sample point spread for a fake unit.</p>
 
 <table>
 <thead>
@@ -296,51 +286,88 @@
 </tbody>
 </table>
 
-<p><strong>Slashing</strong>: The type of attack. Slashing, Blunt, Piercing, Magic</p>
+<div class="attributes">
 
-<p><strong>Strength</strong>: The strength of the attack. 10 str would do 10 damage if it hits.</p>
+<div class="attribute">
+    <img src="/images/wiki/icons/stat_slashing.png" width=48" />
+    <b>Attack</b>
+    <p>The type of attack. Slashing, Blunt, Piercing, Magic</p>
+</div>
 
-<p><strong>Quickness</strong>: The delay between attacks in seconds.</p>
+<div class="attribute">
+    <img src="/images/wiki/icons/stat_strength.png" width=48" />
+    <b>Strength</b>
+    <p>The strength of the attack. 10 str would do 10 damage if it hits.</p>
+</div>
 
-<p><strong>Defense</strong>: If empty, not defense bonus. If present (i.e.: Slashing) then slashing attacks do 5% less damage for each point assigned.</p>
+<div class="attribute">
+    <img src="/images/wiki/icons/stat_quickness.png" width=48" />
+    <b>Quickness</b>
+    <p>The delay between attacks in seconds.</p>
+</div>
 
-<p><strong>Agility</strong>: Percentage chance to dodge or block a physical attack.</p>
+<div class="attribute">
+    <img src="/images/wiki/icons/stat_defense.png" width=48" />
+    <b>Defense</b>
+    <p>Attacks do 5% less damage for each point assigned.</p>
+</div>
 
-<p><strong>Magic</strong>: Chance to resist a magic attack, benefit to positive magic (i.e.: healing does more per tick).</p>
+<div class="attribute">
+    <img src="/images/wiki/icons/stat_agility.png" width=48" />
+    <b>Agility</b>
+    <p>Percentage chance to dodge or block a physical attack.</p>
+</div>
 
-<p><strong>Hitpoints</strong>: Max amount of hit points.</p>
+<div class="attribute">
+    <img src="/images/wiki/icons/stat_magic.png" width=48" />
+    <b>Magic</b>
+    <p>Chance to resist a magic attack, also benefit to positive magic.</p>
+</div>
 
-<p><strong>Speed</strong>: Walking speed</p>
+<div class="attribute">
+    <img src="/images/wiki/icons/stat_health.png" width=48" />
+    <b>Hitpoints</b>
+    <p> Max amount of hit points prior to buffs.</p>
+</div>
 
-<p><strong>Morale</strong>: Ability to resist fear and fleeing.</p>
+<div class="attribute">
+    <img src="/images/wiki/icons/stat_walkingspeed.png" width=48" />
+    <b>Speed</b>
+    <p>Walking speed.</p>
+</div>
+
+<div class="attribute">
+    <img src="/images/wiki/icons/stat_morale.png" width=48" />
+    <b>Morale</b>
+    <p>Ability to resist fear and fleeing checks.</p>
+</div>
+
+<p></div></p>
 
 <h3 id="leveling-up">Leveling Up</h3>
 
-<p>Unit stats are simplified into four categories:</p>
+<figure style="float: right; width: 40%;">
+<img src="/images/wiki/icons/unit_upgrades.png" width=100%" />
+<figcaption>The 4 upgradeable categories.</figcaption>
+</figure>
 
-<p><strong>Fortitude</strong>: Impacts Hitpoints, Defense, Morale</p>
+<p>Because this game was design as a mobile game first, and the budget dictated a ~2 to 3 hour play time, the level up tree has to be condensed. My first experiment to do this is to combine attributes above into 4 different categories:</p>
 
-<p><strong>Agility</strong>: Impacts Agility, Walking Speed, Attack Speed (Quickness)</p>
+<p><em><strong>Fortitude</strong>: Impacts Hitpoints, Defense, Morale</em></p>
 
-<p><strong>Strength</strong>: Impacts Damage, Attack Range</p>
+<p><em><strong>Agility</strong>: Impacts Agility, Walking Speed, Attack Speed (Quickness)</em></p>
 
-<p><strong>Magic</strong>: Impacts magic resistance, magic aptitude</p>
+<p><em><strong>Strength</strong>: Impacts Damage, Attack Range</em></p>
 
-<p>Because the end goal is to simplify leveling up into these four categories, and each category can have a ranking of 1-5 ticks, one way to balance units would be by making a 1 to 5 scale. For example:</p>
+<p><em><strong>Magic</strong>: Impacts magic resistance, magic aptitude</em></p>
+
+<p>This simplification also helps balance the game since we&rsquo;re now looking essentially looking at 4 strategies. Each strategy can be upgraded up to 5 points, as shown in the picture to the right. An example of the scale would be:</p>
 
 <p><strong>Hitpoints</strong>
-1. 100
-2. 150
-3. 200
-4. 250
-5. 300</p>
+100, 150, 200, 250, 300</p>
 
 <p><strong>Strength</strong>
-1. 10
-2. 15
-3. 20
-4. 25
-5. 30</p>
+10, 15, 20, 25, 30</p>
 
 <p>In that simple example, a unit with 1 STR and 4 HP would have 250 hit points and 10 attack damage. Likewise, a unit with 3 STR and 2 HP would have 20 attack damage and 150 HP.</p>
 

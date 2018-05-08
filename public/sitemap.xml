@@ -232,10 +232,6 @@
   </url>
   
   <url>
-    <loc>/overview/progression/notes/</loc>
-  </url>
-  
-  <url>
     <loc>/overview/abilities/protective/</loc>
   </url>
   
@@ -286,6 +282,10 @@
   
   <url>
     <loc>/overview/decisions/traps/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/progression/notes/</loc>
   </url>
   
   <url>

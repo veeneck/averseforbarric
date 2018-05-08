@@ -224,6 +224,38 @@ table, th, td {
     border: 1px solid #fff;
 }
 
+.attributes {
+    @include flex();
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top:25px;
+
+    :nth-child(even) {
+        margin-right: 0px;
+    }
+}
+
+.attribute {
+    width: 39%;
+    margin: 2% 2% 0px 0px;
+    background-color: $darkPurple;
+    border-radius: 5px;
+    padding: 2% 5%;
+}
+
+.attribute b {
+    color: $pink;
+}
+
+.attribute p {
+    margin-top: 0px;
+}
+
+.attribute img {
+    float: left;
+    display: block;
+    padding: 25px 25px 25px 0px;
+}
 
 /*----------------------- Jazzy Layout ------------------------------ */
 

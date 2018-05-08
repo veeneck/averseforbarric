@@ -241,6 +241,36 @@ table {
 table, th, td {
   border: 1px solid #fff; }
 
+.attributes {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 25px; }
+  .attributes :nth-child(even) {
+    margin-right: 0px; }
+
+.attribute {
+  width: 39%;
+  margin: 2% 2% 0px 0px;
+  background-color: #251721;
+  border-radius: 5px;
+  padding: 2% 5%; }
+
+.attribute b {
+  color: #E6ADA8; }
+
+.attribute p {
+  margin-top: 0px; }
+
+.attribute img {
+  float: left;
+  display: block;
+  padding: 25px 25px 25px 0px; }
+
 /*----------------------- Jazzy Layout ------------------------------ */
 .content-wrapper {
   margin: 0 auto;
@@ -675,6 +705,36 @@ table {
 
 table, th, td {
   border: 1px solid #fff; }
+
+.attributes {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 25px; }
+  .attributes :nth-child(even) {
+    margin-right: 0px; }
+
+.attribute {
+  width: 39%;
+  margin: 2% 2% 0px 0px;
+  background-color: #251721;
+  border-radius: 5px;
+  padding: 2% 5%; }
+
+.attribute b {
+  color: #E6ADA8; }
+
+.attribute p {
+  margin-top: 0px; }
+
+.attribute img {
+  float: left;
+  display: block;
+  padding: 25px 25px 25px 0px; }
 
 /*----------------------- Jazzy Layout ------------------------------ */
 .content-wrapper {
