@@ -36,6 +36,14 @@
   </url>
   
   <url>
+    <loc>/overview/decisions/diversion/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/decisions/cassandra/</loc>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
   </url>
@@ -73,7 +81,19 @@
   </url>
   
   <url>
+    <loc>/overview/decisions/support/</loc>
+  </url>
+  
+  <url>
     <loc>/overview/gameplay/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/decisions/giant/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/decisions/hand/</loc>
   </url>
   
   <url>
@@ -89,7 +109,71 @@
   </url>
   
   <url>
+    <loc>/overview/levels/level1/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/levels/level10/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/levels/level11/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/levels/level12/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/levels/level2/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/levels/level3/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/levels/level3a/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/levels/level4/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/levels/level5/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/levels/level6/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/levels/level7/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/levels/level7a/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/levels/level8/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/levels/level9/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/decisions/loot/</loc>
+  </url>
+  
+  <url>
     <loc>/motion/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/decisions/newgame/</loc>
   </url>
   
   <url>
@@ -101,6 +185,14 @@
   </url>
   
   <url>
+    <loc>/overview/decisions/ranged/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/decisions/rest/</loc>
+  </url>
+  
+  <url>
     <loc>/overview/cutscenes/scene5/</loc>
   </url>
   
@@ -109,7 +201,15 @@
   </url>
   
   <url>
+    <loc>/overview/decisions/planning/</loc>
+  </url>
+  
+  <url>
     <loc>/soundtrack/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/decisions/spearmen/</loc>
   </url>
   
   <url>
@@ -122,7 +222,15 @@
   </url>
   
   <url>
+    <loc>/overview/decisions/traps/</loc>
+  </url>
+  
+  <url>
     <loc>/overview/cutscenes/scene13/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/decisions/warmachine/</loc>
   </url>
   
   <url>

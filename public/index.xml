@@ -82,6 +82,26 @@ Stou  That&amp;rsquo;s why we&amp;rsquo;re gathered here to fight.
     </item>
     
     <item>
+      <title>Cassandra Diversion</title>
+      <link>/overview/decisions/diversion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/decisions/diversion/</guid>
+      <description>After Cassandra tells Stou he needs to head to the border, she offers a parting gift.
+ Stou, you&amp;rsquo;ll need backup if you&amp;rsquo;re going to survive. Please take some of my soldiers, or at least allow me to teach you [Randomize a Spell she can teach him]
+ Player picks, and either gets units, or a new spell for Stou.</description>
+    </item>
+    
+    <item>
+      <title>Cassandra Leaves</title>
+      <link>/overview/decisions/cassandra/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/decisions/cassandra/</guid>
+      <description>Melee2 leaves the party.</description>
+    </item>
+    
+    <item>
       <title>Code</title>
       <link>/code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -184,6 +204,15 @@ Starting Level: 0
     </item>
     
     <item>
+      <title>Friendly Support</title>
+      <link>/overview/decisions/support/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/decisions/support/</guid>
+      <description>Figure out a way to introduce Flail1 or Melee3. Maybe a decision from earlier in the game, and then that unit that you supported is waiting for you at border to help you? Need to add a melee unit here because Melee2 leave shortly.</description>
+    </item>
+    
+    <item>
       <title>Gameplay Progression</title>
       <link>/overview/gameplay/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -193,6 +222,28 @@ Starting Level: 0
 Before the player begins, they can choose their preferred magic type. This selection will allow Level 1 to be played without interruption.
 :movie_camera: Movie : Intro : Scene 1
 Explains Barric&amp;rsquo;s backstory, and establishes where the player is now. Scene is actually the same scene as level 12, since the first 11 levels are played in the past and the player is brought up to real time.</description>
+    </item>
+    
+    <item>
+      <title>Giant</title>
+      <link>/overview/decisions/giant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/decisions/giant/</guid>
+      <description>Some sort of decision that would allow the giant to join your party. Ideas:
+ In combat, hint that you shouldn&amp;rsquo;t kill the giant. If you do, you get cool loot. If you leave him along, he&amp;rsquo;ll attack the enemy, and join you after the battle.
+ Same concept, but just in the decision screen. After battle, notice giant is wounded. Heal him and leave, or finish him off. Rewards are the same.</description>
+    </item>
+    
+    <item>
+      <title>Helping Hand</title>
+      <link>/overview/decisions/hand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/decisions/hand/</guid>
+      <description>Decide between helping Melee3 or Flail1, and that unit will join your army just before Level 7.
+ As you prepare to leave the town, you notice wounded soldiers regrouping. Do you want to help a nearby shield bearer carry his friend to the medic, or help calm a crazed flail-man over his presumed losses?
+ </description>
     </item>
     
     <item>
@@ -232,12 +283,187 @@ Cassandra  These markings, this soldier is from the Drylands. This makes no sens
     </item>
     
     <item>
+      <title>Level 1 : Forest</title>
+      <link>/overview/levels/level1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/levels/level1/</guid>
+      <description>21 days ago &amp;hellip;
+As they do each year, Stou, Barric and Cassandra&amp;rsquo;s were hauling supplies to prepare Wintry Manor for the coming winter. Shortly into the trip, their camp was ambushed by unknown assailants.
+ Wooden Falls Summary This level introduces the player to movement, melee combat/charging, ranged combat, unit resistances and casting spells. It also teaches the player about the threat of enemy archers, and the concept of incoming waves of enemies.</description>
+    </item>
+    
+    <item>
+      <title>Level 10 : Farm</title>
+      <link>/overview/levels/level10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/levels/level10/</guid>
+      <description>  Earlier today
+As Stou left the mountains, he could not accept that he killed Barric, nor could he accept his inability to see betrayal that was right in front of him. His lust for battle lost him a brother. So, he wandered on. Perhaps the burning farm in the distance would provide him with a purpose.
+ Wheatsbury </description>
+    </item>
+    
+    <item>
+      <title>Level 11 : Camp</title>
+      <link>/overview/levels/level11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/levels/level11/</guid>
+      <description>  Present day
+In agreement that Cassandra must be stopped, Stou and Alfric began preparing the camp to march first thing in the morning. Stou urged his men to [Fill with prior decision: enjoy one last night of drinking OR get some rest].
+ Booming Hills </description>
+    </item>
+    
+    <item>
+      <title>Level 12 : Castle (Boss)</title>
+      <link>/overview/levels/level12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/levels/level12/</guid>
+      <description>  Negotiation will no longer work as Cassandra, the ice princess, is determined to become Queen and rule once again. Stou can only hope to defend the castle and preserve the fair and free lands that his brother sacrificed so much for to create.
+ Castle Endridge </description>
+    </item>
+    
+    <item>
+      <title>Level 2 : Hills</title>
+      <link>/overview/levels/level2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/levels/level2/</guid>
+      <description>19 days ago &amp;hellip;
+Barric refused to make a rash judgement regarding the intruders. Set in his resolve, he returned to South Keep to gather more information. Meanwhile, anxious to punish their attackers, Stou and Cassandra set up an ambush should the enemy pursue.
+ Highlands Summary This level teaches the player how to switch spell categories, control war machines, friendly fire and strategic positions, and enemy champions. A unit is also guaranteed to level up here, which will teach the player how to pick skills in the Camp scene.</description>
+    </item>
+    
+    <item>
+      <title>Level 3 : City (Boss)</title>
+      <link>/overview/levels/level3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/levels/level3/</guid>
+      <description>16 days ago &amp;hellip;
+Stou and Cassandra suspect an insider may have alerted the enemy to their trap since the bulk of the invading forces are now unscathed, marching on South Keep. With little time to ponder, they rush to Barric&amp;rsquo;s aid.
+ South Keep Summary Intro to the first enemy boss, treasure chests, a defensive objective (if enemy destroys the gate, they win), and the first true gameplay choice with strategic positions (over extend and risk getting flanked).</description>
+    </item>
+    
+    <item>
+      <title>Level 3a : Change of Plans</title>
+      <link>/overview/levels/level3a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/levels/level3a/</guid>
+      <description>Table Lakes This level has no combat, so it should be a cool experience for the player. Army is marching through terrain, and Cassandra approaches surround by her person guard and 2 squads of Melee2 knights. She explains the situation to Stou, and he changes paths to go to the border while she moves towards council.</description>
+    </item>
+    
+    <item>
+      <title>Level 4 : Border</title>
+      <link>/overview/levels/level4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/levels/level4/</guid>
+      <description>11 days ago &amp;hellip;
+While Barric ordered Stou to notify the council of the invasion, Cassandra alerted him to more pressing matters in the Drylands. Stou arrives at Drysgate to offer reinforcements for the siege while Cassandra, in his stead, agrees to notify the council lords.
+ Drysgate Summary    Friendly Squads Enemy Squads     Melee1 BadMelee1   Melee2 BadArcher1   Archer1 Champion   Trebuchet / Catapult Shaman   Crossbowmen / Longbowmen BadMelee2    Spearmen    Ykesha    First Cutscene Scouting party is returning with the enemy on their heels.</description>
+    </item>
+    
+    <item>
+      <title>Level 5 : Desert</title>
+      <link>/overview/levels/level5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/levels/level5/</guid>
+      <description>9 days ago
+During a pause in the border assault, a clearing allowed Stou to venture further into the Drylands so that he could learn more about the invaders. While traveling to Wellspring, Cassandra caught up in a panic and notified him that Barric was seen with the enemy, and may be organizing the attacks.
+ Red Canyon Summary Introduce the user to the concept of invisible units. Also, an interesting side mission to the standard plot.</description>
+    </item>
+    
+    <item>
+      <title>Level 6 : Oasis (Boss)</title>
+      <link>/overview/levels/level6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/levels/level6/</guid>
+      <description>  8 days ago &amp;hellip;
+Refusing to believe that Barric could be a traitor, Stou and Cassandra continued upland towards Wellspring. Hoping to find answers, they instead arrived to an uncooperative host.
+ Wellspring </description>
+    </item>
+    
+    <item>
+      <title>Level 7 : Foothills</title>
+      <link>/overview/levels/level7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/levels/level7/</guid>
+      <description>7 days ago &amp;hellip;
+With such a large army in pursuit, Stou and Cassandra were left with no choice but to flee back towards Endria&amp;rsquo;s mainland. Annoyed that he was left with riddles instead of answers, Stou opened his mind to the possibility that his brother would betray him.
+ Border Steppes Phase 1, rescue guys near house:
+&amp;ldquo;Stou!, Sorry, er&amp;hellip;sir. You helped us back in Barric&amp;rsquo;s City. We figured we&amp;rsquo;d return the favor.</description>
+    </item>
+    
+    <item>
+      <title>Level 7a : Crossroads</title>
+      <link>/overview/levels/level7a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/levels/level7a/</guid>
+      <description> Another exclamation icon on the world map instead of a sword. Just a trigger for the crossroads video.
+Crossroads </description>
+    </item>
+    
+    <item>
+      <title>Level 8 : Mountain</title>
+      <link>/overview/levels/level8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/levels/level8/</guid>
+      <description>  5 days ago
+Cassandra and Stou split forces. Cassandra quickly went east to notify the council of the coming invasion. Meanwhile, Stou began the trek up Giant&amp;rsquo;s Pass to lure the enemy through the treacherous mountains of Arrington. Before Stou&amp;rsquo;s slow moving forces can reach reinforcements at Wintry Manor, an enemy advance party catches up.
+ Giant&amp;rsquo;s Pass </description>
+    </item>
+    
+    <item>
+      <title>Level 9 : Fjord (Boss)</title>
+      <link>/overview/levels/level9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/levels/level9/</guid>
+      <description>  3 days ago
+Stou arrives at Wintry Manor to find it cold and deserted. Where has everyone gone? Stou begins his search for answers knowing that time is not on his side, and that the enemy is nearly at their doorstep.
+ Wintry Manor </description>
+    </item>
+    
+    <item>
+      <title>Loot City</title>
+      <link>/overview/decisions/loot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/decisions/loot/</guid>
+      <description>After combat, Stou has the option to loot the city.
+ As you retreat from the city, you notice valuable artifacts in storefronts. Do you want to order your men to grab what they can, or leave the city folk and their belongings untouched?
+ Two potential outcomes to brainstorm here.
+ Spearmen stay/go depending on decision.  a. If you loot, you get an item, a spell, food and gold.</description>
+    </item>
+    
+    <item>
       <title>Motion Graphics</title>
       <link>/motion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/motion/</guid>
       <description>The term motion graphics doesn&amp;rsquo;t justify the help that Brian Campbell provided on this project. He began contributing in March 2015 as a video editor for cutscenes. That alone was huge. At the time, I had the story written and art for the scenes designed. I quickly stitched them together in iMovie to get a sense for pacing. Fortunately, Brian does this stuff for a living so he knew exactly what needed to happen to move things forward.</description>
+    </item>
+    
+    <item>
+      <title>New Game : Magic</title>
+      <link>/overview/decisions/newgame/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/decisions/newgame/</guid>
+      <description>Black screen, Stou&amp;rsquo;s image in bottom left.
+ Stou, you&amp;rsquo;ve been learning magic for some time now. Has any specialization resonated with you?
+ Explain the 4 specializations.
+Player picks one, fade to black, start cutscene.</description>
     </item>
     
     <item>
@@ -261,6 +487,28 @@ Heal     Level 1 Level 2 Level 3      Heal units for 25HP.</description>
       <description>This is just a dump of ideas. Add them here for future brainstorming.
 Major Game Engine Features To Be Considered Code that I haven&amp;rsquo;t added yet.
 Flanking bonus Strategic positions Treasure chests Larger maps Heroes Items Difficulty Level Boss Fights Player places units Hidden units (i.e: placed behind tree)  Difficulty Level Games are annoying when you have to start them over completely &amp;ndash; especially story heavy games. One option is to offer easy mode and normal mode.</description>
+    </item>
+    
+    <item>
+      <title>Ranged Help</title>
+      <link>/overview/decisions/ranged/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/decisions/ranged/</guid>
+      <description>Before Level 4 : Border, Stou will be given a choice between crossbowmen and longbowmen.
+ You&amp;rsquo;ll need some arrows to keep the waves at bay. Have a squad of mine. Longbowmen can shoot over obstacles at great distance. Crossbowmen don&amp;rsquo;t shoot as far, but they sure do pack a punch.
+ Since the crazy enemy that charges into troops and explodes is introduced, the extra archers will help kill them before they can do major damage.</description>
+    </item>
+    
+    <item>
+      <title>Rest or Party</title>
+      <link>/overview/decisions/rest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/decisions/rest/</guid>
+      <description>While camping for the night before marching to meet Cassandra.
+ Your men seem nervous. Do you want to encourage them to sleep and focus or drink, dance and celebrate their potentially limited days?
+ Celebrate can give some sort of anti-fear, +strength buff during the coming ambush. Sleep can give regenerate, or some other aide.</description>
     </item>
     
     <item>
@@ -291,6 +539,16 @@ Cassandra  Oh, Stou. I&amp;rsquo;m surprised you made it this far. For what it&a
     </item>
     
     <item>
+      <title>Siege Planning</title>
+      <link>/overview/decisions/planning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/decisions/planning/</guid>
+      <description>It looks like enemy forces are controlling the city. We&amp;rsquo;ll have to defeat them before the locals will provide us with information. In preparation, would you like to sharpen our arrows or our blades?
+ Permanent, +1 Strength to either archer class units or melee class.</description>
+    </item>
+    
+    <item>
       <title>Soundtrack</title>
       <link>/soundtrack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -298,6 +556,16 @@ Cassandra  Oh, Stou. I&amp;rsquo;m surprised you made it this far. For what it&a
       <guid>/soundtrack/</guid>
       <description>Tony Manfredonia reached out to me in January 2015, and we did a brief trial. It went so smoothly that I gladly had him work on the entire soundtrack. In the end, he crafted over 30 minutes of unique content tailored to very specific aspects of the game. Below is a sample of the types of music he made along with the in game considerations.
  Main Menu I have listened to this piece thousands of times because it always loads when I&amp;rsquo;m testing, and it still hasn&amp;rsquo;t gotten old.</description>
+    </item>
+    
+    <item>
+      <title>Spearmen</title>
+      <link>/overview/decisions/spearmen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/decisions/spearmen/</guid>
+      <description>After Level 4 : Border, a decision level will appear on the world map (same as when Cassandra diverted Stou to border). Note: Have to decide if this is played out in the battle view, or just in Decision mode.
+ A word, stranger? We&amp;rsquo;re not sure why our brother are invading your lands, but we do not approve. Something evil is motivating them, and we hope to stop it. May we join your ranks?</description>
     </item>
     
     <item>
@@ -312,6 +580,16 @@ Modifiers There are a few types of modifiers in the game, and they are all appli
     </item>
     
     <item>
+      <title>Traps</title>
+      <link>/overview/decisions/traps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/decisions/traps/</guid>
+      <description>The steep, snowy terrain has slowed down your march. Enemy scouting parties will catch up any day now. Should we set up traps, or fortify our defenses?
+ Traps could make the enemy spawn damaged, or even have a visual like snow falling. Fortify could put barriers down that the enemy has to break, or increase defense.</description>
+    </item>
+    
+    <item>
       <title>Victory : Scene 13</title>
       <link>/overview/cutscenes/scene13/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -321,6 +599,17 @@ Modifiers There are a few types of modifiers in the game, and they are all appli
 No dialogue. Celebration and BARRIC&amp;rsquo;s burial.
 Role credits.
 TODO / DISCUSS Clean boat edge  </description>
+    </item>
+    
+    <item>
+      <title>War Machine</title>
+      <link>/overview/decisions/warmachine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/decisions/warmachine/</guid>
+      <description>Before Level 2 begins, prompt the user to make a choice.
+ Sir, what should we construct to aid our ambush? The trebuchet scatters rocks over a wide range while the catapult deals direct, accurate damage.
+ Whichever the user selects gets added to the army.</description>
     </item>
     
     <item>
