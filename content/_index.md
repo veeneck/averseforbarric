@@ -277,7 +277,7 @@ Casandra reveals her motives.
 
 
 
-<span class="emoji">⚔️</span>**Battle** : [Level 12 : Cadtle](https://github.com/veeneck/Barric/wiki/Level-12-:-Castle)
+<span class="emoji">⚔️</span>**Battle** : [Level 12 : Castle](https://github.com/veeneck/Barric/wiki/Level-12-:-Castle)
 
 This is the [Cassandra boss fight](https://github.com/veeneck/Barric/wiki/Boss-Unit-Progression#cassandra). Her [personal guard](https://github.com/veeneck/Barric/wiki/Enemy-Unit-Progression#personal-guard--unnamed) are also introduced. Various tactics at play to finally defeat her.
 
