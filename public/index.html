@@ -42,7 +42,7 @@
     <h2 class="desc">A sorrowful tale set in a hand-crafted world <b>where tower defense meets real time tactics.</b></h2>
     <ul class="nav">
         <li>
-          <a href="/" class="selected">T<span>HE</span> G<span>AME</span></a> 
+          <a href="/" class="">T<span>HE</span> G<span>AME</span></a> 
           <span class="space">&middot;</span>
         </li>
         <li>
@@ -137,7 +137,6 @@
     <img src="/images/Logo-256.png" width="150" />
   </figure>
   <p class="first">This game started out as a <a href="http://battleofbrothers.com">one year competition</a>, but evolved into much more than that. Years later, it is still a mountainous task. Instead of dreading the endless march, I've decided to celebrate what has been accomplished so far with this site. Please browse the links above to see the incredible contributions from talented people, and if I make any major progress I'll keep this site updated with the latest.</p>
-  <p>I've gathered every decision about the game such as character appearances, strengths, dialogue, levels, and so on in a wiki like structure found on this page. Each features implementation status is noted. Having all of this written down and organized removes a barrier to entry for development -- I don't have to remember where I left off.</p>
 </article>
 
 <div class="content-wrapper">
@@ -235,9 +234,240 @@
 
 <article class="wiki">
 
+	<div class="toc">
+
+<ul>
+	<li><a href="">Units & Their Progression</a></li>
+	<li><a href="">Interface & Scenes</a></li>
+	<li><a href="">Magic Abilities</a></li>
+	<li><a href="">Story & Cutscenes</a></li>
+	<li><a href="">Combat Levels</a></li>
+	<li><a href="">Player Decisions</a></li>
+	<li><a href="">Travel Dialogue</a></li>
+</ul>
+
+</div>
+
 	<h4>Game Overview</h4>
 
-	<p>Head straight to the [Gameplay Progression](https://github.com/veeneck/Barric/wiki/Progression) to follow the introduction of all spells, levels, characters, decisions, movies and abilities in a linear format.</p>
+	<p>I've gathered every decision about the game such as character appearances, strengths, dialogue, levels, and so on in a wiki like structure found on this page. Each features implementation status is noted. Having all of this written down and organized removes a barrier to entry for development -- I don't have to remember where I left off. Below you can read through the entire game in sequential order. Or, you can jump to various sections using the table of contents to the right.</p>
+
+	<p>The following events occur in order when the user starts a new campaign from the main menu.</p>
+
+	<div class="overview">
+		<p><span class="emoji">❔</span><strong>Decision</strong> : <a href="https://github.com/veeneck/Barric/wiki/Starting-a-New-Game">Select your base magic type</a>.</p>
+
+<p>Before the player begins, they can choose their preferred magic type. This selection will allow Level 1 to be played without interruption.</p>
+
+<p><span class="emoji">🎬</span><strong>Movie</strong> : <a href="https://github.com/veeneck/Barric/wiki/Intro-:-Scene-1">Intro : Scene 1</a></p>
+
+<p>Explains Barric&rsquo;s backstory, and establishes where the player is now. Scene is actually the same scene as level 12, since the first 11 levels are played in the past and the player is brought up to real time.</p>
+
+<p><span class="emoji">⚔️</span><strong>Battle</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-1-:-Forest">Level 1 : Forest</a></p>
+
+<p>Player is introduced to basic mechanics with <a href="https://github.com/veeneck/Barric/wiki/Friendly-Unit-Progression">Melee1, Melee2 and Archer1</a>. Enemy tactics are introduced with <a href="https://github.com/veeneck/Barric/wiki/Enemy-Unit-Progression">BadMelee1 and BadArcher1</a>. The player is also given 1 spell, and introduced to <a href="https://github.com/veeneck/Barric/wiki/Stou's-Abilities-Overview">basic spell mechanics</a>.</p>
+
+<p><span class="emoji">🎬</span><strong>Movie</strong> : <a href="https://github.com/veeneck/Barric/wiki/Intruder-:-Scene-2">Intruder : Scene 2</a></p>
+
+<p>After battle, our group tries to figure out who is invading. Barric returns to his city while Stou and Cassandra plan to set up an ambush should the attackers follow.</p>
+
+<p><span class="emoji">💬</span><strong>Travel Dialogue</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-1-to-Level-2">Reveal Level 1 to Level 2</a></p>
+
+<p>Stou&rsquo;s thoughts as he travels.</p>
+
+<p><span class="emoji">🏔</span><strong>World Map</strong> : <a href="https://github.com/veeneck/Barric/wiki/World-Map">Explain Stou&rsquo;s abilities</a></p>
+
+<p>Tutorial for the player on spells.</p>
+
+<p><span class="emoji">❔</span><strong>Decision</strong> : <a href="https://github.com/veeneck/Barric/wiki/Decision-:-War-Machine">Choose a War Machine</a>.</p>
+
+<p>Prior to combat, pick a machine to construct while waiting in ambush. During the next battle cutscene, machine will be revealed.</p>
+
+<p><span class="emoji">⚔️</span><strong>Battle</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-2-:-Hills">Level 2 : Hills</a></p>
+
+<p>Player sees enemy troops scouting party (which contains a champion, foreshadowing what&rsquo;s to come in future levels), and prepares to set up ambush. During first waves, war machine is still under construction, so the player is guided through switching Stou&rsquo;s spell stances since they received a new spell when completing level 1. Then, <a href="https://github.com/veeneck/Barric/wiki/Friendly-Unit-Progression">Trebuchet or Catapult</a> comes out, and battle continues.</p>
+
+<p><span class="emoji">🎬</span><strong>Movie</strong> : <a href="https://github.com/veeneck/Barric/wiki/Distraction-:-Scene-3">Distraction : Scene 3</a></p>
+
+<p>Stou and Cassandra realize a small distraction force was sent to keep them occupied while the full army marched on Barric&rsquo;s city.</p>
+
+<p><span class="emoji">💬</span><strong>Travel Dialogue</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-2-to-Level-3">Reveal Level 2 to Level 3</a></p>
+
+<p>Stou&rsquo;s thoughts as he travels.</p>
+
+<p><span class="emoji">🏔</span><strong>World Map</strong> : <a href="https://github.com/veeneck/Barric/wiki/World-Map">Explain Camp scene</a></p>
+
+<p>By this point, the first unit should have leveled up. Explain how to recruit, heal, and upgrade units in the camp.</p>
+
+<p><span class="emoji">⚔️</span><strong>Battle</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-3-:-City">Level 3 : City</a></p>
+
+<p>This is the first boss fight. Start with the city under attack, and Stou comes to the rescue. <a href="https://github.com/veeneck/Barric/wiki/Enemy-Unit-Progression#bad-melee-2--unnamed">BadMelee2 and Champion</a> enemy are first encountered. Then, the army reforms to defend the city. After that, the <a href="https://github.com/veeneck/Barric/wiki/Boss-Unit-Progression">Shaman boss scenario</a> plays out.</p>
+
+<p><span class="emoji">🎬</span><strong>Movie</strong> : <a href="https://github.com/veeneck/Barric/wiki/Decision-:-Scene-4">Decision : Scene 4</a></p>
+
+<p>Stou wants to fight, but Barric insists he ride to notify the council instead. Our group splits ways.</p>
+
+<p><span class="emoji">❔</span><strong>Decision</strong> : <a href="https://github.com/veeneck/Barric/wiki/Decision-:-Helping-Hand">Helping Hand</a>.</p>
+
+<p>Before leaving town, choose a friendly unit to help. That unit will join you just before Level 7 : Foothills.</p>
+
+<p><span class="emoji">💬</span><strong>Travel Dialogue</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-3-to-Level-3a">Reveal Level 3 to Level 3a</a></p>
+
+<p>Stou&rsquo;s thoughts as he travels.</p>
+
+<p><span class="emoji">⚔️</span><strong>Battle</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-3a-:-Change-of-Plans">Level 3a : Change of Plans</a></p>
+
+<p>This is not really a fight, but it loads and starts like one. Stou&rsquo;s army is walking and hits a crossroads. They start to proceed towards the council, and then Cassandra and her troops rush from behind. They get him to change directions and assist the border, while she will notify the council. By doing this in level, we can see Cassandra&rsquo;s gameplay figure, and her personal guard, which will come back in the final boss battle.</p>
+
+<p><span class="emoji">💬</span><strong>Travel Dialogue</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-3a-to-Level-4">Reveal Level 3a to Level 4</a></p>
+
+<p>Stou&rsquo;s thoughts as he travels.</p>
+
+<p><span class="emoji">🎬</span><strong>Movie</strong> : <a href="https://github.com/veeneck/Barric/wiki/Siege-:-Scene-5">Siege : Scene 5</a></p>
+
+<p>Stou arrives to help the border. They don&rsquo;t know why they&rsquo;re being attacked. Reinforcements haven&rsquo;t arrived from Barric&rsquo;s city. Sotu wants to proceed into borderlands to find out more, waits for clearing in the waves of attacks.</p>
+
+<p><span class="emoji">❔</span><strong>Decision</strong> : <a href="https://github.com/veeneck/Barric/wiki/Decision-:-Ranged-Help">Ranged Help</a>.</p>
+
+<p>Prior to combat, pick an archer to help fend off enemies that charge and explode.</p>
+
+<p><span class="emoji">⚔️</span><strong>Battle</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-4-:-Border">Level 4 : Border</a></p>
+
+<p>The border is under attack, so you mostly defend the castle. You&rsquo;re given <a href="https://github.com/veeneck/Barric/wiki/Friendly-Unit-Progression#longbowmen--unnamed">Longbowmen or Crossbowmen</a> to help counter the new, faster moving enemy units: <a href="https://github.com/veeneck/Barric/wiki/Enemy-Unit-Progression#ykesha--unnamed">Ykesha and Spearmen</a>. Shaman will probably make an appearance again to reinforce the idea that it is a champion unit now and not a boss.</p>
+
+<p><span class="emoji">❔</span><strong>Decision</strong> : <a href="https://github.com/veeneck/Barric/wiki/Decision-:-Spearmen">Spearmen</a>.</p>
+
+<p>Enemy troops (<a href="https://github.com/veeneck/Barric/wiki/Friendly-Unit-Progression#spearmen--unnamed">Spearmen</a>) don&rsquo;t agree with the war and want to join your forces.</p>
+
+<p><span class="emoji">💬</span><strong>Travel Dialogue</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-4-to-Level-5">Reveal Level 4 to Level 5</a></p>
+
+<p>Stou&rsquo;s thoughts as he travels.</p>
+
+<p><span class="emoji">🎬</span><strong>Movie</strong> : <a href="https://github.com/veeneck/Barric/wiki/Warning-:-Scene-6">Warning : Scene 6</a></p>
+
+<p>Cassandra&rsquo;s troops saw Barric leave his city with the enemy. Fears Barric may be behind this. Stou disagrees, proceeds further renter drylands for answers.</p>
+
+<p><span class="emoji">⚔️</span><strong>Battle</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-5-:-Desert">Level 5 : Desert</a></p>
+
+<p>This is the first appearance of enemy <a href="https://github.com/veeneck/Barric/wiki/Enemy-Unit-Progression#rogue--unnamed">Rogues</a>. Whether or not you accept the Spearmen earlier, they will come save you and explain rogues during this fight. After that, it will be a standard mission, with a focus on protecting the high ground and detecting more rogues.</p>
+
+<p><span class="emoji">💬</span><strong>Travel Dialogue</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-5-to-Level-6">Reveal Level 5 to Level 6</a></p>
+
+<p>Stou&rsquo;s thoughts as he travels.</p>
+
+<p><span class="emoji">❔</span><strong>Decision</strong> : <a href="https://github.com/veeneck/Barric/wiki/Decision-:-Siege-Planning">Siege Planning</a>.</p>
+
+<p>Sharpen blades or arrows, which provides permanent buff to archers or melee.</p>
+
+<p><span class="emoji">⚔️</span><strong>Battle</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-6-:-Oasis">Level 6 : Oasis</a></p>
+
+<p>The entirety of this battle is geared around the <a href="https://github.com/veeneck/Barric/wiki/Boss-Unit-Progression#rhino">Rhino Boss Fight</a>. Unlike a final boss, this boss keeps coming out, fighting, and then retreating to heal. So, there should be various objectives around the map to take before finally being able to kill him.</p>
+
+<p><span class="emoji">🎬</span><strong>Movie</strong> : <a href="https://github.com/veeneck/Barric/wiki/Betrayal-:-Scene-7">Betrayal : Scene 7</a></p>
+
+<p>Somehow the main enemy forces followed Stou, which will stop his quest for answers short. The Rhino boss hints at betrayal, but Cassandra suggests they flee before finding out more.</p>
+
+<p><span class="emoji">❔</span><strong>Decision</strong> : <a href="https://github.com/veeneck/Barric/wiki/Decision-:-Loot-City">Loot City</a>.</p>
+
+<p>Loot city, or leave untouched.</p>
+
+<p><span class="emoji">💬</span><strong>Travel Dialogue</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-6-to-Level-7">Reveal Level 6 to Level 7</a></p>
+
+<p>Stou&rsquo;s thoughts as he travels.</p>
+
+<p><span class="emoji">⚔️</span><strong>Battle</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-7-:-Foothills">Level 7 : Foothills</a></p>
+
+<p><a href="https://github.com/veeneck/Barric/wiki/Friendly-Unit-Progression#flail--unnamed">Melee3 or Flail1</a> will join you here based on a prior decision. When the level begins, you help them and they join you. Then, you are pushed to set up defenses. Then, final end point opens up and it becomes escort mission to get to edge of map.</p>
+
+<p><span class="emoji">💬</span><strong>Travel Dialogue</strong> : Reveal Level 7 to Level 7a</p>
+
+<p>No dialogue, just footsteps to the crossroads.</p>
+
+<p><span class="emoji">🎬</span><strong>Movie</strong> : <a href="https://github.com/veeneck/Barric/wiki/Crossroads-:-Scene-8">Crossroads : Scene 8</a></p>
+
+<p>Stou heads to mountains to delay enemy and reinforce. Cassandra heads to notify the council.</p>
+
+<p><span class="emoji">❔</span><strong>Decision</strong> : <a href="https://github.com/veeneck/Barric/wiki/Decision-:-Cassandra-Leaves">Cassandra Leaves</a>.</p>
+
+<p>She leaves and takes Melee2 with her.</p>
+
+<p><span class="emoji">💬</span><strong>Travel Dialogue</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-7-to-Level-8">Reveal Level 7a to Level 8</a></p>
+
+<p>Stou&rsquo;s thoughts as he travels.</p>
+
+<p><span class="emoji">❔</span><strong>Decision</strong> : <a href="https://github.com/veeneck/Barric/wiki/Decision-:-Traps">Traps</a>.</p>
+
+<p>Prepare for upcoming fight.</p>
+
+<p><span class="emoji">⚔️</span><strong>Battle</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-8-:-Mountain">Level 8 : Mountain</a></p>
+
+<p>First couple of wave are normal. Maybe introduce Ykesha unit that can climb, so that you can be flanked. Eventually, <a href="https://github.com/veeneck/Barric/wiki/Friendly-Unit-Progression#giant--unnamed">giant</a> joins. He will fight both armies. Flee / mez / run to manipulate him into killing enemies. Enemy birds that can only be hit by archers would also be a good addition for this level.</p>
+
+<p><span class="emoji">❔</span><strong>Decision</strong> : <a href="https://github.com/veeneck/Barric/wiki/Decision-:-Giant">Giant</a>.</p>
+
+<p>After battle, heal giant for him to join your party, or finish off and get great rewards.</p>
+
+<p><span class="emoji">💬</span><strong>Travel Dialogue</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-8-to-Level-9">Reveal Level 8 to Level 9</a></p>
+
+<p>Stou&rsquo;s thoughts as he travels.</p>
+
+<p><span class="emoji">🎬</span><strong>Movie</strong> : <a href="https://github.com/veeneck/Barric/wiki/Fjord-:-Scene-9">Fjord : Scene 9</a></p>
+
+<p>City is abandoned. No reinforcements. Where did Cassandra&rsquo;s force go? No time to figure out, enemy has caught up and it&rsquo;s time to fight.</p>
+
+<p><span class="emoji">⚔️</span><strong>Battle</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-9-:-Fjord">Level 9 : Fjord</a></p>
+
+<p>This is the boss fight with <a href="https://github.com/veeneck/Barric/wiki/Boss-Unit-Progression#war-boss">Barric / War Drums</a>. This should combine every tactic learned so far. The boss is a mega hp unit that bangs drums, which emit different colors, to generate temporary status effects.</p>
+
+<p><span class="emoji">🎬</span><strong>Movie</strong> : <a href="https://github.com/veeneck/Barric/wiki/BroDown-:-Scene-10">BroDown : Scene 10</a></p>
+
+<p>Stou accidentally kills Barric because he doesn&rsquo;t realize the boss had him in chains as a prisoner.</p>
+
+<p><span class="emoji">💬</span><strong>Travel Dialogue</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-9-to-Level-10">Reveal Level 9 to Level 10</a></p>
+
+<p>Stou&rsquo;s thoughts as he travels.</p>
+
+<p><span class="emoji">⚔️</span><strong>Battle</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-10-:-Farm">Level 10 : Farm</a></p>
+
+<p>Stou stumbles across this farm where <a href="https://github.com/veeneck/Barric/wiki/Friendly-Unit-Progression#heavy-mount--unnamed">armored knights</a> were trying to get to the council&rsquo;s camp. Stou is happy to see there is a friendly force gathering, so his spirits rise. The army on this map is a combo of Cassandra&rsquo;s forces and units you&rsquo;ve fought up until now. <a href="https://github.com/veeneck/Barric/wiki/Enemy-Unit-Progression#bad-archer-2--unnamed">Bad Archer 2 and Light Mount</a> are revealed.</p>
+
+<p><span class="emoji">💬</span><strong>Travel Dialogue</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-10-to-Level-11">Reveal Level 10 to Level 11</a></p>
+
+<p>Stou&rsquo;s thoughts as he travels.</p>
+
+<p><span class="emoji">🏔</span><strong>World Map</strong> : <a href="https://github.com/veeneck/Barric/wiki/World-Map">Camp Revealed</a></p>
+
+<p>The map changes to reflect the gathering army.</p>
+
+<p><span class="emoji">🎬</span><strong>Movie</strong> : <a href="https://github.com/veeneck/Barric/wiki/Camp-:-Scene-11">Camp : Scene 11</a></p>
+
+<p>Now caught up in real time, Stou and Alfric make plans.</p>
+
+<p><span class="emoji">❔</span><strong>Decision</strong> : <a href="https://github.com/veeneck/Barric/wiki/Decision-:-Rest-or-Party">Rest or Party</a>.</p>
+
+<p>Determines which buffs to give for coming battle.</p>
+
+<p><span class="emoji">⚔️</span><strong>Battle</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-11-:-Camp">Level 11 : Camp</a></p>
+
+<p>This is a sort of ambush map. It is night time, and the enemy catches you off guard. Starts with rogues entering the camp, and calling in their friends. After each wave, the player gets one more unit to wake up and add to the fight.</p>
+
+<p><span class="emoji">💬</span><strong>Travel Dialogue</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-11-to-Level-12">Reveal Level 11 to Level 12</a></p>
+
+<p>Stou&rsquo;s thoughts as he travels.</p>
+
+<p><span class="emoji">🎬</span><strong>Movie</strong> : <a href="https://github.com/veeneck/Barric/wiki/Showdown-:-Scene-12">Showdown : Scene 12</a></p>
+
+<p>Casandra reveals her motives.</p>
+
+<p><span class="emoji">⚔️</span><strong>Battle</strong> : <a href="https://github.com/veeneck/Barric/wiki/Level-12-:-Castle">Level 12 : Cadtle</a></p>
+
+<p>This is the <a href="https://github.com/veeneck/Barric/wiki/Boss-Unit-Progression#cassandra">Cassandra boss fight</a>. Her <a href="https://github.com/veeneck/Barric/wiki/Enemy-Unit-Progression#personal-guard--unnamed">personal guard</a> are also introduced. Various tactics at play to finally defeat her.</p>
+
+<p><span class="emoji">🎬</span><strong>Movie</strong> : <a href="https://github.com/veeneck/Barric/wiki/Victory-:-Scene-13">Victory : Scene 13</a></p>
+
+<p>Celebrate and credits.</p>
+
+	</div>
 
 </article>
 

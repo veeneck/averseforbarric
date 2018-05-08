@@ -7,11 +7,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/overview/interface/actionbar/</loc>
   </url>
   
@@ -106,6 +101,10 @@
   
   <url>
     <loc>/illustrations/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
   </url>
   
   <url>
