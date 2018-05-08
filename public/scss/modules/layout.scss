@@ -217,11 +217,25 @@ table {
 }
 
 table {
-    border-collapse: collapse;
+    border-spacing: 5px;
+    border-collapse: separate;
+    border-bottom: 2px solid $darkPurple;
 }
 
 table, th, td {
-    border: 1px solid #fff;
+    ///border: 1px solid #fff;
+}
+
+th {
+    background-color: $darkPurple;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+td {
+    margin: 5px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
 }
 
 .attributes {
@@ -255,6 +269,10 @@ table, th, td {
     float: left;
     display: block;
     padding: 25px 25px 25px 0px;
+}
+
+img.unit {
+  padding: 25px 50px;
 }
 
 /*----------------------- Jazzy Layout ------------------------------ */

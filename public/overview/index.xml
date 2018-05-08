@@ -194,22 +194,22 @@ Stou  Townsmen, where is everyone?
     </item>
     
     <item>
-      <title>Friendly Progression</title>
-      <link>/overview/progression/friendly/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/progression/friendly/</guid>
-      <description>These are the units that the player will be able to recruit throughout the game. One playthrough will not guarantee all units are collected. Some are either-or type decisions.
-Melee 1 : Lemon Knights This unit begins the game with you. They represent the base unit. That said, all units should be valid, so these guys can make up for in numbers what they lack in ability. Cheapest to recruit / expand this squad.</description>
-    </item>
-    
-    <item>
       <title>Friendly Support</title>
       <link>/overview/decisions/support/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/overview/decisions/support/</guid>
       <description>Figure out a way to introduce Flail1 or Melee3. Maybe a decision from earlier in the game, and then that unit that you supported is waiting for you at border to help you? Need to add a melee unit here because Melee2 leave shortly.</description>
+    </item>
+    
+    <item>
+      <title>Friendly Units</title>
+      <link>/overview/progression/friendly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/progression/friendly/</guid>
+      <description>These are the units that the player will be able to recruit throughout the game. One playthrough will not guarantee all units are collected. Some are either-or type decisions. Also, once a unit has been obtained, there is still a chance they will leave. The goal is for the army size to be consistent, which will keep the game balanced.
+Melee 1 : Lemon Knights This unit begins the game with you.</description>
     </item>
     
     <item>
