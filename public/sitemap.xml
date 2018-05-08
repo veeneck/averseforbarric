@@ -12,7 +12,11 @@
   </url>
   
   <url>
-    <loc>/overview/aggressive/</loc>
+    <loc>/overview/interface/actionbar/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/abilities/aggressive/</loc>
   </url>
   
   <url>
@@ -24,7 +28,7 @@
   </url>
   
   <url>
-    <loc>/overview/boss/</loc>
+    <loc>/overview/progression/boss/</loc>
   </url>
   
   <url>
@@ -33,6 +37,10 @@
   
   <url>
     <loc>/overview/cutscenes/scene11/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/interface/camp/</loc>
   </url>
   
   <url>
@@ -53,7 +61,7 @@
   </url>
   
   <url>
-    <loc>/overview/controlling/</loc>
+    <loc>/overview/abilities/controlling/</loc>
   </url>
   
   <url>
@@ -69,7 +77,7 @@
   </url>
   
   <url>
-    <loc>/overview/enemy/</loc>
+    <loc>/overview/progression/enemy/</loc>
   </url>
   
   <url>
@@ -77,7 +85,7 @@
   </url>
   
   <url>
-    <loc>/overview/friendly/</loc>
+    <loc>/overview/progression/friendly/</loc>
   </url>
   
   <url>
@@ -85,7 +93,7 @@
   </url>
   
   <url>
-    <loc>/overview/gameplay/</loc>
+    <loc>/overview/progression/gameplay/</loc>
   </url>
   
   <url>
@@ -113,11 +121,23 @@
   </url>
   
   <url>
+    <loc>/overview/travel/1to2/</loc>
+  </url>
+  
+  <url>
     <loc>/overview/levels/level10/</loc>
   </url>
   
   <url>
+    <loc>/overview/travel/10to11/</loc>
+  </url>
+  
+  <url>
     <loc>/overview/levels/level11/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/travel/11to12/</loc>
   </url>
   
   <url>
@@ -129,7 +149,15 @@
   </url>
   
   <url>
+    <loc>/overview/travel/2to3/</loc>
+  </url>
+  
+  <url>
     <loc>/overview/levels/level3/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/travel/3to3a/</loc>
   </url>
   
   <url>
@@ -137,7 +165,15 @@
   </url>
   
   <url>
+    <loc>/overview/travel/3ato4/</loc>
+  </url>
+  
+  <url>
     <loc>/overview/levels/level4/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/travel/4to5/</loc>
   </url>
   
   <url>
@@ -145,11 +181,23 @@
   </url>
   
   <url>
+    <loc>/overview/travel/5to6/</loc>
+  </url>
+  
+  <url>
     <loc>/overview/levels/level6/</loc>
   </url>
   
   <url>
+    <loc>/overview/travel/6to7/</loc>
+  </url>
+  
+  <url>
     <loc>/overview/levels/level7/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/travel/7to8/</loc>
   </url>
   
   <url>
@@ -161,7 +209,15 @@
   </url>
   
   <url>
+    <loc>/overview/travel/8to9/</loc>
+  </url>
+  
+  <url>
     <loc>/overview/levels/level9/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/travel/9to10/</loc>
   </url>
   
   <url>
@@ -177,7 +233,11 @@
   </url>
   
   <url>
-    <loc>/overview/protective/</loc>
+    <loc>/overview/progression/notes/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/abilities/protective/</loc>
   </url>
   
   <url>
@@ -213,6 +273,10 @@
   </url>
   
   <url>
+    <loc>/overview/abilities/stou/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
     <priority>0</priority>
   </url>
@@ -238,11 +302,11 @@
   </url>
   
   <url>
-    <loc>/overview/watchful/</loc>
+    <loc>/overview/abilities/watchful/</loc>
   </url>
   
   <url>
-    <loc>/overview/map/</loc>
+    <loc>/overview/interface/map/</loc>
   </url>
   
 </urlset>
