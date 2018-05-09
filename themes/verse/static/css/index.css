@@ -222,6 +222,10 @@ article.wiki .overview p:nth-child(even) {
 .toc a {
   text-decoration: none; }
 
+.toc a.selected {
+  font-weight: bold;
+  color: #E6ADA8; }
+
 .submenu {
   font-size: 90%;
   margin-bottom: 15px;
@@ -722,6 +726,10 @@ article.wiki .overview p:nth-child(even) {
 
 .toc a {
   text-decoration: none; }
+
+.toc a.selected {
+  font-weight: bold;
+  color: #E6ADA8; }
 
 .submenu {
   font-size: 90%;

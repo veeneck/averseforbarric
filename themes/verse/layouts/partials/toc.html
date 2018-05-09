@@ -1,18 +1,19 @@
 <div class="toc">
 
 <ul>
-	<li><a href="/overview/progression/notes/#nav">Units & Their Progression</a></li>
+	<li><a href="/#nav"  class="{{ if eq .Page.Description "Home" }}selected{{ end }}">Overview</a></li>
+	<li><a href="/overview/progression/notes/#nav" class="{{ if eq .Page.Description "Progression" }}selected{{ end }}">Units & Their Progression</a></li>
 	<ul class="submenu {{ if eq .Page.Description "Progression" }}selected{{ end }}">
-		<li><a href="/overview/progression/friendly/#nav">&middot; Friendly Units</a></li>
-		<li><a href="/overview/progression/enemy/#nav">&middot; Enemy Units</a></li>
-		<li><a href="/overview/progression/boss/#nav">&middot; Boss Units</a></li>
+		<li><a href="/overview/progression/friendly/#nav">{{ if eq .Page.Title "Friendly Units" }}&middot; {{ end }}Friendly Units</a></li>
+		<li><a href="/overview/progression/enemy/#nav">{{ if eq .Page.Title "Enemy Units" }}&middot; {{ end }}Enemy Units</a></li>
+		<li><a href="/overview/progression/boss/#nav">{{ if eq .Page.Title "Boss Units" }}&middot; {{ end }} Boss Units</a></li>
 	</ul>
 	<li><a href="">Interface & Scenes</a></li>
 	<li><a href="">Magic Abilities</a></li>
 	<li><a href="">Story & Cutscenes</a></li>
 	<li><a href="">Combat Levels</a></li>
 	<li><a href="">Player Decisions</a></li>
-	<li><a href="/overview/travel/dialogue/#nav">Travel Dialogue</a></li>
+	<li><a href="/overview/travel/dialogue/#nav" class="{{ if eq .Page.Description "Travel" }}selected{{ end }}">Travel Dialogue</a></li>
 </ul>
 
 </div>

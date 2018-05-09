@@ -199,6 +199,11 @@ article.wiki .overview p:nth-child(even) {
     text-decoration: none;
 }
 
+.toc a.selected {
+    font-weight: bold;
+    color: $pink;
+}
+
 .submenu {
     font-size: 90%;
     margin-bottom: 15px;

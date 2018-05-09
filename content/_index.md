@@ -1,5 +1,6 @@
 ---
 title: "Index"
+description: "Home"
 ---
 
 <span class="emoji">❔</span>**Decision** : [Select your base magic type](https://github.com/veeneck/Barric/wiki/Starting-a-New-Game).

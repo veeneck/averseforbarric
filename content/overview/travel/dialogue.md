@@ -3,7 +3,7 @@ title: "Travel Dialogue"
 description: "Travel"
 ---
 
-As each level is completed, the next level is revealed. This seemed like a good time to add some character building. It also serves as a vehicle to drop hints or influence the way the player may feel. So, for now, the implementation is to gradually reveal footsteps and have Stou speak in the background about current events and thoughts. Each segment takes around 7 to 12 seconds. Tony added a background track that can fade into the main World map track once the dialogue is complete. **Spoilers Below**.
+As each level is completed, the next level is revealed. This seemed like a good time to add some character building. It also serves as a vehicle to drop hints or influence the way the player may feel. So, for now, the implementation is to gradually reveal footsteps and have Stou speak in the background about current events and thoughts. Each segment takes around 7 to 12 seconds. Tony added a background track that can fade into the main World map track once the dialogue is complete.
 
 <img src="/images/wiki/WorldMapTravel.png" width="100%" style="margin-bottom: 25px" />
 
