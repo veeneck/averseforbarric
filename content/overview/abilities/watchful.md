@@ -1,6 +1,7 @@
 ---
 title: "Watchful Spells"
 description: "Magic"
+className: "magic"
 ---
 
 <img align="left" src="/images/abilities/icon_Watchful.png?raw=true" class="unit" />**Moderate damage, moderate control, moderate debuffs, moderate healing.**

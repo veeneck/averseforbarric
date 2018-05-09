@@ -1,11 +1,12 @@
 ---
 title: "Aggressive Spells"
 description: "Magic"
+className: "magic"
 ---
 
 <img align="left" src="/images/abilities/icon_Aggressive.png?raw=true" class="unit" /> **High damage, low control, low debuffs, low healing.**
 
-Aggressive spells are meant to kill the enemy before they can kill you. This is done by direct damage, or by increasing the damage your units can do. The spells also compliment one another, so that when stacked can do massive damage. Drawback will be along the lines of damaging friendly units, or unpredictable outcomes. All of the spells use Fire as the element. 
+Aggressive spells are meant to kill the enemy before they can kill you. This is done by direct damage, or by increasing the damage your units can do. The spells also compliment one another, so that when stacked can do massive damage. Drawback will be along the lines of damaging friendly units, creating unpredictable outcomes, or some other negative consideration. All of the spells use Fire as the element. 
 
 ##### Phoenix
 |   |              Level 1              |                        Level 2                        |                           Level 3                          |

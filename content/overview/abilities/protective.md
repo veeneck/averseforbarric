@@ -1,6 +1,7 @@
 ---
 title: "Protective Spells"
 description: "Magic"
+className: "magic"
 ---
 
 <img align="left" src="/images/abilities/icon_Protective.png?raw=true" class="unit" />**Low damage, low control, low debuffs, high healing.** 

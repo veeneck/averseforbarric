@@ -1,6 +1,7 @@
 ---
 title: "Controlling Spells"
 description: "Magic"
+className: "magic"
 ---
 
 <img align="left" src="/images/abilities/icon_Controlling.png?raw=true" class="unit" /> **Moderate damage, high control, moderate debuffs, low healing.**
