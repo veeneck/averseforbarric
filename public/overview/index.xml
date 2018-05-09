@@ -49,12 +49,13 @@ Stou  We were followed &amp;hellip; how? They didn&amp;rsquo;t know we were here
     </item>
     
     <item>
-      <title>Boss Progression</title>
+      <title>Boss Units</title>
       <link>/overview/progression/boss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/overview/progression/boss/</guid>
-      <description>Sand Shaman The shaman appears in Level 3 : City and is our first encounter with a boss. This boss isn&amp;rsquo;t a boss like the others &amp;ndash; it becomes a normal champion later in the game. Other bosses are one time encounters, but this just introduces the player to dealing with enemy spell casters. So, the goal is to treat the unit like a boss during the first 2 sequences, and then make it a traditional squad based unit that can be killed for the final sequence.</description>
+      <description>Boss units appear at the end of every 3rd level. They will likely have a mulit-wave sequence where their skills change. Generic bosses could reappear later in the game as traditional enemies.
+Sand Shaman The shaman appears in Level 3 : City and is our first encounter with a boss. This boss isn&amp;rsquo;t a boss like the others &amp;ndash; it becomes a normal champion later in the game. Other bosses are one time encounters, but this just introduces the player to dealing with enemy spell casters.</description>
     </item>
     
     <item>
@@ -168,7 +169,7 @@ Cassandra  The whole of their forces approaches the city!
     </item>
     
     <item>
-      <title>Enemy Progression</title>
+      <title>Enemy Units</title>
       <link>/overview/progression/enemy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -693,6 +694,15 @@ Modifiers There are a few types of modifiers in the game, and they are all appli
       <guid>/overview/decisions/traps/</guid>
       <description>The steep, snowy terrain has slowed down your march. Enemy scouting parties will catch up any day now. Should we set up traps, or fortify our defenses?
  Traps could make the enemy spawn damaged, or even have a visual like snow falling. Fortify could put barriers down that the enemy has to break, or increase defense.</description>
+    </item>
+    
+    <item>
+      <title>Travel Dialogue</title>
+      <link>/overview/travel/dialogue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/travel/dialogue/</guid>
+      <description>As each level is completed, the next level is revealed. This seemed like a good time to add some character building. It also serves as a vehicle to drop hints or influence the way the player may feel. So, for now, the implementation is to gradually reveal footsteps and have Stou speak in the background about current events and thoughts. Each segment takes around 7 to 12 seconds. Tony added a background track that can fade into the main World map track once the dialogue is complete.</description>
     </item>
     
     <item>

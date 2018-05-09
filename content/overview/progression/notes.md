@@ -1,6 +1,7 @@
 ---
 title: "Units & Their Progression"
 section: "overview"
+description: "Progression"
 ---
 
 Unit progression is a tricky topic and requires a lot of play testing to truly balance it. So, to start, I'm approaching it at a basic level that has room to be tailored. The order in which [Friendly Units](/overview/progression/friendly/), [Enemy Units](/overview/progression/enemy/) and [Boss Units](/overview/progression/boss/) appear is fairly though out, but their attributes and abilities are currently in a basic state.

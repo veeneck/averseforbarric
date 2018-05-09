@@ -1,5 +1,6 @@
 ---
 title: "Boss Units"
+description: "Progression"
 ---
 
 Boss units appear at the end of every 3rd level. They will likely have a mulit-wave sequence where their skills change. Generic bosses could reappear later in the game as traditional enemies.

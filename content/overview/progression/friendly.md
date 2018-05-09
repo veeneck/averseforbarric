@@ -1,5 +1,6 @@
 ---
 title: "Friendly Units"
+description: "Progression"
 ---
 
 These are the units that the player will be able to recruit throughout the game. One playthrough will not guarantee all units are collected. Some are either-or type decisions. Also, once a unit has been obtained, there is still a chance they will leave. The goal is for the army size to be consistent, which will keep the game balanced.

@@ -1,5 +1,6 @@
 ---
 title: "Gameplay Progression"
+description: "Progression"
 ---
 
 **:question: Decision** : [Select your base magic type](https://github.com/veeneck/Barric/wiki/Starting-a-New-Game).

@@ -1,5 +1,6 @@
 ---
 title: "Enemy Units"
+description: "Progression"
 ---
 
 These are the units that the player will fight against. The goal is for each one to present a specific challenege so that the player will learn how to counter them.

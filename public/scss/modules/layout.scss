@@ -199,6 +199,16 @@ article.wiki .overview p:nth-child(even) {
     text-decoration: none;
 }
 
+.submenu {
+    font-size: 90%;
+    margin-bottom: 15px;
+    display: none;
+}
+
+.submenu.selected {
+    display: block;
+}
+
 .wikiNav ul {
     margin-left:0px;
     padding-left:0px;
@@ -273,6 +283,18 @@ td {
 
 img.unit {
   padding: 25px 50px;
+}
+
+.circle {
+    background-color: #fff;
+    color: $darkPurple;
+    border-radius: 50%;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    margin-top: 50px;
+    text-align: center;
+    vertical-align: center;
 }
 
 /*----------------------- Jazzy Layout ------------------------------ */

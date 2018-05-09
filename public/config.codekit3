@@ -208,7 +208,7 @@
 		},
 	"\/images\/header.png": {
 		"ft": 32768,
-		"iS": 192956,
+		"iS": 177004,
 		"oA": 0,
 		"oAP": "\/images\/header.png",
 		"oF": 0,
@@ -1030,17 +1030,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/wiki\/Champion 2 - Attack Front_01.png": {
-		"ft": 32768,
-		"iS": 72499,
-		"oA": 0,
-		"oAP": "\/images\/wiki\/Champion 2 - Attack Front_01.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/images\/wiki\/Crossbow 1 - Attack Front_01.png": {
 		"ft": 32768,
 		"iS": 18924,
@@ -1283,11 +1272,22 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/wiki\/Rhino Boss - Attack 1 Front_01.png": {
+	"\/images\/wiki\/RhinoBoss.png": {
 		"ft": 32768,
 		"iS": 99240,
 		"oA": 0,
-		"oAP": "\/images\/wiki\/Rhino Boss - Attack 1 Front_01.png",
+		"oAP": "\/images\/wiki\/RhinoBoss.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/wiki\/Shaman.png": {
+		"ft": 32768,
+		"iS": 72499,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/Shaman.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -1327,14 +1327,25 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/wiki\/War Boss - Front Placement Reference.png": {
+	"\/images\/wiki\/WarBoss.png": {
 		"ft": 32768,
 		"iS": 335279,
 		"oA": 0,
-		"oAP": "\/images\/wiki\/War Boss - Front Placement Reference.png",
+		"oAP": "\/images\/wiki\/WarBoss.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/wiki\/WorldMapTravel.png": {
+		"ft": 32768,
+		"iS": 1051707,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/WorldMapTravel.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
