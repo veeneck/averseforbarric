@@ -16,7 +16,22 @@
 		<li><a href="/overview/abilities/watchful/#nav">{{ if eq .Page.Title "Watchful Spells" }}&middot; {{ end }}Watchful Spells</a></li>
 		<li><a href="/overview/abilities/controlling/#nav">{{ if eq .Page.Title "Controlling Spells" }}&middot; {{ end }}Controlling Spells</a></li>
 	</ul>
-	<li><a href="">Story & Cutscenes</a></li>
+	<li><a href="/overview/cutscenes/story/#nav" class="{{ if eq .Page.Description "Cutscenes" }}selected{{ end }}">Story & Cutscenes</a></li>
+		<ul class="submenu {{ if eq .Page.Description "Cutscenes" }}selected{{ end }}">
+			<li><a href="/overview/cutscenes/scene1/#nav">{{ if eq .Page.Title "Intro : Scene 1" }}&middot; {{ end }}Intro : Scene 1</a></li>
+			<li><a href="/overview/cutscenes/scene2/#nav">{{ if eq .Page.Title "Intruder : Scene 2" }}&middot; {{ end }}Intruder : Scene 2</a></li>
+			<li><a href="/overview/cutscenes/scene3/#nav">{{ if eq .Page.Title "Distraction : Scene 3" }}&middot; {{ end }}Distraction : Scene 3</a></li>
+			<li><a href="/overview/cutscenes/scene4/#nav">{{ if eq .Page.Title "Decision : Scene 4" }}&middot; {{ end }}Decision : Scene 4</a></li>
+			<li><a href="/overview/cutscenes/scene5/#nav">{{ if eq .Page.Title "Siege : Scene 5" }}&middot; {{ end }}Siege : Scene 5</a></li>
+			<li><a href="/overview/cutscenes/scene6/#nav">{{ if eq .Page.Title "Warning : Scene 6" }}&middot; {{ end }}Warning : Scene 6</a></li>
+			<li><a href="/overview/cutscenes/scene7/#nav">{{ if eq .Page.Title "Betrayal : Scene 7" }}&middot; {{ end }}Betrayal : Scene 7</a></li>
+			<li><a href="/overview/cutscenes/scene8/#nav">{{ if eq .Page.Title "Crossroads : Scene 8" }}&middot; {{ end }}Crossroads : Scene 8</a></li>
+			<li><a href="/overview/cutscenes/scene9/#nav">{{ if eq .Page.Title "Fjord : Scene 9" }}&middot; {{ end }}Fjord : Scene 9</a></li>
+			<li><a href="/overview/cutscenes/scene10/#nav">{{ if eq .Page.Title "BroDown : Scene 10" }}&middot; {{ end }}BroDown : Scene 10</a></li>
+			<li><a href="/overview/cutscenes/scene11/#nav">{{ if eq .Page.Title "Camp : Scene 11" }}&middot; {{ end }}Camp : Scene 11</a></li>
+			<li><a href="/overview/cutscenes/scene12/#nav">{{ if eq .Page.Title "Showdown : Scene 12" }}&middot; {{ end }}Showdown : Scene 12</a></li>
+			<li><a href="/overview/cutscenes/scene13/#nav">{{ if eq .Page.Title "Victory : Scene 13" }}&middot; {{ end }}Victory : Scene 13</a></li>
+		</ul>
 	<li><a href="">Combat Levels</a></li>
 	<li><a href="/overview/decisions/all/#nav" class="{{ if eq .Page.Description "Decisions" }}selected{{ end }}">Player Decisions</a></li>
 	<li><a href="/overview/travel/dialogue/#nav" class="{{ if eq .Page.Description "Travel" }}selected{{ end }}">Travel Dialogue</a></li>

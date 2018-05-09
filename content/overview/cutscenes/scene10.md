@@ -1,9 +1,11 @@
 ---
 title: "BroDown : Scene 10"
 section: "overview"
+description: "Cutscenes"
+className: "cutscenes"
 ---
 
-<img src="https://www.dropbox.com/s/wwjqdn2ks55lwex/10_Oops_sc5_03.jpg?raw=1" width="800" />
+<img src="/images/wiki/cutscenes/11_BroDown_02.jpg?raw=1" width="65%" />
 
 [Current cutscene implementation](https://www.dropbox.com/s/ih58gvvi9ibcqtn/WaW_OopsAndSurrounding.mp4?raw=1)
 

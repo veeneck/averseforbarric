@@ -180,6 +180,10 @@
   </url>
   
   <url>
+    <loc>/overview/cutscenes/story/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
     <priority>0</priority>
   </url>

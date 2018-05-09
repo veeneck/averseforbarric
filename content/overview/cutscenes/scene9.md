@@ -1,31 +1,33 @@
 ---
 title: "Fjord : Scene 9"
 section: "overview"
+description: "Cutscenes"
+className: "cutscenes"
 ---
 
-<img src="https://www.dropbox.com/s/4y98z99x058zhgj/09_Fjord_10.jpg?raw=1" width="800" />
+<img src="/images/wiki/cutscenes/09_Fjord_10.jpg?raw=1" width="65%" />
 
 [Current cutscene implementation](https://www.dropbox.com/s/ih58gvvi9ibcqtn/WaW_OopsAndSurrounding.mp4?raw=1)
 
 STOU and TOWNSMEN discussing why the Manor has been abandoned.
 
-### Stou
+##### Stou
  
 > Townsmen, where is everyone?
 
-### Townsmen
+##### Townsmen
 
 > They left, sir. About ~~2~~ `3` weeks past. Marching towards the war.
 
-### Stou
+##### Stou
 
 > ~~2~~ `3` weeks ago? The war hadn't begun yet. Who ordered this?
 
-### Townsmen
+##### Townsmen
 
 > Orders came down from ... Sir! We're under attack!
 
-### TODO / DISCUSS
+##### TODO / DISCUSS
 
 - [ ] 08:41 - Revisit snow effect
 - [ ] 08:45 - Blinking Stou
