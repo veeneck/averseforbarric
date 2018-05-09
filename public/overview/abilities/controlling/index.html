@@ -228,35 +228,40 @@
 	<div class="toc">
 
 <ul>
-	<li><a href="/overview/progression/notes/#nav">Units & Their Progression</a></li>
+	<li><a href="/#nav"  class="">Overview</a></li>
+	<li><a href="/overview/progression/notes/#nav" class="">Units & Their Progression</a></li>
 	<ul class="submenu ">
-		<li><a href="/overview/progression/friendly/#nav">&middot; Friendly Units</a></li>
-		<li><a href="/overview/progression/enemy/#nav">&middot; Enemy Units</a></li>
-		<li><a href="/overview/progression/boss/#nav">&middot; Boss Units</a></li>
+		<li><a href="/overview/progression/friendly/#nav">Friendly Units</a></li>
+		<li><a href="/overview/progression/enemy/#nav">Enemy Units</a></li>
+		<li><a href="/overview/progression/boss/#nav"> Boss Units</a></li>
 	</ul>
 	<li><a href="">Interface & Scenes</a></li>
-	<li><a href="">Magic Abilities</a></li>
+	<li><a href="/overview/abilities/stou/#nav" class="selected">Magic Abilities</a></li>
+	<ul class="submenu selected">
+		<li><a href="/overview/abilities/aggressive/#nav">Aggressive Spells</a></li>
+		<li><a href="/overview/abilities/protective/#nav">Protective Spells</a></li>
+		<li><a href="/overview/abilities/watchful/#nav">Watchful Spells</a></li>
+		<li><a href="/overview/abilities/controlling/#nav">&middot; Controlling Spells</a></li>
+	</ul>
 	<li><a href="">Story & Cutscenes</a></li>
 	<li><a href="">Combat Levels</a></li>
 	<li><a href="">Player Decisions</a></li>
-	<li><a href="/overview/travel/dialogue/#nav">Travel Dialogue</a></li>
+	<li><a href="/overview/travel/dialogue/#nav" class="">Travel Dialogue</a></li>
 </ul>
 
 </div>
 
 	<h4>Controlling Spells</h4>
 
-	
+	<div class="Magic">
 
-<p><img align="left" src="https://github.com/veeneck/BarricAssets/blob/master/Gameplay.xcassets/ActionBar.spriteatlas/icon_Controlling.imageset/icon_Controlling.png?raw=true" /> Controlling spells will probably be the most difficult to play. They will requires more switching between spell categories. For example, mesmerize a unit, then switch to Protective and play for awhile, then switch back to Controlling. They also have wave based triggers (wave starts, heal units), so the player will have to switch at the correct timing.</p>
+		
 
-<p>All of the spells use Wind / Mind as the element.</p>
+<p><img align="left" src="/images/abilities/icon_Controlling.png?raw=true" class="unit" /> <strong>Moderate damage, high control, moderate debuffs, low healing.</strong></p>
 
-<p><strong>Moderate damage, high control, moderate debuffs, low healing.</strong></p>
+<p>Controlling spells will probably be the most difficult to play. They will requires more switching between spell categories. For example, mesmerize a unit, then switch to Protective and play for awhile, then switch back to Controlling. They also have wave based triggers (wave starts, heal units), so the player will have to switch at the correct timing. All of the spells use Wind / Mind as the element.</p>
 
-<hr />
-
-<h3 id="agony">Agony</h3>
+<h5 id="agony">Agony</h5>
 
 <table>
 <thead>
@@ -270,7 +275,7 @@
 
 <tbody>
 <tr>
-<td><img src="https://github.com/veeneck/BarricAssets/blob/master/Gameplay.xcassets/ActionBar.spriteatlas/icon_Agony.imageset/icon_Agony.png?raw=true" alt="" /></td>
+<td><img src="/images/abilities/icon_Agony.png?raw=true" alt="" /></td>
 <td align="center">Reduce unit attributes.</td>
 <td align="center">Reduce attributes + DoT</td>
 <td align="center">Reduce attributes, DoT, random chance to explode.</td>
@@ -278,18 +283,16 @@
 
 <tr>
 <td>Implemented</td>
-<td align="center">:white_large_square:</td>
-<td align="center">:white_large_square:</td>
-<td align="center">:white_large_square:</td>
+<td align="center">✅</td>
+<td align="center">⬜</td>
+<td align="center">⬜</td>
 </tr>
 </tbody>
 </table>
 
 <p><em><strong>Notes</strong></em>: Main damage spell for this line. Explosion is easier to animate across the board. Experiment with balancing reduction of attributes.</p>
 
-<hr />
-
-<h3 id="mesmerize">Mesmerize</h3>
+<h5 id="mesmerize">Mesmerize</h5>
 
 <table>
 <thead>
@@ -303,7 +306,7 @@
 
 <tbody>
 <tr>
-<td><img src="https://github.com/veeneck/BarricAssets/blob/master/Gameplay.xcassets/ActionBar.spriteatlas/icon_Mesmerize.imageset/icon_Mesmerize.png?raw=true" alt="" /></td>
+<td><img src="/images/abilities/icon_Mesmerize.png?raw=true" alt="" /></td>
 <td align="center">Slow down the targets walking and attack speed.</td>
 <td align="center">Temporarily put the enemy to sleep until it takes damage.</td>
 <td align="center">Mez has a chance to charm the enemy, which converts them to your side.</td>
@@ -311,18 +314,16 @@
 
 <tr>
 <td>Implemented</td>
-<td align="center">:white_large_square:</td>
-<td align="center">:white_large_square:</td>
-<td align="center">:white_large_square:</td>
+<td align="center">⬜</td>
+<td align="center">⬜</td>
+<td align="center">⬜</td>
 </tr>
 </tbody>
 </table>
 
 <p><em><strong>Notes</strong></em>: Figure out optimal mesmerize time, and if it can be allowed during combat. Or, does level 2 not stack with level 1?</p>
 
-<hr />
-
-<h3 id="alter-spell">Alter Spell</h3>
+<h5 id="alter-spell">Alter Spell</h5>
 
 <table>
 <thead>
@@ -336,7 +337,7 @@
 
 <tbody>
 <tr>
-<td><img src="https://github.com/veeneck/BarricAssets/blob/master/Gameplay.xcassets/ActionBar.spriteatlas/icon_AlterSpell.imageset/icon_AlterSpell.png?raw=true" alt="" /></td>
+<td><img src="/images/abilities/icon_AlterSpell.png?raw=true" alt="" /></td>
 <td align="center">Remove negative modifiers from a squad.</td>
 <td align="center">Remove modifiers + resist next spell for a time.</td>
 <td align="center">Remove modifiers + Reflect next spell to random enemy.</td>
@@ -344,18 +345,16 @@
 
 <tr>
 <td>Implemented</td>
-<td align="center">:white_large_square:</td>
-<td align="center">:white_large_square:</td>
-<td align="center">:white_large_square:</td>
+<td align="center">⬜</td>
+<td align="center">⬜</td>
+<td align="center">⬜</td>
 </tr>
 </tbody>
 </table>
 
 <p><em><strong>Notes</strong></em>: Have to play with reflect and which spells are eligible.</p>
 
-<hr />
-
-<h3 id="stand-your-ground-passive">Stand your Ground (passive)</h3>
+<h5 id="stand-your-ground-passive">Stand your Ground (passive)</h5>
 
 <table>
 <thead>
@@ -369,7 +368,7 @@
 
 <tbody>
 <tr>
-<td><img src="https://github.com/veeneck/BarricAssets/blob/master/Gameplay.xcassets/ActionBar.spriteatlas/icon_StandGround.imageset/icon_StandGround.png?raw=true" alt="" /></td>
+<td><img src="/images/abilities/icon_StandGround.png?raw=true" alt="" /></td>
 <td align="center">5% morale increase.</td>
 <td align="center">10% morale increase, and 20% HP heal when wave has ended.</td>
 <td align="center">15% morale increase, 30% HP heal and 30% revive when wave has ended.</td>
@@ -377,18 +376,16 @@
 
 <tr>
 <td>Implemented</td>
-<td align="center">:white_large_square:</td>
-<td align="center">:white_large_square:</td>
-<td align="center">:white_large_square:</td>
+<td align="center">⬜</td>
+<td align="center">⬜</td>
+<td align="center">⬜</td>
 </tr>
 </tbody>
 </table>
 
 <p><em><strong>Notes</strong></em>: This is a fun spell because you have to time it when the wave ends. It also gives the cool feeling of being about to lose, and then your entire. army getting a boost.</p>
 
-<hr />
-
-<h3 id="elixir-passive">Elixir (passive)</h3>
+<h5 id="elixir-passive">Elixir (passive)</h5>
 
 <table>
 <thead>
@@ -402,7 +399,7 @@
 
 <tbody>
 <tr>
-<td><img src="https://github.com/veeneck/BarricAssets/blob/master/Gameplay.xcassets/ActionBar.spriteatlas/icon_Elixir.imageset/icon_Elixir.png?raw=true" alt="" /></td>
+<td><img src="/images/abilities/icon_Elixir.png?raw=true" alt="" /></td>
 <td align="center">Random buff to all units when wave starts.</td>
 <td align="center">Random debuff to all enemies when wave starts.</td>
 <td align="center">+10% effectiveness to Controlling spells.</td>
@@ -410,15 +407,17 @@
 
 <tr>
 <td>Implemented</td>
-<td align="center">:white_large_square:</td>
-<td align="center">:white_large_square:</td>
-<td align="center">:white_large_square:</td>
+<td align="center">⬜</td>
+<td align="center">⬜</td>
+<td align="center">⬜</td>
 </tr>
 </tbody>
 </table>
 
 <p><em><strong>Notes</strong></em>: I don&rsquo;t love the level 3 status, but I do like level 1 and level 2 being based on waves.</p>
 
+
+	</div>
 
 </article>
 

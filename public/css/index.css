@@ -222,6 +222,10 @@ article.wiki .overview p:nth-child(even) {
 .toc a {
   text-decoration: none; }
 
+.toc a.selected {
+  font-weight: bold;
+  color: #E6ADA8; }
+
 .submenu {
   font-size: 90%;
   margin-bottom: 15px;
@@ -257,6 +261,23 @@ td {
   margin: 5px;
   padding-top: 10px !important;
   padding-bottom: 10px !important; }
+
+.Magic th:first-child {
+  background: none; }
+
+.Magic th {
+  width: 25%; }
+
+.Magic table {
+  border-spacing: 10px;
+  border-bottom: none;
+  margin-top: -50px; }
+
+.Magic table img {
+  margin-top: 25px; }
+
+.Magic h5 {
+  margin-top: 100px !important; }
 
 .attributes {
   display: -webkit-box;
@@ -723,6 +744,10 @@ article.wiki .overview p:nth-child(even) {
 .toc a {
   text-decoration: none; }
 
+.toc a.selected {
+  font-weight: bold;
+  color: #E6ADA8; }
+
 .submenu {
   font-size: 90%;
   margin-bottom: 15px;
@@ -758,6 +783,23 @@ td {
   margin: 5px;
   padding-top: 10px !important;
   padding-bottom: 10px !important; }
+
+.Magic th:first-child {
+  background: none; }
+
+.Magic th {
+  width: 25%; }
+
+.Magic table {
+  border-spacing: 10px;
+  border-bottom: none;
+  margin-top: -50px; }
+
+.Magic table img {
+  margin-top: 25px; }
+
+.Magic h5 {
+  margin-top: 100px !important; }
 
 .attributes {
   display: -webkit-box;

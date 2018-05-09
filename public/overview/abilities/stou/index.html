@@ -228,78 +228,86 @@
 	<div class="toc">
 
 <ul>
-	<li><a href="/overview/progression/notes/#nav">Units & Their Progression</a></li>
+	<li><a href="/#nav"  class="">Overview</a></li>
+	<li><a href="/overview/progression/notes/#nav" class="">Units & Their Progression</a></li>
 	<ul class="submenu ">
-		<li><a href="/overview/progression/friendly/#nav">&middot; Friendly Units</a></li>
-		<li><a href="/overview/progression/enemy/#nav">&middot; Enemy Units</a></li>
-		<li><a href="/overview/progression/boss/#nav">&middot; Boss Units</a></li>
+		<li><a href="/overview/progression/friendly/#nav">Friendly Units</a></li>
+		<li><a href="/overview/progression/enemy/#nav">Enemy Units</a></li>
+		<li><a href="/overview/progression/boss/#nav"> Boss Units</a></li>
 	</ul>
 	<li><a href="">Interface & Scenes</a></li>
-	<li><a href="">Magic Abilities</a></li>
+	<li><a href="/overview/abilities/stou/#nav" class="selected">Magic Abilities</a></li>
+	<ul class="submenu selected">
+		<li><a href="/overview/abilities/aggressive/#nav">Aggressive Spells</a></li>
+		<li><a href="/overview/abilities/protective/#nav">Protective Spells</a></li>
+		<li><a href="/overview/abilities/watchful/#nav">Watchful Spells</a></li>
+		<li><a href="/overview/abilities/controlling/#nav">Controlling Spells</a></li>
+	</ul>
 	<li><a href="">Story & Cutscenes</a></li>
 	<li><a href="">Combat Levels</a></li>
 	<li><a href="">Player Decisions</a></li>
-	<li><a href="/overview/travel/dialogue/#nav">Travel Dialogue</a></li>
+	<li><a href="/overview/travel/dialogue/#nav" class="">Travel Dialogue</a></li>
 </ul>
 
 </div>
 
-	<h4>Stou&#39;s Abilities</h4>
+	<h4>Magic Abilities</h4>
 
-	
+	<div class="Magic">
 
-<p>The goal with Stou is to support 4 major play styles.</p>
+		
+
+<p>Stou, controlled by the player, is the only player-controlled magic in the game. A spell with either be passive whenever that spell category is activated, or active which requirs the user to take action. The goal with Stou is to support 4 major play styles.</p>
 
 <ul>
-<li><a href="https://github.com/veeneck/Barric/wiki/Aggressive-Spells">Aggressive</a>: Damage based spells that try to kill &amp; fear the enemy before they get to your army. Example: fireball</li>
-<li><a href="https://github.com/veeneck/Barric/wiki/Watchful-Spells">Watchful</a>: Buffs, debuffs, haste, traps and abilities that aid you army in defeating the enemy. Balanced play style.</li>
-<li><a href="https://github.com/veeneck/Barric/wiki/Protective-Spells">Protective</a>: Heals, buffs to increase the survivability of the army.</li>
-<li><a href="https://github.com/veeneck/Barric/wiki/Controlling-Spells">Controlling</a>: Using spells to sleep, mesmerize, charm, root, and make the enemy flee.</li>
+<li><a href="/overview/abilities/aggressive/#nav">Aggressive</a>: Damage based spells that try to kill &amp; fear the enemy before they get to your army.</li>
+<li><a href="/overview/abilities/watchful/#nav">Watchful</a>: Buffs, debuffs, haste, traps and abilities that aid you army in defeating the enemy. Balanced play style.</li>
+<li><a href="/overview/abilities/protective/#nav">Protective</a>: Heals, buffs to increase the survivability of the army.</li>
+<li><a href="/overview/abilities/controlling/#nav">Controlling</a>: Using spells to sleep, mesmerize, charm, root, and make the enemy flee.</li>
 </ul>
 
-<h3 id="selecting-a-spellstyle">Selecting a Spellstyle</h3>
+<h5 id="selecting-a-spellstyle">Selecting a Spellstyle</h5>
 
-<p>When the player begins a new game they will have to <a href="https://github.com/veeneck/Barric/wiki/Starting-a-New-Game">make a decision on what type of spell they have been studying</a>.</p>
+<p>When the player begins a new game they will have to <a href="https://github.com/veeneck/Barric/wiki/Starting-a-New-Game">make a decision on what type of spell they have been studying</a>. Ideally, each major group would have a minor spell from another group. For example, <em>watchful</em> may have a weak root which provides some <em>controlling</em> aspects, and a small regen which provides some <em>protective</em> aspects. Upon selection, the player will be granted one level 1 spell from the style. The spell must help kill the archers on <a href="https://github.com/veeneck/Barric/wiki/Level-1-:-Forest">Forest : Level 1</a>.</p>
 
-<p>Ideally, each major group would have a minor spell from another group. For example, <em>watchful</em> may have a weak root which provides some <em>controlling</em> aspects, and a small regen which provides some <em>protective</em> aspects.</p>
+<ul>
+<li>Agressive: Fireball or Phoenix since both can do damage.</li>
+<li>Watchful: Regen or Haste</li>
+<li>Protective: Heal</li>
+<li>Controlling: Mesmerize to slow attack speed.</li>
+</ul>
 
-<p>Upon selection, the player will be granted one level 1 spell from the style. The spell must help kill the archers on <a href="https://github.com/veeneck/Barric/wiki/Level-1-:-Forest">Forest : Level 1</a>.
-* Agressive: Fireball or Phoenix since both can do damage.
-* Watchful: Regen or Haste
-* Protective: Heal
-* Controlling: Mesmerize to slow attack speed.</p>
+<h5 id="leveling-up-spells">Leveling Up Spells</h5>
 
-<h3 id="leveling-up-spells">Leveling Up Spells</h3>
+<p>Each spell has 3 levels. Stou can have 10 levels (11, considering he starts at 0). Each battle level you win, Stou gains 1 level and 2 spell points. Each spell costs 1 point. Level 3 spells aren&rsquo;t available until <a href="https://github.com/veeneck/Barric/wiki/Level-5-:-Desert">Desert : Level 5</a> is completed. This will force the player to be well rounded. This setup allows for 22 spell points, which grants combinations like:</p>
 
-<p>Each spell has 3 levels. Stou can have 10 levels (11, considering he starts at 0). Each battle level you win, Stou gains 1 level and 2 spell points. Each spell costs 1 point. Level 3 spells aren&rsquo;t available until <a href="https://github.com/veeneck/Barric/wiki/Level-5-:-Desert">Desert : Level 5</a> is completed. This will force the player to be well rounded.</p>
+<ul>
+<li>7 level 3 spells</li>
+<li>5 level 3 spells, 3 level 2 spells</li>
+<li>11 level 2 spells</li>
+</ul>
 
-<p>This setup allows for 22 spell points, which grants combinations like:
-* 7 level 3 spells
-* 5 level 3 spells, 3 level 2 spells
-* 11 level 2 spells</p>
+<h5 id="getting-new-spells">Getting New Spells</h5>
 
-<h3 id="getting-new-spells">Getting New Spells</h3>
+<p>When <a href="https://github.com/veeneck/Barric/wiki/Level-2-:-Hills">Level 2 : Hills</a> starts, the player should be rewarded one spell from outside of their category. That is so that the in game tutorial can show the player who to switch spell styles during combat. Aside from that, spells must be gathered from in game choices, after battle rewards, chests and achievements. As a rough guess, each play through should reward 3-5 random spells outside of the selected spell category.</p>
 
-<p>When <a href="https://github.com/veeneck/Barric/wiki/Level-2-:-Hills">Level 2 : Hills</a> starts, the player should be rewarded one spell from outside of their category. That is so that the in game tutorial can show the player who to switch spell styles during combat.</p>
+<h5 id="retraining-spells">Retraining Spells</h5>
 
-<p>Aside from that, spells must be gathered from in game choices, after battle rewards, chests and achievements. As a rough guess, each play through should reward 3-5 random spells outside of the selected spell category.</p>
+<p>Two ideas to explore for retraining.</p>
 
-<h3 id="retraining-spells">Retraining Spells</h3>
-
-<p>Two ideas to explore for retraining.
-1. You can sell points you&rsquo;ve trained to get them back, and you can retrain <strong>only</strong> spells you have already unlocked. That means rewards you&rsquo;ve found + your initial spell category.
-2. You can retrain your initial spell category to try out a new specialization. This would unlock the new category, and keep spell rewards you have found.</p>
+<ul>
+<li>You can sell points you&rsquo;ve trained to get them back, and you can retrain <strong>only</strong> spells you have already unlocked. That means rewards you&rsquo;ve found + your initial spell category.</li>
+<li>You can retrain your initial spell category to try out a new specialization. This would unlock the new category, and keep spell rewards you have found.</li>
+</ul>
 
 <p>Benefits to retraining are that the player can try new strategies if they get stuck. They can also see new effects if they get bored, or aren&rsquo;t happy with their initial magic choice.</p>
 
-<hr />
+<p>Other Consideration:</p>
 
-<p>Other notes:</p>
+<p>Abilities can be sold and the points used to retrain other abilities. This allows a player to fail a level and then try again in a new way. Similar thought &ndash; if each level had a challenge mode, that could have 3 stars and award money / recruiting food for each star. So, if you get stuck, you could complete challenge which may help you move on.</p>
 
-<ul>
-<li>Abilities can be sold and the points used to retrain other abilities. This allows a player to fail a level and then try again in a new way. Similar thought &ndash; if each level had a challenge mode, that could have 3 stars and award money / recruiting food for each star. So, if you get stuck, you could complete challenge which may help you move on.</li>
-</ul>
 
+	</div>
 
 </article>
 

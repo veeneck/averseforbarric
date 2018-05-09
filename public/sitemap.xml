@@ -88,10 +88,6 @@
   </url>
   
   <url>
-    <loc>/overview/progression/gameplay/</loc>
-  </url>
-  
-  <url>
     <loc>/overview/decisions/giant/</loc>
   </url>
   
@@ -120,23 +116,11 @@
   </url>
   
   <url>
-    <loc>/overview/travel/1to2/</loc>
-  </url>
-  
-  <url>
     <loc>/overview/levels/level10/</loc>
   </url>
   
   <url>
-    <loc>/overview/travel/10to11/</loc>
-  </url>
-  
-  <url>
     <loc>/overview/levels/level11/</loc>
-  </url>
-  
-  <url>
-    <loc>/overview/travel/11to12/</loc>
   </url>
   
   <url>
@@ -148,15 +132,7 @@
   </url>
   
   <url>
-    <loc>/overview/travel/2to3/</loc>
-  </url>
-  
-  <url>
     <loc>/overview/levels/level3/</loc>
-  </url>
-  
-  <url>
-    <loc>/overview/travel/3to3a/</loc>
   </url>
   
   <url>
@@ -164,15 +140,7 @@
   </url>
   
   <url>
-    <loc>/overview/travel/3ato4/</loc>
-  </url>
-  
-  <url>
     <loc>/overview/levels/level4/</loc>
-  </url>
-  
-  <url>
-    <loc>/overview/travel/4to5/</loc>
   </url>
   
   <url>
@@ -180,23 +148,11 @@
   </url>
   
   <url>
-    <loc>/overview/travel/5to6/</loc>
-  </url>
-  
-  <url>
     <loc>/overview/levels/level6/</loc>
   </url>
   
   <url>
-    <loc>/overview/travel/6to7/</loc>
-  </url>
-  
-  <url>
     <loc>/overview/levels/level7/</loc>
-  </url>
-  
-  <url>
-    <loc>/overview/travel/7to8/</loc>
   </url>
   
   <url>
@@ -208,19 +164,15 @@
   </url>
   
   <url>
-    <loc>/overview/travel/8to9/</loc>
-  </url>
-  
-  <url>
     <loc>/overview/levels/level9/</loc>
   </url>
   
   <url>
-    <loc>/overview/travel/9to10/</loc>
+    <loc>/overview/decisions/loot/</loc>
   </url>
   
   <url>
-    <loc>/overview/decisions/loot/</loc>
+    <loc>/overview/abilities/stou/</loc>
   </url>
   
   <url>
@@ -265,10 +217,6 @@
   
   <url>
     <loc>/overview/decisions/spearmen/</loc>
-  </url>
-  
-  <url>
-    <loc>/overview/abilities/stou/</loc>
   </url>
   
   <url>

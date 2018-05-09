@@ -26,10 +26,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/overview/abilities/aggressive/</guid>
-      <description>Aggressive spells are meant to kill the enemy before they can kill you. This is done by direct damage, or by increasing the damage your units can do. The spells also compliment one another, so that when stacked can do massive damage.
-All of the spells use Fire as the element.
-High damage, low control, low debuffs, low healing.
-Phoenix     Level 1 Level 2 Level 3      Dead units damage engaged target.</description>
+      <description>High damage, low control, low debuffs, low healing.
+Aggressive spells are meant to kill the enemy before they can kill you. This is done by direct damage, or by increasing the damage your units can do. The spells also compliment one another, so that when stacked can do massive damage. Drawback will be along the lines of damaging friendly units, or unpredictable outcomes. All of the spells use Fire as the element.</description>
     </item>
     
     <item>
@@ -138,9 +136,8 @@ The Frameworks CutsceneKit Helps develop chat overlays with custom timing and mo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/overview/abilities/controlling/</guid>
-      <description>Controlling spells will probably be the most difficult to play. They will requires more switching between spell categories. For example, mesmerize a unit, then switch to Protective and play for awhile, then switch back to Controlling. They also have wave based triggers (wave starts, heal units), so the player will have to switch at the correct timing.
-All of the spells use Wind / Mind as the element.
-Moderate damage, high control, moderate debuffs, low healing.</description>
+      <description>Moderate damage, high control, moderate debuffs, low healing.
+Controlling spells will probably be the most difficult to play. They will requires more switching between spell categories. For example, mesmerize a unit, then switch to Protective and play for awhile, then switch back to Controlling. They also have wave based triggers (wave starts, heal units), so the player will have to switch at the correct timing. All of the spells use Wind / Mind as the element.</description>
     </item>
     
     <item>
@@ -232,18 +229,6 @@ Melee 1 : Lemon Knights This unit begins the game with you.</description>
     </item>
     
     <item>
-      <title>Gameplay Progression</title>
-      <link>/overview/progression/gameplay/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/progression/gameplay/</guid>
-      <description>:question: Decision : Select your base magic type.
-Before the player begins, they can choose their preferred magic type. This selection will allow Level 1 to be played without interruption.
-:movie_camera: Movie : Intro : Scene 1
-Explains Barric&amp;rsquo;s backstory, and establishes where the player is now. Scene is actually the same scene as level 12, since the first 11 levels are played in the past and the player is brought up to real time.</description>
-    </item>
-    
-    <item>
       <title>Giant</title>
       <link>/overview/decisions/giant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -313,16 +298,6 @@ As they do each year, Stou, Barric and Cassandra&amp;rsquo;s were hauling suppli
     </item>
     
     <item>
-      <title>Level 1 to Level 2</title>
-      <link>/overview/travel/1to2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/travel/1to2/</guid>
-      <description> The border clans haven’t attacked us like this in years. Who&amp;rsquo;s organizing this? And why? No matter &amp;hellip; if it&amp;rsquo;s a fight they want, it&amp;rsquo;s a fight they&amp;rsquo;ll get.
- </description>
-    </item>
-    
-    <item>
       <title>Level 10 : Farm</title>
       <link>/overview/levels/level10/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -334,18 +309,6 @@ As Stou left the mountains, he could not accept that he killed Barric, nor could
     </item>
     
     <item>
-      <title>Level 10 to Level 11</title>
-      <link>/overview/travel/10to11/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/travel/10to11/</guid>
-      <description> A friendly force gathers nearby. There is still a chance to preserve what Barric sacrificed so much for. I owe it to my brother to try and help.
- OR
- My brothers spirit lives on. I will join the rally to support all that he sacrificed for. Barric &amp;hellip; I&amp;rsquo;m so sorry.
- </description>
-    </item>
-    
-    <item>
       <title>Level 11 : Camp</title>
       <link>/overview/levels/level11/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -354,16 +317,6 @@ As Stou left the mountains, he could not accept that he killed Barric, nor could
       <description>  Present day
 In agreement that Cassandra must be stopped, Stou and Alfric began preparing the camp to march first thing in the morning. Stou urged his men to [Fill with prior decision: enjoy one last night of drinking OR get some rest].
  Booming Hills </description>
-    </item>
-    
-    <item>
-      <title>Level 11 to Level 12</title>
-      <link>/overview/travel/11to12/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/travel/11to12/</guid>
-      <description> I stoked the flames of war and they engulfed everything I touched. Barric died because of me. Because I wouldn’t listen, and now everything he fought to protect, could be destroyed. Cassandra must be stopped.
- </description>
     </item>
     
     <item>
@@ -388,16 +341,6 @@ Barric refused to make a rash judgement regarding the intruders. Set in his reso
     </item>
     
     <item>
-      <title>Level 2 to Level 3</title>
-      <link>/overview/travel/2to3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/travel/2to3/</guid>
-      <description> They&amp;rsquo;re well trained. And well armed. This must be an organized invasion. Good, I&amp;rsquo;m ready to prove myself.
- </description>
-    </item>
-    
-    <item>
       <title>Level 3 : City (Boss)</title>
       <link>/overview/levels/level3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -409,32 +352,12 @@ Stou and Cassandra suspect an insider may have alerted the enemy to their trap s
     </item>
     
     <item>
-      <title>Level 3 to Level 3a</title>
-      <link>/overview/travel/3to3a/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/travel/3to3a/</guid>
-      <description> My brother is as stubborn as an ox. While he wastes time with words our enemy gathers. Eventually, I will greet those who threaten us.
- </description>
-    </item>
-    
-    <item>
       <title>Level 3a : Change of Plans</title>
       <link>/overview/levels/level3a/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/overview/levels/level3a/</guid>
       <description>Table Lakes This level has no combat, so it should be a cool experience for the player. Army is marching through terrain, and Cassandra approaches surround by her person guard and 2 squads of Melee2 knights. She explains the situation to Stou, and he changes paths to go to the border while she moves towards council.</description>
-    </item>
-    
-    <item>
-      <title>Level 3a to Level 4</title>
-      <link>/overview/travel/3ato4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/travel/3ato4/</guid>
-      <description> Good, the princess will spread the word while I head to the front lines to see first hand what&amp;rsquo;s really happening.
- </description>
     </item>
     
     <item>
@@ -449,16 +372,6 @@ While Barric ordered Stou to notify the council of the invasion, Cassandra alert
     </item>
     
     <item>
-      <title>Level 4 to Level 5</title>
-      <link>/overview/travel/4to5/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/travel/4to5/</guid>
-      <description> Even as they press further into our lands, we still know nothing of our enemy, their leader, or their motivations. I must find answers.
- </description>
-    </item>
-    
-    <item>
       <title>Level 5 : Desert</title>
       <link>/overview/levels/level5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -467,16 +380,6 @@ While Barric ordered Stou to notify the council of the invasion, Cassandra alert
       <description>9 days ago
 During a pause in the border assault, a clearing allowed Stou to venture further into the Drylands so that he could learn more about the invaders. While traveling to Wellspring, Cassandra caught up in a panic and notified him that Barric was seen with the enemy, and may be organizing the attacks.
  Red Canyon Summary Introduce the user to the concept of invisible units. Also, an interesting side mission to the standard plot.</description>
-    </item>
-    
-    <item>
-      <title>Level 5 to Level 6</title>
-      <link>/overview/travel/5to6/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/travel/5to6/</guid>
-      <description> Something’s not right. Barric would never destroy what he fought so hard to preserve. Would he? What am I missing?
- </description>
     </item>
     
     <item>
@@ -491,16 +394,6 @@ Refusing to believe that Barric could be a traitor, Stou and Cassandra continued
     </item>
     
     <item>
-      <title>Level 6 to Level 7</title>
-      <link>/overview/travel/6to7/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/travel/6to7/</guid>
-      <description> Even in death these cowards believe that their cause is just. Why are they so relentless? I fear we may never discover the truth.
- </description>
-    </item>
-    
-    <item>
       <title>Level 7 : Foothills</title>
       <link>/overview/levels/level7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -510,16 +403,6 @@ Refusing to believe that Barric could be a traitor, Stou and Cassandra continued
 With such a large army in pursuit, Stou and Cassandra were left with no choice but to flee back towards Endria&amp;rsquo;s mainland. Annoyed that he was left with riddles instead of answers, Stou opened his mind to the possibility that his brother would betray him.
  Border Steppes Phase 1, rescue guys near house:
 &amp;ldquo;Stou!, Sorry, er&amp;hellip;sir. You helped us back in Barric&amp;rsquo;s City. We figured we&amp;rsquo;d return the favor.</description>
-    </item>
-    
-    <item>
-      <title>Level 7 to Level 8</title>
-      <link>/overview/travel/7to8/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/travel/7to8/</guid>
-      <description> Our enemies’ numbers continue to grow like a weed. Cassandra must reach the council and secure their aid. I only hope it’s not too late.
- </description>
     </item>
     
     <item>
@@ -544,16 +427,6 @@ Cassandra and Stou split forces. Cassandra quickly went east to notify the counc
     </item>
     
     <item>
-      <title>Level 8 to Level 9</title>
-      <link>/overview/travel/8to9/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/travel/8to9/</guid>
-      <description> Their main forces aren&amp;rsquo;t far behind. We must hurry to Wintry Manor for reinforcements, and to make a stand.
- </description>
-    </item>
-    
-    <item>
       <title>Level 9 : Fjord (Boss)</title>
       <link>/overview/levels/level9/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -562,19 +435,6 @@ Cassandra and Stou split forces. Cassandra quickly went east to notify the counc
       <description>  3 days ago
 Stou arrives at Wintry Manor to find it cold and deserted. Where has everyone gone? Stou begins his search for answers knowing that time is not on his side, and that the enemy is nearly at their doorstep.
  Wintry Manor </description>
-    </item>
-    
-    <item>
-      <title>Level 9 to Level 10</title>
-      <link>/overview/travel/9to10/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/travel/9to10/</guid>
-      <description>Silence, to try to create a dramatic effect indicating Stou is sorry for Barric&amp;rsquo;s death. World map music may be toned down / altered during this sequence too.
-OR
-Use dialogue to explain to players who didn&amp;rsquo;t follow that she did this.
- Cassandra &amp;hellip; power isn&amp;rsquo;t enough for you? You had to manipulate me &amp;hellip; to use me against my own family?
- </description>
     </item>
     
     <item>
@@ -587,6 +447,16 @@ Use dialogue to explain to players who didn&amp;rsquo;t follow that she did this
  As you retreat from the city, you notice valuable artifacts in storefronts. Do you want to order your men to grab what they can, or leave the city folk and their belongings untouched?
  Two potential outcomes to brainstorm here.
  Spearmen stay/go depending on decision.  a. If you loot, you get an item, a spell, food and gold.</description>
+    </item>
+    
+    <item>
+      <title>Magic Abilities</title>
+      <link>/overview/abilities/stou/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/abilities/stou/</guid>
+      <description>Stou, controlled by the player, is the only player-controlled magic in the game. A spell with either be passive whenever that spell category is activated, or active which requirs the user to take action. The goal with Stou is to support 4 major play styles.
+ Aggressive: Damage based spells that try to kill &amp;amp; fear the enemy before they get to your army. Watchful: Buffs, debuffs, haste, traps and abilities that aid you army in defeating the enemy.</description>
     </item>
     
     <item>
@@ -616,10 +486,8 @@ Player picks one, fade to black, start cutscene.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/overview/abilities/protective/</guid>
-      <description>Protective spells are meant to keep your friendlies alive. This is done by direct healing, revival, or by limiting the amount of damage an enemy can do. Crowd control is minimal, with Smite being the only hope of Fear / Stun in a hard fight.
-All of the spells use Water / Magic as the element.
-Low damage, low control, low debuffs, high healing.
-Heal     Level 1 Level 2 Level 3      Heal units for 25HP.</description>
+      <description>Low damage, low control, low debuffs, high healing.
+Protective spells are meant to keep your friendlies alive. This is done by direct healing, revival, or by limiting the amount of damage an enemy can do. Crowd control is minimal, with Hammer being the only hope of Fear / Stun in a hard fight. Healing can be boring, so one future task is to brainstorm creative ways to add variety to healing.</description>
     </item>
     
     <item>
@@ -713,16 +581,6 @@ Cassandra  Oh, Stou. I&amp;rsquo;m surprised you made it this far. For what it&a
     </item>
     
     <item>
-      <title>Stou&#39;s Abilities</title>
-      <link>/overview/abilities/stou/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/abilities/stou/</guid>
-      <description>The goal with Stou is to support 4 major play styles.
- Aggressive: Damage based spells that try to kill &amp;amp; fear the enemy before they get to your army. Example: fireball Watchful: Buffs, debuffs, haste, traps and abilities that aid you army in defeating the enemy. Balanced play style. Protective: Heals, buffs to increase the survivability of the army. Controlling: Using spells to sleep, mesmerize, charm, root, and make the enemy flee.</description>
-    </item>
-    
-    <item>
       <title>Technical Notes</title>
       <link>/overview/tech/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -804,10 +662,8 @@ Cassandra  Stou! I&amp;rsquo;ve ridden all night to catch you!
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/overview/abilities/watchful/</guid>
-      <description>Watchful spells are well balanced. They should be able to heal units, buff units, resist damage, do damage, and offer crowd control.
-All of the spells use Nature as the element.
-Moderate damage, moderate control, moderate debuffs, moderate healing.
-Regen     Level 1 Level 2 Level 3      Heal a unit for 25 HP every tick. Purify negative effects on unit when cast.</description>
+      <description>Moderate damage, moderate control, moderate debuffs, moderate healing.
+Watchful spells are well balanced. They should be able to heal units, buff units, resist damage, do damage, and offer crowd control. All while being the master of none. If the player preempts everything that is about to happen, Watchful should feel a bit overpowered. But, it should feel underpowered if the player is being reactive. For example, Regen should not save a unit close to death, but it should keep a unit alive is constantly applied throughout the fight.</description>
     </item>
     
     <item>
