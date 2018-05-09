@@ -262,6 +262,12 @@ td {
   padding-top: 10px !important;
   padding-bottom: 10px !important; }
 
+.Magic th:first-child {
+  background: none; }
+
+.Magic th {
+  width: 25%; }
+
 .attributes {
   display: -webkit-box;
   display: -moz-box;
@@ -766,6 +772,12 @@ td {
   margin: 5px;
   padding-top: 10px !important;
   padding-bottom: 10px !important; }
+
+.Magic th:first-child {
+  background: none; }
+
+.Magic th {
+  width: 25%; }
 
 .attributes {
   display: -webkit-box;

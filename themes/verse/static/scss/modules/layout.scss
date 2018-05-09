@@ -253,6 +253,14 @@ td {
     padding-bottom: 10px !important;
 }
 
+.Magic th:first-child {
+    background: none;
+}
+
+.Magic th {
+    width: 25%;
+}
+
 .attributes {
     @include flex();
     width: 100%;

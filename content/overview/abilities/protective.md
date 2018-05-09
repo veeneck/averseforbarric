@@ -1,5 +1,6 @@
 ---
 title: "Protective Spells"
+description: "Magic"
 ---
 
 <img align="left" src="https://github.com/veeneck/BarricAssets/blob/master/Gameplay.xcassets/ActionBar.spriteatlas/icon_Protective.imageset/icon_Protective.png?raw=true" /> Protective spells are meant to keep your friendlies alive. This is done by direct healing, revival, or by limiting the amount of damage an enemy can do. Crowd control is minimal, with Smite being the only hope of Fear / Stun in a hard fight.

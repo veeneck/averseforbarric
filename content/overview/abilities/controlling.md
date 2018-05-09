@@ -1,5 +1,6 @@
 ---
 title: "Controlling Spells"
+description: "Magic"
 ---
 
 <img align="left" src="https://github.com/veeneck/BarricAssets/blob/master/Gameplay.xcassets/ActionBar.spriteatlas/icon_Controlling.imageset/icon_Controlling.png?raw=true" /> Controlling spells will probably be the most difficult to play. They will requires more switching between spell categories. For example, mesmerize a unit, then switch to Protective and play for awhile, then switch back to Controlling. They also have wave based triggers (wave starts, heal units), so the player will have to switch at the correct timing.

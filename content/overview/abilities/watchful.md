@@ -1,5 +1,6 @@
 ---
 title: "Watchful Spells"
+description: "Magic"
 ---
 
 <img align="left" src="https://github.com/veeneck/BarricAssets/blob/master/Gameplay.xcassets/ActionBar.spriteatlas/icon_Watchful.imageset/icon_Watchful.png?raw=true" /> Watchful spells are well balanced. They should be able to heal units, buff units, resist damage, do damage, and offer crowd control.

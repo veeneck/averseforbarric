@@ -9,7 +9,13 @@
 		<li><a href="/overview/progression/boss/#nav">{{ if eq .Page.Title "Boss Units" }}&middot; {{ end }} Boss Units</a></li>
 	</ul>
 	<li><a href="">Interface & Scenes</a></li>
-	<li><a href="">Magic Abilities</a></li>
+	<li><a href="/overview/abilities/stou/#nav" class="{{ if eq .Page.Description "Magic" }}selected{{ end }}">Magic Abilities</a></li>
+	<ul class="submenu {{ if eq .Page.Description "Magic" }}selected{{ end }}">
+		<li><a href="/overview/abilities/aggressive/#nav">{{ if eq .Page.Title "Aggressive Spells" }}&middot; {{ end }}Aggressive Spells</a></li>
+		<li><a href="/overview/abilities/protective/#nav">{{ if eq .Page.Title "Protective Spells" }}&middot; {{ end }}Protective Spells</a></li>
+		<li><a href="/overview/abilities/watchful/#nav">{{ if eq .Page.Title "Watchful Spells" }}&middot; {{ end }}Watchful Spells</a></li>
+		<li><a href="/overview/abilities/controlling/#nav">{{ if eq .Page.Title "Controlling Spells" }}&middot; {{ end }}Controlling Spells</a></li>
+	</ul>
 	<li><a href="">Story & Cutscenes</a></li>
 	<li><a href="">Combat Levels</a></li>
 	<li><a href="">Player Decisions</a></li>
