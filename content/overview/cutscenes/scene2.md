@@ -7,48 +7,51 @@ className: "cutscenes"
 
 <img src="/images/wiki/cutscenes/02_Afterbattle_03.jpg?raw=1" width="65%" />
 
+[Current cutscene implementation](https://dl.dropboxusercontent.com/content_link/As6XTfH1BKSNsNha3a35JlnD5AkPifs7IGi8aXZkDLnHyQSIQE9CVb1fEmBiLM3i/file)
+
 STOU and ALFRIC and CASSANDRA examining an invaders corpse.
 
-##### Cassandra
+<div class="container">
+<div class="cassandraBubble bubble"><p class="bubble">Cassandra</p></div>
+<blockquote>These markings, this soldier is from the Drylands. This makes no sense. What would prompt such an attack?</blockquote>
+</div>
 
-> These markings, this soldier is from the Drylands. This makes no sense. What would prompt such an attack?
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>We need to find out. We'll track those who escaped.</blockquote>
+</div>
+ 
+<div class="container">
+<div class="barricBubble bubble"><p class="bubble">Barric</p></div>
+<blockquote>No. We must return <code>to South Keep</code> and warn our people.</blockquote>
+</div>
 
-##### Stou
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>Turn back? And what then, Barric? Wait to be attacked again? How many lost their lives today? We must hold them responsible!</blockquote>
+</div>
 
-> We need to find out. We'll track those who escaped.
-                        
-##### Barric
+<div class="container">
+<div class="barricBubble bubble"><p class="bubble">Barric</p></div>
+<blockquote>Stou, what do you know of war? Of loss?</blockquote>
+</div>
 
-> No. We must return `to South Keep` and warn our people.
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>I know that running isn't the answer.</blockquote>
+</div>
 
-##### Stou
+<div class="container">
+<div class="barricBubble bubble"><p class="bubble">Barric</p></div>
+<blockquote>Your youth betrays you, and I will not let a boys blind bloodlust get more people killed.</blockquote>
+</div>
 
-> Turn back? And what then, Barric? Wait to be attacked again? How many lost their lives today? We must hold them responsible!
+<div class="container">
+<div class="cassandraBubble bubble"><p class="bubble">Cassandra</p></div>
+<blockquote>Gentlemen. Perhaps a compromise is in order. Barric, you may ride to warn the town while Stou and I lie in wait should anyone persue you.</blockquote>
+</div>
 
-##### Barric
-
-> Stou, what do you know of war? Of loss?
-
-##### Stou
-
-> I know that running isn't the answer.
-
-##### Barric
-
-> Your youth betrays you, and I will not let a boys blind bloodlust get more people killed.
-
-##### Cassandra
-
-> Gentlemen. Perhaps a compromise is in order. Barric, you may ride to warn the town while Stou and I lie in wait should anyone persue you.
-
-##### Barric
-
-> My priority is my people. Do as you see fit. I ride immediately.
-
-***
-
-### TODO / DISCUSS
-
-- [ ] 03:48 - “I ride immediately” - Dialogue - consider alternate line
-- [ ] GLOBAL - textures on characters / consider lessening particles
-- [ ] Detail work on faces
+<div class="container">
+<div class="barricBubble bubble"><p class="bubble">Barric</p></div>
+<blockquote>My priority is my people. Do as you see fit. I ride immediately.</blockquote>
+</div>
