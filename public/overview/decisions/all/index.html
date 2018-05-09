@@ -245,68 +245,134 @@
 	</ul>
 	<li><a href="">Story & Cutscenes</a></li>
 	<li><a href="">Combat Levels</a></li>
-	<li><a href="/overview/decisions/all/#nav" class="">Player Decisions</a></li>
+	<li><a href="/overview/decisions/all/#nav" class="selected">Player Decisions</a></li>
 	<li><a href="/overview/travel/dialogue/#nav" class="">Travel Dialogue</a></li>
 </ul>
 
 </div>
 
-	<h4>World Map</h4>
+	<h4>Player Decisions</h4>
 
-	<div class="">
+	<div class="decisions">
 
-		
+		<p>I wish I remember who I heard it from, but the idea was the players enjoy decisions. The more you can add, the better. To take it a step further, if a decision now can impact the game later, that&rsquo;s even better. There shouldn&rsquo;t be decisions just for the sake of decisions &ndash; they should affect the story or gameplay in some way. That&rsquo;s the goal with the scene. Each time a decision is available (after combat, during travel, etc), this scene will be presented with a choice. The list of all decisions and when they are available is below.</p>
 
-<p><img src="https://github.com/veeneck/BarricAssets/blob/master/Gameplay.xcassets/WorldMap.spriteatlas/WorldMap.imageset/WorldMap.jpg?raw=true" width="800" /></p>
+<p><img src="/images/wiki/Decision.jpg" width="100%" style="margin-bottom: 25px" /></p>
 
-<h3 id="names-locations">Names &amp; Locations</h3>
+<p><span class="circle" id="newgame">1</span> <strong>New Game : Magic Choice</strong></p>
+
+<p>Black screen, Stou&rsquo;s image in bottom left.</p>
+
+<blockquote>
+<p>Stou, you&rsquo;ve been learning magic for some time now. Has any specialization resonated with you?</p>
+</blockquote>
+
+<p>Explain the 4 specializations. Player picks one, fade to black, start cutscene.</p>
+
+<p><span class="circle" id="warmachine">2</span> <strong>War Machine</strong></p>
+
+<p>Before Level 2 begins, prompt the user to make a choice.</p>
+
+<blockquote>
+<p>Sir, what should we construct to aid our ambush? The trebuchet scatters rocks over a wide range while the catapult deals direct, accurate damage.</p>
+</blockquote>
+
+<p>Whichever the user selects gets added to the army.</p>
+
+<p><span class="circle" id="hand">3</span> <strong>Helping Hand</strong></p>
+
+<p>Decide between helping Melee3 or Flail1, and that unit will join your army just before Level 7.</p>
+
+<blockquote>
+<p>As you prepare to leave the town, you notice wounded soldiers regrouping. Do you want to help a nearby shield bearer carry his friend to the medic, or help calm a crazed flail-man over his presumed losses?</p>
+</blockquote>
+
+<p><span class="circle" id="diversion">4</span> <strong>Cassandra Diversion</strong></p>
+
+<p>After Cassandra tells Stou he needs to head to the border, she offers a parting gift.</p>
+
+<blockquote>
+<p>Stou, you&rsquo;ll need backup if you&rsquo;re going to survive. Please take some of my soldiers, or at least allow me to teach you [Randomize a Spell she can teach him]</p>
+</blockquote>
+
+<p>Player picks, and either gets units, or a new spell for Stou.</p>
+
+<p><span class="circle" id="ranged">5</span> <strong>Ranged Help</strong></p>
+
+<p>Before Level 4 : Border, Stou will be given a choice between crossbowmen and longbowmen.</p>
+
+<blockquote>
+<p>You&rsquo;ll need some arrows to keep the waves at bay. Have a squad of mine. Longbowmen can shoot over obstacles at great distance. Crossbowmen don&rsquo;t shoot as far, but they sure do pack a punch.</p>
+</blockquote>
+
+<p>Since the crazy enemy that charges into troops and explodes is introduced, the extra archers will help kill them before they can do major damage.</p>
+
+<p><span class="circle" id="spearmen">6</span> <strong>Spearmen</strong></p>
+
+<p>After Level 4 : Border, a decision level will appear on the world map (same as when Cassandra diverted Stou to border). Note: Have to decide if this is played out in the battle view, or just in Decision mode.</p>
+
+<blockquote>
+<p>A word, stranger? We&rsquo;re not sure why our brother are invading your lands, but we do not approve. Something evil is motivating them, and we hope to stop it. May we join your ranks?</p>
+</blockquote>
+
+<p>If the user answers yes, they join. Otherwise, they follow, and automatically get added during the battle either midway through Level 5 : Desert or at the begging of Level 6 : Oasis by saying something along the lines of &ldquo;We know you didn&rsquo;t trust us, so hopefully we can prove our loyalty and earn your trust.&rdquo;</p>
+
+<p><span class="circle" id="planning">7</span> <strong>Siege Planning</strong></p>
+
+<blockquote>
+<p>It looks like enemy forces are controlling the city. We&rsquo;ll have to defeat them before the locals will provide us with information. In preparation, would you like to sharpen our arrows or our blades?</p>
+</blockquote>
+
+<p>Permanent, +1 Strength to either archer class units or melee class.</p>
+
+<p><span class="circle" id="loot">8</span> <strong>Loot City</strong></p>
+
+<p>After combat, Stou has the option to loot the city.</p>
+
+<blockquote>
+<p>As you retreat from the city, you notice valuable artifacts in storefronts. Do you want to order your men to grab what they can, or leave the city folk and their belongings untouched?</p>
+</blockquote>
+
+<p>Two potential outcomes to brainstorm here.</p>
 
 <ul>
-<li><strong>Barric</strong>: One of the council lords, and Stou&rsquo;s older brother.</li>
-<li><strong>Stou</strong>: Stou&rsquo;s younger brother who the player is controlling.</li>
-<li><strong>Alfric</strong>: The knight Stou is talking to at the beginning. One of the council members, Barric&rsquo;s equal.</li>
-<li><strong>South Keep</strong>: Barric&rsquo;s city</li>
-<li><strong>Cassandra</strong>: Princess to king Barric overthrew. Barric still helps her. Stou has a crush.</li>
-<li><strong>Wintry Manor</strong>: Cassandra&rsquo;s ice city</li>
-<li><strong>Mountains of Arrington</strong>: Mountain range that Wintry Manor lies in.</li>
-<li><strong>Drylands</strong>: Southeast part of map. Desert. Not under rule of the council or king.</li>
-<li><strong>Kingdom of Endria</strong>: Mainland</li>
-<li><strong>The council</strong>: Lords who oversee laws of Endria.</li>
-<li><strong>King Luthen</strong>: The previous ruler that Barric overthrew.</li>
-<li><strong>Wellspring</strong>: White city in drylands.</li>
-<li><strong>Castle Endridge</strong>: Capital city, large castle on map.</li>
-<li><strong>Drysgate</strong>: Border castle.</li>
-<li><strong>Table Lakes</strong>: Plateau in front of castle</li>
-<li><strong>Wheatsbury</strong>: Farmland up north.</li>
-<li><strong>Booming Hills</strong>: Hills leading up to Wheatsbury.</li>
-<li><strong>Giant&rsquo;s Pass</strong>: Trail leading up to Wintry Manor.</li>
-<li><strong>Border Steppes</strong>: Other entrance to border at foothills.</li>
-<li><strong>Iss&rsquo;dar</strong>: Level 6 boss on Rhino</li>
+<li><p>Spearmen stay/go depending on decision.</p>
+
+<ul>
+<li><p>If you loot, you get an item, a spell, food and gold. The food/ gold will allow you to strengthen existing forces. You&rsquo;ll need this to counter the fact that the spearmen now leave you since you&rsquo;re not honorable.</p></li>
+
+<li><p>Spearmen respect you even more. A few more locals join your ranks. They offer you a spell of their knowledge?</p></li>
+</ul></li>
+
+<li><p>Rogues join your party earlier, and either spearmen / rogues stay go.</p></li>
 </ul>
 
-<h3 id="tutorial-story-events">Tutorial / Story Events</h3>
+<p>The big <strong>if</strong> here is whether or not rogues should join the party after level 5. And then, based on this choice, rogues stay if you loot, spearmen stay if you go. Have to decide if it&rsquo;s realistic to implement rogues as friendlies, and which is more fun.</p>
 
-<p>Various notes about the map at different stages.</p>
+<p><span class="circle" id="support">9</span> <strong>Friendly Support</strong></p>
 
-<h4 id="level-2-reveal">Level 2 Reveal</h4>
+<p>Figure out a way to introduce Flail1 or Melee3. Maybe a decision from earlier in the game, and then that unit that you supported is waiting for you at border to help you? Need to add a melee unit here because Melee2 leave shortly.</p>
 
-<p>Walk the user through Stou&rsquo;s abilities since they now have upgrade points available.</p>
+<p><span class="circle" id="cassandra">10</span> <strong>Cassandra Leaves</strong></p>
 
-<h4 id="level-3-reveal">Level 3 Reveal</h4>
+<p>Melee2 leaves the party.</p>
 
-<p>Walk the user through recruiting units, healing units, and unit upgrades.</p>
+<p><span class="circle" id="traps">11</span> <strong>Traps</strong></p>
 
-<h4 id="level-11-reveal">Level 11 Reveal</h4>
+<blockquote>
+<p>The steep, snowy terrain has slowed down your march. Enemy scouting parties will catch up any day now. Should we set up traps, or fortify our defenses?</p>
+</blockquote>
 
-<p>Dialogue in Level 10 indicates some of the council has heard of the war, and is setting up camp southeast of the castle. When travel dialogue from 10-11 shows, the camp will now be there on the world map.</p>
+<p>Traps could make the enemy spawn damaged, or even have a visual like snow falling. Fortify could put barriers down that the enemy has to break, or increase defense.</p>
 
-<h4 id="interaction">Interaction</h4>
+<p><span class="circle" id="giant">12</span> <strong>Giant</strong></p>
+
+<p>Some sort of decision that would allow the giant to join your party. Ideas:</p>
 
 <ul>
-<li>Tap swordsman and he&rsquo;ll raise his sword</li>
-<li>Tap sheep and they&rsquo;ll baahh</li>
-<li>Tap tall building and it will light up</li>
-<li>Tap southwest house and smoke will come out of its roof</li>
+<li><p>In combat, hint that you shouldn&rsquo;t kill the giant. If you do, you get cool loot. If you leave him alone, he&rsquo;ll attack the enemy, and join you after the battle.</p></li>
+
+<li><p>Same concept, but just in the decision screen. After battle, notice giant is wounded. Heal him and leave, or finish him off. Rewards are the same.</p></li>
 </ul>
 
 

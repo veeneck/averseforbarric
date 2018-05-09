@@ -92,26 +92,6 @@ As more units are added, more buildings start appearing in the camp. The big unk
     </item>
     
     <item>
-      <title>Cassandra Diversion</title>
-      <link>/overview/decisions/diversion/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/decisions/diversion/</guid>
-      <description>After Cassandra tells Stou he needs to head to the border, she offers a parting gift.
- Stou, you&amp;rsquo;ll need backup if you&amp;rsquo;re going to survive. Please take some of my soldiers, or at least allow me to teach you [Randomize a Spell she can teach him]
- Player picks, and either gets units, or a new spell for Stou.</description>
-    </item>
-    
-    <item>
-      <title>Cassandra Leaves</title>
-      <link>/overview/decisions/cassandra/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/decisions/cassandra/</guid>
-      <description>Melee2 leaves the party.</description>
-    </item>
-    
-    <item>
       <title>Controlling Spells</title>
       <link>/overview/abilities/controlling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -191,15 +171,6 @@ Stou  Townsmen, where is everyone?
     </item>
     
     <item>
-      <title>Friendly Support</title>
-      <link>/overview/decisions/support/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/decisions/support/</guid>
-      <description>Figure out a way to introduce Flail1 or Melee3. Maybe a decision from earlier in the game, and then that unit that you supported is waiting for you at border to help you? Need to add a melee unit here because Melee2 leave shortly.</description>
-    </item>
-    
-    <item>
       <title>Friendly Units</title>
       <link>/overview/progression/friendly/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -207,28 +178,6 @@ Stou  Townsmen, where is everyone?
       <guid>/overview/progression/friendly/</guid>
       <description>These are the units that the player will be able to recruit throughout the game. One playthrough will not guarantee all units are collected. Some are either-or type decisions. Also, once a unit has been obtained, there is still a chance they will leave. The goal is for the army size to be consistent, which will keep the game balanced.
 Melee 1 : Lemon Knights This unit begins the game with you.</description>
-    </item>
-    
-    <item>
-      <title>Giant</title>
-      <link>/overview/decisions/giant/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/decisions/giant/</guid>
-      <description>Some sort of decision that would allow the giant to join your party. Ideas:
- In combat, hint that you shouldn&amp;rsquo;t kill the giant. If you do, you get cool loot. If you leave him along, he&amp;rsquo;ll attack the enemy, and join you after the battle.
- Same concept, but just in the decision screen. After battle, notice giant is wounded. Heal him and leave, or finish him off. Rewards are the same.</description>
-    </item>
-    
-    <item>
-      <title>Helping Hand</title>
-      <link>/overview/decisions/hand/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/decisions/hand/</guid>
-      <description>Decide between helping Melee3 or Flail1, and that unit will join your army just before Level 7.
- As you prepare to leave the town, you notice wounded soldiers regrouping. Do you want to help a nearby shield bearer carry his friend to the medic, or help calm a crazed flail-man over his presumed losses?
- </description>
     </item>
     
     <item>
@@ -410,18 +359,6 @@ Stou arrives at Wintry Manor to find it cold and deserted. Where has everyone go
     </item>
     
     <item>
-      <title>Loot City</title>
-      <link>/overview/decisions/loot/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/decisions/loot/</guid>
-      <description>After combat, Stou has the option to loot the city.
- As you retreat from the city, you notice valuable artifacts in storefronts. Do you want to order your men to grab what they can, or leave the city folk and their belongings untouched?
- Two potential outcomes to brainstorm here.
- Spearmen stay/go depending on decision.  a. If you loot, you get an item, a spell, food and gold.</description>
-    </item>
-    
-    <item>
       <title>Magic Abilities</title>
       <link>/overview/abilities/stou/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -432,15 +369,12 @@ Stou arrives at Wintry Manor to find it cold and deserted. Where has everyone go
     </item>
     
     <item>
-      <title>New Game : Magic</title>
-      <link>/overview/decisions/newgame/</link>
+      <title>Player Decisions</title>
+      <link>/overview/decisions/all/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/overview/decisions/newgame/</guid>
-      <description>Black screen, Stou&amp;rsquo;s image in bottom left.
- Stou, you&amp;rsquo;ve been learning magic for some time now. Has any specialization resonated with you?
- Explain the 4 specializations.
-Player picks one, fade to black, start cutscene.</description>
+      <guid>/overview/decisions/all/</guid>
+      <description>I wish I remember who I heard it from, but the idea was the players enjoy decisions. The more you can add, the better. To take it a step further, if a decision now can impact the game later, that&amp;rsquo;s even better. There shouldn&amp;rsquo;t be decisions just for the sake of decisions &amp;ndash; they should affect the story or gameplay in some way. That&amp;rsquo;s the goal with the scene. Each time a decision is available (after combat, during travel, etc), this scene will be presented with a choice.</description>
     </item>
     
     <item>
@@ -462,28 +396,6 @@ Protective spells are meant to keep your friendlies alive. This is done by direc
       <description>This is just a dump of ideas. Add them here for future brainstorming.
 Major Game Engine Features To Be Considered Code that I haven&amp;rsquo;t added yet.
 Flanking bonus Strategic positions Treasure chests Larger maps Heroes Items Difficulty Level Boss Fights Player places units Hidden units (i.e: placed behind tree)  Difficulty Level Games are annoying when you have to start them over completely &amp;ndash; especially story heavy games. One option is to offer easy mode and normal mode.</description>
-    </item>
-    
-    <item>
-      <title>Ranged Help</title>
-      <link>/overview/decisions/ranged/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/decisions/ranged/</guid>
-      <description>Before Level 4 : Border, Stou will be given a choice between crossbowmen and longbowmen.
- You&amp;rsquo;ll need some arrows to keep the waves at bay. Have a squad of mine. Longbowmen can shoot over obstacles at great distance. Crossbowmen don&amp;rsquo;t shoot as far, but they sure do pack a punch.
- Since the crazy enemy that charges into troops and explodes is introduced, the extra archers will help kill them before they can do major damage.</description>
-    </item>
-    
-    <item>
-      <title>Rest or Party</title>
-      <link>/overview/decisions/rest/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/decisions/rest/</guid>
-      <description>While camping for the night before marching to meet Cassandra.
- Your men seem nervous. Do you want to encourage them to sleep and focus or drink, dance and celebrate their potentially limited days?
- Celebrate can give some sort of anti-fear, +strength buff during the coming ambush. Sleep can give regenerate, or some other aide.</description>
     </item>
     
     <item>
@@ -514,26 +426,6 @@ Cassandra  Oh, Stou. I&amp;rsquo;m surprised you made it this far. For what it&a
     </item>
     
     <item>
-      <title>Siege Planning</title>
-      <link>/overview/decisions/planning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/decisions/planning/</guid>
-      <description>It looks like enemy forces are controlling the city. We&amp;rsquo;ll have to defeat them before the locals will provide us with information. In preparation, would you like to sharpen our arrows or our blades?
- Permanent, +1 Strength to either archer class units or melee class.</description>
-    </item>
-    
-    <item>
-      <title>Spearmen</title>
-      <link>/overview/decisions/spearmen/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/decisions/spearmen/</guid>
-      <description>After Level 4 : Border, a decision level will appear on the world map (same as when Cassandra diverted Stou to border). Note: Have to decide if this is played out in the battle view, or just in Decision mode.
- A word, stranger? We&amp;rsquo;re not sure why our brother are invading your lands, but we do not approve. Something evil is motivating them, and we hope to stop it. May we join your ranks?</description>
-    </item>
-    
-    <item>
       <title>Technical Notes</title>
       <link>/overview/tech/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -542,16 +434,6 @@ Cassandra  Oh, Stou. I&amp;rsquo;m surprised you made it this far. For what it&a
       <description>A place to store random tech notes for reference when designing things.
 Modifiers There are a few types of modifiers in the game, and they are all applied in different ways. Here&amp;rsquo;s the breakdown of how a unit might get a modifier applied to it.
  Spell Modifiers: Each spell applies a modifier to the target squad / units and this can be overridden on the spell level. Spells are abilities, and they should process ability modifiers the same way combat modifiers do, but they currently don&amp;rsquo;t.</description>
-    </item>
-    
-    <item>
-      <title>Traps</title>
-      <link>/overview/decisions/traps/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/decisions/traps/</guid>
-      <description>The steep, snowy terrain has slowed down your march. Enemy scouting parties will catch up any day now. Should we set up traps, or fortify our defenses?
- Traps could make the enemy spawn damaged, or even have a visual like snow falling. Fortify could put barriers down that the enemy has to break, or increase defense.</description>
     </item>
     
     <item>
@@ -583,17 +465,6 @@ The overall goal is for Stou (the player) to be the deciding factor.</descriptio
 No dialogue. Celebration and BARRIC&amp;rsquo;s burial.
 Role credits.
 TODO / DISCUSS Clean boat edge  </description>
-    </item>
-    
-    <item>
-      <title>War Machine</title>
-      <link>/overview/decisions/warmachine/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/decisions/warmachine/</guid>
-      <description>Before Level 2 begins, prompt the user to make a choice.
- Sir, what should we construct to aid our ambush? The trebuchet scatters rocks over a wide range while the catapult deals direct, accurate damage.
- Whichever the user selects gets added to the army.</description>
     </item>
     
     <item>

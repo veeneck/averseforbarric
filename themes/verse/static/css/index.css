@@ -323,6 +323,12 @@ img.unit {
   text-align: center;
   vertical-align: center; }
 
+.decisions .circle {
+  margin-right: 15px; }
+
+.decisions strong {
+  color: #E6ADA8; }
+
 /*----------------------- Jazzy Layout ------------------------------ */
 .content-wrapper {
   margin: 0 auto;
@@ -844,6 +850,12 @@ img.unit {
   margin-top: 50px;
   text-align: center;
   vertical-align: center; }
+
+.decisions .circle {
+  margin-right: 15px; }
+
+.decisions strong {
+  color: #E6ADA8; }
 
 /*----------------------- Jazzy Layout ------------------------------ */
 .content-wrapper {

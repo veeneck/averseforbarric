@@ -39,14 +39,6 @@
   </url>
   
   <url>
-    <loc>/overview/decisions/diversion/</loc>
-  </url>
-  
-  <url>
-    <loc>/overview/decisions/cassandra/</loc>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
   </url>
@@ -80,19 +72,7 @@
   </url>
   
   <url>
-    <loc>/overview/decisions/support/</loc>
-  </url>
-  
-  <url>
     <loc>/overview/progression/friendly/</loc>
-  </url>
-  
-  <url>
-    <loc>/overview/decisions/giant/</loc>
-  </url>
-  
-  <url>
-    <loc>/overview/decisions/hand/</loc>
   </url>
   
   <url>
@@ -168,10 +148,6 @@
   </url>
   
   <url>
-    <loc>/overview/decisions/loot/</loc>
-  </url>
-  
-  <url>
     <loc>/overview/abilities/stou/</loc>
   </url>
   
@@ -180,7 +156,7 @@
   </url>
   
   <url>
-    <loc>/overview/decisions/newgame/</loc>
+    <loc>/overview/decisions/all/</loc>
   </url>
   
   <url>
@@ -192,14 +168,6 @@
   </url>
   
   <url>
-    <loc>/overview/decisions/ranged/</loc>
-  </url>
-  
-  <url>
-    <loc>/overview/decisions/rest/</loc>
-  </url>
-  
-  <url>
     <loc>/overview/cutscenes/scene5/</loc>
   </url>
   
@@ -208,15 +176,7 @@
   </url>
   
   <url>
-    <loc>/overview/decisions/planning/</loc>
-  </url>
-  
-  <url>
     <loc>/soundtrack/</loc>
-  </url>
-  
-  <url>
-    <loc>/overview/decisions/spearmen/</loc>
   </url>
   
   <url>
@@ -229,10 +189,6 @@
   </url>
   
   <url>
-    <loc>/overview/decisions/traps/</loc>
-  </url>
-  
-  <url>
     <loc>/overview/travel/dialogue/</loc>
   </url>
   
@@ -242,10 +198,6 @@
   
   <url>
     <loc>/overview/cutscenes/scene13/</loc>
-  </url>
-  
-  <url>
-    <loc>/overview/decisions/warmachine/</loc>
   </url>
   
   <url>
