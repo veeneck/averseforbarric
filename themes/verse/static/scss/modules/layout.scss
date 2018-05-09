@@ -261,6 +261,20 @@ td {
     width: 25%;
 }
 
+.Magic table {
+     border-spacing: 10px;
+    border-bottom: none;
+    margin-top: -50px;
+}
+
+.Magic table img {
+    margin-top: 25px;
+}
+
+.Magic h5 {
+    margin-top: 100px !important;
+}
+
 .attributes {
     @include flex();
     width: 100%;

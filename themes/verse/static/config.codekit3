@@ -255,6 +255,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/abilities\/icon_Heal.png": {
+		"ft": 32768,
+		"iS": 27627,
+		"oA": 0,
+		"oAP": "\/images\/abilities\/icon_Heal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/abilities\/icon_Mesmerize.png": {
 		"ft": 32768,
 		"iS": 31658,
@@ -461,7 +472,7 @@
 		},
 	"\/images\/ForceFieldBase.png": {
 		"ft": 32768,
-		"iS": 30459,
+		"iS": 44198,
 		"oA": 0,
 		"oAP": "\/images\/ForceFieldBase.png",
 		"oF": 0,
@@ -494,7 +505,7 @@
 		},
 	"\/images\/hero_video.png": {
 		"ft": 32768,
-		"iS": 571325,
+		"iS": 429160,
 		"oA": 0,
 		"oAP": "\/images\/hero_video.png",
 		"oF": 0,
@@ -1102,7 +1113,7 @@
 		},
 	"\/images\/Logo-256.png": {
 		"ft": 32768,
-		"iS": 51825,
+		"iS": 78337,
 		"oA": 0,
 		"oAP": "\/images\/Logo-256.png",
 		"oF": 0,
