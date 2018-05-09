@@ -332,6 +332,59 @@ img.unit {
     color: $pink;
 }
 
+.cutscenes .container {
+    @include flex();
+    @extend %clearfix;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.cutscenes blockquote {
+    width: 95%;
+    display: inline-block;
+}
+
+p.bubble {
+    padding-top: 60px;
+}
+
+div.bubble {
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    background-size: 75%;
+    text-align: center;
+    background-position: center;
+}
+
+.alfricBubble {
+    background-image: url("/images/wiki/bubbles/AlfricBubble.png");
+}
+
+.stouBubble {
+    background-image: url("/images/wiki/bubbles/StouBubble.png");
+}
+
+.barricBubble {
+    background-image: url("/images/wiki/bubbles/BarricBubble.png");
+}
+
+.peasantBubble {
+    background-image: url("/images/wiki/bubbles/PeasantBubble.png");
+}
+
+.cassandraBubble {
+    background-image: url("/images/wiki/bubbles/PrincessBubble.png");
+}
+
+.archerBubble {
+    background-image: url("/images/wiki/bubbles/Archer2Bubble.png");
+}
+
+.rhinoBubble {
+    background-image: url("/images/wiki/bubbles/RhinoBubble.png");
+}
+
 /*----------------------- Jazzy Layout ------------------------------ */
 
 .content-wrapper {

@@ -38,12 +38,14 @@ Aggressive spells are meant to kill the enemy before they can kill you. This is 
       <guid>/overview/cutscenes/scene7/</guid>
       <description>Current cutscene implementation
 STOU and CASSANDRA interrogating ISS&amp;rsquo;DAR after the battle.
-Stou  Why do you attack us? Who leads this assault? Tell me, now.
- Iss&amp;rsquo;dar  You fool. The answer is in front of you.
- Stou  You dare give me riddles?
- Iss&amp;rsquo;dar  Are you so blind? You&amp;rsquo;ve been betrayed.
- Enemy army appears on the horizon.
-Stou  We were followed &amp;hellip; how? They didn&amp;rsquo;t know we were here.</description>
+Stou
+ Why do you attack us? Who leads this assault? Tell me, now.  Iss&#39;dar
+ You fool. The answer is in front of you.  Stou
+ You dare give me riddles?  Iss&#39;dar
+ Are you so blind? You&#39;ve been betrayed.  
+Enemy army appears on the horizon.
+Stou
+ We were followed ... how? They didn&#39;t know we were here.</description>
     </item>
     
     <item>
@@ -62,9 +64,8 @@ Sand Shaman The shaman appears in Level 3 : City and is our first encounter with
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/overview/cutscenes/scene10/</guid>
-      <description> Current cutscene implementation
-No dialogue. STOU kills BARRIC, and flashbacks explain how he was set up.
-TODO / DISCUSS Decide if we want snow or not. Fix flashbacks based off of updated visuals. 09:19 - Glint chains to highlight he was captive NOTES: Travel dialogue to hammer home that she orchestrated all of this.  </description>
+      <description>Current cutscene implementation
+No dialogue. STOU kills BARRIC, and flashbacks explain how he was set up.</description>
     </item>
     
     <item>
@@ -75,10 +76,11 @@ TODO / DISCUSS Decide if we want snow or not. Fix flashbacks based off of update
       <guid>/overview/cutscenes/scene11/</guid>
       <description>Current cutscene implementation
 STOU and ALFRIC resume there conversation from the beginning of the game, explaining why they&amp;rsquo;re gathered for war.
-Stou  That&amp;rsquo;s why we&amp;rsquo;re gathered here to fight.
- Alfric  So, Barric is truly gone then. It hurts to say that out loud. That traitorous b&amp;hellip; clearly her father&amp;rsquo;s blood runs deep.
- Stou  What news of her army?
- Alfric  She marches for the castle.</description>
+Stou
+ That&#39;s why we&#39;re gathered here to fight.  Alfric
+ So, Barric is truly gone then. It hurts to say that out loud. That traitorous b... clearly her father&#39;s blood runs deep.  Stou
+  What news of her army?  Alfric
+ She marches for the castle.</description>
     </item>
     
     <item>
@@ -109,11 +111,12 @@ Controlling spells will probably be the most difficult to play. They will requir
       <guid>/overview/cutscenes/scene8/</guid>
       <description>Current cutscene implementation
 STOU and CASSANDRA at crossroads deciding next steps.
-Stou  Still they persist.
- Cassandra  Perhaps, we should split up.
- Stou  I don&amp;rsquo;t enjoy the idea of dividing our forces. Or, of leaving you.
- Cassandra  Nor do I, but hear me. Lure them into the mountains, distract them, I will alert the council.
- Stou  I don&amp;rsquo;t like this, Cassandra. But, you&amp;rsquo;re right.</description>
+Stou
+ Still they persist.  Cassandra
+ Perhaps, we should split up.  Stou
+ I don&#39;t enjoy the idea of dividing our forces. Or, of leaving you.  Cassandra
+ Nor do I, but hear me. Lure them into the mountains, distract them, I will alert the council.  Stou
+ I don&#39;t like this, Cassandra. But, you&#39;re right.</description>
     </item>
     
     <item>
@@ -124,11 +127,12 @@ Stou  Still they persist.
       <guid>/overview/cutscenes/scene4/</guid>
       <description>Current cutscene implementation
 STOU and CASSANDRA consult with BARRIC after the battle at SOUTH KEEP
-Cassandra  Our ambush was avoided.
- Barric  I know, and had we pressed the attack, our city would have been left defenseless. We must not overreact.
- Stou  Overreact? They attacked our city, Barric. Our home!
- Barric  And who exactly are &amp;ldquo;they&amp;rdquo;?
- Stou  This matters when they bring war to our very doorstep?</description>
+Cassandra
+ Our ambush was avoided.  Barric
+ I know, and had we pressed the attack, our city would have been left defenseless. We must not overreact.  Stou
+ Overreact? They attacked our city, Barric. Our home!  Barric
+ And who exactly are &#34;they&#34;?  Stou
+ This matters when they bring war to our very doorstep?</description>
     </item>
     
     <item>
@@ -139,10 +143,11 @@ Cassandra  Our ambush was avoided.
       <guid>/overview/cutscenes/scene3/</guid>
       <description>Current cutscene implementation
 STOU and CASSANDRA notice the main force bypassed their ambush and is marching on South Keep.
-Cassandra  The whole of their forces approaches the city!
- Stou  How did they get past us?
- Cassandra  It seems the attack was but a small diversion all the while the real threat marched from the south.
- Stou  They knew we were waiting. But &amp;hellip; how?</description>
+Cassandra
+ The whole of their forces approaches the city!  Stou
+ How did they get past us?  Cassandra
+ It seems the attack was but a small diversion all the while the real threat marched from the south.  Stou
+ They knew we were waiting. But ... how?</description>
     </item>
     
     <item>
@@ -163,11 +168,11 @@ Bad Melee 1 : Border Squires This is the first and most common enemy unit, and i
       <guid>/overview/cutscenes/scene9/</guid>
       <description>Current cutscene implementation
 STOU and TOWNSMEN discussing why the Manor has been abandoned.
-Stou  Townsmen, where is everyone?
- Townsmen  They left, sir. About 2 3 weeks past. Marching towards the war.
- Stou  2 3 weeks ago? The war hadn&amp;rsquo;t begun yet. Who ordered this?
- Townsmen  Orders came down from &amp;hellip; Sir! We&amp;rsquo;re under attack!
- TODO / DISCUSS 08:41 - Revisit snow effect 08:45 - Blinking Stou 08:52 - Something like pan to incoming army, change in dialogue, or somehting.</description>
+Stou
+ Townsmen, where is everyone?  Townsmen
+ They left, sir. About 2 3 weeks past. Marching towards the war.  Stou
+ 2 3 weeks ago? The war hadn&#39;t begun yet. Who ordered this?  Townsmen
+ Orders came down from ... Sir! We&#39;re under attack!  </description>
     </item>
     
     <item>
@@ -187,11 +192,11 @@ Melee 1 : Lemon Knights This unit begins the game with you.</description>
       
       <guid>/overview/cutscenes/scene1/</guid>
       <description>Current cutscene implementation
-STOU and ALFRIC gathered amongst soldiers setting up camp.
-Stou  You&amp;rsquo;ve met my brother, Barric?
- Alfric  Met him? I&amp;rsquo;ve fought with him, and would again. Fine warrior, and a better man.
- Stou  I never knew that side of him. I&amp;rsquo;ve only heard stories.
- Alfric  Story like his &amp;hellip; words only carry so much. Don&amp;rsquo;t do it justice. Barric saved this kingdom.</description>
+STOU and ALFRIC gathered amongst soldiers setting up a large camp. This scene takes place in current time just before Stou begins his retelling of past events.
+Stou
+ You&#39;ve met my brother, Barric?  Alfric
+ Met him? I&#39;ve fought with him, and would again. Fine warrior, and a better man.  Stou
+ I never knew that side of him. I&#39;ve only heard stories.  Alfric</description>
     </item>
     
     <item>
@@ -200,11 +205,13 @@ Stou  You&amp;rsquo;ve met my brother, Barric?
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/overview/cutscenes/scene2/</guid>
-      <description>STOU and ALFRIC and CASSANDRA examining an invaders corpse.
-Cassandra  These markings, this soldier is from the Drylands. This makes no sense. What would prompt such an attack?
- Stou  We need to find out. We&amp;rsquo;ll track those who escaped.
- Barric  No. We must return to South Keep and warn our people.
- Stou  Turn back? And what then, Barric? Wait to be attacked again?</description>
+      <description>Current cutscene implementation
+STOU and ALFRIC and CASSANDRA examining an invaders corpse.
+Cassandra
+ These markings, this soldier is from the Drylands. This makes no sense. What would prompt such an attack?  Stou
+ We need to find out. We&#39;ll track those who escaped.  Barric
+ No. We must return to South Keep and warn our people.  Stou
+ Turn back? And what then, Barric? Wait to be attacked again?</description>
     </item>
     
     <item>
@@ -406,12 +413,13 @@ Flanking bonus Strategic positions Treasure chests Larger maps Heroes Items Diff
       <guid>/overview/cutscenes/scene5/</guid>
       <description>Current cutscene implementation
 STOU and ARCHER are atop Drysgate discussing the siege.
-Stou  Report?
- Archer  They&amp;rsquo;re attacking with scout groups. Pinning us back as they continue to grow their ranks.
- Stou  Do we know why they&amp;rsquo;re attacking?
- Archer  No, sir. They&amp;rsquo;ve sent no messages. Only arrows.
- Stou  And who is that? Who leads them?
- Archer  The man in the cloak?</description>
+Stou
+ Report?  Archer
+ They&#39;re attacking with scout groups. Pinning us back as they continue to grow their ranks.  Stou
+ Do we know why they&#39;re attacking?  Archer
+ No, sir. They&#39;ve sent no messages. Only arrows.  Stou
+ And who is that? Who leads them?  Archer
+ The man in the cloak?</description>
     </item>
     
     <item>
@@ -422,7 +430,8 @@ Stou  Report?
       <guid>/overview/cutscenes/scene12/</guid>
       <description>Current cutscene implementation
 STOU and CASSANDRA preparing for the final battle.
-Cassandra  Oh, Stou. I&amp;rsquo;m surprised you made it this far. For what it&amp;rsquo;s worth, I respected your brother. Despite the fact he took everything from me. My father. My kingdom. My heritage. Was he so foolish as to think that a discarded mountain city would be suitable for one such as myself? For royalty? My birthright is to rule.</description>
+Cassandra
+ Oh, Stou. I&#39;m surprised you made it this far. For what it&#39;s worth, I respected your brother. Despite the fact he took everything from me. My father. My kingdom. My heritage. Was he so foolish as to think that a discarded mountain city would be suitable for one such as myself? For royalty? My birthright is to rule.</description>
     </item>
     
     <item>
@@ -431,7 +440,7 @@ Cassandra  Oh, Stou. I&amp;rsquo;m surprised you made it this far. For what it&a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/overview/cutscenes/story/</guid>
-      <description>Hello</description>
+      <description>All of my favorite games are story driven, so I wanted to bring that into this project. Fortunately, Brian Campbell has been a huge help here in both the script and the cutscene sequences. When I get a full length video of the story as a whole, I&amp;rsquo;ll post it here. Until then, please browser the scenes in the menu to the right for a scene-by-scene breakdown and playback.</description>
     </item>
     
     <item>
@@ -470,10 +479,8 @@ The overall goal is for Stou (the player) to be the deciding factor.</descriptio
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/overview/cutscenes/scene13/</guid>
-      <description> Current cutscene implementation
-No dialogue. Celebration and BARRIC&amp;rsquo;s burial.
-Role credits.
-TODO / DISCUSS Clean boat edge  </description>
+      <description>Current cutscene implementation
+No dialogue. Celebration and BARRIC&amp;rsquo;s burial. Pauses on victory scene for a minute before scrolling down. After it scrolls past Barric, show credits.</description>
     </item>
     
     <item>
@@ -484,9 +491,10 @@ TODO / DISCUSS Clean boat edge  </description>
       <guid>/overview/cutscenes/scene6/</guid>
       <description>Current cutscene implementation
 STOU has snuck through enemy lines while CASSANDRA catches him on his way to Wellspring.
-Cassandra  Stou! I&amp;rsquo;ve ridden all night to catch you!
- Stou  Cassandra? What are you doing here? You were to notify the council.
- Cassandra  I &amp;hellip; your brother. I had to come immediately. Barric. He left South Keep shortly after you we did &amp;hellip; with those who stand against us.</description>
+Cassandra
+ Stou! I&#39;ve ridden all night to catch you!  Stou
+ Cassandra? What are you doing here? You were to notify the council.  Cassandra
+ I ... your brother. I had to come immediately. Barric. He left South Keep shortly after you we did ... with those who stand against us.</description>
     </item>
     
     <item>
