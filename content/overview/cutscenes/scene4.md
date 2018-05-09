@@ -11,49 +11,49 @@ className: "cutscenes"
 
 STOU and CASSANDRA consult with BARRIC after the battle at SOUTH KEEP
 
-##### Cassandra
+<div class="container">
+<div class="cassandraBubble bubble"><p class="bubble">Cassandra</p></div>
+<blockquote>Our ambush was avoided.</blockquote>
+</div>
 
-> Our ambush was avoided.
+<div class="container">
+<div class="barricBubble bubble"><p class="bubble">Barric</p></div>
+<blockquote>I know, and had we pressed the attack, our city would have been left defenseless. We must not overreact.</blockquote>
+</div>
 
-##### Barric
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>Overreact? They attacked our city, Barric. Our home!</blockquote>
+</div>
 
-> I know, and had we pressed the attack, our city would have been left defenseless. We must not overreact.
+<div class="container">
+<div class="barricBubble bubble"><p class="bubble">Barric</p></div>
+<blockquote>And who exactly are "they"?</blockquote>
+</div>
 
-##### Stou
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>This matters when they bring war to our very doorstep?</blockquote>
+</div>
 
-> Overreact? They attacked our city, Barric. Our home!
+<div class="container">
+<div class="barricBubble bubble"><p class="bubble">Barric</p></div>
+<blockquote>Their boldness is precisely why we must remain calm, Stou. Before all else, the council must be notified.</blockquote>
+</div>
 
-##### Barric
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>I don't want to talk, Barric. I'll put my time to better use -- in preparation for battle.</blockquote>
+</div>
 
-> And who exactly are "they"?
-
-##### Stou
-
-> This matters when they bring war to our very doorstep?
-
-##### Barric
-
-> Their boldness is precisely why we must remain calm, Stou. Before all else, the council must be notified.
-
-##### Stou
-
-> I don't want to talk, Barric. I'll put my time to better use -- in preparation for battle.
-
-##### Barric
-
-> ENOUGH! You've seen what war has done to our people. I won't let it consume you as it did me. A drawn blade must always be a last resort. You ride to notify the council.
-
-***
+<div class="container">
+<div class="barricBubble bubble"><p class="bubble">Barric</p></div>
+<blockquote>ENOUGH! You've seen what war has done to our people. I won't let it consume you as it did me. A drawn blade must always be a last resort. You ride to notify the council.</blockquote>
+</div>
 
 STOU and CASSANDRA share a conversation outside after leaving the hall.
 
-##### Cassandra
-
-> Stou, I know it is not my place to say it, but some decisions must be made without hesitation. The time to trust your instincts may soon come.
-
-***
-
-##### TODO / DISCUSS
-
-- [ ] 04:41 - Barric blink
-- [ ] 04:54 - New art
+<div class="container">
+<div class="cassandraBubble bubble"><p class="bubble">Cassandra</p></div>
+<blockquote>Stou, I know it is not my place to say it, but some decisions must be made without hesitation. The time to trust your instincts may soon come.</blockquote>
+</div>

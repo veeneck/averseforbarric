@@ -11,26 +11,22 @@ className: "cutscenes"
 
 STOU and TOWNSMEN discussing why the Manor has been abandoned.
 
-##### Stou
- 
-> Townsmen, where is everyone?
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>Townsmen, where is everyone?</blockquote>
+</div>
 
-##### Townsmen
+<div class="container">
+<div class="peasantBubble bubble"><p class="bubble">Townsmen</p></div>
+<blockquote>They left, sir. About <strike>2</strike> <code>3</code> weeks past. Marching towards the war.</blockquote>
+</div>
 
-> They left, sir. About ~~2~~ `3` weeks past. Marching towards the war.
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote><strike>2</strike> <code>3</code> weeks ago? The war hadn't begun yet. Who ordered this?</blockquote>
+</div>
 
-##### Stou
-
-> ~~2~~ `3` weeks ago? The war hadn't begun yet. Who ordered this?
-
-##### Townsmen
-
-> Orders came down from ... Sir! We're under attack!
-
-##### TODO / DISCUSS
-
-- [ ] 08:41 - Revisit snow effect
-- [ ] 08:45 - Blinking Stou
-- [ ] 08:52 - Something like pan to incoming army, change in dialogue, or somehting. Just feels off.
-- [ ] New art for incoming army. Animate it when we get it.
-- [ ] NOTES: Want to convey army left before war started and something suspicious is up...scene just feels rushed so it gets missed. Consider explosion sound / off-screen effect, new Stou face reacting, whip pan, different character yelling "We're under attack." Right now, this is the weakest scene, so anything we can do to spice it up. As for sound design, consider banging drum slowly getting louder, and reusing incoming wave horn seen in battle levels to interrupt Stou and townsmen talking.
+<div class="container">
+<div class="peasantBubble bubble"><p class="bubble">Townsmen</p></div>
+<blockquote>Orders came down from ... Sir! We're under attack!</blockquote>
+</div>

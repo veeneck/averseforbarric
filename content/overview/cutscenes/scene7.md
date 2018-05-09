@@ -11,36 +11,36 @@ className: "cutscenes"
 
 STOU and CASSANDRA interrogating ISS'DAR after the battle.
 
-##### Stou
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>Why do you attack us? Who leads this assault? Tell me, now.</blockquote>
+</div>
 
-> Why do you attack us? Who leads this assault? Tell me, now.
+<div class="container">
+<div class="rhinoBubble bubble"><p class="bubble">Iss'dar</p></div>
+<blockquote>You fool. The answer is in front of you.</blockquote>
+</div>
 
-##### Iss'dar
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>You dare give me riddles?</blockquote>
+</div>
 
-> You fool. The answer is in front of you.
+<div class="container">
+<div class="rhinoBubble bubble"><p class="bubble">Iss'dar</p></div>
+<blockquote>Are you so blind? You've been betrayed.</blockquote>
+</div>
 
-##### Stou
-
-> You dare give me riddles?
-
-##### Iss'dar
-
-> Are you so blind? You've been betrayed.
-
-***
-
+<br />
 Enemy army appears on the horizon.
 
-##### Stou
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>We were followed ... how? They didn't know we were here.</blockquote>
+</div>
 
-> We were followed ... how? They didn't know we were here.
 
-##### Cassandra
-
-> Now is not the time, Stou. We are outnumbered. We must retreat. Now.
-
-***
-
-##### TODO / DISCUSS
-
-- [ ] Glint on sword /  Cleanup Soldier reveal / Atmosphere / Head Movement
+<div class="container">
+<div class="cassandraBubble bubble"><p class="bubble">Cassandra</p></div>
+<blockquote>Now is not the time, Stou. We are outnumbered. We must retreat. Now.</blockquote>
+</div>

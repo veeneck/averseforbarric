@@ -371,6 +371,9 @@ div.bubble {
 .archerBubble {
   background-image: url("/images/wiki/bubbles/Archer2Bubble.png"); }
 
+.rhinoBubble {
+  background-image: url("/images/wiki/bubbles/RhinoBubble.png"); }
+
 /*----------------------- Jazzy Layout ------------------------------ */
 .content-wrapper {
   margin: 0 auto;
@@ -940,6 +943,9 @@ div.bubble {
 
 .archerBubble {
   background-image: url("/images/wiki/bubbles/Archer2Bubble.png"); }
+
+.rhinoBubble {
+  background-image: url("/images/wiki/bubbles/RhinoBubble.png"); }
 
 /*----------------------- Jazzy Layout ------------------------------ */
 .content-wrapper {

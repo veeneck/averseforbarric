@@ -11,30 +11,27 @@ className: "cutscenes"
 
 STOU and CASSANDRA notice the main force bypassed their ambush and is marching on South Keep.
 
-##### Cassandra
+<div class="container">
+<div class="cassandraBubble bubble"><p class="bubble">Cassandra</p></div>
+<blockquote>The whole of their forces approaches the city!</blockquote>
+</div>
 
-> The whole of their forces approaches the city!
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>How did they get past us?</blockquote>
+</div>
 
-##### Stou
+<div class="container">
+<div class="cassandraBubble bubble"><p class="bubble">Cassandra</p></div>
+<blockquote>It seems the attack was but a small diversion all the while the real threat marched from the south.</blockquote>
+</div>
 
-> How did they get past us?
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>They knew we were waiting. But ... how?</blockquote>
+</div>
 
-##### Cassandra
-
-> It seems the attack was but a small diversion all the while the real threat marched from the south.
-
-##### Stou
-
-> They knew we were waiting. But ... how?
-
-##### Cassandra
-
-> Perhaps ... a traitor?
-
-***
-
-##### TODO / DISCUSS
-
-- [ ] Intro. Calls it a city, but earlier she calls it a town. I'd say either call town, or South Keep here.
-- [ ] Don't love intro of "the whole of their forces".
-- [ ] GLOBAL - ripple in water, flags in bg, quality of Cassy's staff
+<div class="container">
+<div class="cassandraBubble bubble"><p class="bubble">Cassandra</p></div>
+<blockquote>Perhaps ... a traitor?</blockquote>
+</div>

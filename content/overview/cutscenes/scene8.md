@@ -11,40 +11,42 @@ className: "cutscenes"
 
 STOU and CASSANDRA at crossroads deciding next steps.
 
-##### Stou
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>Still they persist.</blockquote>
+</div>
 
-> Still they persist.
+<div class="container">
+<div class="cassandraBubble bubble"><p class="bubble">Cassandra</p></div>
+<blockquote>Perhaps, we should split up.</blockquote>
+</div>
 
-##### Cassandra
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>I don't enjoy the idea of dividing our forces. Or, of leaving you.</blockquote>
+</div>
 
-> Perhaps, we should split up.
+<div class="container">
+<div class="cassandraBubble bubble"><p class="bubble">Cassandra</p></div>
+<blockquote>Nor do I, but hear me. Lure them into the mountains, distract them, I will alert the council.</blockquote>
+</div>
 
-##### Stou
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>I don't like this, Cassandra. But, you're right. We don't have many options.</blockquote>
+</div>
 
-> I don't enjoy the idea of dividing our forces. Or, of leaving you.
+<div class="container">
+<div class="cassandraBubble bubble"><p class="bubble">Cassandra</p></div>
+<blockquote>Head <strike>for my town in the mountains</strike> <code>up Giant's Pass to my Manor</code>. You will be welcomed.</blockquote>
+</div>
 
-##### Cassandra
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>Be careful.</blockquote>
+</div>
 
-> Nor do I, but hear me. Lure them into the mountains, distract them, I will alert the council.
-
-##### Stou
-
-> I don't like this, Cassandra. But, you're right. We don't have many options.
-
-##### Cassandra
-
-> Head ~~for my town in the mountains~~ `up Giant's Pass to my Manor`. You will be welcomed.
-
-##### Stou
-
-> Be careful.
-
-##### Cassandra
-
-> I will. And Stou, don't hesitate.
-
-***
-
-##### TODO / DISCUSS
-
-- [ ] Missing texture on bg cloud
+<div class="container">
+<div class="cassandraBubble bubble"><p class="bubble">Cassandra</p></div>
+<blockquote>I will. And Stou, don't hesitate.</blockquote>
+</div>

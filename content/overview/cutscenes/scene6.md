@@ -11,41 +11,42 @@ className: "cutscenes"
 
 STOU has snuck through enemy lines while CASSANDRA catches him on his way to Wellspring.
 
-##### Cassandra
+<div class="container">
+<div class="cassandraBubble bubble"><p class="bubble">Cassandra</p></div>
+<blockquote>Stou! I've ridden all night to catch you!</blockquote>
+</div>
 
-> Stou! I've ridden all night to catch you!
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>Cassandra? What are you doing here? You were to notify the council.</blockquote>
+</div>
 
-##### Stou
+<div class="container">
+<div class="cassandraBubble bubble"><p class="bubble">Cassandra</p></div>
+<blockquote>I ... your brother. I had to come immediately. Barric. He left <code>South Keep</code> shortly after <strike>you</strike> <code>we did</code> ... with those who stand against us. I fear he may be the one behind this.</blockquote>
+</div>
 
-> Cassandra? What are you doing here? You were to notify the council.
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>That's impossible.</blockquote>
+</div>
 
-##### Cassandra
+<div class="container">
+<div class="cassandraBubble bubble"><p class="bubble">Cassandra</p></div>
+<blockquote>It was him. My men confirmed it.</blockquote>
+</div>
 
-> I ... your brother. I had to come immediately. Barric. He left `South Keep` shortly after ~~you~~ `we did` ... with those who stand against us. I fear he may be the one behind this.
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>Your men are mistaken. My brother would never betray our people.</blockquote>
+</div>
 
-##### Stou
+<div class="container">
+<div class="cassandraBubble bubble"><p class="bubble">Cassandra</p></div>
+<blockquote>Our scouts saw him amongst their ranks. Stou, I'm so ...</blockquote>
+</div>
 
-> That's impossible.
-
-##### Cassandra
-
-> It was him. My men confirmed it.
-
-##### Stou
-
-> Your men are mistaken. My brother would never betray our people.
-
-##### Cassandra
-
-> Our scouts saw him amongst their ranks. Stou, I'm so ...
-
-##### Stou
-
-> No you're wrong. There is an explanation, and we're going to find it.
-
-***
-
-##### TODO / DISCUSS
-
-- [ ] Bottom right land needs to be extended. Improve Stou artwork
-- [ ] Discuss and approve Cassandra script change above.
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>No you're wrong. There is an explanation, and we're going to find it.</blockquote>
+</div>
