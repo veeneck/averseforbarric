@@ -1569,6 +1569,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/wiki\/encampment.png": {
+		"ft": 32768,
+		"iS": 201780,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/encampment.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/wiki\/Flail 1 - Attack Front_01.png": {
 		"ft": 32768,
 		"iS": 17508,
@@ -1753,6 +1764,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/wiki\/MapLegend.png": {
+		"ft": 32768,
+		"iS": 1580437,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/MapLegend.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/wiki\/MapLevels.png": {
+		"ft": 32768,
+		"iS": 22018630,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/MapLevels.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},

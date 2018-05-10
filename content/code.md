@@ -4,6 +4,10 @@ title: "Code"
 
 To date, this game has 38,378 lines of Swift code. There have been countless hours invested in art, story, design, animation and brainstorming, but code makes all of this tick. Behind the scenes, <a href="https://developer.apple.com/documentation/spritekit">SpriteKit</a> and <a href="https://developer.apple.com/documentation/gameplaykit">GameplayKit</a> power a vast majority of the engine. This section provides a look at some of the custom frameworks that had to be developed along with tricky problems that had to be solved.
 
+Latest Updates:
+
+**6/1/18**: This site was created and enough bugs were fixed for demo video.
+
 #### The Frameworks
 
 <div class="frameworks">

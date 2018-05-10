@@ -1,6 +1,8 @@
 ---
-title: "Camp Scene"
+title: "Camp"
 section: "overview"
+description: "Interface"
+className: "interface"
 ---
 
 This screen will allow you to manage your army, and watch it grow.

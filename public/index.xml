@@ -78,6 +78,16 @@ No dialogue. STOU kills BARRIC, and flashbacks explain how he was set up.</descr
     </item>
     
     <item>
+      <title>Camp</title>
+      <link>/overview/interface/camp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/interface/camp/</guid>
+      <description>This screen will allow you to manage your army, and watch it grow.
+As more units are added, more buildings start appearing in the camp. The big unknown here is if the world map should just link to the Camp, and then the Camp link to Stou, Unit and Hero Upgrades OR if the World Map should link to everything.</description>
+    </item>
+    
+    <item>
       <title>Camp : Scene 11</title>
       <link>/overview/cutscenes/scene11/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -90,16 +100,6 @@ Stou
  So, Barric is truly gone then. It hurts to say that out loud. That traitorous b... clearly her father&#39;s blood runs deep.  Stou
   What news of her army?  Alfric
  She marches for the castle.</description>
-    </item>
-    
-    <item>
-      <title>Camp Scene</title>
-      <link>/overview/interface/camp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/interface/camp/</guid>
-      <description>This screen will allow you to manage your army, and watch it grow.
-As more units are added, more buildings start appearing in the camp. The big unknown here is if the world map should just link to the Camp, and then the Camp link to Stou, Unit and Hero Upgrades OR if the World Map should link to everything.</description>
     </item>
     
     <item>
@@ -211,6 +211,15 @@ Melee 1 : Lemon Knights This unit begins the game with you.</description>
       
       <guid>/illustrations/</guid>
       <description>Scott Pellico was a godsend for this project. After a few trial runs with other artists, I was having trouble establishing an art direction. My brother, Chris, found Scott for his project. Since Chris didn&amp;rsquo;t need Scott full time, Scott agreed to split his work between the two of us. He worked on the project part time for nearly a year starting in 2014. Before getting into specific contributions, here is a gallery of some of my favorite Scott creations.</description>
+    </item>
+    
+    <item>
+      <title>Interface &amp; Scenes</title>
+      <link>/overview/interface/scenes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/interface/scenes/</guid>
+      <description>Hello world</description>
     </item>
     
     <item>

@@ -8,7 +8,12 @@
 		<li><a href="/overview/progression/enemy/#nav">{{ if eq .Page.Title "Enemy Units" }}&middot; {{ end }}Enemy Units</a></li>
 		<li><a href="/overview/progression/boss/#nav">{{ if eq .Page.Title "Boss Units" }}&middot; {{ end }} Boss Units</a></li>
 	</ul>
-	<li><a href="">Interface & Scenes</a></li>
+	<li><a href="/overview/interface/scenes/#nav" class="{{ if eq .Page.Description "Interface" }}selected{{ end }}">Interface & Scenes</a></li>
+	<ul class="submenu {{ if eq .Page.Description "Interface" }}selected{{ end }}">
+		<li><a href="/overview/interface/map/#nav">{{ if eq .Page.Title "World Map" }}&middot; {{ end }}World Map</a></li>
+		<li><a href="/overview/interface/camp/#nav">{{ if eq .Page.Title "Camp" }}&middot; {{ end }}Camp</a></li>
+		<li><a href="/overview/interface/actionbar/#nav">{{ if eq .Page.Title "Action Bar" }}&middot; {{ end }}Action Bar</a></li>
+	</ul>
 	<li><a href="/overview/abilities/stou/#nav" class="{{ if eq .Page.Description "Magic" }}selected{{ end }}">Magic Abilities</a></li>
 	<ul class="submenu {{ if eq .Page.Description "Magic" }}selected{{ end }}">
 		<li><a href="/overview/abilities/aggressive/#nav">{{ if eq .Page.Title "Aggressive Spells" }}&middot; {{ end }}Aggressive Spells</a></li>

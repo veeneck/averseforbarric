@@ -1,6 +1,8 @@
 ---
 title: "Action Bar"
 section: "overview"
+description: "Interface"
+className: "interface"
 ---
 
 Notes to consider:

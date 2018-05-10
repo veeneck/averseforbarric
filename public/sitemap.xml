@@ -31,11 +31,11 @@
   </url>
   
   <url>
-    <loc>/overview/cutscenes/scene11/</loc>
+    <loc>/overview/interface/camp/</loc>
   </url>
   
   <url>
-    <loc>/overview/interface/camp/</loc>
+    <loc>/overview/cutscenes/scene11/</loc>
   </url>
   
   <url>
@@ -81,6 +81,10 @@
   
   <url>
     <loc>/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/interface/scenes/</loc>
   </url>
   
   <url>

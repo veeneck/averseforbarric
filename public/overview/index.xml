@@ -69,6 +69,16 @@ No dialogue. STOU kills BARRIC, and flashbacks explain how he was set up.</descr
     </item>
     
     <item>
+      <title>Camp</title>
+      <link>/overview/interface/camp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/interface/camp/</guid>
+      <description>This screen will allow you to manage your army, and watch it grow.
+As more units are added, more buildings start appearing in the camp. The big unknown here is if the world map should just link to the Camp, and then the Camp link to Stou, Unit and Hero Upgrades OR if the World Map should link to everything.</description>
+    </item>
+    
+    <item>
       <title>Camp : Scene 11</title>
       <link>/overview/cutscenes/scene11/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -81,16 +91,6 @@ Stou
  So, Barric is truly gone then. It hurts to say that out loud. That traitorous b... clearly her father&#39;s blood runs deep.  Stou
   What news of her army?  Alfric
  She marches for the castle.</description>
-    </item>
-    
-    <item>
-      <title>Camp Scene</title>
-      <link>/overview/interface/camp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/interface/camp/</guid>
-      <description>This screen will allow you to manage your army, and watch it grow.
-As more units are added, more buildings start appearing in the camp. The big unknown here is if the world map should just link to the Camp, and then the Camp link to Stou, Unit and Hero Upgrades OR if the World Map should link to everything.</description>
     </item>
     
     <item>
@@ -183,6 +183,15 @@ Stou
       <guid>/overview/progression/friendly/</guid>
       <description>These are the units that the player will be able to recruit throughout the game. One playthrough will not guarantee all units are collected. Some are either-or type decisions. Also, once a unit has been obtained, there is still a chance they will leave. The goal is for the army size to be consistent, which will keep the game balanced.
 Melee 1 : Lemon Knights This unit begins the game with you.</description>
+    </item>
+    
+    <item>
+      <title>Interface &amp; Scenes</title>
+      <link>/overview/interface/scenes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/interface/scenes/</guid>
+      <description>Hello world</description>
     </item>
     
     <item>
