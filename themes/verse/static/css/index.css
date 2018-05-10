@@ -345,6 +345,9 @@ img.unit {
   width: 95%;
   display: inline-block; }
 
+.level blockquote {
+  max-width: 80%; }
+
 .level p.action {
   margin-top: 25px; }
 
@@ -370,6 +373,9 @@ div.bubble {
 
 .barricBubble {
   background-image: url("/images/wiki/bubbles/BarricBubble.png"); }
+
+.idiriBubble {
+  background-image: url("/images/wiki/bubbles/IdiriBubble.png"); }
 
 .peasantBubble {
   background-image: url("/images/wiki/bubbles/PeasantBubble.png"); }
@@ -945,6 +951,9 @@ img.unit {
   width: 95%;
   display: inline-block; }
 
+.level blockquote {
+  max-width: 80%; }
+
 .level p.action {
   margin-top: 25px; }
 
@@ -970,6 +979,9 @@ div.bubble {
 
 .barricBubble {
   background-image: url("/images/wiki/bubbles/BarricBubble.png"); }
+
+.idiriBubble {
+  background-image: url("/images/wiki/bubbles/IdiriBubble.png"); }
 
 .peasantBubble {
   background-image: url("/images/wiki/bubbles/PeasantBubble.png"); }

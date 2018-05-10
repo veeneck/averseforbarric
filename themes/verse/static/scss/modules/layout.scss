@@ -348,6 +348,10 @@ img.unit {
     display: inline-block;
 }
 
+.level blockquote {
+    max-width: 80%;
+}
+
 .level p.action {
     @extend %clearfix;
     margin-top: 25px;
@@ -380,6 +384,10 @@ div.bubble {
 
 .barricBubble {
     background-image: url("/images/wiki/bubbles/BarricBubble.png");
+}
+
+.idiriBubble {
+    background-image: url("/images/wiki/bubbles/IdiriBubble.png");
 }
 
 .peasantBubble {
