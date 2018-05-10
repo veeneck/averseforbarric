@@ -264,7 +264,21 @@
 			<li><a href="/overview/cutscenes/scene12/#nav">Showdown : Scene 12</a></li>
 			<li><a href="/overview/cutscenes/scene13/#nav">Victory : Scene 13</a></li>
 		</ul>
-	<li><a href="">Combat Levels</a></li>
+	<li><a href="/overview/levels/level1/#nav" class="selected">Combat Levels</a></li>
+	<ul class="submenu selected">
+		<li><a href="/overview/levels/level1/#nav">Level 1 : Forest</a></li>
+		<li><a href="/overview/levels/level2/#nav">Level 2 : Hills</a></li>
+		<li><a href="/overview/levels/level3/#nav">&middot; Level 3 : City (Boss)</a></li>
+		<li><a href="/overview/levels/level4/#nav">Level 4 : Border</a></li>
+		<li><a href="/overview/levels/level5/#nav">Level 5 : Desert</a></li>
+		<li><a href="/overview/levels/level6/#nav">Level 6 : Oasis (Boss)</a></li>
+		<li><a href="/overview/levels/level7/#nav">Level 7 : Foothills</a></li>
+		<li><a href="/overview/levels/level8/#nav">Level 8 : Mountain</a></li>
+		<li><a href="/overview/levels/level9/#nav">Level 9 : Fjord (Boss)</a></li>
+		<li><a href="/overview/levels/level10/#nav">Level 10 : Farm</a></li>
+		<li><a href="/overview/levels/level11/#nav">Level 11 : Camp</a></li>
+		<li><a href="/overview/levels/level12/#nav">Level 12 : Castle (Boss)</a></li>
+	</ul>
 	<li><a href="/overview/decisions/all/#nav" class="">Player Decisions</a></li>
 	<li><a href="/overview/travel/dialogue/#nav" class="">Travel Dialogue</a></li>
 </ul>
@@ -273,7 +287,7 @@
 
 	<h4>Level 3 : City (Boss)</h4>
 
-	<div class="">
+	<div class="level">
 
 		
 
@@ -283,15 +297,9 @@
 <p>Stou and Cassandra suspect an insider may have alerted the enemy to their trap since the bulk of the invading forces are now unscathed, marching on South Keep. With little time to ponder, they rush to Barric&rsquo;s aid.</p>
 </blockquote>
 
-<h3 id="south-keep">South Keep</h3>
-
-<p><img src="https://github.com/veeneck/BarricAssets/blob/master/Gameplay.xcassets/Levels/City.spriteatlas/City_base2.imageset/City_base2.jpg?raw=true" alt="" /></p>
-
-<h4 id="summary">Summary</h4>
+<h5 id="south-keep">South Keep</h5>
 
 <p>Intro to the first enemy boss, treasure chests, a defensive objective (if enemy destroys the gate, they win), and the first true gameplay choice with strategic positions (over extend and risk getting flanked).</p>
-
-<hr />
 
 <table>
 <thead>
@@ -303,117 +311,76 @@
 
 <tbody>
 <tr>
-<td align="center">Melee1</td>
-<td align="center">BadMelee1</td>
-</tr>
-
-<tr>
-<td align="center">Melee2</td>
-<td align="center">BadArcher1</td>
-</tr>
-
-<tr>
-<td align="center">Archer1</td>
-<td align="center">Champion</td>
-</tr>
-
-<tr>
-<td align="center">Trebuchet / Catapult</td>
-<td align="center">Boss: Shaman</td>
-</tr>
-
-<tr>
-<td align="center"></td>
-<td align="center">BadMelee2</td>
+<td align="center"><img src="/images/wiki/Melee%201%20-%20Attack%20Front_01.png?raw=1" height="64px" /> <img src="/images/wiki/Melee%202%20-%20Attack%20Front_01.png?raw=1" height="64px" /> <img src="/images/wiki/Archer%201%20-%20Attack%20Front_01.png?raw=1" height="64px"  /> <img src="/images/wiki/Trebuchet%20-%20Attack%20Front_01.png?raw=1"  height="96" />  <img src="/images/wiki/Catapult%20-%20Attack%20Front_01.png?raw=1"  height="80" /></td>
+<td align="center"><img src="/images/wiki/Bad%20Melee%201%20-%20Attack%20Front_01.png?raw=1"   height="64" /> <img src="/images/wiki/Bad%20Archer%201%20-%20Attack%20Front_01.png?raw=1"  height="64"  /> <img src="/images/wiki/Champion%201%20-%20Attack%20Front_01.png?raw=1"  height="64"  /> <img src="/images/wiki/Bad%20Melee%202%20-%20Attack%20Front_01.png?raw=1" height="80"  /> <img src="/images/wiki/Shaman.png?raw=1"  height="80" /></td>
 </tr>
 </tbody>
 </table>
 
-<hr />
+<p>This is also the first boss fight, so if there is a custom UI for bosses or any other unique behavior, it will be introduced here.</p>
 
-<h3 id="first-cutscene">First Cutscene</h3>
+<p><img src="/images/wiki/levels/city.jpg" width="100%" /></p>
+
+<h5 id="first-cutscene">First Cutscene</h5>
 
 <p>City is burning, and some units have entered from the streets at the top of the map. NPC&rsquo;s defending, explain that the gate must be protected at all costs. Stou and his army come in from the South to fend off the first wave.</p>
 
-<h4 id="lemon-knight">Lemon Knight</h4>
+<div class="container">
+<div class="lemonBubble bubble"><p class="bubble">Lemon</p></div>
+<blockquote>They've snuck past the east wall!</blockquote>
+</div>
 
-<blockquote>
-<p>They&rsquo;ve snuck past the east wall!</p>
-</blockquote>
+<div class="container">
+<div class="barricBubble bubble"><p class="bubble">Barric</p></div>
+<blockquote>Reinforce! Defend the castle! Do not let them destroy the gate!</blockquote>
+</div>
 
-<h4 id="barric">Barric</h4>
+<p class="action"><span class="emoji">🎭</span> <code>Consider tutorial overlay explaining new objective -- the gate can be attacked by enemies. Or, give the gate a health bar somewhere in the UI.</code></p>
 
-<blockquote>
-<p>Reinforce! Defend the castle! Do not let them destroy the gate!</p>
-</blockquote>
-
-<p>:performing_arts: <code>Consider tutorial overlay explaining new objective -- the gate can be attacked by enemies. Or, give the gate a health bar somewhere in the UI.</code></p>
-
-<hr />
-
-<h3 id="second-cutscene">Second Cutscene</h3>
+<h5 id="second-cutscene">Second Cutscene</h5>
 
 <p>Fade to black, reposition players army in defense positions within the city. Add treasure chest to map in a place that would compromise objective. Either by docks so the player has to walk out of their way, or far into enemy spawns that it would be impossible to get this wave and the player can think about it during future breaks.</p>
 
-<h4 id="barric-1">Barric</h4>
+<div class="container">
+<div class="barricBubble bubble"><p class="bubble">Barric</p></div>
+<blockquote>Stou! Thank the heavens.</blockquote>
+</div>
 
-<blockquote>
-<p>Stou! Thank the heavens.</p>
-</blockquote>
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>This is an invasion, brother. They'll soon have the city surrounded.</blockquote>
+</div>
 
-<h4 id="stou">Stou</h4>
-
-<blockquote>
-<p>This is an invasion, brother. They&rsquo;ll soon have the city surrounded.</p>
-</blockquote>
-
-<h4 id="barric-2">Barric</h4>
-
-<blockquote>
-<p>Indeed. Quick, we must regroup.</p>
-</blockquote>
+<div class="container">
+<div class="barricBubble bubble"><p class="bubble">Barric</p></div>
+<blockquote>Indeed. Quick, we must regroup.</blockquote>
+</div>
 
 <p>Fade to black and reposition troops.</p>
 
-<blockquote>
-<p>Incoming!</p>
-</blockquote>
+<div class="container">
+<div class="barricBubble bubble"><p class="bubble">Barric</p></div>
+<blockquote>Incoming!</blockquote>
+</div>
 
-<p>:performing_arts: <code>Good chance to get a feel for the waves, and the strategic positions on the map. Also, first look at treasure chests (consider tutorial).</code></p>
+<p class="action"><span class="emoji">🎭</span> <code>Good chance to get a feel for the waves, and the strategic positions on the map. Also, first look at treasure chests (consider tutorial).</code></p>
 
-<hr />
-
-<h3 id="third-cutscene">Third Cutscene</h3>
+<h5 id="third-cutscene">Third Cutscene</h5>
 
 <p>Enemy Boss : Shaman appears in a protected position. Can cast spells just as Stou can.</p>
 
-<h4 id="barric-3">Barric</h4>
+<div class="container">
+<div class="barricBubble bubble"><p class="bubble">Barric</p></div>
+<blockquote>They've got a shaman with them! Watch out for spells, men. Hold your ground!</blockquote>
+</div>
 
-<blockquote>
-<p>They&rsquo;ve got a shaman with them! Watch out for spells, men. Hold your ground!</p>
-</blockquote>
+<p class="action"><span class="emoji">🎭</span> <code>Camera pans to new boss unit. First look at being the target of spells.</code></p>
 
-<p>:performing_arts: <code>Camera pans to new boss unit. First look at being the target of spells.</code></p>
+<h5 id="fourth-cutscene">Fourth Cutscene</h5>
 
-<hr />
+<p>TBD how Shaman boss fight plays out. Most likely open up new wave area (docks) and have Shaman cast spells off screen for awhile before becoming an attackable unit.</p>
 
-<h3 id="fourth-cutscene">Fourth Cutscene</h3>
-
-<h4 id="shaman">Shaman</h4>
-
-<blockquote>
-<p>They can&rsquo;t withstand our full force. Attack!</p>
-</blockquote>
-
-<p>Shaman joins a squad and is now attackable. Pan camera to docks.</p>
-
-<p>Boat arrives, and more enemies unload surrounding your army.</p>
-
-<blockquote>
-<p>Their overconfidence will be their end.</p>
-</blockquote>
-
-<p>:performing_arts: <code>Music changes to boss music. Player is surrounded, and has to decide the best way to protect the gate and preserve their own units.</code></p>
+<p class="action"><span class="emoji">🎭</span> <code>Music changes to boss music. Player is surrounded, and has to decide the best way to protect the gate and preserve their own units.</code></p>
 
 
 	</div>

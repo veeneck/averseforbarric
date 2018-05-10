@@ -264,7 +264,21 @@
 			<li><a href="/overview/cutscenes/scene12/#nav">Showdown : Scene 12</a></li>
 			<li><a href="/overview/cutscenes/scene13/#nav">Victory : Scene 13</a></li>
 		</ul>
-	<li><a href="">Combat Levels</a></li>
+	<li><a href="/overview/levels/level1/#nav" class="selected">Combat Levels</a></li>
+	<ul class="submenu selected">
+		<li><a href="/overview/levels/level1/#nav">Level 1 : Forest</a></li>
+		<li><a href="/overview/levels/level2/#nav">&middot; Level 2 : Hills</a></li>
+		<li><a href="/overview/levels/level3/#nav">Level 3 : City (Boss)</a></li>
+		<li><a href="/overview/levels/level4/#nav">Level 4 : Border</a></li>
+		<li><a href="/overview/levels/level5/#nav">Level 5 : Desert</a></li>
+		<li><a href="/overview/levels/level6/#nav">Level 6 : Oasis (Boss)</a></li>
+		<li><a href="/overview/levels/level7/#nav">Level 7 : Foothills</a></li>
+		<li><a href="/overview/levels/level8/#nav">Level 8 : Mountain</a></li>
+		<li><a href="/overview/levels/level9/#nav">Level 9 : Fjord (Boss)</a></li>
+		<li><a href="/overview/levels/level10/#nav">Level 10 : Farm</a></li>
+		<li><a href="/overview/levels/level11/#nav">Level 11 : Camp</a></li>
+		<li><a href="/overview/levels/level12/#nav">Level 12 : Castle (Boss)</a></li>
+	</ul>
 	<li><a href="/overview/decisions/all/#nav" class="">Player Decisions</a></li>
 	<li><a href="/overview/travel/dialogue/#nav" class="">Travel Dialogue</a></li>
 </ul>
@@ -273,7 +287,7 @@
 
 	<h4>Level 2 : Hills</h4>
 
-	<div class="">
+	<div class="level">
 
 		
 
@@ -283,15 +297,9 @@
 <p>Barric refused to make a rash judgement regarding the intruders. Set in his resolve, he returned to South Keep to gather more information. Meanwhile, anxious to punish their attackers, Stou and Cassandra set up an ambush should the enemy pursue.</p>
 </blockquote>
 
-<h3 id="highlands">Highlands</h3>
-
-<p><img src="https://github.com/veeneck/BarricAssets/blob/master/Gameplay.xcassets/Levels/Hills.spriteatlas/RollingHills_base.imageset/RollingHills_base.png?raw=true" alt="" /></p>
-
-<h4 id="summary">Summary</h4>
+<h5 id="highlands">Highlands</h5>
 
 <p>This level teaches the player how to switch spell categories, control war machines, friendly fire and strategic positions, and enemy champions. A unit is also guaranteed to level up here, which will teach the player how to pick skills in the Camp scene.</p>
-
-<hr />
 
 <table>
 <thead>
@@ -303,104 +311,76 @@
 
 <tbody>
 <tr>
-<td align="center">Melee1</td>
-<td align="center">BadMelee1</td>
-</tr>
-
-<tr>
-<td align="center">Melee2</td>
-<td align="center">BadArcher1</td>
-</tr>
-
-<tr>
-<td align="center">Archer1</td>
-<td align="center">Champion</td>
-</tr>
-
-<tr>
-<td align="center">Trebuchet / Catapult</td>
-<td align="center"></td>
+<td align="center"><img src="/images/wiki/Melee%201%20-%20Attack%20Front_01.png?raw=1" height="64px" /> <img src="/images/wiki/Melee%202%20-%20Attack%20Front_01.png?raw=1" height="64px" /> <img src="/images/wiki/Archer%201%20-%20Attack%20Front_01.png?raw=1" height="64px"  /> <img src="/images/wiki/Trebuchet%20-%20Attack%20Front_01.png?raw=1"  height="96" />  <img src="/images/wiki/Catapult%20-%20Attack%20Front_01.png?raw=1"  height="80" /></td>
+<td align="center"><img src="/images/wiki/Bad%20Melee%201%20-%20Attack%20Front_01.png?raw=1"   height="64" /> <img src="/images/wiki/Bad%20Archer%201%20-%20Attack%20Front_01.png?raw=1"  height="64"  /> <img src="/images/wiki/Champion%201%20-%20Attack%20Front_01.png?raw=1"  height="64"  /></td>
 </tr>
 </tbody>
 </table>
 
-<hr />
+<p><img src="/images/wiki/levels/hills.jpg" width="100%" /></p>
 
-<h3 id="first-cutscene">First Cutscene</h3>
+<h5 id="first-cutscene">First Cutscene</h5>
 
 <p>An enemy scouting party is passing by the ambush site. Watching it pass provides an opportunity to foreshadow future units that the player will have to fight.</p>
 
-<h4 id="lemon-knight">Lemon Knight</h4>
+<div class="container">
+<div class="lemonBubble bubble"><p class="bubble">Lemon</p></div>
+<blockquote>Sir! Scouts report movement behind us.</blockquote>
+</div>
 
-<blockquote>
-<p>Sir! Scouts report movement behind us.</p>
-</blockquote>
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>So, they did persue. They won't be expecting us. Why isn't the Trebuchet / Catapult in position?</blockquote>
+</div>
 
-<h4 id="stou">Stou</h4>
+<div class="container">
+<div class="lemonBubble bubble"><p class="bubble">Lemon</p></div>
+<blockquote>We're making the final adjustments. It should be ready soon!</blockquote>
+</div>
 
-<blockquote>
-<p>So, they did persue. They won&rsquo;t be expecting us. Why isn&rsquo;t the Trebuchet / Catapult in position?</p>
-</blockquote>
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>Hurry up! Let this first wave pass. I'll see if any spells can maintain our advantage.</blockquote>
+</div>
 
-<h4 id="lemon-knight-1">Lemon Knight</h4>
+<p class="action"><span class="emoji">🎭</span> <code>The goal here is to show how to switch spell categories, and explain where passive spell effects are shown in the UI.</code></p>
 
-<blockquote>
-<p>We&rsquo;re making the final adjustments. It should be ready soon!</p>
-</blockquote>
-
-<h3 id="stou-1">Stou</h3>
-
-<blockquote>
-<p>Hurry up! Let this first wave pass. I&rsquo;ll see if any spells can maintain our advantage.</p>
-</blockquote>
-
-<p>:performing_arts: <code>The goal here is to show how to switch spell categories, and explain where passive spell effects are shown in the UI.</code></p>
-
-<hr />
-
-<h3 id="second-cutscene">Second Cutscene</h3>
+<h5 id="second-cutscene">Second Cutscene</h5>
 
 <p>Either <a href="https://github.com/veeneck/Barric/wiki/Friendly-Unit-Progression#trebuchet--trebram">Trebuchet or Catapult</a> roll into position, depending on the players <a href="https://github.com/veeneck/Barric/wiki/Decision-:-War-Machine">decision</a>.</p>
 
-<h4 id="lemon-knight-2">Lemon Knight</h4>
+<div class="container">
+<div class="lemonBubble bubble"><p class="bubble">Lemon</p></div>
+<blockquote>Moving the Trebuchet / Catapult into position!</blockquote>
+</div>
 
-<blockquote>
-<p>Moving the Trebuchet / Catapult into position!</p>
-</blockquote>
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>Load it up, boys! Prepare to fire while we still have the advantage.</blockquote>
+</div>
 
-<h4 id="stou-2">Stou</h4>
+<p class="action"><span class="emoji">🎭</span> <code>Second waves are easy, and give the player a chance to play with the war machine. This is a good spot to explain friendly fire, and how to stop attacking.</code></p>
 
-<blockquote>
-<p>Load it up, boys! Prepare to fire while we still have the advantage.</p>
-</blockquote>
-
-<p>:performing_arts: <code>Second waves are easy, and give the player a chance to play with the war machine. This is a good spot to explain friendly fire, and how to stop attacking.</code></p>
-
-<hr />
-
-<h3 id="third-cutscene">Third Cutscene</h3>
+<h5 id="third-cutscene">Third Cutscene</h5>
 
 <p>Pan camera to strategic position. Delay for a time, and then spawn an enemy with a <a href="https://github.com/veeneck/Barric/wiki/Enemy-Unit-Progression#champion--legionaire">Champion : Legionaire</a>.</p>
 
-<h4 id="stou-3">Stou</h4>
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>Soldier! Set up defenses along the ridge. That position should provide cover.</blockquote>
+</div>
 
-<blockquote>
-<p>Soldier! Set up defenses along the ridge. That position should provide cover.</p>
-</blockquote>
+<div class="container">
+<div class="lemonBubble bubble"><p class="bubble">Lemon</p></div>
+<blockquote>Yessir!</blockquote>
+</div>
 
-<h4 id="lemon-knight-3">Lemon Knight</h4>
+<div class="container">
+<div class="stouBubble bubble"><p class="bubble">Stou</p></div>
+<blockquote>And be careful, men. It looks as if more experienced troops are entering the fray.</blockquote>
+</div>
 
-<blockquote>
-<p>Yessir!</p>
-</blockquote>
-
-<h4 id="stou-4">Stou</h4>
-
-<blockquote>
-<p>And be careful, men. It looks as if more experienced troops are entering the fray.</p>
-</blockquote>
-
-<p>:performing_arts: <code>Immediately after cutscene, go over strategic points tutorial. After that, pan to incoming squad with a champion, and point out the bonuses they provide.</code></p>
+<p class="action"><span class="emoji">🎭</span> <code>Immediately after cutscene, go over strategic points tutorial. After that, pan to incoming squad with a champion, and point out the bonuses they provide.</code></p>
 
 
 	</div>

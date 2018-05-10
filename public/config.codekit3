@@ -1316,6 +1316,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/wiki\/bubbles\/LemonBubble.png": {
+		"ft": 32768,
+		"iS": 26929,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/bubbles\/LemonBubble.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/wiki\/bubbles\/PeasantBubble.png": {
 		"ft": 32768,
 		"iS": 21282,
@@ -1787,6 +1798,138 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/wiki\/levels\/border.jpg": {
+		"ft": 16384,
+		"iS": 485498,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/levels\/border.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/wiki\/levels\/camp.jpg": {
+		"ft": 16384,
+		"iS": 631410,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/levels\/camp.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/wiki\/levels\/canyon.jpg": {
+		"ft": 16384,
+		"iS": 378366,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/levels\/canyon.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/wiki\/levels\/castle.jpg": {
+		"ft": 16384,
+		"iS": 452973,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/levels\/castle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/wiki\/levels\/city.jpg": {
+		"ft": 16384,
+		"iS": 646746,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/levels\/city.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/wiki\/levels\/farm.jpg": {
+		"ft": 16384,
+		"iS": 552715,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/levels\/farm.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/wiki\/levels\/fjord.jpg": {
+		"ft": 16384,
+		"iS": 470960,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/levels\/fjord.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/wiki\/levels\/foothills.jpg": {
+		"ft": 16384,
+		"iS": 766146,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/levels\/foothills.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/wiki\/levels\/forest.jpg": {
+		"ft": 16384,
+		"iS": 663846,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/levels\/forest.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/wiki\/levels\/hills.jpg": {
+		"ft": 16384,
+		"iS": 542152,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/levels\/hills.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/wiki\/levels\/mountain.jpg": {
+		"ft": 16384,
+		"iS": 516312,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/levels\/mountain.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/wiki\/levels\/oasis.jpg": {
+		"ft": 16384,
+		"iS": 438018,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/levels\/oasis.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/wiki\/Lightmount 1 - Attack Front_01.png": {

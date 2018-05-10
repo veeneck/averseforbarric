@@ -264,7 +264,7 @@ Cassandra
       <guid>/overview/levels/level1/</guid>
       <description>21 days ago &amp;hellip;
 As they do each year, Stou, Barric and Cassandra&amp;rsquo;s were hauling supplies to prepare Wintry Manor for the coming winter. Shortly into the trip, their camp was ambushed by unknown assailants.
- Wooden Falls Summary This level introduces the player to movement, melee combat/charging, ranged combat, unit resistances and casting spells. It also teaches the player about the threat of enemy archers, and the concept of incoming waves of enemies.</description>
+ Wooden Falls This level introduces the player to movement, melee combat/charging, ranged combat, unit resistances and casting spells. It also teaches the player about the threat of enemy archers, and the concept of incoming waves of enemies.</description>
     </item>
     
     <item>
@@ -307,7 +307,7 @@ In agreement that Cassandra must be stopped, Stou and Alfric began preparing the
       <guid>/overview/levels/level2/</guid>
       <description>19 days ago &amp;hellip;
 Barric refused to make a rash judgement regarding the intruders. Set in his resolve, he returned to South Keep to gather more information. Meanwhile, anxious to punish their attackers, Stou and Cassandra set up an ambush should the enemy pursue.
- Highlands Summary This level teaches the player how to switch spell categories, control war machines, friendly fire and strategic positions, and enemy champions. A unit is also guaranteed to level up here, which will teach the player how to pick skills in the Camp scene.</description>
+ Highlands This level teaches the player how to switch spell categories, control war machines, friendly fire and strategic positions, and enemy champions. A unit is also guaranteed to level up here, which will teach the player how to pick skills in the Camp scene.</description>
     </item>
     
     <item>
@@ -318,16 +318,7 @@ Barric refused to make a rash judgement regarding the intruders. Set in his reso
       <guid>/overview/levels/level3/</guid>
       <description>16 days ago &amp;hellip;
 Stou and Cassandra suspect an insider may have alerted the enemy to their trap since the bulk of the invading forces are now unscathed, marching on South Keep. With little time to ponder, they rush to Barric&amp;rsquo;s aid.
- South Keep Summary Intro to the first enemy boss, treasure chests, a defensive objective (if enemy destroys the gate, they win), and the first true gameplay choice with strategic positions (over extend and risk getting flanked).</description>
-    </item>
-    
-    <item>
-      <title>Level 3a : Change of Plans</title>
-      <link>/overview/levels/level3a/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/levels/level3a/</guid>
-      <description>Table Lakes This level has no combat, so it should be a cool experience for the player. Army is marching through terrain, and Cassandra approaches surround by her person guard and 2 squads of Melee2 knights. She explains the situation to Stou, and he changes paths to go to the border while she moves towards council.</description>
+ South Keep Intro to the first enemy boss, treasure chests, a defensive objective (if enemy destroys the gate, they win), and the first true gameplay choice with strategic positions (over extend and risk getting flanked).</description>
     </item>
     
     <item>
@@ -338,7 +329,7 @@ Stou and Cassandra suspect an insider may have alerted the enemy to their trap s
       <guid>/overview/levels/level4/</guid>
       <description>11 days ago &amp;hellip;
 While Barric ordered Stou to notify the council of the invasion, Cassandra alerted him to more pressing matters in the Drylands. Stou arrives at Drysgate to offer reinforcements for the siege while Cassandra, in his stead, agrees to notify the council lords.
- Drysgate Summary    Friendly Squads Enemy Squads     Melee1 BadMelee1   Melee2 BadArcher1   Archer1 Champion   Trebuchet / Catapult Shaman   Crossbowmen / Longbowmen BadMelee2    Spearmen    Ykesha    First Cutscene Scouting party is returning with the enemy on their heels.</description>
+ Drysgate This is the first battle that moves to the larger map format. The larger maps build up the anticpation of combat, and strategy becomes more of a factor.</description>
     </item>
     
     <item>
@@ -373,16 +364,6 @@ Refusing to believe that Barric could be a traitor, Stou and Cassandra continued
 With such a large army in pursuit, Stou and Cassandra were left with no choice but to flee back towards Endria&amp;rsquo;s mainland. Annoyed that he was left with riddles instead of answers, Stou opened his mind to the possibility that his brother would betray him.
  Border Steppes Phase 1, rescue guys near house:
 &amp;ldquo;Stou!, Sorry, er&amp;hellip;sir. You helped us back in Barric&amp;rsquo;s City. We figured we&amp;rsquo;d return the favor.</description>
-    </item>
-    
-    <item>
-      <title>Level 7a : Crossroads</title>
-      <link>/overview/levels/level7a/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/levels/level7a/</guid>
-      <description> Another exclamation icon on the world map instead of a sword. Just a trigger for the crossroads video.
-Crossroads </description>
     </item>
     
     <item>
@@ -432,7 +413,7 @@ Stou arrives at Wintry Manor to find it cold and deserted. Where has everyone go
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/overview/decisions/all/</guid>
-      <description>I wish I remember who I heard it from, but the idea was the players enjoy decisions. The more you can add, the better. To take it a step further, if a decision now can impact the game later, that&amp;rsquo;s even better. There shouldn&amp;rsquo;t be decisions just for the sake of decisions &amp;ndash; they should affect the story or gameplay in some way. That&amp;rsquo;s the goal with the scene. Each time a decision is available (after combat, during travel, etc), this scene will be presented with a choice.</description>
+      <description>I wish I remember who I heard it from, but the idea was that players enjoy decisions. The more you can add, the better. To take it a step further, if a decision now can impact the game later, that&amp;rsquo;s even better. There shouldn&amp;rsquo;t be decisions just for the sake of decisions &amp;ndash; they should affect the story or gameplay in some way. That&amp;rsquo;s the goal with this scene. Each time a decision is available (after combat, during travel, etc), this scene will be presented with a choice.</description>
     </item>
     
     <item>
