@@ -1360,6 +1360,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/wiki\/camp1.jpg": {
+		"ft": 16384,
+		"iS": 212611,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/camp1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/wiki\/camp2.jpg": {
+		"ft": 16384,
+		"iS": 210836,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/camp2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/wiki\/Catapult - Attack Front_01.png": {
 		"ft": 32768,
 		"iS": 46191,
@@ -1376,6 +1398,17 @@
 		"iS": 47455,
 		"oA": 0,
 		"oAP": "\/images\/wiki\/Champion 1 - Attack Front_01.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/wiki\/combatui.png": {
+		"ft": 32768,
+		"iS": 3610008,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/combatui.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -1569,6 +1602,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/wiki\/encampment.png": {
+		"ft": 32768,
+		"iS": 201780,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/encampment.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/wiki\/Flail 1 - Attack Front_01.png": {
 		"ft": 32768,
 		"iS": 17508,
@@ -1599,6 +1643,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/wiki\/huts.png": {
+		"ft": 32768,
+		"iS": 352146,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/huts.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1753,6 +1808,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/wiki\/MapLegend.png": {
+		"ft": 32768,
+		"iS": 1580437,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/MapLegend.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/wiki\/MapLevels.png": {
+		"ft": 32768,
+		"iS": 22018630,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/MapLevels.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},

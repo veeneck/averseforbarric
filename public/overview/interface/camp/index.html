@@ -239,7 +239,7 @@
 	<ul class="submenu selected">
 		<li><a href="/overview/interface/map/#nav">World Map</a></li>
 		<li><a href="/overview/interface/camp/#nav">&middot; Camp</a></li>
-		<li><a href="/overview/interface/actionbar/#nav">Action Bar</a></li>
+		<li><a href="/overview/interface/actionbar/#nav">Combat UI</a></li>
 	</ul>
 	<li><a href="/overview/abilities/stou/#nav" class="">Magic Abilities</a></li>
 	<ul class="submenu ">
@@ -275,11 +275,28 @@
 
 	<div class="interface">
 
-		<p>This screen will allow you to manage your army, and watch it grow.</p>
+		
 
-<p><img src="https://www.dropbox.com/s/wsjqih3e4w9pi8f/Camp_11_labeled.jpg?raw=1" width="800" /></p>
+<p>The idea behind the Camp scene is that every squad based action can be handled here. Recruit units, upgrading units, healing units, equipping items and assigning a hero to the squad. The other goal was for each action to have an immediate visual effect. For example, if you recruit a new Lemon Knight, the squad should be visible, centered on the screen and the new unit should briefly walk to join the squad. Lastly, the idea of showing the player how much more there army can grow lends itself to an excitement of whats to come.</p>
 
-<p>As more units are added, more buildings start appearing in the camp. The big unknown here is if the world map should just link to the Camp, and then the Camp link to Stou, Unit and Hero Upgrades OR if the World Map should link to everything.</p>
+<p>As the player makes progress, the Camp will slowly change. Buildings will be added, tress removed, and so on. By the end of the game, the player should feel like they have a sizeable army under their control.</p>
+
+<div class="camp">
+    <figure>
+        <img src="/images/wiki/camp1.jpg?raw=true" width="100%"  />
+        <figcaption>Camp Stage 1</figcaption>
+    </figure>
+    <figure>
+        <img src="/images/wiki/camp2.jpg?raw=true" width="100%"  />
+        <figcaption>Camp Stage 2</figcaption>
+    </figure>
+</div>
+
+<h5 id="implementation">Implementation</h5>
+
+<p><img src="/images/wiki/huts.png?raw=true" align="right" class="unit" /></p>
+
+<p>As far as implementation goes, there are 4 base camp scenes that correspond to levels 1, 4, 7 and 10. For other levels, there are building overlays that have a spot to be placed on the base camp scene. Squads and heros will not be displayed until they are acquired by the player. So, the 5 podiums in the center are a clear indicator that there are 5 heros to be found.</p>
 
 
 	</div>

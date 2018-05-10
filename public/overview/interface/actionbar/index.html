@@ -239,7 +239,7 @@
 	<ul class="submenu selected">
 		<li><a href="/overview/interface/map/#nav">World Map</a></li>
 		<li><a href="/overview/interface/camp/#nav">Camp</a></li>
-		<li><a href="/overview/interface/actionbar/#nav">&middot; Action Bar</a></li>
+		<li><a href="/overview/interface/actionbar/#nav">&middot; Combat UI</a></li>
 	</ul>
 	<li><a href="/overview/abilities/stou/#nav" class="">Magic Abilities</a></li>
 	<ul class="submenu ">
@@ -271,11 +271,43 @@
 
 </div>
 
-	<h4>Action Bar</h4>
+	<h4>Combat UI</h4>
 
 	<div class="interface">
 
-		<p>Notes to consider:</p>
+		<p>The UI elements during a battle have to respect a few situations:</p>
+
+<ul>
+<li>They must be large enough for taps on mobile.</li>
+<li>They must be concise enough to avoid clutter on smaller screens.</li>
+<li>They must be quick enough for a series of complex actions to affect strategy.</li>
+</ul>
+
+<p>With that in mind, I&rsquo;ve broken down the major sections of the UI and explained the ideal way for them to operate. It&rsquo;s not out of the question to make a separate UI for different screen sizes, but designing with a mobile first emntality will ensure everything is covered.</p>
+
+<p><img src="/images/wiki/combatui.png?raw=true" width="100%" /></p>
+
+<p>The best way to get an impression is to watch a gameplay video. After that, everything below should make more sense.</p>
+
+<h5><span class="circle" id="newgame">1</span> &nbsp;Unit Heraldry</h5>
+
+<p>The unit heraldry is such a small element on the screen but it packs in a lot of key information. The goal is that at a glance you can tell how damaged a unit is and if there is something to revive. It doesn&rsquo;t matter specifically if you can revive 3 or 5 units &ndash; instead, it should tell you 33% of the squad is dead because you notice roughly 33% of the health bars are blacked out. Beyond that, the shape and color of the heraldry should become familair throughout the game, which makes selecting them easier. The heraldry will also act as the touch element for selecting a squad. Finally, status effects can alter the heraldry. For example, if a squad is fleeing, their traditional flag may be replaced a flee flag. Similarly, if an enemy unit is in range or out of sight, their heraldry display may change slightly to indicate that.</p>
+
+<h5><span class="circle" id="newgame">2</span> &nbsp;Stou's Abilities</h5>
+
+<p>Stou&rsquo;s abilities are the main source of player controlled magic in the game. The gameplay mechanic currently implemented is that Stou can only toggle between his 4 magic types by waiting for an amount of time to pass. For example, the player may choose aggressive and would be inflicting a lot of damage. They notice a squad is low health. They can&rsquo;t immediately switch to Protective to heal. There will be a delay. The player has to factor this into their decisions and try to anticipate scenarios. The actual icons will show the cooldown information. The 2 ability slots will change based on the active magic category.</p>
+
+<h5><span class="circle" id="newgame">3</span> &nbsp;Wave Indicator</h5>
+
+<p>The castle gate in the center is a way to bring a bit of life and interest to the UI. The idea is that the gate will slowly open as the next wave of enemies approaches. Once the wave is about to begin, the gate will be at the top and glow red on the inside. The wave starts and the gate slams down to repeat what just happened. Audio cues will be provided along the way. If additional wave information is needed, this area of the screen would be the place to display it.</p>
+
+<h5><span class="circle" id="newgame">4</span> &nbsp;Squad Abilities</h5>
+
+<p>When you select a squad, their abilities appear in this section. The card on the far right will be replaced with a new card that slides in and contains the heraldry of the newly selected squad. Each squad has up to 3 abilities. Some abilities change dynamically. For example, the attack icon stays as the attack icon until the unit is engaged in combat. Once in combat, game rules dictate that the unit can only leave combat if the enemy is dead, or if they wish to flee. So, the attack icon becomes useless &ndash; it is instead replaced with a Flee icon. Likewise, an icon may show as locked if some game rule makes it an uneligble choice.</p>
+
+<h5>Other Considerations</h5>
+
+<p>Here are a few considerations that I&rsquo;ve brainstormed to improve the current implementation:</p>
 
 <ul>
 <li>As Stou and units level up, make their icon housing slightly cooler based on their level.</li>

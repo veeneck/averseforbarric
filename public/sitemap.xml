@@ -7,10 +7,6 @@
   </url>
   
   <url>
-    <loc>/overview/interface/actionbar/</loc>
-  </url>
-  
-  <url>
     <loc>/overview/abilities/aggressive/</loc>
   </url>
   
@@ -45,6 +41,10 @@
   
   <url>
     <loc>/code/</loc>
+  </url>
+  
+  <url>
+    <loc>/overview/interface/actionbar/</loc>
   </url>
   
   <url>

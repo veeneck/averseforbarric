@@ -11,16 +11,6 @@
     
     
     <item>
-      <title>Action Bar</title>
-      <link>/overview/interface/actionbar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/overview/interface/actionbar/</guid>
-      <description>Notes to consider:
- As Stou and units level up, make their icon housing slightly cooler based on their level. Make Stou&amp;rsquo;s / units card more elaborate also as it levels up. When Stou is casting, animate his card in some way. Make the card the thing you tap to change casting stance, and get rid of strategy button. Focus on gate opening UI and effects &amp;ndash; if that indicates the start of a wave, the player needs to know.</description>
-    </item>
-    
-    <item>
       <title>Aggressive Spells</title>
       <link>/overview/abilities/aggressive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -83,8 +73,7 @@ No dialogue. STOU kills BARRIC, and flashbacks explain how he was set up.</descr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/overview/interface/camp/</guid>
-      <description>This screen will allow you to manage your army, and watch it grow.
-As more units are added, more buildings start appearing in the camp. The big unknown here is if the world map should just link to the Camp, and then the Camp link to Stou, Unit and Hero Upgrades OR if the World Map should link to everything.</description>
+      <description>The idea behind the Camp scene is that every squad based action can be handled here. Recruit units, upgrading units, healing units, equipping items and assigning a hero to the squad. The other goal was for each action to have an immediate visual effect. For example, if you recruit a new Lemon Knight, the squad should be visible, centered on the screen and the new unit should briefly walk to join the squad.</description>
     </item>
     
     <item>
@@ -109,7 +98,17 @@ Stou
       
       <guid>/code/</guid>
       <description>To date, this game has 38,378 lines of Swift code. There have been countless hours invested in art, story, design, animation and brainstorming, but code makes all of this tick. Behind the scenes, SpriteKit and GameplayKit power a vast majority of the engine. This section provides a look at some of the custom frameworks that had to be developed along with tricky problems that had to be solved.
-The Frameworks CutsceneKit Helps develop chat overlays with custom timing and movement.</description>
+Latest Updates:</description>
+    </item>
+    
+    <item>
+      <title>Combat UI</title>
+      <link>/overview/interface/actionbar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/overview/interface/actionbar/</guid>
+      <description>The UI elements during a battle have to respect a few situations:
+ They must be large enough for taps on mobile. They must be concise enough to avoid clutter on smaller screens. They must be quick enough for a series of complex actions to affect strategy.  With that in mind, I&amp;rsquo;ve broken down the major sections of the UI and explained the ideal way for them to operate. It&amp;rsquo;s not out of the question to make a separate UI for different screen sizes, but designing with a mobile first emntality will ensure everything is covered.</description>
     </item>
     
     <item>
@@ -219,7 +218,13 @@ Melee 1 : Lemon Knights This unit begins the game with you.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/overview/interface/scenes/</guid>
-      <description>Hello world</description>
+      <description>There are quite a few scene types. This page will serve as an overview, and jump to the scene specific pages for more information.
+World Map: Main hub for travel and game management.
+Camp: Area to upgrade and manage the arym as it grows.
+Decision: Consistent location for player decisions.
+Levels: Main place for combat and gameplay.
+Combat UI: The controls on top of combat.
+Cutscene: Video based story sequences.</description>
     </item>
     
     <item>
@@ -569,7 +574,8 @@ Watchful spells are well balanced. They should be able to heal units, buff units
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/overview/interface/map/</guid>
-      <description>Names &amp;amp; Locations  Barric: One of the council lords, and Stou&amp;rsquo;s older brother. Stou: Stou&amp;rsquo;s younger brother who the player is controlling. Alfric: The knight Stou is talking to at the beginning. One of the council members, Barric&amp;rsquo;s equal. South Keep: Barric&amp;rsquo;s city Cassandra: Princess to king Barric overthrew. Barric still helps her. Stou has a crush. Wintry Manor: Cassandra&amp;rsquo;s ice city Mountains of Arrington: Mountain range that Wintry Manor lies in.</description>
+      <description>The world map serves as the main way to show passage of time or travel. Aside from that, it also builds the setting and acts as a hub where the player can manage their army. The main characters in this world are:
+ Barric: One of the council lords, and Stou&amp;rsquo;s older brother. Stou: Barric&amp;rsquo;s younger brother who the player is controlling. Alfric: The knight Stou is talking to at the beginning.</description>
     </item>
     
   </channel>
