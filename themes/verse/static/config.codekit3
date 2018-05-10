@@ -1113,7 +1113,7 @@
 		},
 	"\/images\/Logo-256.png": {
 		"ft": 32768,
-		"iS": 51825,
+		"iS": 78337,
 		"oA": 0,
 		"oAP": "\/images\/Logo-256.png",
 		"oF": 0,
@@ -1272,11 +1272,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/wiki\/Ballista - Attack Front_01.png": {
+	"\/images\/wiki\/Ballista.png": {
 		"ft": 32768,
 		"iS": 49379,
 		"oA": 0,
-		"oAP": "\/images\/wiki\/Ballista - Attack Front_01.png",
+		"oAP": "\/images\/wiki\/Ballista.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1657,6 +1657,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/wiki\/Golem.png": {
+		"ft": 32768,
+		"iS": 106067,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/Golem.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/wiki\/Heavymount 1 - Attack Front_01.png": {
 		"ft": 32768,
 		"iS": 37160,
@@ -1673,17 +1684,6 @@
 		"iS": 352146,
 		"oA": 0,
 		"oAP": "\/images\/wiki\/huts.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/wiki\/Ice Golem - Attack Front_01.png": {
-		"ft": 32768,
-		"iS": 106067,
-		"oA": 0,
-		"oAP": "\/images\/wiki\/Ice Golem - Attack Front_01.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
