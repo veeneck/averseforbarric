@@ -385,6 +385,17 @@ div.bubble {
     background-image: url("/images/wiki/bubbles/RhinoBubble.png");
 }
 
+.camp {
+    @include flex();
+    @extend %clearfix;
+    width: 100%;
+}
+
+.camp figure{
+    margin: 5px;
+    padding: 0px;
+}
+
 /*----------------------- Jazzy Layout ------------------------------ */
 
 .content-wrapper {

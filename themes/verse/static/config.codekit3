@@ -1360,6 +1360,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/wiki\/camp1.jpg": {
+		"ft": 16384,
+		"iS": 212611,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/camp1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/wiki\/camp2.jpg": {
+		"ft": 16384,
+		"iS": 210836,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/camp2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/wiki\/Catapult - Attack Front_01.png": {
 		"ft": 32768,
 		"iS": 46191,
@@ -1610,6 +1632,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/wiki\/huts.png": {
+		"ft": 32768,
+		"iS": 352146,
+		"oA": 0,
+		"oAP": "\/images\/wiki\/huts.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
