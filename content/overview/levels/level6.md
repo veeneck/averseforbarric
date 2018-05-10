@@ -1,6 +1,8 @@
 ---
 title: "Level 6 : Oasis (Boss)"
 section: "overview"
+description: "Level"
+className: "level"
 ---
 
 > 8 days ago ...

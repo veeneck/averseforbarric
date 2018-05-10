@@ -4,7 +4,7 @@ description: "Decisions"
 className: "decisions"
 ---
 
-I wish I remember who I heard it from, but the idea was the players enjoy decisions. The more you can add, the better. To take it a step further, if a decision now can impact the game later, that's even better. There shouldn't be decisions just for the sake of decisions -- they should affect the story or gameplay in some way. That's the goal with the scene. Each time a decision is available (after combat, during travel, etc), this scene will be presented with a choice. The list of all decisions and when they are available is below.
+I wish I remember who I heard it from, but the idea was that players enjoy decisions. The more you can add, the better. To take it a step further, if a decision now can impact the game later, that's even better. There shouldn't be decisions just for the sake of decisions -- they should affect the story or gameplay in some way. That's the goal with this scene. Each time a decision is available (after combat, during travel, etc), this scene will be presented with a choice. The list of all decisions and when they are available is below.
 
 <img src="/images/wiki/Decision.jpg" width="100%" style="margin-bottom: 25px" />
 

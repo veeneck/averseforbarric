@@ -1,6 +1,8 @@
 ---
 title: "Level 9 : Fjord (Boss)"
 section: "overview"
+description: "Level"
+className: "level"
 ---
 
 > 3 days ago

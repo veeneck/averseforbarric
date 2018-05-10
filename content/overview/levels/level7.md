@@ -1,6 +1,8 @@
 ---
 title: "Level 7 : Foothills"
 section: "overview"
+description: "Level"
+className: "level"
 ---
 
 > 7 days ago ...

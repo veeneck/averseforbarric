@@ -1,6 +1,8 @@
 ---
 title: "Level 2 : Hills"
 section: "overview"
+description: "Level"
+className: "level"
 ---
 
 > 19 days ago ...

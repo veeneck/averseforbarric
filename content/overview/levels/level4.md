@@ -1,6 +1,8 @@
 ---
 title: "Level 4 : Border"
 section: "overview"
+description: "Level"
+className: "level"
 ---
 
 > 11 days ago ...

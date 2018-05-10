@@ -1,6 +1,8 @@
 ---
 title: "Level 3 : City (Boss)"
 section: "overview"
+description: "Level"
+className: "level"
 ---
 
 > 16 days ago ...

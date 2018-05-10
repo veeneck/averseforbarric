@@ -120,12 +120,12 @@
     .container {
       padding: 0px 10px; } }
 
-p.clear, .cutscenes .container, .camp, .content-wrapper, .framework, .squad .f {
+p.clear, .cutscenes .container, .level .container, .level p.action, .camp, .content-wrapper, .framework, .squad .f {
   *zoom: 1; }
-  p.clear:before, .cutscenes .container:before, .camp:before, .content-wrapper:before, .framework:before, .squad .f:before, p.clear:after, .cutscenes .container:after, .camp:after, .content-wrapper:after, .framework:after, .squad .f:after {
+  p.clear:before, .cutscenes .container:before, .level .container:before, .level p.action:before, .camp:before, .content-wrapper:before, .framework:before, .squad .f:before, p.clear:after, .cutscenes .container:after, .level .container:after, .level p.action:after, .camp:after, .content-wrapper:after, .framework:after, .squad .f:after {
     content: " ";
     display: table; }
-  p.clear:after, .cutscenes .container:after, .camp:after, .content-wrapper:after, .framework:after, .squad .f:after {
+  p.clear:after, .cutscenes .container:after, .level .container:after, .level p.action:after, .camp:after, .content-wrapper:after, .framework:after, .squad .f:after {
     clear: both; }
 
 /*----------------------- Links ------------------------------ */
@@ -247,6 +247,9 @@ table {
   font-size: 80%;
   text-align: center; }
 
+.level table {
+  width: 65%; }
+
 table {
   border-spacing: 5px;
   border-collapse: separate;
@@ -329,7 +332,7 @@ img.unit {
 .decisions strong {
   color: #E6ADA8; }
 
-.cutscenes .container {
+.cutscenes .container, .level .container {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -341,6 +344,12 @@ img.unit {
 .cutscenes blockquote {
   width: 95%;
   display: inline-block; }
+
+.level p.action {
+  margin-top: 25px; }
+
+.level .container {
+  min-height: 132px; }
 
 p.bubble {
   padding-top: 60px; }
@@ -708,12 +717,12 @@ code {
     .container {
       padding: 0px 10px; } }
 
-p.clear, .cutscenes .container, .camp, .content-wrapper, .framework, .squad .f {
+p.clear, .cutscenes .container, .level .container, .level p.action, .camp, .content-wrapper, .framework, .squad .f {
   *zoom: 1; }
-  p.clear:before, .cutscenes .container:before, .camp:before, .content-wrapper:before, .framework:before, .squad .f:before, p.clear:after, .cutscenes .container:after, .camp:after, .content-wrapper:after, .framework:after, .squad .f:after {
+  p.clear:before, .cutscenes .container:before, .level .container:before, .level p.action:before, .camp:before, .content-wrapper:before, .framework:before, .squad .f:before, p.clear:after, .cutscenes .container:after, .level .container:after, .level p.action:after, .camp:after, .content-wrapper:after, .framework:after, .squad .f:after {
     content: " ";
     display: table; }
-  p.clear:after, .cutscenes .container:after, .camp:after, .content-wrapper:after, .framework:after, .squad .f:after {
+  p.clear:after, .cutscenes .container:after, .level .container:after, .level p.action:after, .camp:after, .content-wrapper:after, .framework:after, .squad .f:after {
     clear: both; }
 
 /*----------------------- Links ------------------------------ */
@@ -835,6 +844,9 @@ table {
   font-size: 80%;
   text-align: center; }
 
+.level table {
+  width: 65%; }
+
 table {
   border-spacing: 5px;
   border-collapse: separate;
@@ -917,7 +929,7 @@ img.unit {
 .decisions strong {
   color: #E6ADA8; }
 
-.cutscenes .container {
+.cutscenes .container, .level .container {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -929,6 +941,12 @@ img.unit {
 .cutscenes blockquote {
   width: 95%;
   display: inline-block; }
+
+.level p.action {
+  margin-top: 25px; }
+
+.level .container {
+  min-height: 132px; }
 
 p.bubble {
   padding-top: 60px; }

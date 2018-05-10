@@ -1,6 +1,8 @@
 ---
 title: "Level 3a : Change of Plans"
 section: "overview"
+description: "Level"
+className: "level"
 ---
 
 ### Table Lakes

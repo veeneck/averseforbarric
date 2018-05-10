@@ -231,6 +231,10 @@ table {
     text-align: center;
 }
 
+.level table {
+    width: 65%;
+}
+
 table {
     border-spacing: 5px;
     border-collapse: separate;
@@ -332,16 +336,25 @@ img.unit {
     color: $pink;
 }
 
-.cutscenes .container {
+.cutscenes .container, .level .container {
     @include flex();
     @extend %clearfix;
     width: 100%;
     margin-top: 30px;
 }
 
-.cutscenes blockquote {
+.cutscenes blockquote{
     width: 95%;
     display: inline-block;
+}
+
+.level p.action {
+    @extend %clearfix;
+    margin-top: 25px;
+}
+
+.level .container {
+    min-height: 132px;
 }
 
 p.bubble {

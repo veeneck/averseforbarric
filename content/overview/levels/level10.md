@@ -1,6 +1,8 @@
 ---
 title: "Level 10 : Farm"
 section: "overview"
+description: "Level"
+className: "level"
 ---
 
 > Earlier today

@@ -1,6 +1,8 @@
 ---
 title: "Level 8 : Mountain"
 section: "overview"
+description: "Level"
+className: "level"
 ---
 
 > 5 days ago

@@ -1,6 +1,8 @@
 ---
 title: "Level 5 : Desert"
 section: "overview"
+description: "Level"
+className: "level"
 ---
 
 > 9 days ago

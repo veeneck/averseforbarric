@@ -37,7 +37,23 @@
 			<li><a href="/overview/cutscenes/scene12/#nav">{{ if eq .Page.Title "Showdown : Scene 12" }}&middot; {{ end }}Showdown : Scene 12</a></li>
 			<li><a href="/overview/cutscenes/scene13/#nav">{{ if eq .Page.Title "Victory : Scene 13" }}&middot; {{ end }}Victory : Scene 13</a></li>
 		</ul>
-	<li><a href="">Combat Levels</a></li>
+	<li><a href="/overview/levels/level1/#nav" class="{{ if eq .Page.Description "Level" }}selected{{ end }}">Combat Levels</a></li>
+	<ul class="submenu {{ if eq .Page.Description "Level" }}selected{{ end }}">
+		<li><a href="/overview/levels/level1/#nav">{{ if eq .Page.Title "Level 1 : Forest" }}&middot; {{ end }}Level 1 : Forest</a></li>
+		<li><a href="/overview/levels/level2/#nav">{{ if eq .Page.Title "Level 2 : Hills" }}&middot; {{ end }}Level 2 : Hills</a></li>
+		<li><a href="/overview/levels/level3/#nav">{{ if eq .Page.Title "Level 3 : City (Boss)" }}&middot; {{ end }}Level 3 : City (Boss)</a></li>
+		<li><a href="/overview/levels/level3a/#nav">{{ if eq .Page.Title "Level 3a : Change of Plans" }}&middot; {{ end }}Level 3a : Change of Plans</a></li>
+		<li><a href="/overview/levels/level4/#nav">{{ if eq .Page.Title "Level 4 : Border" }}&middot; {{ end }}Level 4 : Border</a></li>
+		<li><a href="/overview/levels/level5/#nav">{{ if eq .Page.Title "Level 5 : Desert" }}&middot; {{ end }}Level 5 : Desert</a></li>
+		<li><a href="/overview/levels/level6/#nav">{{ if eq .Page.Title "Level 6 : Oasis (Boss)" }}&middot; {{ end }}Level 6 : Oasis (Boss)</a></li>
+		<li><a href="/overview/levels/level7/#nav">{{ if eq .Page.Title "Level 7 : Foothills" }}&middot; {{ end }}Level 7 : Foothills</a></li>
+		<li><a href="/overview/levels/level7a/#nav">{{ if eq .Page.Title "Level 7a : Crossroads" }}&middot; {{ end }}Level 7a : Crossroads</a></li>
+		<li><a href="/overview/levels/level8/#nav">{{ if eq .Page.Title "Level 8 : Mountain" }}&middot; {{ end }}Level 8 : Mountain</a></li>
+		<li><a href="/overview/levels/level9/#nav">{{ if eq .Page.Title "Level 9 : Fjord (Boss)" }}&middot; {{ end }}Level 9 : Fjord (Boss)</a></li>
+		<li><a href="/overview/levels/level10/#nav">{{ if eq .Page.Title "Level 10 : Farm" }}&middot; {{ end }}Level 10 : Farm</a></li>
+		<li><a href="/overview/levels/level11/#nav">{{ if eq .Page.Title "Level 11 : Camp" }}&middot; {{ end }}Level 11 : Camp</a></li>
+		<li><a href="/overview/levels/level12/#nav">{{ if eq .Page.Title "Level 12 : Castle (Boss)" }}&middot; {{ end }}Level 12 : Castle (Boss)</a></li>
+	</ul>
 	<li><a href="/overview/decisions/all/#nav" class="{{ if eq .Page.Description "Decisions" }}selected{{ end }}">Player Decisions</a></li>
 	<li><a href="/overview/travel/dialogue/#nav" class="{{ if eq .Page.Description "Travel" }}selected{{ end }}">Travel Dialogue</a></li>
 </ul>

@@ -12,7 +12,7 @@ There are quite a few scene types. This page will serve as an overview, and jump
 
 [Decision](/overview/decisions/all/#nav): Consistent location for player decisions.
 
-[Levels](/overview/levels/all/#nav): Main place for combat and gameplay.
+[Levels](/overview/levels/level1/#nav): Main place for combat and gameplay.
 
 [Combat UI](/overview/interface/actionbar/#nav): The controls on top of combat.
 

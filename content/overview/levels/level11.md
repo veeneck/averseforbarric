@@ -1,6 +1,8 @@
 ---
 title: "Level 11 : Camp"
 section: "overview"
+description: "Level"
+className: "level"
 ---
 
 > Present day
