@@ -11,4 +11,4 @@ className: "level"
 
 ### Booming Hills
 
-<img src="https://www.dropbox.com/s/xc2nxua6hl2jqgt/encampment_02.jpg?raw=1" width="800" />
+<img src="/images/wiki/levels/camp.jpg" width="100%" />

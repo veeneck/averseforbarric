@@ -9,4 +9,6 @@ className: "level"
 
 ### Castle Endridge
 
-<img src="https://www.dropbox.com/s/jc94k7o8vq75gpb/finale_01_broken.jpg?raw=1" width="800" />
+This is just placeholder text because the exact mechanics of this level have not been worked out. The units below are expected to be available at this level, but nothing is for sure.
+
+<img src="/images/wiki/levels/castle.jpg" width="100%" />

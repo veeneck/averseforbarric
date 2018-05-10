@@ -11,7 +11,7 @@ className: "level"
 
 ### Border Steppes
 
-<img src="https://www.dropbox.com/s/jn2p2ul9tsa360v/foothills_03.jpg?raw=1" width="800" />
+<img src="/images/wiki/levels/foothills.jpg" width="100%" />
 
 Phase 1, rescue guys near house:
 

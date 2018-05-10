@@ -11,4 +11,4 @@ className: "level"
 
 ### Wheatsbury
 
-<img src="https://www.dropbox.com/s/7bznhwim81ruzez/Farm_04.jpg?raw=1" width="800" />
+<img src="/images/wiki/levels/farm.jpg" width="100%" />

@@ -11,4 +11,6 @@ className: "level"
 
 ### Wellspring
 
-<img src="https://www.dropbox.com/s/btlcso8obctscg6/oasis_build_02.jpg?raw=1" width="800" />
+This is just placeholder text because the exact mechanics of this level have not been worked out. The units below are expected to be available at this level, but nothing is for sure.
+
+<img src="/images/wiki/levels/oasis.jpg" width="100%" />

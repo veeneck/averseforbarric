@@ -11,4 +11,4 @@ className: "level"
 
 ### Wintry Manor
 
-<img src="https://www.dropbox.com/s/pxd84rml7lw3pm4/fjord_2.jpg?raw=1" width="800" />
+<img src="/images/wiki/levels/fjord.jpg" width="100%" />

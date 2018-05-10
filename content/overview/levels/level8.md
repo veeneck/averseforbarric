@@ -11,4 +11,4 @@ className: "level"
 
 ### Giant's Pass
 
-<img src="https://www.dropbox.com/s/nx4shdf2jzfyt05/Mountaintop_04.jpg?raw=1" width="800" />
+<img src="/images/wiki/levels/mountain.jpg" width="100%" />
