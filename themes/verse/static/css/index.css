@@ -383,6 +383,9 @@ div.bubble {
 .rhinoBubble {
   background-image: url("/images/wiki/bubbles/RhinoBubble.png"); }
 
+.lemonBubble {
+  background-image: url("/images/wiki/bubbles/LemonBubble.png"); }
+
 .camp {
   display: -webkit-box;
   display: -moz-box;
@@ -979,6 +982,9 @@ div.bubble {
 
 .rhinoBubble {
   background-image: url("/images/wiki/bubbles/RhinoBubble.png"); }
+
+.lemonBubble {
+  background-image: url("/images/wiki/bubbles/LemonBubble.png"); }
 
 .camp {
   display: -webkit-box;

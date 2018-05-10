@@ -15,9 +15,9 @@ This level introduces the player to movement, melee combat/charging, ranged comb
 
 | Friendly Squads | Enemy Squads |
 |:---------------:|:------------:|
-| Melee1          | BadMelee1    |
-| Melee2          | BadArcher1   |
-| Archer1         |              |
+| <img src="/images/wiki/Melee%201%20-%20Attack%20Front_01.png?raw=1" height="64px" /> <img src="/images/wiki/Melee%202%20-%20Attack%20Front_01.png?raw=1" height="64px" /> <img src="/images/wiki/Archer%201%20-%20Attack%20Front_01.png?raw=1" height="64px"  />        | <img src="/images/wiki/Bad%20Melee%201%20-%20Attack%20Front_01.png?raw=1"   height="64" /> <img src="/images/wiki/Bad%20Archer%201%20-%20Attack%20Front_01.png?raw=1"  height="64"  />    |
+
+There are no hidden items or unlocks. Aside from leanring basic controls, there is no major strategy.
 
 <img src="/images/wiki/levels/forest.jpg" width="100%" />
 

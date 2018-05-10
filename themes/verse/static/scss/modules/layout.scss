@@ -398,6 +398,10 @@ div.bubble {
     background-image: url("/images/wiki/bubbles/RhinoBubble.png");
 }
 
+.lemonBubble {
+    background-image: url("/images/wiki/bubbles/LemonBubble.png");
+}
+
 .camp {
     @include flex();
     @extend %clearfix;
